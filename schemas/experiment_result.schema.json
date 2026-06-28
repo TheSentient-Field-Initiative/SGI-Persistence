@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SGI Experiment Result",
+  "description": "Schema for all experiment output JSON files in SGI-Persistence",
+  "type": "object",
+  "required": ["study_id", "phase", "timestamp", "git_commit", "random_seed", "system", "metrics", "parameters"],
+  "properties": {
+    "study_id": {
+      "type": "string",
+      "description": "Unique experiment identifier",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "phase": {
+      "type": "string",
+      "description": "Phase number",
+      "enum": ["001", "002A", "002B", "002C", "002D", "003"]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp"
+    },
+    "git_commit": {
+      "type": "string",
+      "description": "Git commit hash",
+      "pattern": "^[0-9a-f]{7,40}$"
+    },
+    "random_seed": {
+      "type": "integer",
+      "description": "Random seed for reproducibility"
+    },
+    "system": {
+      "type": "string",
+      "description": "System class name",
+      "enum": ["distributed", "immune", "ant_colony", "institution", "cross_domain"]
+    },
+    "metrics": {
+      "type": "object",
+      "description": "Measured values",
+      "properties": {
+        "G": { "type": "number", "description": "Organizational replay stability" },
+        "H": { "type": "number", "description": "Historical residue coupling" },
+        "T": { "type": "number", "description": "Transport instability" },
+        "TE": { "type": "number", "description": "Transport error" },
+        "RTC": { "type": "number", "description": "Replay transport coupling" },
+        "holonomy": { "type": "number", "description": "Replay loop nonclosure" },
+        "curvature": { "type": "number", "description": "Curvature magnitude" },
+        "ricci_scalar": { "type": "number", "description": "Ricci scalar curvature" },
+        "noncommutativity": { "type": "number", "description": "Relative noncommutativity" },
+        "replay_divergence": { "type": "number", "description": "Replay divergence" },
+        "torsion": { "type": "number", "description": "Fiber torsion" }
+      },
+      "additionalProperties": { "type": "number" }
+    },
+    "parameters": {
+      "type": "object",
+      "description": "Experiment parameters",
+      "properties": {
+        "n_nodes": { "type": "integer" },
+        "n_timesteps": { "type": "integer" },
+        "memory_depth": { "type": "integer" },
+        "perturbation_protocol": { "type": "string" },
+        "perturbation_intensity": { "type": "number" }
+      },
+      "additionalProperties": true
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional notes"
+    }
+  },
+  "additionalProperties": false
+}

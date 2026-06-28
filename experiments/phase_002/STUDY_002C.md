@@ -4,6 +4,8 @@
 **Status:** COMPLETE
 **Result:** PARTIAL SUCCESS — T emerges as new observable, but H ≡ T not confirmed
 
+> **Transport Model Warning:** Current transport algebra is experimental. Holonomy and curvature observables remain numerically unstable. Noncommutativity results are inconclusive.
+
 ## Objective
 
 Test whether historical residue coupling (H) is actually transport noncommutativity (T).

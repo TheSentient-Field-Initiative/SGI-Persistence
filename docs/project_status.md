@@ -3,6 +3,8 @@
 **Last updated:** 2026-06-28
 **Version:** 0.2.0
 
+> **Transport Model Warning:** Current transport algebra is experimental. Holonomy and curvature observables remain numerically unstable. Noncommutativity results are inconclusive. These limitations do not affect the core G ∝ 1/H law or transport error separation.
+
 ## Frozen Findings
 
 ### Phase 001 (Frozen at v0.1_phase001_frozen)

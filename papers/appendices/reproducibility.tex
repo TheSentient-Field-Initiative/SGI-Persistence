@@ -1,0 +1,17 @@
+\section{Reproducibility}
+\label{app:reproducibility}
+
+% TODO: Fill with reproducibility protocol
+
+All experiments use:
+\begin{itemize}
+\item Deterministic seeds (seed=42)
+\item JSON result exports conforming to \texttt{schemas/experiment\_result.schema.json}
+\item Environment specifications in \texttt{experiments/*/environment.txt}
+\item Version-pinned dependencies in \texttt{requirements.txt}
+\end{itemize}
+
+Reproduction commands:
+\begin{verbatim}
+make reproduce
+\end{verbatim}

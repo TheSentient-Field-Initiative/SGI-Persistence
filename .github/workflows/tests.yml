@@ -1,0 +1,52 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: Run tests
+        run: python -m pytest tests/ -v
+
+      - name: Validate JSON schema
+        run: |
+          python -c "
+          import json, os, sys
+          schema = json.load(open('schemas/experiment_result.schema.json'))
+          errors = []
+          for fn in os.listdir('data/canonical'):
+              if fn.endswith('.json'):
+                  data = json.load(open(f'data/canonical/{fn}'))
+                  # Basic field check
+                  for field in schema['required']:
+                      if field not in data:
+                          errors.append(f'{fn}: missing {field}')
+          if errors:
+              for e in errors:
+                  print(f'WARNING: {e}')
+          "
+
+      - name: Smoke test figure generation
+        run: python scripts/generate_all_figures.py

@@ -47,7 +47,6 @@ htmlcov/
 .pytest_cache/
 
 # Data (large files)
-data/raw/
 *.h5
 *.hdf5
 *.pkl

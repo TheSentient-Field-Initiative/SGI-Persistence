@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 
+> **Transport Model Warning:** Current transport algebra is experimental. Holonomy and curvature observables remain numerically unstable. Noncommutativity results are inconclusive. These limitations are documented in `docs/project_status.md`.
+
 ## Program Overview
 
 The SGI Persistence Program investigates the mathematical structure of persistent adaptive organization across radically different systems. We study four core concepts:

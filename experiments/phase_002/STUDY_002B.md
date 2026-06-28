@@ -4,6 +4,8 @@
 **Status:** COMPLETE
 **Result:** PARTIAL SUCCESS — transport error separates all 4 systems; curvature/holonomy remain 0
 
+> **Transport Model Warning:** Current transport algebra is experimental. Holonomy and curvature observables remain numerically unstable. Noncommutativity results are inconclusive.
+
 ## Objective
 
 Test whether true geometric observables (holonomy, curvature, fiber twist) separate systems that scalar metrics collapsed in Phase 002A.

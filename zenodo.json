@@ -1,0 +1,22 @@
+{
+  "title": "SGI Persistence Program: Computational Organizational Geometry",
+  "type": "software",
+  "authors": [
+    {
+      "name": "The Sentient Field Initiative",
+      "type": "Person"
+    }
+  ],
+  "description": "Computational experiments discovering empirical laws of persistent adaptive organization across distributed systems, immune networks, ant colonies, and institutional structures. Central finding: G ∝ 1/H with r = -0.951.",
+  "license": "Apache-2.0",
+  "keywords": [
+    "organizational geometry",
+    "persistence",
+    "fiber bundles",
+    "transport algebra",
+    "complex systems"
+  ],
+  "access_right": "open",
+  "version": "0.2.0",
+  "repository": "https://github.com/TheSentient-Field-Initiative/SGI-Persistence"
+}
