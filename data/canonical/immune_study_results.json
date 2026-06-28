@@ -1,0 +1,150 @@
+{
+  "P1_pathogen_attack": {
+    "description": "Pathogen activated 8 macrophages",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.9999652010719934,
+        "normalized_similarity": 0.9999990472798879,
+        "normalization_survival": 3.384620789448345e-05,
+        "range_preservation": 1.1306048986048274,
+        "expected_survival": false,
+        "verdict": "SURVIVES"
+      },
+      "topology": {
+        "raw_similarity": 1.0,
+        "normalized_similarity": 1.0,
+        "normalization_survival": 0.0,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.87727425617215,
+        "normalized_similarity": 0.012157497185408227,
+        "normalization_survival": -0.8651167589867418,
+        "range_preservation": 19990.58254685876,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.03631506602667445,
+        "normalized_similarity": 0.009033436864060222,
+        "normalization_survival": -0.027281629162614226,
+        "range_preservation": 2.4003602565518345,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      }
+    }
+  },
+  "P2_immunosuppression": {
+    "description": "Immunosuppressed 43 cells",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.9999413846516403,
+        "normalized_similarity": 0.999999996153268,
+        "normalization_survival": 5.861150162767004e-05,
+        "range_preservation": 0.07150325833155487,
+        "expected_survival": false,
+        "verdict": "SURVIVES"
+      },
+      "topology": {
+        "raw_similarity": 1.0,
+        "normalized_similarity": 1.0,
+        "normalization_survival": 0.0,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9999840987925724,
+        "normalized_similarity": 0.9999988847140411,
+        "normalization_survival": 1.4785921468640773e-05,
+        "range_preservation": 0.5763382415404794,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "residual": {
+        "raw_similarity": 0.9997467165539466,
+        "normalized_similarity": 0.9999788674104411,
+        "normalization_survival": 0.00023215085649441747,
+        "range_preservation": 0.5550708627817177,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      }
+    }
+  },
+  "P3_cell_depletion": {
+    "description": "Depleted 37 cells",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.9999448219685197,
+        "normalized_similarity": 0.9999813866106332,
+        "normalization_survival": 3.656464211343469e-05,
+        "range_preservation": 0.0741100504061237,
+        "expected_survival": false,
+        "verdict": "SURVIVES"
+      },
+      "topology": {
+        "raw_similarity": 0.935347618109289,
+        "normalized_similarity": -0.9733285239408602,
+        "normalization_survival": -1.9086761420501492,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "transport": {
+        "raw_similarity": 0.9999490598193717,
+        "normalized_similarity": 0.9999848198390727,
+        "normalization_survival": 3.57600197010699e-05,
+        "range_preservation": 0.6346918828396128,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "residual": {
+        "raw_similarity": 0.9997668002977574,
+        "normalized_similarity": 0.9997817851949161,
+        "normalization_survival": 1.4984897158676347e-05,
+        "range_preservation": 0.32619769008969013,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      }
+    }
+  },
+  "P4_receptor_blockade": {
+    "description": "Blocked 146 receptors",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.9999450908599765,
+        "normalized_similarity": 0.9999796348398196,
+        "normalization_survival": 3.454397984303803e-05,
+        "range_preservation": 0.09247216151322901,
+        "expected_survival": false,
+        "verdict": "SURVIVES"
+      },
+      "topology": {
+        "raw_similarity": 1.0,
+        "normalized_similarity": 1.0,
+        "normalization_survival": 0.0,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9999629147429212,
+        "normalized_similarity": 0.9999900272475492,
+        "normalization_survival": 2.7112504627946343e-05,
+        "range_preservation": 0.4207190602478016,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "residual": {
+        "raw_similarity": 0.9997423005152546,
+        "normalized_similarity": 0.9999790476283551,
+        "normalization_survival": 0.00023674711310051055,
+        "range_preservation": 0.36131036746312556,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      }
+    }
+  }
+}

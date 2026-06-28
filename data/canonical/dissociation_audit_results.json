@@ -1,0 +1,44 @@
+{
+  "Distributed System": {
+    "structural_scores": [
+      0.936329171160957,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "functional_scores": [
+      0.14193840540404573,
+      0.037007545212191614,
+      0.1940938142418016,
+      0.17741702201472542
+    ],
+    "outcomes": [
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "verdict": "STRUCTURE-FUNCTION DISSOCIATION PRESENT"
+  },
+  "Ant Colony": {
+    "structural_scores": [
+      0.28435966092136633,
+      0.12709544804457565,
+      0.23280285785663257,
+      0.13534481180403465
+    ],
+    "functional_scores": [
+      4.337474027827909,
+      4.527592442630209,
+      13.070234411417891,
+      11.119267208732019
+    ],
+    "outcomes": [
+      "C",
+      "C",
+      "C",
+      "C"
+    ],
+    "verdict": "FUNCTION-STRUCTURE DISSOCIATION PRESENT"
+  }
+}

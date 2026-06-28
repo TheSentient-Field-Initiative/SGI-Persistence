@@ -1,0 +1,827 @@
+[
+  {
+    "variant": "baseline",
+    "constraint_density": 0.0,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "baseline",
+    "constraint_density": 0.25,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "baseline",
+    "constraint_density": 0.5,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "baseline",
+    "constraint_density": 0.75,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "baseline",
+    "constraint_density": 1.0,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "bounded-only",
+    "constraint_density": 0.0,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "bounded-only",
+    "constraint_density": 0.25,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.010058323101420784,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8708255419642936,
+        "normalized_similarity": 0.010058323101420784,
+        "normalization_survival": -0.8607672188628729,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9929514857246885,
+        "normalized_similarity": 0.1476375532844003,
+        "normalization_survival": -0.8453139324402882,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9988023653514011,
+        "normalized_similarity": 0.15465500158827322,
+        "normalization_survival": -0.8441473637631278,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "bounded-only",
+    "constraint_density": 0.5,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.18545571155472132,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8762029214665611,
+        "normalized_similarity": 0.18545571155472132,
+        "normalization_survival": -0.6907472099118398,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9928971620699776,
+        "normalized_similarity": 0.3887971238151455,
+        "normalization_survival": -0.604100038254832,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9986444297580145,
+        "normalized_similarity": 0.15928494116014977,
+        "normalization_survival": -0.8393594885978647,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "bounded-only",
+    "constraint_density": 0.75,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.027295955893043657,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8406131831316004,
+        "normalized_similarity": 0.027295955893043657,
+        "normalization_survival": -0.8133172272385567,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166845904507,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.04328751342949366,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9879045305803615,
+        "normalized_similarity": 0.2768890772363558,
+        "normalization_survival": -0.7110154533440057,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9987701749619348,
+        "normalized_similarity": 0.28190512270503415,
+        "normalization_survival": -0.7168650522569007,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "bounded-only",
+    "constraint_density": 1.0,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.28388673760299554,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8000577851168941,
+        "normalized_similarity": 0.28388673760299554,
+        "normalization_survival": -0.5161710475138985,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796150947547453,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043285923593788245,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9601300211358677,
+        "normalized_similarity": 0.5307625749653506,
+        "normalization_survival": -0.42936744617051703,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9961657252044012,
+        "normalized_similarity": 0.45342175480585484,
+        "normalization_survival": -0.5427439703985464,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "threshold-only",
+    "constraint_density": 0.0,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.04044189129477796,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711132267459408,
+        "normalized_similarity": 0.04044189129477796,
+        "normalization_survival": -0.8306713354511629,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9838550129881709,
+        "normalized_similarity": -0.25553562507698646,
+        "normalization_survival": -1.2393906380651574,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9980306494969106,
+        "normalized_similarity": 0.28546207963003406,
+        "normalization_survival": -0.7125685698668764,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "threshold-only",
+    "constraint_density": 0.25,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "threshold-only",
+    "constraint_density": 0.5,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "threshold-only",
+    "constraint_density": 0.75,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "threshold-only",
+    "constraint_density": 1.0,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "conservation-only",
+    "constraint_density": 0.0,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.05014430800934636,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.983856518760453,
+        "normalized_similarity": -0.24907592750772486,
+        "normalization_survival": -1.2329324462681779,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.998234881526306,
+        "normalized_similarity": 0.31904679172354933,
+        "normalization_survival": -0.6791880898027567,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "conservation-only",
+    "constraint_density": 0.25,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8713877413130637,
+        "normalized_similarity": -0.019633915842780368,
+        "normalization_survival": -0.8910216571558441,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9847678313117318,
+        "normalized_similarity": -0.18610374830784054,
+        "normalization_survival": -1.1708715796195723,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9950669901651354,
+        "normalized_similarity": -0.040305443903948204,
+        "normalization_survival": -1.0353724340690837,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "conservation-only",
+    "constraint_density": 0.5,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8713433532457452,
+        "normalized_similarity": -0.02886356753753691,
+        "normalization_survival": -0.9002069207832821,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.98447062675271,
+        "normalized_similarity": 0.05684358008732721,
+        "normalization_survival": -0.9276270466653828,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9939700412366306,
+        "normalized_similarity": -0.024579294085347807,
+        "normalization_survival": -1.0185493353219783,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "conservation-only",
+    "constraint_density": 0.75,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.2474245984155891,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8713644356437421,
+        "normalized_similarity": 0.2474245984155891,
+        "normalization_survival": -0.623939837228153,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9792615287048906,
+        "normalized_similarity": 0.7073619516965302,
+        "normalization_survival": -0.2718995770083604,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9952573762203174,
+        "normalized_similarity": 0.6477862735474961,
+        "normalization_survival": -0.34747110267282133,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "conservation-only",
+    "constraint_density": 1.0,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.21465985223305148,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8717905149167888,
+        "normalized_similarity": 0.21465985223305148,
+        "normalization_survival": -0.6571306626837373,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9798996864754723,
+        "normalized_similarity": 0.29191892452408724,
+        "normalization_survival": -0.6879807619513851,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9952697718674636,
+        "normalized_similarity": 0.6314865952486968,
+        "normalization_survival": -0.3637831766187668,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "combined",
+    "constraint_density": 0.0,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.04044189129477796,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711132267459408,
+        "normalized_similarity": 0.04044189129477796,
+        "normalization_survival": -0.8306713354511629,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9838550129881709,
+        "normalized_similarity": -0.25553562507698646,
+        "normalization_survival": -1.2393906380651574,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9980306494969106,
+        "normalized_similarity": 0.28546207963003406,
+        "normalization_survival": -0.7125685698668764,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "combined",
+    "constraint_density": 0.25,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.23842496397393806,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.871789859710594,
+        "normalized_similarity": 0.23842496397393806,
+        "normalization_survival": -0.6333648957366559,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9859425263147265,
+        "normalized_similarity": 0.28505738550090687,
+        "normalization_survival": -0.7008851408138196,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9986536432104778,
+        "normalized_similarity": 0.693425097444823,
+        "normalization_survival": -0.30522854576565484,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "combined",
+    "constraint_density": 0.5,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8525993884715533,
+        "normalized_similarity": -0.014895422926591247,
+        "normalization_survival": -0.8674948113981445,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9864900838431298,
+        "normalized_similarity": 0.2367009204520454,
+        "normalization_survival": -0.7497891633910844,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9975113386423157,
+        "normalized_similarity": 0.5884537624045004,
+        "normalization_survival": -0.40905757623781525,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "combined",
+    "constraint_density": 0.75,
+    "G": 0.25,
+    "S": 0.936329171160957,
+    "F": 0.16460961759480727,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8500877044163224,
+        "normalized_similarity": 0.16460961759480727,
+        "normalization_survival": -0.6854780868215151,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9819264123374315,
+        "normalized_similarity": 0.46792671798950913,
+        "normalization_survival": -0.5139996943479224,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9985932195886602,
+        "normalized_similarity": 0.8509677249226536,
+        "normalization_survival": -0.1476254946660066,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  {
+    "variant": "combined",
+    "constraint_density": 1.0,
+    "G": 0.25,
+    "S": 0.9922778755272756,
+    "F": 0.017134755449117696,
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8496504855053336,
+        "normalized_similarity": 0.017134755449117696,
+        "normalization_survival": -0.8325157300562159,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.930913976302555,
+        "normalized_similarity": 0.9922778755272756,
+        "normalization_survival": 0.06136389922472063,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9793908454795454,
+        "normalized_similarity": 0.5136356275113532,
+        "normalization_survival": -0.4657552179681922,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9866919710039529,
+        "normalized_similarity": 0.41407301207695546,
+        "normalization_survival": -0.5726189589269974,
+        "verdict": "COLLAPSES"
+      }
+    }
+  }
+]

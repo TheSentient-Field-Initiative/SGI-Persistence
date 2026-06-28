@@ -1,0 +1,132 @@
+{
+  "systems": {
+    "distributed": {
+      "sectoral_mi": 0.0,
+      "cross_sector_propagation": 0.0,
+      "residue_localization": 1.0,
+      "entanglement_diffusion": 0.0,
+      "inter_sector_hysteresis": 0.0,
+      "compartmental_overwrite": 1.0,
+      "subadditivity": 1.0,
+      "propagation_detail": {
+        "connectivity->activity": 0.0,
+        "connectivity->entropy": 0.0,
+        "connectivity->structure": 0.0,
+        "activity->connectivity": 0.0,
+        "activity->entropy": 0.0,
+        "activity->structure": 0.0,
+        "entropy->connectivity": 0.0,
+        "entropy->activity": 0.0,
+        "entropy->structure": 0.0,
+        "structure->connectivity": 0.0,
+        "structure->activity": 0.0,
+        "structure->entropy": 0.0
+      },
+      "localization_detail": {
+        "connectivity": 1.0,
+        "activity": 1.0,
+        "entropy": 1.0,
+        "structure": 1.0
+      }
+    },
+    "ant_colony": {
+      "sectoral_mi": 0.0,
+      "cross_sector_propagation": 0.0,
+      "residue_localization": 1.0,
+      "entanglement_diffusion": 0.0,
+      "inter_sector_hysteresis": 0.25,
+      "compartmental_overwrite": 1.0,
+      "subadditivity": 1.0,
+      "propagation_detail": {
+        "pheromone->food": 0.0,
+        "pheromone->ant_activity": 0.0,
+        "pheromone->spatial": 0.0,
+        "food->pheromone": 0.0,
+        "food->ant_activity": 0.0,
+        "food->spatial": 0.0,
+        "ant_activity->pheromone": 0.0,
+        "ant_activity->food": 0.0,
+        "ant_activity->spatial": 0.0,
+        "spatial->pheromone": 0.0,
+        "spatial->food": 0.0,
+        "spatial->ant_activity": 0.0
+      },
+      "localization_detail": {
+        "pheromone": 1.0,
+        "food": 1.0,
+        "ant_activity": 1.0,
+        "spatial": 1.0
+      }
+    },
+    "institution": {
+      "sectoral_mi": 0.0,
+      "cross_sector_propagation": 0.0,
+      "residue_localization": 1.0,
+      "entanglement_diffusion": 0.0,
+      "inter_sector_hysteresis": 0.0,
+      "compartmental_overwrite": 1.0,
+      "subadditivity": 1.0,
+      "propagation_detail": {
+        "trust->specialization": 0.0,
+        "trust->information": 0.0,
+        "trust->membership": 0.0,
+        "specialization->trust": 0.0,
+        "specialization->information": 0.0,
+        "specialization->membership": 0.0,
+        "information->trust": 0.0,
+        "information->specialization": 0.0,
+        "information->membership": 0.0,
+        "membership->trust": 0.0,
+        "membership->specialization": 0.0,
+        "membership->information": 0.0
+      },
+      "localization_detail": {
+        "trust": 1.0,
+        "specialization": 1.0,
+        "information": 1.0,
+        "membership": 1.0
+      }
+    },
+    "immune": {
+      "sectoral_mi": 0.0,
+      "cross_sector_propagation": 0.0,
+      "residue_localization": 1.0,
+      "entanglement_diffusion": 0.0,
+      "inter_sector_hysteresis": 0.0,
+      "compartmental_overwrite": 1.0,
+      "subadditivity": 1.0,
+      "propagation_detail": {
+        "cell_types->activation": 0.0,
+        "cell_types->pathogen": 0.0,
+        "cell_types->memory": 0.0,
+        "activation->cell_types": 0.0,
+        "activation->pathogen": 0.0,
+        "activation->memory": 0.0,
+        "pathogen->cell_types": 0.0,
+        "pathogen->activation": 0.0,
+        "pathogen->memory": 0.0,
+        "memory->cell_types": 0.0,
+        "memory->activation": 0.0,
+        "memory->pathogen": 0.0
+      },
+      "localization_detail": {
+        "cell_types": 1.0,
+        "activation": 1.0,
+        "pathogen": 1.0,
+        "memory": 1.0
+      }
+    }
+  },
+  "known_G": {
+    "distributed": 0.25,
+    "ant_colony": 0.125,
+    "institution": 0.25,
+    "immune": 0.875
+  },
+  "known_H": {
+    "distributed": 0.396,
+    "ant_colony": 0.576,
+    "institution": 0.497,
+    "immune": 0.18
+  }
+}

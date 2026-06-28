@@ -1,0 +1,90 @@
+[
+  {
+    "condition": "full",
+    "description": "Full immune system (baseline)",
+    "G": 0.625,
+    "sector_survival": {
+      "amplitude": 3,
+      "topology": 3,
+      "transport": 3,
+      "residual": 1
+    }
+  },
+  {
+    "condition": "no_memory",
+    "description": "Memory removed",
+    "G": 0.875,
+    "sector_survival": {
+      "amplitude": 4,
+      "topology": 3,
+      "transport": 3,
+      "residual": 4
+    }
+  },
+  {
+    "condition": "no_receptor_specificity",
+    "description": "Receptor specificity removed",
+    "G": 0.5625,
+    "sector_survival": {
+      "amplitude": 3,
+      "topology": 3,
+      "transport": 2,
+      "residual": 1
+    }
+  },
+  {
+    "condition": "no_clonal_expansion",
+    "description": "Clonal expansion removed",
+    "G": 0.625,
+    "sector_survival": {
+      "amplitude": 3,
+      "topology": 3,
+      "transport": 2,
+      "residual": 2
+    }
+  },
+  {
+    "condition": "no_compartmentalization",
+    "description": "Compartmentalization removed",
+    "G": 0.5625,
+    "sector_survival": {
+      "amplitude": 3,
+      "topology": 3,
+      "transport": 2,
+      "residual": 1
+    }
+  },
+  {
+    "condition": "no_threshold_gating",
+    "description": "Threshold gating removed",
+    "G": 0.625,
+    "sector_survival": {
+      "amplitude": 3,
+      "topology": 3,
+      "transport": 3,
+      "residual": 1
+    }
+  },
+  {
+    "condition": "no_cytokine_feedback",
+    "description": "Cytokine feedback removed",
+    "G": 0.75,
+    "sector_survival": {
+      "amplitude": 3,
+      "topology": 3,
+      "transport": 3,
+      "residual": 3
+    }
+  },
+  {
+    "condition": "no_suppression",
+    "description": "Suppression removed",
+    "G": 0.625,
+    "sector_survival": {
+      "amplitude": 3,
+      "topology": 3,
+      "transport": 3,
+      "residual": 1
+    }
+  }
+]

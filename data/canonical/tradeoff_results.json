@@ -1,0 +1,240 @@
+{
+  "results": [
+    {
+      "memory_depth": 0.0,
+      "feedback_gain": 0.0,
+      "G": 0.9375,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.0,
+      "feedback_gain": 0.4,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.0,
+      "feedback_gain": 0.8,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.0,
+      "feedback_gain": 1.2000000000000002,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.0,
+      "feedback_gain": 1.6,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.0,
+      "feedback_gain": 2.0,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.2,
+      "feedback_gain": 0.0,
+      "G": 0.8125,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.2,
+      "feedback_gain": 0.4,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.2,
+      "feedback_gain": 0.8,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.2,
+      "feedback_gain": 1.2000000000000002,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.2,
+      "feedback_gain": 1.6,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.2,
+      "feedback_gain": 2.0,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.4,
+      "feedback_gain": 0.0,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.4,
+      "feedback_gain": 0.4,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.4,
+      "feedback_gain": 0.8,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.4,
+      "feedback_gain": 1.2000000000000002,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.4,
+      "feedback_gain": 1.6,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.4,
+      "feedback_gain": 2.0,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.6000000000000001,
+      "feedback_gain": 0.0,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.6000000000000001,
+      "feedback_gain": 0.4,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.6000000000000001,
+      "feedback_gain": 0.8,
+      "G": 0.875,
+      "adaptation": 0.75
+    },
+    {
+      "memory_depth": 0.6000000000000001,
+      "feedback_gain": 1.2000000000000002,
+      "G": 0.875,
+      "adaptation": 0.750380603434015
+    },
+    {
+      "memory_depth": 0.6000000000000001,
+      "feedback_gain": 1.6,
+      "G": 0.875,
+      "adaptation": 0.7529920581398655
+    },
+    {
+      "memory_depth": 0.6000000000000001,
+      "feedback_gain": 2.0,
+      "G": 0.875,
+      "adaptation": 0.758566506109174
+    },
+    {
+      "memory_depth": 0.8,
+      "feedback_gain": 0.0,
+      "G": 0.875,
+      "adaptation": 0.8058219226274619
+    },
+    {
+      "memory_depth": 0.8,
+      "feedback_gain": 0.4,
+      "G": 0.875,
+      "adaptation": 0.8225793440782916
+    },
+    {
+      "memory_depth": 0.8,
+      "feedback_gain": 0.8,
+      "G": 0.875,
+      "adaptation": 0.840256335748212
+    },
+    {
+      "memory_depth": 0.8,
+      "feedback_gain": 1.2000000000000002,
+      "G": 0.875,
+      "adaptation": 0.8589184585796747
+    },
+    {
+      "memory_depth": 0.8,
+      "feedback_gain": 1.6,
+      "G": 0.875,
+      "adaptation": 0.8786371186962842
+    },
+    {
+      "memory_depth": 0.8,
+      "feedback_gain": 2.0,
+      "G": 0.875,
+      "adaptation": 0.8994901664416406
+    },
+    {
+      "memory_depth": 1.0,
+      "feedback_gain": 0.0,
+      "G": 0.75,
+      "adaptation": 0.99
+    },
+    {
+      "memory_depth": 1.0,
+      "feedback_gain": 0.4,
+      "G": 0.625,
+      "adaptation": 0.99
+    },
+    {
+      "memory_depth": 1.0,
+      "feedback_gain": 0.8,
+      "G": 0.625,
+      "adaptation": 0.99
+    },
+    {
+      "memory_depth": 1.0,
+      "feedback_gain": 1.2000000000000002,
+      "G": 0.625,
+      "adaptation": 0.99
+    },
+    {
+      "memory_depth": 1.0,
+      "feedback_gain": 1.6,
+      "G": 0.625,
+      "adaptation": 0.99
+    },
+    {
+      "memory_depth": 1.0,
+      "feedback_gain": 2.0,
+      "G": 0.625,
+      "adaptation": 0.99
+    }
+  ],
+  "pareto": [
+    {
+      "memory_depth": 1.0,
+      "feedback_gain": 0.0,
+      "G": 0.75,
+      "adaptation": 0.99
+    },
+    {
+      "memory_depth": 0.8,
+      "feedback_gain": 2.0,
+      "G": 0.875,
+      "adaptation": 0.8994901664416406
+    },
+    {
+      "memory_depth": 0.0,
+      "feedback_gain": 0.0,
+      "G": 0.9375,
+      "adaptation": 0.75
+    }
+  ]
+}

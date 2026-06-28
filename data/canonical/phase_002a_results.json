@@ -1,0 +1,60 @@
+{
+  "systems": {
+    "distributed": {
+      "curvature": 0.0,
+      "replay_divergence": 10.5688518018677,
+      "holonomy": 0.875,
+      "closure_error": 0.875,
+      "fiber_entanglement": 0.875,
+      "avg_fiber_entanglement": 20.07949188239421,
+      "max_fiber_entanglement": 22.601865940309068,
+      "state_spread": 0.013716796399969729,
+      "n_states": 50
+    },
+    "ant_colony": {
+      "curvature": 0.0,
+      "replay_divergence": 3.6,
+      "holonomy": 0.0,
+      "closure_error": 0.0,
+      "fiber_entanglement": 0.0,
+      "avg_fiber_entanglement": 5.3,
+      "max_fiber_entanglement": 10.0,
+      "state_spread": 0.060000000000000005,
+      "n_states": 50
+    },
+    "institution": {
+      "curvature": 0.0,
+      "replay_divergence": 4.409081537009721,
+      "holonomy": 0.0,
+      "closure_error": 0.0,
+      "fiber_entanglement": 0.0,
+      "avg_fiber_entanglement": 8.9,
+      "max_fiber_entanglement": 10.0,
+      "state_spread": 0.0,
+      "n_states": 50
+    },
+    "immune": {
+      "curvature": 0.0,
+      "replay_divergence": 6.52820323027551,
+      "holonomy": 0.0,
+      "closure_error": 0.0,
+      "fiber_entanglement": 0.0,
+      "avg_fiber_entanglement": 15.415252187363008,
+      "max_fiber_entanglement": 17.320508075688775,
+      "state_spread": 0.0,
+      "n_states": 50
+    }
+  },
+  "known_G": {
+    "distributed": 0.25,
+    "ant_colony": 0.125,
+    "institution": 0.25,
+    "immune": 0.875
+  },
+  "known_H": {
+    "distributed": 0.396,
+    "ant_colony": 0.576,
+    "institution": 0.497,
+    "immune": 0.18
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "P1_trust_violation": {
+    "description": "Trust violated for 51 agents",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.951426980624369,
+        "normalized_similarity": 0.7191609629889019,
+        "normalization_survival": -0.23226601763546717,
+        "range_preservation": 1.6523135042537513,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 1.0,
+        "normalized_similarity": 1.0,
+        "normalization_survival": 0.0,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.4865638864939285,
+        "normalized_similarity": 0.4888011309967266,
+        "normalization_survival": 0.002237244502798108,
+        "range_preservation": 45.288025382075865,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "residual": {
+        "raw_similarity": 0.9367506409371672,
+        "normalized_similarity": 0.2451686011092478,
+        "normalization_survival": -0.6915820398279194,
+        "range_preservation": 0.06400125789198054,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  "P2_norm_corruption": {
+    "description": "Norms corrupted (severity=0.50)",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.9517550143068714,
+        "normalized_similarity": 0.13183440666825788,
+        "normalization_survival": -0.8199206076386135,
+        "range_preservation": 0.7259904463751252,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 1.0,
+        "normalized_similarity": 1.0,
+        "normalization_survival": 0.0,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.48036069483945576,
+        "normalized_similarity": -0.006580378979279673,
+        "normalization_survival": -0.4869410738187354,
+        "range_preservation": 44.748938407194466,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9525847320952188,
+        "normalized_similarity": 0.3312080098391705,
+        "normalization_survival": -0.6213767222560482,
+        "range_preservation": 0.6526145664144036,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  "P3_agent_depletion": {
+    "description": "Depleted 37 agents",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.9326386535972842,
+        "normalized_similarity": 0.4282705134583025,
+        "normalization_survival": -0.5043681401389817,
+        "range_preservation": 1.1330382076947714,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.8597604030419852,
+        "normalized_similarity": 0.0,
+        "normalization_survival": -0.8597604030419852,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "transport": {
+        "raw_similarity": 0.45796167160481943,
+        "normalized_similarity": 0.4472063090019293,
+        "normalization_survival": -0.010755362602890117,
+        "range_preservation": 54.28965737597355,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "residual": {
+        "raw_similarity": 0.934226217429322,
+        "normalized_similarity": 0.1318388970859217,
+        "normalization_survival": -0.8023873203434003,
+        "range_preservation": 0.07513484084594921,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  "P4_information_shock": {
+    "description": "Corrupted 32 agent strategies",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.9498756257219129,
+        "normalized_similarity": 0.18725262539782536,
+        "normalization_survival": -0.7626230003240875,
+        "range_preservation": 0.8820512105120314,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9999785843534772,
+        "normalized_similarity": 0.0,
+        "normalization_survival": -0.9999785843534772,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "transport": {
+        "raw_similarity": 0.4659782925402733,
+        "normalized_similarity": -0.29247766789031965,
+        "normalization_survival": -0.7584559604305929,
+        "range_preservation": 30.82405529752146,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9284454860266449,
+        "normalized_similarity": -0.2998840803153387,
+        "normalization_survival": -1.2283295663419835,
+        "range_preservation": 0.05741914501870288,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  }
+}

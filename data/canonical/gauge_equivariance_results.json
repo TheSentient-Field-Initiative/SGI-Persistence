@@ -1,0 +1,76 @@
+{
+  "systems": {
+    "distributed": {
+      "gauge_equivariance_normalize": 0.41421356237309526,
+      "gauge_equivariance_permute": 0.0,
+      "gauge_equivariance_scale": 0.17490706943669465,
+      "gauge_equivariance_shift": 0.1408110968998722,
+      "gauge_equivariance_sector": 0.41421356237309526,
+      "sector_preservation": 1.0,
+      "normalization_distortion": 7.071065954988853e-11,
+      "gauge_orbit_stability": 0.0,
+      "replay_equivalence": 1.0,
+      "equivariance_score": 0.7071067811865474,
+      "representation_invariance": 0.0,
+      "gauge_eq_mean": 0.41421356237309526,
+      "sector_pres_mean": 1.0
+    },
+    "ant_colony": {
+      "gauge_equivariance_normalize": 0.0,
+      "gauge_equivariance_permute": 0.0,
+      "gauge_equivariance_scale": 0.0,
+      "gauge_equivariance_shift": 0.1763356487583789,
+      "gauge_equivariance_sector": 0.0,
+      "sector_preservation": 1.0,
+      "normalization_distortion": 1.0,
+      "gauge_orbit_stability": 0.0,
+      "replay_equivalence": 1.0,
+      "equivariance_score": 1.0,
+      "representation_invariance": 0.06666666666666667,
+      "gauge_eq_mean": 0.0,
+      "sector_pres_mean": 0.9758620689655173
+    },
+    "institution": {
+      "gauge_equivariance_normalize": 0.0,
+      "gauge_equivariance_permute": 1.4142135623730947,
+      "gauge_equivariance_scale": 0.08956576086770328,
+      "gauge_equivariance_shift": 0.15116499011927,
+      "gauge_equivariance_sector": 0.0,
+      "sector_preservation": 1.0,
+      "normalization_distortion": 1.000000082740371e-10,
+      "gauge_orbit_stability": 0.0,
+      "replay_equivalence": 1.0,
+      "equivariance_score": 1.0,
+      "representation_invariance": 0.0,
+      "gauge_eq_mean": 0.0,
+      "sector_pres_mean": 1.0
+    },
+    "immune": {
+      "gauge_equivariance_normalize": 0.41421356237309526,
+      "gauge_equivariance_permute": 2.0,
+      "gauge_equivariance_scale": 0.1184286567545358,
+      "gauge_equivariance_shift": 0.1509184541968225,
+      "gauge_equivariance_sector": 0.41421356237309526,
+      "sector_preservation": 1.0,
+      "normalization_distortion": 7.071065954988853e-11,
+      "gauge_orbit_stability": 0.0,
+      "replay_equivalence": 1.0,
+      "equivariance_score": 0.7071067811865474,
+      "representation_invariance": 0.0,
+      "gauge_eq_mean": 0.41421356237309526,
+      "sector_pres_mean": 1.0
+    }
+  },
+  "known_G": {
+    "distributed": 0.25,
+    "ant_colony": 0.125,
+    "institution": 0.25,
+    "immune": 0.875
+  },
+  "known_H": {
+    "distributed": 0.396,
+    "ant_colony": 0.576,
+    "institution": 0.497,
+    "immune": 0.18
+  }
+}

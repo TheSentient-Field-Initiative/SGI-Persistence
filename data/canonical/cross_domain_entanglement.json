@@ -1,0 +1,39 @@
+{
+  "systems": {
+    "distributed": {
+      "path_dep": 3.266125703191499,
+      "divergence": -0.0019131886245567478,
+      "hysteresis": 0.4412554194758493,
+      "memory_entropy": 0.0,
+      "composite": 0.3962286542478413
+    },
+    "ant_colony": {
+      "path_dep": 160.95548472747845,
+      "divergence": 0.0012669640165714213,
+      "hysteresis": 0.6302288155635559,
+      "memory_entropy": 0.5,
+      "composite": 0.5758075755782699
+    },
+    "institution": {
+      "path_dep": 35.61115270750328,
+      "divergence": -0.0024291673324108817,
+      "hysteresis": 0.45634416054829186,
+      "memory_entropy": 0.8000000000000002,
+      "composite": 0.49726680082391367
+    },
+    "immune": {
+      "path_dep": 1.997,
+      "divergence": -0.013,
+      "hysteresis": 0.066,
+      "memory_entropy": 0.0,
+      "composite": 0.18
+    }
+  },
+  "known_G": {
+    "distributed": 0.25,
+    "ant_colony": 0.125,
+    "institution": 0.25,
+    "immune": 0.875
+  },
+  "correlation": -0.9514071921011092
+}

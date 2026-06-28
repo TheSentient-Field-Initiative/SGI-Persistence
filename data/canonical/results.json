@@ -1,0 +1,88 @@
+{
+  "baseline": {
+    "connectivity": 1.0,
+    "assignment_rate": 0.2857142857142857,
+    "routing_entropy": 4.321928094887363,
+    "allocation_entropy": 4.650571945454581,
+    "n_components": 1
+  },
+  "P1_node_removal": {
+    "description": "Removed 30 nodes (30%)",
+    "recovery_time": 0,
+    "persistence_half_life": null,
+    "oscillation_amplitude": 0.0,
+    "throughput_stabilization": 0.03491816990692295,
+    "final_connectivity": 0.9857142857142858,
+    "final_assignment_rate": 0.35714285714285715,
+    "representation_audit": {
+      "raw_similarity": 0.9972202632060785,
+      "normalization_similarity": 0.06482471982496062,
+      "normalization_survival": -0.9323955433811179,
+      "segmentation_dependence": 0.017366801440507285,
+      "gauge_removable": 0.5838104899279782,
+      "raw_embedding_change": 0.06490624627402157,
+      "normalized_embedding_change": 1.3676075265629937
+    }
+  },
+  "P2_communication_delay": {
+    "description": "Injected delay gradient (severity=0.50)",
+    "recovery_time": 0,
+    "persistence_half_life": 0,
+    "oscillation_amplitude": 0.0,
+    "throughput_stabilization": 0.0329499137257177,
+    "final_connectivity": 1.0,
+    "final_assignment_rate": 0.2702702702702703,
+    "representation_audit": {
+      "raw_similarity": 0.9973218108645338,
+      "normalization_similarity": -0.06630071186629297,
+      "normalization_survival": -1.0636225227308267,
+      "segmentation_dependence": 0.01897947671186323,
+      "gauge_removable": 0.05789046336523505,
+      "raw_embedding_change": 0.06490624627402157,
+      "normalized_embedding_change": 1.460342828227307
+    }
+  },
+  "P3_resource_starvation": {
+    "description": "Throttled 34 nodes (severity=0.40)",
+    "recovery_time": 0,
+    "persistence_half_life": 0,
+    "oscillation_amplitude": 0.0,
+    "throughput_stabilization": 0.024492651151466448,
+    "final_connectivity": 1.0,
+    "final_assignment_rate": 0.3448275862068966,
+    "representation_audit": {
+      "raw_similarity": 0.997791524191203,
+      "normalization_similarity": 0.1412235066442099,
+      "normalization_survival": -0.8565680175469931,
+      "segmentation_dependence": 0.0016966019038214264,
+      "gauge_removable": 0.0210316044113045,
+      "raw_embedding_change": 0.06490624627402157,
+      "normalized_embedding_change": 1.3105543877388375
+    }
+  },
+  "P4_scheduler_distortion": {
+    "description": "Reassigned 12 tasks (severity=0.30)",
+    "recovery_time": 0,
+    "persistence_half_life": 0,
+    "oscillation_amplitude": 0.0,
+    "throughput_stabilization": 0.026586926728666364,
+    "final_connectivity": 1.0,
+    "final_assignment_rate": 0.3225806451612903,
+    "representation_audit": {
+      "raw_similarity": 0.9982491581741713,
+      "normalization_similarity": 0.3105795260033984,
+      "normalization_survival": -0.6876696321707729,
+      "segmentation_dependence": 0.006948216589267031,
+      "gauge_removable": 0.023070443667713783,
+      "raw_embedding_change": 0.06490624627402157,
+      "normalized_embedding_change": 1.1742404329591782
+    }
+  },
+  "verdict": "NOT TRANSPORTABLE: Most persistence structure is representation-dependent.",
+  "failure_conditions": {
+    "F1": 4,
+    "F2": 0,
+    "F3": 0,
+    "F4": 0
+  }
+}

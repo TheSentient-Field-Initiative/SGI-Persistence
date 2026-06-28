@@ -1,0 +1,52 @@
+{
+  "systems": {
+    "distributed": {
+      "reachable_states": 1,
+      "transition_entropy": -1.4426951601859516e-10,
+      "reversibility": 1.0,
+      "branching_factor": 1.0,
+      "accessibility": 0.000244140625,
+      "canalization_depth": 0.0,
+      "state_space_volume": 1.0
+    },
+    "ant_colony": {
+      "reachable_states": 2,
+      "transition_entropy": 0.13293044290444792,
+      "reversibility": 0.6666666666666666,
+      "branching_factor": 1.5,
+      "accessibility": 0.00048828125,
+      "canalization_depth": 0.7333333333333333,
+      "state_space_volume": 9.0
+    },
+    "institution": {
+      "reachable_states": 1,
+      "transition_entropy": -1.4426951601859516e-10,
+      "reversibility": 1.0,
+      "branching_factor": 1.0,
+      "accessibility": 0.000244140625,
+      "canalization_depth": 0.0,
+      "state_space_volume": 1.0
+    },
+    "immune": {
+      "reachable_states": 1,
+      "transition_entropy": -1.4426951601859516e-10,
+      "reversibility": 1.0,
+      "branching_factor": 1.0,
+      "accessibility": 0.000244140625,
+      "canalization_depth": 0.0,
+      "state_space_volume": 0.18677091435570814
+    }
+  },
+  "known_G": {
+    "distributed": 0.25,
+    "ant_colony": 0.125,
+    "institution": 0.25,
+    "immune": 0.875
+  },
+  "known_H": {
+    "distributed": 0.396,
+    "ant_colony": 0.576,
+    "institution": 0.497,
+    "immune": 0.18
+  }
+}

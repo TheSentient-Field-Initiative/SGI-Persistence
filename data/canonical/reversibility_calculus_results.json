@@ -1,0 +1,70 @@
+{
+  "systems": {
+    "distributed": {
+      "trajectory_action": 0.0,
+      "entropy_production": 0.0,
+      "gauge_curvature": 0.0,
+      "organizational_action": -2.0,
+      "irreversibility_index": 0.0,
+      "replay_divergence": 0.0,
+      "action_std": 0.0,
+      "entropy_std": 0.0
+    },
+    "ant_colony": {
+      "trajectory_action": 0.02413793103448276,
+      "entropy_production": 0.04827586181796499,
+      "gauge_curvature": 0.03928571428571428,
+      "organizational_action": 0.0,
+      "irreversibility_index": 0.0,
+      "replay_divergence": 0.0,
+      "action_std": 0.015801985155020137,
+      "entropy_std": 0.03160397014572186
+    },
+    "institution": {
+      "trajectory_action": 0.0,
+      "entropy_production": 0.0,
+      "gauge_curvature": 0.0,
+      "organizational_action": -1.0,
+      "irreversibility_index": 0.0,
+      "replay_divergence": 0.0,
+      "action_std": 0.0,
+      "entropy_std": 0.0
+    },
+    "immune": {
+      "trajectory_action": 0.0,
+      "entropy_production": 0.0,
+      "gauge_curvature": 0.0,
+      "organizational_action": -2.0,
+      "irreversibility_index": 0.0,
+      "replay_divergence": 0.0,
+      "action_std": 0.0,
+      "entropy_std": 0.0
+    }
+  },
+  "known_G": {
+    "distributed": 0.25,
+    "ant_colony": 0.125,
+    "institution": 0.25,
+    "immune": 0.875
+  },
+  "known_H": {
+    "distributed": 0.396,
+    "ant_colony": 0.576,
+    "institution": 0.497,
+    "immune": 0.18
+  },
+  "known_reversibility": {
+    "distributed": 1.0,
+    "ant_colony": 0.667,
+    "institution": 1.0,
+    "immune": 1.0
+  },
+  "G_predicted": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "mean_error": 0.625,
+  "corr_pred_vs_actual": NaN
+}

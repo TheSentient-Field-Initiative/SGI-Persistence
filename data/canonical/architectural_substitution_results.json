@@ -1,0 +1,67 @@
+{
+  "avg_G": 0.0,
+  "avg_S": 0.0,
+  "avg_F": -0.10545397045930331,
+  "sector_survival": {
+    "amplitude": 0,
+    "topology": 0,
+    "transport": 0,
+    "residual": 0
+  },
+  "geometry": {
+    "Distributed System": {
+      "S": 0.9840822927902393,
+      "F": 0.13761419671819108,
+      "G": 0.25,
+      "regime": "rigid"
+    },
+    "Ant Colony": {
+      "S": 0.1949006946566523,
+      "F": 1.0,
+      "G": 0.125,
+      "regime": "adaptive"
+    },
+    "Immune System": {
+      "S": 0.75,
+      "F": 0.9999900162209021,
+      "G": 0.875,
+      "regime": "resilient"
+    },
+    "Institution Network": {
+      "S": 0.5,
+      "F": 0.36662962712832187,
+      "G": 0.25,
+      "regime": "collapse"
+    },
+    "Constraint-bounded-only": {
+      "S": 0.936329171160957,
+      "F": 0.28388673760299554,
+      "G": 0.25,
+      "regime": "engineered"
+    },
+    "Constraint-threshold-only": {
+      "S": 0.936329171160957,
+      "F": 0.05014430800934636,
+      "G": 0.25,
+      "regime": "engineered"
+    },
+    "Constraint-conservation-only": {
+      "S": 0.936329171160957,
+      "F": 0.21465985223305148,
+      "G": 0.25,
+      "regime": "engineered"
+    },
+    "Constraint-combined": {
+      "S": 0.9922778755272756,
+      "F": 0.017134755449117696,
+      "G": 0.25,
+      "regime": "engineered"
+    },
+    "DS-Architectural": {
+      "S": 0.0,
+      "F": -0.10545397045930331,
+      "G": 0.0,
+      "regime": "engineered"
+    }
+  }
+}

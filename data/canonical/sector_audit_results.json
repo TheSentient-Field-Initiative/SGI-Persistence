@@ -1,0 +1,150 @@
+{
+  "P1_node_removal": {
+    "description": "Removed 30 nodes (30%)",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8711304489712843,
+        "normalized_similarity": 0.05014430800934636,
+        "normalization_survival": -0.820986140961938,
+        "range_preservation": 0.2337325027987451,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.9796166742827159,
+        "normalized_similarity": 0.936329171160957,
+        "normalization_survival": -0.043287503121758886,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9838565187604528,
+        "normalized_similarity": -0.07560087027510563,
+        "normalization_survival": -1.0594573890355583,
+        "range_preservation": 0.36392676391254386,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9330704386301459,
+        "normalized_similarity": 0.21399685424797468,
+        "normalization_survival": -0.7190735843821713,
+        "range_preservation": 0.4487593525530178,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  "P2_communication_delay": {
+    "description": "Injected delay gradient (severity=0.50)",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8538752281494596,
+        "normalized_similarity": -0.14418547636304896,
+        "normalization_survival": -0.9980607045125085,
+        "range_preservation": 0.2182005667874322,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 1.0000000000000002,
+        "normalized_similarity": 1.0,
+        "normalization_survival": -2.220446049250313e-16,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9827378526907514,
+        "normalized_similarity": 0.11975656623480478,
+        "normalization_survival": -0.8629812864559466,
+        "range_preservation": 0.33973827903215387,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9453755942608018,
+        "normalized_similarity": 0.3705830887357031,
+        "normalization_survival": -0.5747925055250986,
+        "range_preservation": 0.23769233258198696,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  "P3_resource_starvation": {
+    "description": "Throttled 34 nodes (severity=0.40)",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.8772623946029068,
+        "normalized_similarity": 0.13538415743966029,
+        "normalization_survival": -0.7418782371632465,
+        "range_preservation": 0.2528034710439429,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 1.0000000000000002,
+        "normalized_similarity": 1.0,
+        "normalization_survival": -2.220446049250313e-16,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9864031590570795,
+        "normalized_similarity": -0.0011953093875151147,
+        "normalization_survival": -0.9875984684445946,
+        "range_preservation": 0.36751809926145823,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9330002427488405,
+        "normalized_similarity": 0.23457980907447118,
+        "normalization_survival": -0.6984204336743693,
+        "range_preservation": 0.24140496741480588,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  "P4_scheduler_distortion": {
+    "description": "Reassigned 12 tasks (severity=0.30)",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.875364879811253,
+        "normalized_similarity": 0.19707013698272657,
+        "normalization_survival": -0.6782947428285264,
+        "range_preservation": 0.1577639070467243,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 1.0000000000000002,
+        "normalized_similarity": 1.0,
+        "normalization_survival": -2.220446049250313e-16,
+        "range_preservation": 0.0,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9867287920078669,
+        "normalized_similarity": 0.31640730549117224,
+        "normalization_survival": -0.6703214865166947,
+        "range_preservation": 0.2740823350602058,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.9509141020230656,
+        "normalized_similarity": 0.6501435624411542,
+        "normalization_survival": -0.30077053958191136,
+        "range_preservation": 0.2558346310311978,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "P1_worker_removal": {
+    "description": "Removed 30 workers (30%)",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.9989511637741751,
+        "normalized_similarity": 0.3277770782486875,
+        "normalization_survival": -0.6711740855254876,
+        "range_preservation": 8.347170977407131,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.32758033400974396,
+        "normalized_similarity": 0.28435966092136633,
+        "normalization_survival": -0.043220673088377626,
+        "range_preservation": 7.04097922835526,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9531924412577433,
+        "normalized_similarity": -0.043252467853626936,
+        "normalization_survival": -0.9964449091113702,
+        "range_preservation": 1.0065221982471295,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.4668466246205243,
+        "normalized_similarity": -0.4736620611394298,
+        "normalization_survival": -0.940508685759954,
+        "range_preservation": 0.5368456749832776,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  "P2_trail_disruption": {
+    "description": "Cleared 1 trail cells (50%)",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.998747836852643,
+        "normalized_similarity": 0.3313944896723041,
+        "normalization_survival": -0.6673533471803389,
+        "range_preservation": 8.723790395588114,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.29349449950351825,
+        "normalized_similarity": 0.12709544804457565,
+        "normalization_survival": -0.1663990514589426,
+        "range_preservation": 8.02724285523317,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "transport": {
+        "raw_similarity": 0.9472537091287533,
+        "normalized_similarity": 0.32608458547155783,
+        "normalization_survival": -0.6211691236571955,
+        "range_preservation": 0.5617384510376112,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.5939627725461685,
+        "normalized_similarity": -0.07128043478442293,
+        "normalization_survival": -0.6652432073305914,
+        "range_preservation": 0.5072147783061048,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  "P3_nest_fragmentation": {
+    "description": "Scattered 41 ants from nest (40%)",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.994196305053642,
+        "normalized_similarity": 0.569648048906424,
+        "normalization_survival": -0.42454825614721803,
+        "range_preservation": 25.57082077392936,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.24820670946858434,
+        "normalized_similarity": 0.23280285785663257,
+        "normalization_survival": -0.015403851611951763,
+        "range_preservation": 14.630396641753894,
+        "expected_survival": true,
+        "verdict": "SURVIVES"
+      },
+      "transport": {
+        "raw_similarity": 0.9104461498724743,
+        "normalized_similarity": -0.5454808375409488,
+        "normalization_survival": -1.455926987413423,
+        "range_preservation": 0.608678935450346,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.4593477544042711,
+        "normalized_similarity": -0.4192747186575434,
+        "normalization_survival": -0.8786224730618145,
+        "range_preservation": 0.4395372800586938,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  },
+  "P4_resource_relocation": {
+    "description": "Relocated to 3 new food sources",
+    "sectors": {
+      "amplitude": {
+        "raw_similarity": 0.9914386221982208,
+        "normalized_similarity": 0.628465082370558,
+        "normalization_survival": -0.3629735398276628,
+        "range_preservation": 21.61006933509348,
+        "expected_survival": false,
+        "verdict": "COLLAPSES"
+      },
+      "topology": {
+        "raw_similarity": 0.2511067295951647,
+        "normalized_similarity": 0.13534481180403465,
+        "normalization_survival": -0.11576191779113007,
+        "range_preservation": 6.929561969146054,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "transport": {
+        "raw_similarity": 0.9490674335767147,
+        "normalized_similarity": 0.16627567551069777,
+        "normalization_survival": -0.782791758066017,
+        "range_preservation": 1.2059382265573293,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      },
+      "residual": {
+        "raw_similarity": 0.41046117240485014,
+        "normalized_similarity": -0.5496882963086954,
+        "normalization_survival": -0.9601494687135456,
+        "range_preservation": 0.6480464710083376,
+        "expected_survival": true,
+        "verdict": "COLLAPSES"
+      }
+    }
+  }
+}

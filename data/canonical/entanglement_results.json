@@ -1,0 +1,80 @@
+[
+  {
+    "memory_depth": 0.0,
+    "feedback_gain": 1.0,
+    "G": 0.75,
+    "entanglement": {
+      "path_dependence": 1.9967781327082015,
+      "state_history_mi": 0.0,
+      "trajectory_divergence": -0.01351225180860774,
+      "memory_entropy": -0.0,
+      "hysteresis": 0.002412519745037681,
+      "composite": 0.16684137744872787
+    }
+  },
+  {
+    "memory_depth": 0.2,
+    "feedback_gain": 1.0,
+    "G": 0.75,
+    "entanglement": {
+      "path_dependence": 1.9967957442797155,
+      "state_history_mi": 0.0,
+      "trajectory_divergence": -0.013471862356261377,
+      "memory_entropy": -0.0,
+      "hysteresis": 0.017589995630816847,
+      "composite": 0.16991796654109062
+    }
+  },
+  {
+    "memory_depth": 0.4,
+    "feedback_gain": 1.0,
+    "G": 0.75,
+    "entanglement": {
+      "path_dependence": 1.9968806466317668,
+      "state_history_mi": 0.0,
+      "trajectory_divergence": -0.013288891939997488,
+      "memory_entropy": -0.0,
+      "hysteresis": 0.06598184351218273,
+      "composite": 0.17978270262770973
+    }
+  },
+  {
+    "memory_depth": 0.6000000000000001,
+    "feedback_gain": 1.0,
+    "G": 0.75,
+    "entanglement": {
+      "path_dependence": 1.9972166731430374,
+      "state_history_mi": 0.0,
+      "trajectory_divergence": -0.012755371782804866,
+      "memory_entropy": -0.0,
+      "hysteresis": 0.16898769384573353,
+      "composite": 0.20093083391206337
+    }
+  },
+  {
+    "memory_depth": 0.8,
+    "feedback_gain": 1.0,
+    "G": 0.75,
+    "entanglement": {
+      "path_dependence": 1.9985709295982235,
+      "state_history_mi": 0.0,
+      "trajectory_divergence": -0.01146922686598729,
+      "memory_entropy": -0.0,
+      "hysteresis": 0.40104152831489026,
+      "composite": 0.2486819159809197
+    }
+  },
+  {
+    "memory_depth": 1.0,
+    "feedback_gain": 1.0,
+    "G": 0.5,
+    "entanglement": {
+      "path_dependence": 2.0041249119745688,
+      "state_history_mi": 0.0,
+      "trajectory_divergence": -0.008825550557442823,
+      "memory_entropy": -0.0,
+      "hysteresis": 1.147563931642584,
+      "composite": 0.3713394459215399
+    }
+  }
+]

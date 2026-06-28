@@ -1,0 +1,44 @@
+{
+  "systems": {
+    "distributed": {
+      "basins": 1,
+      "compression": 0.016,
+      "return_probability": 1.0,
+      "reversibility": 1.0,
+      "bifurcation_rate": 0.0
+    },
+    "ant_colony": {
+      "basins": 1,
+      "compression": 0.016,
+      "return_probability": 0.9,
+      "reversibility": 0.9,
+      "bifurcation_rate": 0.0
+    },
+    "institution": {
+      "basins": 1,
+      "compression": 0.016,
+      "return_probability": 1.0,
+      "reversibility": 1.0,
+      "bifurcation_rate": 0.0
+    },
+    "immune": {
+      "basins": 4,
+      "compression": 0.018666666666666668,
+      "return_probability": 1.0,
+      "reversibility": 1.0,
+      "bifurcation_rate": 0.0
+    }
+  },
+  "known_G": {
+    "distributed": 0.25,
+    "ant_colony": 0.125,
+    "institution": 0.25,
+    "immune": 0.875
+  },
+  "known_H": {
+    "distributed": 0.396,
+    "ant_colony": 0.576,
+    "institution": 0.497,
+    "immune": 0.18
+  }
+}
