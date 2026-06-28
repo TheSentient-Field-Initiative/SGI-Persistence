@@ -1,0 +1,3 @@
+# Abstract
+
+We extend the scalar persistence framework of Phase 001 by introducing geometric observables based on fiber bundle structure over organizational state space. We define transport error, replay transport coupling, and transport instability as discriminative measures of organizational persistence. Across four system classes, transport error achieves perfect separation (distributed=0.535, immune=0.020, ant_colony=0.000, institution=0.000), demonstrating that geometric observables surpass the representation ceiling of scalar metrics. We discover immune system fragility under structural perturbation, where transport instability explodes by 10 orders of magnitude. These findings establish the foundation for a geometric theory of organizational persistence.

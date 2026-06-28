@@ -1,24 +1,17 @@
 cff-version: 1.2.0
+title: "SGI Persistence Program: Computational Organizational Geometry"
 message: "If you use this software, please cite it as below."
 type: software
-title: "SGI Persistence Program"
-abstract: |
-  Organizational Gauge Stability and Historical Entanglement: A computational
-  investigation of the mathematical structure of organizational persistence
-  in complex adaptive systems. Central finding: G ∝ 1/H (gauge stability
-  inversely proportional to historical entanglement) with cross-domain
-  correlation r ≈ -0.951.
 authors:
-  - name: "Sentient Field Initiative"
-    website: "https://github.com/TheSentient-Field-Initiative"
+  - name: "The Sentient Field Initiative"
+identifiers:
+  - type: url
+    value: "https://github.com/TheSentient-Field-Initiative/SGI-Persistence"
 repository-code: "https://github.com/TheSentient-Field-Initiative/SGI-Persistence"
 license: MIT
-date-released: "2026-06-28"
-version: "0.1.0"
-keywords:
-  - organizational-persistence
-  - gauge-stability
-  - historical-entanglement
-  - complex-systems
-  - fiber-bundles
-  - gauge-theory
+preferred-citation:
+  type: software
+  title: "SGI Persistence Program"
+  authors:
+    - name: "The Sentient Field Initiative"
+  year: 2026

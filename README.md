@@ -1,99 +1,108 @@
 # SGI Persistence Program
 
-## Organizational Gauge Stability and Historical Entanglement
+**Computational Organizational Geometry: Empirical Laws of Persistent Adaptive Systems**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Overview
+## Overview
 
-The SGI Persistence Program investigates the mathematical structure of organizational persistence in complex adaptive systems. The central finding is an empirical law relating gauge stability to historical entanglement:
+The SGI Persistence Program investigates the mathematical structure of persistent adaptive organization across radically different systems. We discover empirical laws governing how distributed systems, immune networks, ant colonies, and institutional structures maintain coherent organization under perturbation.
 
-**G ∝ 1/H**
+**Central finding:**
 
-where:
-- **G** = gauge stability (organizational invariance under representation change)
-- **H** = historical entanglement (accumulated irreversible path dependence)
+$$G \propto \frac{1}{H}$$
 
-This relationship was validated across four independent organizational domains:
-- Distributed computing systems
-- Ant colony optimization
-- Institutional networks
-- Immune signaling networks
+where *G* is organizational replay stability and *H* is historical residue coupling, with correlation *r* = −0.951 across four system classes.
 
-with cross-domain correlation r ≈ -0.951.
+## Program Phases
 
-### Core Findings
+| Phase | Purpose | Outcome |
+|-------|---------|---------|
+| 001 | Scalar persistence audits | Representation ceiling discovered; G ∝ 1/H confirmed |
+| 002A | Organizational fiber geometry | Geometric differentiation achieved; transport error separates systems |
+| 002B | True connection formalism | 122.5x improvement in fiber entanglement separation |
+| 002C | Discrete transport algebra | Transport instability T emerges; immune fragility discovered |
 
-1. **Historical Entanglement Law**: G ∝ 1/H with r = -0.951 across four domains
-2. **Persistence-Adaptation Tradeoff**: Gauge stability and adaptive capacity exist in measurable tension (r = -0.869)
-3. **Falsified Hypotheses**: Decentralization, architectural substitution, attractor fragmentation, organizational freedom, thermodynamic irreversibility, replay compressibility, and simple gauge equivariance are insufficient explanations for high G
-4. **Representation Ceiling**: Current scalar observables cannot resolve organizational geometry, motivating the transition to fiber bundle representations
-5. **Geometric Separation**: Organizational holonomy differentiates systems where scalar measures saturate
+## Quick Start
 
-### Repository Structure
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Phase 002A (fiber geometry)
+python experiments/phase_002/run_phase_002a.py
+
+# Run Phase 002B (connection formalism)
+python experiments/phase_002/run_phase_002b.py
+
+# Run Phase 002C (transport stress test)
+python experiments/phase_002/run_phase_002c.py
+```
+
+## Repository Structure
 
 ```
 SGI-Persistence/
-├── src/                    # Core computational framework
-│   ├── core/              # Shared utilities
-│   ├── systems/           # System implementations
-│   │   ├── distributed/
-│   │   ├── ant_colony/
-│   │   ├── institution/
-│   │   └── immune/
-│   ├── audits/            # Audit protocols
-│   ├── geometry/          # Fiber bundle formalism
-│   ├── metrics/           # Measurement functions
-│   └── visualization/     # Plotting utilities
-├── experiments/           # Reproducible experiments
-│   ├── phase_001/        # Scalar audit series
-│   └── phase_002/        # Geometric transition
-├── data/                  # Datasets
-│   ├── canonical/        # Validated results
-│   ├── processed/        # Derived data
-│   └── raw/              # Source data
-├── reports/               # Publication materials
-├── docs/                  # Documentation
-├── papers/                # Manuscripts
-└── tests/                 # Test suite
+├── src/geometry/          # Core geometric formalism
+├── src/systems/           # Simulation systems (distributed, immune, ant_colony, institution)
+├── experiments/           # Reproducible experiment scripts
+├── data/canonical/        # Canonical result exports
+├── results/               # Figures and tables
+├── papers/                # Manuscript drafts
+├── docs/                  # Methodology and terminology
+└── archive/               # Superseded exploratory work
 ```
 
-### Reproducibility
+## Canonical Terminology
 
-All experiments can be reproduced by running:
+| Term | Canonical Name |
+|------|---------------|
+| Gauge stability | Organizational replay stability |
+| Historical entanglement | Historical residue coupling |
+| Fiber entanglement | Replay transport coupling |
+| Transport instability | Transport instability (T) |
+| Holonomy | Replay loop nonclosure |
 
-```bash
-# Phase 001 experiments
-cd experiments/phase_001
-python study_001e_constraint_injection.py
+See [docs/terminology/](docs/terminology/) for full glossary.
 
-# Phase 002A geometric analysis
-cd experiments/phase_002
-python run_phase_002a.py
-```
+## Key Results
 
-Dependencies:
-- Python 3.10+
-- NumPy
-- SciPy
-- Matplotlib (for visualization)
+### Phase 001: G ∝ 1/H
 
-### Citation
+- Four systems tested: distributed, immune, ant_colony, institution
+- Cross-domain correlation: r = −0.951
+- Representation ceiling discovered at Study 001N
 
-If you use this work, please cite:
+### Phase 002: Transport Geometry
+
+- **Transport error** separates all four systems (distributed=0.535, immune=0.020)
+- **Fiber entanglement** shows 122.5x improvement over scalar proxies
+- **Immune fragility**: transport instability explodes under structural perturbation
+
+## Reproducibility
+
+Every experiment uses deterministic seeds and exports JSON results. See individual experiment directories for `metadata.json`, `seed.txt`, and `environment.txt`.
+
+## Citation
 
 ```bibtex
 @software{sgi_persistence_2026,
-  title={SGI Persistence Program: Organizational Gauge Stability and Historical Entanglement},
+  title={SGI Persistence Program: Computational Organizational Geometry},
   year={2026},
   url={https://github.com/TheSentient-Field-Initiative/SGI-Persistence}
 }
 ```
 
-### License
+## License
 
-MIT License - see [LICENSE](LICENSE) for details.
+MIT License. See [LICENSE](LICENSE).
 
-### Disclaimer
+## Scientific Position
 
-This research program investigates mathematical structures in organizational systems. The empirical findings (G ∝ 1/H) are well-supported by computational experiments. Theoretical extensions involving fiber bundle geometry and gauge theory are provisional and represent active research directions, not established conclusions.
+This repository presents **computational organizational experiments**, not settled physics. All claims are framed as:
+
+- Exploratory geometric formalism
+- Empirical organizational correlations
+- Candidate mathematical structures
+
+All claims are provisional and subject to revision.

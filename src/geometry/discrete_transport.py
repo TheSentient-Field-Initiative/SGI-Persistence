@@ -17,9 +17,6 @@ from dataclasses import dataclass, field
 from typing import List, Tuple, Dict, Optional, Callable
 from scipy.linalg import expm
 import json
-import sys
-
-sys.path.insert(0, '/home/student/SGI-Persistence/src')
 from geometry.connection_formalism import (
     OrganizationalState, HistoricalFiber, ConnectionOperator,
     build_bundle, state_to_vector

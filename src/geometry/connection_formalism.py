@@ -34,7 +34,13 @@ class OrganizationalState:
         self.vector = np.asarray(self.vector, dtype=float)
     
     def distance_to(self, other: 'OrganizationalState') -> float:
+        """Euclidean distance between two organizational states."""
         return float(np.linalg.norm(self.vector - other.vector))
+    
+    def interpolate(self, other: 'OrganizationalState', t: float) -> 'OrganizationalState':
+        """Linearly interpolate between two organizational states at parameter t ∈ [0, 1]."""
+        interp_vec = self.vector * (1 - t) + other.vector * t
+        return OrganizationalState(vector=interp_vec, timestamp=int(self.timestamp * (1 - t) + other.timestamp * t))
 
 
 @dataclass
