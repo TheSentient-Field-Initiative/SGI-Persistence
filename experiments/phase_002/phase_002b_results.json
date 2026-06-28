@@ -1,0 +1,116 @@
+{
+  "results": {
+    "distributed": {
+      "system": "distributed",
+      "n_states": 50,
+      "state_spread": 0.0004833620805512586,
+      "curvature_magnitude": 0.0,
+      "ricci_scalar": 0.0,
+      "mean_holonomy": 1.0130573295169646e-16,
+      "std_holonomy": 8.99474214049562e-17,
+      "max_holonomy": 3.3422138886441676e-16,
+      "loop_instability": 8.994733028315399e-07,
+      "mean_torsion": 0.04000000000000235,
+      "max_torsion": 1.0,
+      "phase_drift": 43.98068804355385,
+      "winding_number": 0.0,
+      "avg_fiber_entanglement": 0.98,
+      "max_fiber_entanglement": 1.0,
+      "avg_transport_error": 0.5351111478539391
+    },
+    "immune": {
+      "system": "immune",
+      "n_states": 50,
+      "state_spread": 1.50142434297946e-05,
+      "curvature_magnitude": 0.0,
+      "ricci_scalar": 0.0,
+      "mean_holonomy": 7.549516567451065e-17,
+      "std_holonomy": 8.140289677804161e-17,
+      "max_holonomy": 2.220446049250313e-16,
+      "loop_instability": 8.140283532283621e-07,
+      "mean_torsion": 0.040000000000250904,
+      "max_torsion": 1.0,
+      "phase_drift": 1.5707821847450445,
+      "winding_number": 0.0,
+      "avg_fiber_entanglement": 0.98,
+      "max_fiber_entanglement": 1.0,
+      "avg_transport_error": 0.020408163265330737
+    },
+    "ant_colony": {
+      "system": "ant_colony",
+      "n_states": 50,
+      "state_spread": 0.0,
+      "curvature_magnitude": 0.0,
+      "ricci_scalar": 0.0,
+      "mean_holonomy": 0.0,
+      "std_holonomy": 0.0,
+      "max_holonomy": 0.0,
+      "loop_instability": 0.0,
+      "mean_torsion": 0.0,
+      "max_torsion": 0.0,
+      "phase_drift": 0.0,
+      "winding_number": 0.0,
+      "avg_fiber_entanglement": 0.0,
+      "max_fiber_entanglement": 0.0,
+      "avg_transport_error": 0.0
+    },
+    "institution": {
+      "system": "institution",
+      "n_states": 50,
+      "state_spread": 0.0,
+      "curvature_magnitude": 0.0,
+      "ricci_scalar": 0.0,
+      "mean_holonomy": 0.0,
+      "std_holonomy": 0.0,
+      "max_holonomy": 0.0,
+      "loop_instability": 0.0,
+      "mean_torsion": 0.0,
+      "max_torsion": 0.0,
+      "phase_drift": 0.0,
+      "winding_number": 0.0,
+      "avg_fiber_entanglement": 0.0,
+      "max_fiber_entanglement": 0.0,
+      "avg_transport_error": 0.0
+    }
+  },
+  "known_G": {
+    "distributed": 0.25,
+    "ant_colony": 0.125,
+    "institution": 0.25,
+    "immune": 0.875
+  },
+  "known_H": {
+    "distributed": 0.396,
+    "ant_colony": 0.576,
+    "institution": 0.497,
+    "immune": 0.18
+  },
+  "separation_scores": {
+    "mean_torsion": 0.9999999975,
+    "avg_fiber_entanglement": 0.9999999998979592,
+    "avg_transport_error": 0.9999999998131229,
+    "state_spread": 0.999999793115796
+  },
+  "phase_002a_comparison": {
+    "distributed": {
+      "curvature": 0.102,
+      "holonomy": 0.361,
+      "fiber_entanglement": 0.157
+    },
+    "ant_colony": {
+      "curvature": 0.112,
+      "holonomy": 0.333,
+      "fiber_entanglement": 0.163
+    },
+    "institution": {
+      "curvature": 0.108,
+      "holonomy": 0.352,
+      "fiber_entanglement": 0.159
+    },
+    "immune": {
+      "curvature": 0.118,
+      "holonomy": 0.32,
+      "fiber_entanglement": 0.165
+    }
+  }
+}

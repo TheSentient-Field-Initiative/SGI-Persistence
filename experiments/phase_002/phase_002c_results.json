@@ -1,0 +1,635 @@
+{
+  "transport_results": {
+    "distributed": {
+      "system": "distributed",
+      "n_states": 50,
+      "T": 0.9625808133116684,
+      "T_std": 0.7299188078212073,
+      "mean_holonomy": 0.0,
+      "std_holonomy": 0.0,
+      "max_holonomy": 0.0,
+      "mean_det": 1.0,
+      "mean_spectral_radius": 1.0,
+      "transport_error": 0.5351111478539391,
+      "fiber_entanglement": 0.98,
+      "avg_noncommutativity": 0.0,
+      "max_noncommutativity": 0.0,
+      "replay_divergence": 0.0,
+      "n_objects": 50,
+      "n_morphisms": 49,
+      "commutativity_fraction": 0.0,
+      "mean_commutator_norm": 0.0
+    },
+    "immune": {
+      "system": "immune",
+      "n_states": 50,
+      "T": 3.619621993129604e-13,
+      "T_std": 3.6122123994067506e-13,
+      "mean_holonomy": 0.0,
+      "std_holonomy": 0.0,
+      "max_holonomy": 0.0,
+      "mean_det": 1.0,
+      "mean_spectral_radius": 1.0,
+      "transport_error": 0.020408163265330737,
+      "fiber_entanglement": 0.98,
+      "avg_noncommutativity": 0.0,
+      "max_noncommutativity": 0.0,
+      "replay_divergence": 0.0,
+      "n_objects": 50,
+      "n_morphisms": 49,
+      "commutativity_fraction": 0.0,
+      "mean_commutator_norm": 0.0
+    },
+    "ant_colony": {
+      "system": "ant_colony",
+      "n_states": 50,
+      "T": 0.0,
+      "T_std": 0.0,
+      "mean_holonomy": 0.0,
+      "std_holonomy": 0.0,
+      "max_holonomy": 0.0,
+      "mean_det": 1.0,
+      "mean_spectral_radius": 1.0,
+      "transport_error": 0.0,
+      "fiber_entanglement": 0.0,
+      "avg_noncommutativity": 0.0,
+      "max_noncommutativity": 0.0,
+      "replay_divergence": 0.0,
+      "n_objects": 50,
+      "n_morphisms": 49,
+      "commutativity_fraction": 0.0,
+      "mean_commutator_norm": 0.0
+    },
+    "institution": {
+      "system": "institution",
+      "n_states": 50,
+      "T": 0.0,
+      "T_std": 0.0,
+      "mean_holonomy": 0.0,
+      "std_holonomy": 0.0,
+      "max_holonomy": 0.0,
+      "mean_det": 1.0,
+      "mean_spectral_radius": 1.0,
+      "transport_error": 0.0,
+      "fiber_entanglement": 0.0,
+      "avg_noncommutativity": 0.0,
+      "max_noncommutativity": 0.0,
+      "replay_divergence": 0.0,
+      "n_objects": 50,
+      "n_morphisms": 49,
+      "commutativity_fraction": 0.0,
+      "mean_commutator_norm": 0.0
+    }
+  },
+  "known_G": {
+    "distributed": 0.25,
+    "ant_colony": 0.125,
+    "institution": 0.25,
+    "immune": 0.875
+  },
+  "known_H": {
+    "distributed": 0.396,
+    "ant_colony": 0.576,
+    "institution": 0.497,
+    "immune": 0.18
+  },
+  "G_T_comparison": {
+    "corr_G_H": -0.9511924595504386,
+    "corr_G_T": -0.24618298195832614,
+    "corr_G_invH": 0.9924341076958026,
+    "corr_G_invT": 0.24292211202110306,
+    "T_values": {
+      "distributed": 0.9625808133116684,
+      "immune": 3.619621993129604e-13,
+      "ant_colony": 0.0,
+      "institution": 0.0
+    },
+    "better_predictor": "H"
+  },
+  "stress_results": {
+    "distributed": [
+      {
+        "perturbation": "baseline",
+        "system": "distributed",
+        "n_states": 50,
+        "T": 1.0983327796980284,
+        "T_std": 0.68889688149931,
+        "mean_holonomy": 0.0,
+        "std_holonomy": 0.0,
+        "max_holonomy": 0.0,
+        "mean_det": 1.0,
+        "mean_spectral_radius": 1.0,
+        "transport_error": 0.5351111478539391,
+        "fiber_entanglement": 0.98,
+        "avg_noncommutativity": 0.0,
+        "max_noncommutativity": 0.0,
+        "replay_divergence": 0.0,
+        "n_objects": 50,
+        "n_morphisms": 49,
+        "commutativity_fraction": 0.0,
+        "mean_commutator_norm": 0.0
+      },
+      {
+        "perturbation": "async_replay_0.2",
+        "T": 1.1548094374876479,
+        "T_change": 0.051420351671562475,
+        "transport_error": 0.9227316187458631,
+        "TE_change": 0.7243737537033882,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "memory_truncation_0.5",
+        "T": 1.5023575554740378,
+        "T_change": 0.3678527885239892,
+        "transport_error": 0.710813110012443,
+        "TE_change": 0.32834666747332986,
+        "fiber_entanglement": 0.96,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "replay_scramble_0.3",
+        "T": 0.9094998972999437,
+        "T_change": 0.17192683845128345,
+        "transport_error": 0.7960579418057506,
+        "TE_change": 0.4876497059528147,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "node_deletion_0.2",
+        "T": 3.403188533558648,
+        "T_change": 2.0985040201426544,
+        "transport_error": 0.8776955202510641,
+        "TE_change": 0.6402116153009276,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "routing_mutation_0.3",
+        "T": 2.2355485651495015,
+        "T_change": 1.035401843929847,
+        "transport_error": 1.0228538329479597,
+        "TE_change": 0.9114792075608266,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "topology_rewire_0.2",
+        "T": 1.3592101993583878,
+        "T_change": 0.23752129086808454,
+        "transport_error": 0.6119117379487828,
+        "TE_change": 0.1435226875547256,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "basis_rotation",
+        "T": 0.9494258950737442,
+        "T_change": 0.1355753805797061,
+        "transport_error": 0.5334102352696631,
+        "TE_change": 0.0031786154909678125,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "nonlinear_normalize",
+        "T": 0.008271849049396948,
+        "T_change": 0.9924687223202807,
+        "transport_error": 0.2678309548175366,
+        "TE_change": 0.4994853761847048,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "random_projection_0.3",
+        "T": 1.0416124679895813,
+        "T_change": 0.0516421914666677,
+        "transport_error": 0.5224215637630447,
+        "TE_change": 0.02371392212517812,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "memory_overwrite_0.2",
+        "T": 1.418700460668298,
+        "T_change": 0.2916854407542874,
+        "transport_error": 0.7596877473783573,
+        "TE_change": 0.4196821546011767,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "residue_injection_0.1",
+        "T": 1.8489732189293173,
+        "T_change": 0.6834362526895752,
+        "transport_error": 1.0628455164705275,
+        "TE_change": 0.9862144913901407,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "counterfactual_0.2",
+        "T": 0.7371039167706651,
+        "T_change": 0.3288883565814993,
+        "transport_error": 0.760216128168246,
+        "TE_change": 0.42066957710565833,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      }
+    ],
+    "immune": [
+      {
+        "perturbation": "baseline",
+        "system": "immune",
+        "n_states": 50,
+        "T": 4.197340968466206e-13,
+        "T_std": 3.926236386852738e-13,
+        "mean_holonomy": 0.0,
+        "std_holonomy": 0.0,
+        "max_holonomy": 0.0,
+        "mean_det": 1.0,
+        "mean_spectral_radius": 1.0,
+        "transport_error": 0.020408163265330737,
+        "fiber_entanglement": 0.98,
+        "avg_noncommutativity": 0.0,
+        "max_noncommutativity": 0.0,
+        "replay_divergence": 0.0,
+        "n_objects": 50,
+        "n_morphisms": 49,
+        "commutativity_fraction": 0.0,
+        "mean_commutator_norm": 0.0
+      },
+      {
+        "perturbation": "async_replay_0.2",
+        "T": 6.764368461297978e-13,
+        "T_change": 0.0025562978391837645,
+        "transport_error": 0.42857142857150576,
+        "TE_change": 19.999999901978455,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "memory_truncation_0.5",
+        "T": 3.125714067750862e-13,
+        "T_change": 0.0010671477178796824,
+        "transport_error": 0.04166666666671692,
+        "TE_change": 1.0416666615625,
+        "fiber_entanglement": 0.96,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "replay_scramble_0.3",
+        "T": 3.260603146318267e-12,
+        "T_change": 0.028289947937243695,
+        "transport_error": 0.2653061224490536,
+        "TE_change": 11.999999941187946,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "node_deletion_0.2",
+        "T": 2.066557615933787,
+        "T_change": 20579198247.43154,
+        "transport_error": 0.7627155862250576,
+        "TE_change": 36.373063546754736,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "routing_mutation_0.3",
+        "T": 2.967505719680377e-13,
+        "T_change": 0.001224694787181724,
+        "transport_error": 0.020408163265330737,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "topology_rewire_0.2",
+        "T": 1.0780151126463793,
+        "T_change": 10735092283.816467,
+        "transport_error": 0.30974693556140304,
+        "TE_change": 14.177599773020203,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "basis_rotation",
+        "T": 4.916185965203837e-12,
+        "T_change": 0.04477657612617014,
+        "transport_error": 0.02040816326925254,
+        "TE_change": 1.9216838789876206e-10,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "nonlinear_normalize",
+        "T": 1.2667713865033604e-13,
+        "T_change": 0.002918320396204745,
+        "transport_error": 0.020408163265314447,
+        "TE_change": 7.981636146197243e-13,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "random_projection_0.3",
+        "T": 2.0478834683191675e-12,
+        "T_change": 0.016213440377190504,
+        "transport_error": 0.020408163267028816,
+        "TE_change": 8.320587927843421e-11,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "memory_overwrite_0.2",
+        "T": 0.5491169356066017,
+        "T_change": 5468217383.214773,
+        "transport_error": 0.2850501046313889,
+        "TE_change": 12.96745506338068,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "residue_injection_0.1",
+        "T": 1.7982769861618497,
+        "T_change": 17907605535.254047,
+        "transport_error": 1.025012808637073,
+        "TE_change": 49.22562738195042,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "counterfactual_0.2",
+        "T": 0.06716810296828034,
+        "T_change": 668873539.3690892,
+        "transport_error": 0.6615976346416707,
+        "TE_change": 31.418283943453172,
+        "fiber_entanglement": 0.98,
+        "noncommutativity": 0.0
+      }
+    ],
+    "ant_colony": [
+      {
+        "perturbation": "baseline",
+        "system": "ant_colony",
+        "n_states": 50,
+        "T": 0.0,
+        "T_std": 0.0,
+        "mean_holonomy": 0.0,
+        "std_holonomy": 0.0,
+        "max_holonomy": 0.0,
+        "mean_det": 1.0,
+        "mean_spectral_radius": 1.0,
+        "transport_error": 0.0,
+        "fiber_entanglement": 0.0,
+        "avg_noncommutativity": 0.0,
+        "max_noncommutativity": 0.0,
+        "replay_divergence": 0.0,
+        "n_objects": 50,
+        "n_morphisms": 49,
+        "commutativity_fraction": 0.0,
+        "mean_commutator_norm": 0.0
+      },
+      {
+        "perturbation": "async_replay_0.2",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "memory_truncation_0.5",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "replay_scramble_0.3",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "node_deletion_0.2",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "routing_mutation_0.3",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "topology_rewire_0.2",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "basis_rotation",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "nonlinear_normalize",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "random_projection_0.3",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "memory_overwrite_0.2",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "residue_injection_0.1",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "counterfactual_0.2",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      }
+    ],
+    "institution": [
+      {
+        "perturbation": "baseline",
+        "system": "institution",
+        "n_states": 50,
+        "T": 0.0,
+        "T_std": 0.0,
+        "mean_holonomy": 0.0,
+        "std_holonomy": 0.0,
+        "max_holonomy": 0.0,
+        "mean_det": 1.0,
+        "mean_spectral_radius": 1.0,
+        "transport_error": 0.0,
+        "fiber_entanglement": 0.0,
+        "avg_noncommutativity": 0.0,
+        "max_noncommutativity": 0.0,
+        "replay_divergence": 0.0,
+        "n_objects": 50,
+        "n_morphisms": 49,
+        "commutativity_fraction": 0.0,
+        "mean_commutator_norm": 0.0
+      },
+      {
+        "perturbation": "async_replay_0.2",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "memory_truncation_0.5",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "replay_scramble_0.3",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "node_deletion_0.2",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "routing_mutation_0.3",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "topology_rewire_0.2",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "basis_rotation",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "nonlinear_normalize",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "random_projection_0.3",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "memory_overwrite_0.2",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "residue_injection_0.1",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      },
+      {
+        "perturbation": "counterfactual_0.2",
+        "T": 0.0,
+        "T_change": 0.0,
+        "transport_error": 0.0,
+        "TE_change": 0.0,
+        "fiber_entanglement": 0.0,
+        "noncommutativity": 0.0
+      }
+    ]
+  }
+}
