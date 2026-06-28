@@ -7,7 +7,7 @@ name = "sgi-persistence"
 version = "0.2.0"
 description = "Computational Organizational Geometry: Empirical Laws of Persistent Adaptive Systems"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "Apache-2.0"}
 requires-python = ">=3.10"
 dependencies = [
     "numpy>=1.24.0",

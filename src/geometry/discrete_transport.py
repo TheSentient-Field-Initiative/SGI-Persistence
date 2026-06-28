@@ -594,7 +594,7 @@ class TransportPhaseDiagram:
                                     transport_errors.append(te)
                                 avg_transport_error = np.mean(transport_errors) if transport_errors else 0.0
                                 
-                                # Compute fiber entanglement
+                                # Compute replay transport coupling
                                 fiber_entanglements = [f.entanglement() for f in fibers]
                                 avg_fiber_entanglement = np.mean(fiber_entanglements)
                                 

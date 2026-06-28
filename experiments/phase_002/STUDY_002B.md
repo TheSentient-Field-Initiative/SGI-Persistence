@@ -14,7 +14,7 @@ Test whether true geometric observables (holonomy, curvature, fiber twist) separ
 - **Simulation:** 50 timesteps each, seed=42
 - **Bundle construction:** 8-dimensional state vectors, fiber residue = normalized deviation from recent history mean
 - **Connection:** Christoffel symbols from finite differences on manifold points
-- **Observables:** curvature magnitude, holonomy spectrum, fiber torsion, transport error, fiber entanglement
+- **Observables:** curvature magnitude, holonomy spectrum, fiber torsion, transport error, replay transport coupling
 
 ## Results
 
@@ -53,22 +53,22 @@ Test whether true geometric observables (holonomy, curvature, fiber twist) separ
    - institution: 0.000 (trust-based, no transport cost)
 
 2. **Fiber entanglement separates {distributed, immune} from {ant_colony, institution}**
-   - Systems with memory (distributed, immune) accumulate fiber entanglement
-   - Pheromone/trust systems (ant_colony, institution) have zero fiber entanglement
+   - Systems with memory (distributed, immune) accumulate replay transport coupling
+   - Pheromone/trust systems (ant_colony, institution) have zero replay transport coupling
 
 3. **Curvature and holonomy are 0** — the manifold is "flat" because:
    - State vectors are normalized to [-1, 1]
    - Connection coefficients are O(1e-3) — too small for finite differences
    - This is a measurement limitation, not a physical result
 
-4. **G ∝ 1/H correlation preserved** in fiber entanglement (r=+0.64 with G)
+4. **G ∝ 1/H correlation preserved** in replay transport coupling (r=+0.64 with G)
 
 ## Comparison with Phase 002A
 
 Phase 002A used scalar proxies (holonomy experiment, curvature proxy) that collapsed all systems to nearly identical values. Phase 002B's true connection formalism reveals:
 
 - **Transport cost** is the key differentiator: distributed systems have high transport cost due to routing complexity, immune systems have low transport cost due to cytokine efficiency
-- **Memory creates fiber entanglement**: systems with historical state (distributed, immune) accumulate fiber twisting, while stateless systems (ant_colony, institution) don't
+- **Memory creates replay transport coupling**: systems with historical state (distributed, immune) accumulate fiber twisting, while stateless systems (ant_colony, institution) don't
 
 ## Limitations
 

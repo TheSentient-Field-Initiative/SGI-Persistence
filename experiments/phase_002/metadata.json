@@ -1,0 +1,22 @@
+{
+  "experiment_suite": "SGI Persistence Phase 002",
+  "version": "0.2.0",
+  "description": "Geometric observables: fiber bundle formalism and transport algebra",
+  "sub_phases": {
+    "002A": "Fiber geometry validation (holonomy experiment, curvature proxy)",
+    "002B": "Connection formalism (transport error, fiber entanglement)",
+    "002C": "Discrete transport algebra (transport instability, immune fragility)"
+  },
+  "systems": ["distributed", "immune", "ant_colony", "institution"],
+  "seed": 42,
+  "python_version": "3.10+",
+  "dependencies": ["numpy>=1.24.0", "scipy>=1.10.0", "matplotlib>=3.7.0"],
+  "reproduction_commands": [
+    "python experiments/phase_002/run_phase_002a.py",
+    "python experiments/phase_002/run_phase_002b.py",
+    "python experiments/phase_002/run_phase_002c.py"
+  ],
+  "results_dir": "data/canonical/",
+  "frozen": false,
+  "frozen_tag": "v0.2_phase002_transport"
+}

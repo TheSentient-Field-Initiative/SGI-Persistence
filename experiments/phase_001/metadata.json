@@ -1,0 +1,16 @@
+{
+  "experiment_suite": "SGI Persistence Phase 001",
+  "version": "0.1.0",
+  "description": "Scalar persistence audits across four system classes",
+  "systems": ["distributed", "immune", "ant_colony", "institution"],
+  "seed": 42,
+  "python_version": "3.10+",
+  "dependencies": ["numpy>=1.24.0", "scipy>=1.10.0", "matplotlib>=3.7.0"],
+  "reproduction_commands": [
+    "python experiments/phase_001/study_001i_entanglement.py",
+    "python experiments/phase_001/study_001j_cross_domain_entanglement.py"
+  ],
+  "results_dir": "data/canonical/",
+  "frozen": true,
+  "frozen_tag": "v0.1_phase001_frozen"
+}

@@ -12,7 +12,7 @@ Phase 001 of the SGI Persistence Program investigated organizational persistence
 
 ## Central Finding
 
-**G ∝ 1/H** (gauge stability inversely proportional to historical entanglement)
+**G ∝ 1/H** (organizational replay stability inversely proportional to historical residue coupling)
 
 Cross-domain correlation: r ≈ -0.951
 
@@ -89,7 +89,7 @@ Phase 002 shifts from scalar observables to organizational fiber geometry:
 - Organizational manifolds replace scalar state summaries
 - Fiber bundle structure captures historical lineage
 - Holonomy measures organizational closure error
-- Curvature corresponds to historical entanglement
+- Curvature corresponds to historical residue coupling
 
 ## Canonical Files
 

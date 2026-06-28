@@ -1,14 +1,14 @@
 """
 SGI Post-Ω Study 001I — Historical Entanglement Audit
 
-Directly measure historical entanglement:
+Directly measure historical residue coupling:
 - Path dependence
 - State-history mutual information
 - Trajectory divergence
 - Memory entropy
 - Hysteresis
 
-Test: G ∝ 1/historical entanglement
+Test: G ∝ 1/historical residue coupling
 """
 
 import numpy as np
@@ -381,7 +381,7 @@ def measure_hysteresis(net, n_steps=30, sev=0.5):
 
 
 def measure_historical_entanglement(net):
-    """Compute composite historical entanglement score."""
+    """Compute composite historical residue coupling score."""
     path_dep = measure_path_dependence(net)
     mi = measure_state_history_mi(net)
     div = measure_trajectory_divergence(net)
@@ -489,7 +489,7 @@ def run_study_001i():
     print("Study 001I — Historical Entanglement Audit")
     print("=" * 70)
     
-    print("\n  Testing: G ∝ 1/historical entanglement")
+    print("\n  Testing: G ∝ 1/historical residue coupling")
     
     # Sweep memory_depth
     md_values = np.linspace(0.0, 1.0, 6)
@@ -559,7 +559,7 @@ def run_study_001i():
     
     # ─── Test Hypothesis ───
     print(f"\n{'=' * 70}")
-    print("HYPOTHESIS TEST: G ∝ 1/historical entanglement")
+    print("HYPOTHESIS TEST: G ∝ 1/historical residue coupling")
     print(f"{'=' * 70}")
     
     if np.std(ent_composite) > 1e-6:

@@ -2,16 +2,19 @@ cff-version: 1.2.0
 title: "SGI Persistence Program: Computational Organizational Geometry"
 message: "If you use this software, please cite it as below."
 type: software
+version: 0.2.0
 authors:
   - name: "The Sentient Field Initiative"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
 identifiers:
   - type: url
     value: "https://github.com/TheSentient-Field-Initiative/SGI-Persistence"
 repository-code: "https://github.com/TheSentient-Field-Initiative/SGI-Persistence"
-license: MIT
+license: Apache-2.0
 preferred-citation:
   type: software
   title: "SGI Persistence Program"
   authors:
     - name: "The Sentient Field Initiative"
   year: 2026
+  version: 0.2.0

@@ -19,7 +19,7 @@ Every experiment must specify:
 
 ### Tier 2: Organizational Stability
 - Transport error (fiber consistency)
-- Replay transport coupling (fiber entanglement)
+- Replay transport coupling
 - Transport instability (path dependence)
 
 ### Tier 3: Geometric Structure

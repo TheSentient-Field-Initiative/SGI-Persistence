@@ -6,7 +6,7 @@
 
 ## Objective
 
-Test whether historical entanglement (H) is actually transport noncommutativity (T).
+Test whether historical residue coupling (H) is actually transport noncommutativity (T).
 Central hypothesis: G ∝ 1/T outperforms G ∝ 1/H.
 
 ## Results
@@ -69,7 +69,7 @@ The H ≡ T hypothesis is NOT confirmed with the current transport model. Howeve
 - **T (transport instability)** is a new observable with perturbation sensitivity
 - **Fragility structure** is the real insight: immune systems are extremely fragile, pheromone/trust systems are robust
 
-The central question remains: **is historical entanglement actually transport noncommutativity?**
+The central question remains: **is historical residue coupling actually transport noncommutativity?**
 
 Current answer: **Not with this transport model.** The transport operators are defined by actual fiber changes, which don't produce loop nonclosure. A different transport model (e.g., based on state-space geometry rather than fiber geometry) might be needed.
 

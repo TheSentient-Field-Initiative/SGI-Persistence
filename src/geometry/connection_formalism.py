@@ -384,7 +384,7 @@ class HolonomySpectrum:
 
 class FiberTwist:
     """
-    Measure historical entanglement as geometric twisting of replay fibers.
+    Measure historical residue coupling as geometric twisting of replay fibers.
     """
     
     def __init__(self, connection: ConnectionOperator):

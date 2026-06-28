@@ -2,28 +2,36 @@
 
 **Computational Organizational Geometry: Empirical Laws of Persistent Adaptive Systems**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 
-## Overview
+## Program Overview
 
-The SGI Persistence Program investigates the mathematical structure of persistent adaptive organization across radically different systems. We discover empirical laws governing how distributed systems, immune networks, ant colonies, and institutional structures maintain coherent organization under perturbation.
+The SGI Persistence Program investigates the mathematical structure of persistent adaptive organization across radically different systems. We study four core concepts:
 
-**Central finding:**
+- **Organizational replay stability (G)**: The degree to which an organizational state can be reproduced through replay of its generative process.
+- **Historical residue coupling (H)**: The measurable correlation between an organization's current state and its historical trajectory.
+- **Organizational geometry**: The fiber bundle structure over organizational state space, enabling geometric observables beyond scalar metrics.
+- **Replay equivalence**: The relationship between different replay paths and their outcomes, formalized through transport operators.
+
+## Main Empirical Law
+
+We discover a robust inverse relationship between organizational replay stability and historical residue coupling:
 
 $$G \propto \frac{1}{H}$$
 
-where *G* is organizational replay stability and *H* is historical residue coupling, with correlation *r* = −0.951 across four system classes.
+with cross-domain correlation **r = -0.951** across four system classes (distributed coordination, immune signaling, ant colony stigmergy, institutional trust networks).
 
-## Program Phases
+## Phase Evolution
 
 | Phase | Purpose | Outcome |
 |-------|---------|---------|
-| 001 | Scalar persistence audits | Representation ceiling discovered; G ∝ 1/H confirmed |
+| 001 | Scalar persistence audits | G ∝ 1/H confirmed (r = -0.951); representation ceiling discovered |
 | 002A | Organizational fiber geometry | Geometric differentiation achieved; transport error separates systems |
-| 002B | True connection formalism | 122.5x improvement in fiber entanglement separation |
+| 002B | True connection formalism | 122.5x improvement in replay transport coupling separation |
 | 002C | Discrete transport algebra | Transport instability T emerges; immune fragility discovered |
 
-## Quick Start
+## Reproduction Commands
 
 ```bash
 # Install dependencies
@@ -37,6 +45,12 @@ python experiments/phase_002/run_phase_002b.py
 
 # Run Phase 002C (transport stress test)
 python experiments/phase_002/run_phase_002c.py
+
+# Generate all figures
+make figures
+
+# Run test suite
+make test
 ```
 
 ## Repository Structure
@@ -44,13 +58,29 @@ python experiments/phase_002/run_phase_002c.py
 ```
 SGI-Persistence/
 ├── src/geometry/          # Core geometric formalism
-├── src/systems/           # Simulation systems (distributed, immune, ant_colony, institution)
+│   ├── connection_formalism.py   # Phase 002B: fiber bundles
+│   ├── discrete_transport.py     # Phase 002C: transport algebra
+│   ├── noncommutative/           # Phase 002D scaffold
+│   ├── path_groupoids/           # Phase 002D scaffold
+│   └── replay_algebra/           # Phase 002D scaffold
+├── src/systems/           # Simulation systems
+│   ├── distributed/       # Graph-based distributed coordination
+│   ├── immune/            # Cytokine-mediated signaling network
+│   ├── ant_colony/        # Pheromone-based stigmergy
+│   └── institution/       # Trust-based organizational network
 ├── experiments/           # Reproducible experiment scripts
+├── tests/                 # Test suite
 ├── data/canonical/        # Canonical result exports
-├── results/               # Figures and tables
+├── results/figures/       # Publication-grade figures
 ├── papers/                # Manuscript drafts
-├── docs/                  # Methodology and terminology
-└── archive/               # Superseded exploratory work
+├── docs/                  # Methodology, terminology, status
+├── scripts/               # Automation scripts
+├── archive/               # Superseded exploratory work
+├── Makefile               # Build automation
+├── pyproject.toml         # Project configuration
+├── requirements.txt       # Dependencies
+├── CITATION.cff           # Citation metadata
+└── LICENSE                # Apache-2.0
 ```
 
 ## Canonical Terminology
@@ -65,37 +95,20 @@ SGI-Persistence/
 
 See [docs/terminology/](docs/terminology/) for full glossary.
 
-## Key Results
-
-### Phase 001: G ∝ 1/H
-
-- Four systems tested: distributed, immune, ant_colony, institution
-- Cross-domain correlation: r = −0.951
-- Representation ceiling discovered at Study 001N
-
-### Phase 002: Transport Geometry
-
-- **Transport error** separates all four systems (distributed=0.535, immune=0.020)
-- **Fiber entanglement** shows 122.5x improvement over scalar proxies
-- **Immune fragility**: transport instability explodes under structural perturbation
-
-## Reproducibility
-
-Every experiment uses deterministic seeds and exports JSON results. See individual experiment directories for `metadata.json`, `seed.txt`, and `environment.txt`.
-
 ## Citation
 
 ```bibtex
 @software{sgi_persistence_2026,
   title={SGI Persistence Program: Computational Organizational Geometry},
   year={2026},
+  version={0.2.0},
   url={https://github.com/TheSentient-Field-Initiative/SGI-Persistence}
 }
 ```
 
 ## License
 
-MIT License. See [LICENSE](LICENSE).
+Apache License 2.0. See [LICENSE](LICENSE).
 
 ## Scientific Position
 

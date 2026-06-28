@@ -1,4 +1,7 @@
 # A Condensed Mathematical History of the SFH-SGP Research Program
+
+> **ARCHIVAL NOTICE:** This document preserves the historical mathematical development of the program, including early conceptual frameworks. Some terminology and framing in this document reflect earlier stages of the research and may not match current canonical usage. For current terminology, see `docs/terminology/CANONICAL_TERMS.md`.
+
 ## From Sentient Fields to Gauge Theory of Covariance Observability
 
 *Prepared for NotebookLM scientific critique — June 2026*
@@ -427,7 +430,7 @@ $$\boxed{\Gamma = s \cdot R}$$
 
 ### Key Results
 
-**Ω.1–Ω.3:** Residual sector has 5 orders of magnitude energy structure. Channel localization is projection artifact (corrected by GOD).
+**Ω.1–Ω.3:** Residual sector has 5 orders of magnitude energy structure. Channel localization is projection artifact (corrected by methodological review).
 
 **Ω.4:** First structurally reliable phase. $\rho$ rank = 3.74. Negative result is valid.
 
@@ -517,4 +520,4 @@ This is not a failure pattern. It is the **scientific method working**. Each fai
 
 ---
 
-*This document describes the mathematical choices made by the research program, not the metaphysical claims. The mathematics should be evaluated on its own merits — internal consistency, empirical adequacy, and predictive power — independent of the philosophical framework in which it was developed.*
+*This document describes the mathematical choices made by the research program. The mathematics should be evaluated on its own merits — internal consistency, empirical adequacy, and predictive power — independent of the philosophical framework in which it was developed.*

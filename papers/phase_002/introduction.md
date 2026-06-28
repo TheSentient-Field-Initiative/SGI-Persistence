@@ -13,7 +13,7 @@ We model organizational state space as a fiber bundle, where:
 
 This framework enables:
 1. **Transport error**: Measuring fiber consistency along trajectories
-2. **Replay transport coupling**: Quantifying historical entanglement
+2. **Replay transport coupling**: Quantifying historical residue coupling
 3. **Transport instability**: Assessing path dependence under perturbation
 
 ## Contributions
