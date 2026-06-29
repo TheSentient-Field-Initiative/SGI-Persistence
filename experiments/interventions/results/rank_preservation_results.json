@@ -1,0 +1,388 @@
+{
+  "metadata": {
+    "num_seeds": 5,
+    "num_timesteps": 100,
+    "frequencies": [
+      1,
+      5,
+      10,
+      50,
+      100
+    ],
+    "systems": [
+      "distributed",
+      "ant_colony",
+      "institution",
+      "ecological",
+      "swarm",
+      "reservoir",
+      "evolutionary_game"
+    ]
+  },
+  "results": {
+    "distributed": [
+      {
+        "frequency": 1,
+        "ed_mean": 1.0,
+        "ed_ci": 0.0,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 5,
+        "ed_mean": 1.0,
+        "ed_ci": 0.0,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 10,
+        "ed_mean": 1.0,
+        "ed_ci": 0.0,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 50,
+        "ed_mean": 1.0,
+        "ed_ci": 0.0,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 100,
+        "ed_mean": 1.0,
+        "ed_ci": 0.0,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      }
+    ],
+    "ant_colony": [
+      {
+        "frequency": 1,
+        "ed_mean": 1.0425960164882822,
+        "ed_ci": 0.005469201036100883,
+        "ed_change_mean": -4.4408920985006264e-17,
+        "ed_change_ci": 8.132123037401255e-16,
+        "cn_change_mean": -0.0002757042646408081,
+        "cn_change_ci": 0.0009559921792321348,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 5,
+        "ed_mean": 1.0425960164882822,
+        "ed_ci": 0.005469201036100163,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 10,
+        "ed_mean": 1.0425960164882822,
+        "ed_ci": 0.005469201036100163,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 50,
+        "ed_mean": 1.0425960164882822,
+        "ed_ci": 0.005469201036100163,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 100,
+        "ed_mean": 1.0425960164882822,
+        "ed_ci": 0.005469201036100163,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      }
+    ],
+    "institution": [
+      {
+        "frequency": 1,
+        "ed_mean": 1.0221030683908485,
+        "ed_ci": 0.0028205662399908996,
+        "ed_change_mean": -1.3322676295501878e-16,
+        "ed_change_ci": 2.4659786259187295e-16,
+        "cn_change_mean": -1.244188752025366e-10,
+        "cn_change_ci": 1.555471658206523e-09,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 5,
+        "ed_mean": 1.0221030683908487,
+        "ed_ci": 0.002820566239990691,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 10,
+        "ed_mean": 1.0221030683908487,
+        "ed_ci": 0.002820566239990691,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 50,
+        "ed_mean": 1.0221030683908487,
+        "ed_ci": 0.002820566239990691,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 100,
+        "ed_mean": 1.0221030683908487,
+        "ed_ci": 0.002820566239990691,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      }
+    ],
+    "ecological": [
+      {
+        "frequency": 1,
+        "ed_mean": 1.2230052714271489,
+        "ed_ci": 0.0359615594252417,
+        "ed_change_mean": 1.3322676295501878e-16,
+        "ed_change_ci": 9.060584025165723e-16,
+        "cn_change_mean": -1.8338323570787907e-07,
+        "cn_change_ci": 8.077644862319549e-07,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 5,
+        "ed_mean": 1.2230052714271487,
+        "ed_ci": 0.03596155942524169,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 10,
+        "ed_mean": 1.2230052714271487,
+        "ed_ci": 0.03596155942524169,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 50,
+        "ed_mean": 1.2230052714271487,
+        "ed_ci": 0.03596155942524169,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 100,
+        "ed_mean": 1.2230052714271487,
+        "ed_ci": 0.03596155942524169,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      }
+    ],
+    "swarm": [
+      {
+        "frequency": 1,
+        "ed_mean": 1.6693523282845675,
+        "ed_ci": 0.6150303033044554,
+        "ed_change_mean": 1.3322676295501878e-16,
+        "ed_change_ci": 1.750236907230587e-15,
+        "cn_change_mean": -1.3159515142440796,
+        "cn_change_ci": 100.42220457493048,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 5,
+        "ed_mean": 1.6693523282845675,
+        "ed_ci": 0.6150303033044552,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 10,
+        "ed_mean": 1.6693523282845675,
+        "ed_ci": 0.6150303033044552,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 50,
+        "ed_mean": 1.6693523282845675,
+        "ed_ci": 0.6150303033044552,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 100,
+        "ed_mean": 1.6693523282845675,
+        "ed_ci": 0.6150303033044552,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      }
+    ],
+    "reservoir": [
+      {
+        "frequency": 1,
+        "ed_mean": 1.0036698692651531,
+        "ed_ci": 0.002210997028948464,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 1.9495272797988782e-16,
+        "cn_change_mean": -4.481151700019837e-06,
+        "cn_change_ci": 6.351630896428957e-05,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 5,
+        "ed_mean": 1.0036698692651531,
+        "ed_ci": 0.002210997028948341,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 10,
+        "ed_mean": 1.0036698692651531,
+        "ed_ci": 0.002210997028948341,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 50,
+        "ed_mean": 1.0036698692651531,
+        "ed_ci": 0.002210997028948341,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 100,
+        "ed_mean": 1.0036698692651531,
+        "ed_ci": 0.002210997028948341,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      }
+    ],
+    "evolutionary_game": [
+      {
+        "frequency": 1,
+        "ed_mean": 1.0003694602259745,
+        "ed_ci": 0.000786148356553996,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 1.9495272797988782e-16,
+        "cn_change_mean": 4.789726517628878e-08,
+        "cn_change_ci": 8.927568694280214e-08,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 5,
+        "ed_mean": 1.0003694602259745,
+        "ed_ci": 0.0007861483565538424,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 10,
+        "ed_mean": 1.0003694602259745,
+        "ed_ci": 0.0007861483565538424,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 50,
+        "ed_mean": 1.0003694602259745,
+        "ed_ci": 0.0007861483565538424,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      },
+      {
+        "frequency": 100,
+        "ed_mean": 1.0003694602259745,
+        "ed_ci": 0.0007861483565538424,
+        "ed_change_mean": 0.0,
+        "ed_change_ci": 0.0,
+        "cn_change_mean": 0.0,
+        "cn_change_ci": 0.0,
+        "n_seeds": 5
+      }
+    ]
+  }
+}
