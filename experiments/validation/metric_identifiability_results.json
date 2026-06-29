@@ -1,0 +1,224 @@
+{
+  "results": {
+    "distributed": {
+      "G": 0.5,
+      "H": 0.9999947026463604,
+      "G_identifiable": true,
+      "H_identifiable": "False",
+      "sector_collapsed": "True",
+      "embedding_degenerate": "False",
+      "dominance": {
+        "allocation_entropy": 0.04050325744529224,
+        "assignment_rate": 0.002944907108196567,
+        "connectivity": 0.008996750271428799,
+        "n_active": 0.89967502714288,
+        "n_components": 0.008996750271428799,
+        "routing_entropy": 0.038883307760773665
+      },
+      "G_values": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "H_values": [
+        0.9999971118690943,
+        0.999996645849141,
+        0.9999953915302969,
+        0.9999966607467716,
+        0.9999974469937072,
+        0.9999952009466424,
+        0.9999964102795899,
+        0.9999950801955222,
+        0.9999953775667352,
+        0.9999940785149217
+      ],
+      "G_range": 0.0,
+      "H_range": 3.3684787854593168e-06
+    },
+    "immune": {
+      "G": 0.5,
+      "H": 0.9999973260729786,
+      "G_identifiable": true,
+      "H_identifiable": "False",
+      "sector_collapsed": "True",
+      "embedding_degenerate": "True",
+      "dominance": {
+        "cov_condition": 0.03573768641134663,
+        "cov_trace": 3.7343424084114853e-06,
+        "largest_component": 0.009095587357726177,
+        "mean_activation": 8.890321456766565e-05,
+        "n_active": 0.9095587357726178,
+        "n_components": 0.009095587357726177,
+        "non_principal": 0.004829813123713092,
+        "signaling_connectivity": 0.009095587357726177,
+        "signaling_noise": 5.108225650907196e-05,
+        "total_cytokines": 0.004445160728383281,
+        "type_entropy": 0.01799812207727547
+      },
+      "G_values": [
+        0.5,
+        0.5,
+        1.0,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        1.0,
+        0.5
+      ],
+      "H_values": [
+        0.9999976010459741,
+        0.999995826350507,
+        0.9999978715732013,
+        0.9999971794818862,
+        0.9999974781401841,
+        0.9999978258748129,
+        0.9999969940802433,
+        0.9999968331238305,
+        0.9999971664102274,
+        0.9999978922907029
+      ],
+      "G_range": 0.5,
+      "H_range": 2.06594019591666e-06
+    },
+    "ant_colony": {
+      "G": 0.0,
+      "H": 0.9999894596087875,
+      "G_identifiable": false,
+      "H_identifiable": "False",
+      "sector_collapsed": "False",
+      "embedding_degenerate": "True",
+      "dominance": {
+        "anisotropy": 0.000577084090458468,
+        "cov_condition": 0.000577084090458468,
+        "cov_trace": 0.0002518325512913769,
+        "largest_component": 9.301200219606781e-05,
+        "n_components": 0.00014584182440786637,
+        "non_principal": 1.8494334891790564e-05,
+        "path_redundancy": 2.5817944591122294e-05,
+        "recruitment_rate": 5.486805934479729e-05,
+        "residual_deviation": 0.0,
+        "residual_energy": 5.277099839032693e-06,
+        "total_food_remaining": 0.9637996382703149,
+        "total_pheromone": 0.03444968749073278,
+        "trail_connectivity": 1.3622414733880705e-06
+      },
+      "G_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "H_values": [
+        0.9999921846062282,
+        0.9999896181093855,
+        0.9999894289221878,
+        0.9999916137295563,
+        0.999995605117648,
+        0.9999894752814431,
+        0.99998948480129,
+        0.9999922083601603,
+        0.9999905674197176,
+        0.9999894006365123
+      ],
+      "G_range": 0.0,
+      "H_range": 6.204481135640982e-06
+    },
+    "institution": {
+      "G": 0.0,
+      "H": 0.9769483941070419,
+      "G_identifiable": false,
+      "H_identifiable": "True",
+      "sector_collapsed": "True",
+      "embedding_degenerate": "True",
+      "dominance": {
+        "cooperation_rate": 7.571338081725755e-10,
+        "cov_condition": 0.9999992325697321,
+        "cov_trace": 1.8809712629870188e-10,
+        "largest_component": 1.2399833085040542e-09,
+        "mean_payoff": 7.589300479932743e-07,
+        "mean_trust": 7.003774918329196e-10,
+        "n_components": 1.2399833085040542e-09,
+        "network_connectivity": 1.2399833085040542e-09,
+        "non_principal": 1.5723137172370206e-11,
+        "norm_deviation": 3.545382877611575e-10,
+        "strategy_entropy": 2.7644002247884276e-09
+      },
+      "G_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "H_values": [
+        0.9746978189270286,
+        0.9765116973743814,
+        0.9757144124401401,
+        0.9745568943912725,
+        0.9706432037026872,
+        0.9759747582343998,
+        0.9748391344189885,
+        0.9721479847262554,
+        0.9725647730189484,
+        0.9755353066931598
+      ],
+      "G_range": 0.5,
+      "H_range": 0.005868493671694175
+    }
+  },
+  "runtime_seconds": 12.0,
+  "summary": {
+    "distributed": {
+      "G_identifiable": true,
+      "H_identifiable": "False",
+      "sector_collapsed": "True",
+      "embedding_degenerate": "False",
+      "G_range": 0.0,
+      "H_range": 3.3684787854593168e-06
+    },
+    "immune": {
+      "G_identifiable": true,
+      "H_identifiable": "False",
+      "sector_collapsed": "True",
+      "embedding_degenerate": "True",
+      "G_range": 0.5,
+      "H_range": 2.06594019591666e-06
+    },
+    "ant_colony": {
+      "G_identifiable": false,
+      "H_identifiable": "False",
+      "sector_collapsed": "False",
+      "embedding_degenerate": "True",
+      "G_range": 0.0,
+      "H_range": 6.204481135640982e-06
+    },
+    "institution": {
+      "G_identifiable": false,
+      "H_identifiable": "True",
+      "sector_collapsed": "True",
+      "embedding_degenerate": "True",
+      "G_range": 0.5,
+      "H_range": 0.005868493671694175
+    }
+  }
+}

@@ -3,6 +3,8 @@ Publication-Grade Figure Generation for SGI Persistence Program.
 
 Generates the key figures for the Phase 001 and Phase 002 papers.
 All figures are saved as PDF, SVG, and PNG.
+
+Version: 0.3.0 (Phase 003C — standardized annotations)
 """
 
 import numpy as np
@@ -23,6 +25,14 @@ COLORS = {
     'institution': '#FF9800',
 }
 
+# Version information for figure annotations
+VERSION_INFO = {
+    'embedding_version': '0.2.0 (system-specific z-score)',
+    'metric_contract_version': '0.3.0 (canonical)',
+    'n_systems': 4,
+    'perturbation_conditions': 'deterministic, seed=42, 50 timesteps',
+}
+
 def save_figure(fig, name):
     """Save figure in PDF, SVG, and PNG formats."""
     for fmt in ['pdf', 'svg', 'png']:
@@ -31,10 +41,21 @@ def save_figure(fig, name):
     plt.close(fig)
     print(f'  Saved: {name}')
 
+def add_version_annotation(ax, extra_text=None):
+    """Add version information to figure."""
+    text = f"N={VERSION_INFO['n_systems']}, {VERSION_INFO['perturbation_conditions']}"
+    if extra_text:
+        text += f"\n{extra_text}"
+    text += f"\nEmbedding: {VERSION_INFO['embedding_version']}"
+    text += f"\nMetric: {VERSION_INFO['metric_contract_version']}"
+    ax.annotate(text, xy=(0.02, 0.02), xycoords='axes fraction',
+                fontsize=7, va='bottom', ha='left',
+                bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+
 # ─── Figure 1: G vs H (Phase 001) ───
 
 def fig01_g_vs_h():
-    """The central empirical law: G ∝ 1/H."""
+    """The central empirical correlation: G ∝ 1/H (provisional)."""
     systems = ['distributed', 'immune', 'ant_colony', 'institution']
     G = np.array([0.250, 0.875, 0.125, 0.250])
     H = np.array([0.396, 0.180, 0.576, 0.497])
@@ -52,11 +73,13 @@ def fig01_g_vs_h():
     
     ax.set_xlabel('Historical Residue Coupling (H)', fontsize=12)
     ax.set_ylabel('Organizational Replay Stability (G)', fontsize=12)
-    ax.set_title(r'Phase 001: $G \propto 1/H$ ($r = -0.951$)', fontsize=13)
+    ax.set_title(r'Phase 001: $G \propto 1/H$ ($r = -0.951$, provisional)', fontsize=13)
     ax.legend(fontsize=9, loc='upper right')
     ax.set_xlim(0.1, 0.65)
     ax.set_ylim(0.0, 1.0)
     ax.grid(True, alpha=0.3)
+    
+    add_version_annotation(ax, extra_text="r=-0.951, 95% CI [-0.998, -0.080]")
     
     save_figure(fig, 'fig01_g_vs_h')
 
@@ -82,6 +105,8 @@ def fig02_transport_error():
         ax.text(bar.get_x() + bar.get_width()/2., bar.get_height() + 0.01,
                 f'{val:.3f}', ha='center', va='bottom', fontsize=10)
     
+    add_version_annotation(ax, extra_text="TE: Frobenius norm of fiber difference")
+    
     save_figure(fig, 'fig02_transport_error')
 
 # ─── Figure 3: Fiber Entanglement (Phase 002B) ───
@@ -104,6 +129,8 @@ def fig03_fiber_entanglement():
     for bar, val in zip(bars, RTC):
         ax.text(bar.get_x() + bar.get_width()/2., bar.get_height() + 0.02,
                 f'{val:.3f}', ha='center', va='bottom', fontsize=10)
+    
+    add_version_annotation(ax, extra_text="RTC: magnitude of fiber residue vector")
     
     save_figure(fig, 'fig03_fiber_entanglement')
 
@@ -128,6 +155,8 @@ def fig04_transport_instability():
         ax.text(bar.get_x() + bar.get_width()/2., bar.get_height() + 0.02,
                 f'{val:.3f}', ha='center', va='bottom', fontsize=10)
     
+    add_version_annotation(ax, extra_text="T: transport instability measure")
+    
     save_figure(fig, 'fig04_transport_instability')
 
 # ─── Figure 5: Immune Fragility (Phase 002C) ───
@@ -149,6 +178,8 @@ def fig05_immune_fragility():
     ax.set_ylim(1e-15, 1e15)
     ax.grid(True, axis='y', alpha=0.3)
     
+    add_version_annotation(ax, extra_text="Immune T explodes under structural perturbation")
+    
     save_figure(fig, 'fig05_immune_fragility')
 
 # ─── Figure 6: G×H Product (Phase 001) ───
@@ -166,12 +197,14 @@ def fig06_gxh_product():
                   edgecolor='black', linewidth=0.5)
     
     ax.set_ylabel('G × H', fontsize=12)
-    ax.set_title(r'Phase 001: $G \times H$ Product', fontsize=13)
+    ax.set_title(r'Phase 001: $G \times H$ Product (provisional)', fontsize=13)
     ax.grid(True, axis='y', alpha=0.3)
     
     for bar, val in zip(bars, GH):
         ax.text(bar.get_x() + bar.get_width()/2., bar.get_height() + 0.003,
                 f'{val:.3f}', ha='center', va='bottom', fontsize=10)
+    
+    add_version_annotation(ax, extra_text="G×H product (provisional, system-specific)")
     
     save_figure(fig, 'fig06_gxh_product')
 
@@ -189,7 +222,7 @@ def fig07_correlation_comparison():
                   edgecolor='black', linewidth=0.5, width=0.5)
     
     ax.set_ylabel('|Correlation with G|', fontsize=12)
-    ax.set_title('Phase 002C: H Outperforms T as Predictor', fontsize=13)
+    ax.set_title('Phase 002C: H Outperforms T as Predictor (provisional)', fontsize=13)
     ax.set_ylim(0, 1.2)
     ax.grid(True, axis='y', alpha=0.3)
     
@@ -197,12 +230,14 @@ def fig07_correlation_comparison():
         ax.text(bar.get_x() + bar.get_width()/2., bar.get_height() + 0.02,
                 f'{val:.3f}', ha='center', va='bottom', fontsize=11)
     
+    add_version_annotation(ax, extra_text="Provisional, system-specific")
+    
     save_figure(fig, 'fig07_correlation_comparison')
 
 # ─── Generate All Figures ───
 
 if __name__ == '__main__':
-    print('Generating publication-grade figures...')
+    print('Generating publication-grade figures (v0.3.0)...')
     fig01_g_vs_h()
     fig02_transport_error()
     fig03_fiber_entanglement()
