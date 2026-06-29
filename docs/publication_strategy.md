@@ -6,9 +6,9 @@
 
 ## Target Manuscript
 
-**Title:** "Historical Entanglement and Replay Stability in Adaptive Organizational Systems"
+**Title:** "Observed Correlations in Replay Stability and Historical Residue Coupling Across Adaptive Organizational Systems"
 
-**Lead with:** Empirical findings, not speculative bundle language.
+**Lead with:** Reproducible empirical investigation, not universal law claims.
 
 ---
 
@@ -42,23 +42,26 @@
 
 ## Manuscript Structure
 
-1. **Abstract** — Empirical law, 4 systems, falsification program
+1. **Abstract** — Observed correlation, 4 systems, synthetic ensemble test, metric limitations
 2. **Introduction** — Persistence problem, why it matters
-3. **Methods** — 4 systems, metrics, perturbation protocol
-4. **Results** — G ∝ 1/H, representation ceiling, transport observables
-5. **Falsification** — Null models, permutation tests, sensitivity
-6. **Limitations** — Transport model instability, 4 systems only
-7. **Discussion** — What this means, what it doesn't
+3. **Methods** — 4 systems, metrics (with canonical contract), perturbation protocol
+4. **Results** — Observed G ∝ 1/H correlation, representation ceiling, transport observables
+5. **Falsification** — Synthetic ensemble test, null models, permutation tests
+6. **Limitations** — Metric identity collapse, state representation failure, 4 systems only
+7. **Discussion** — What this means, what it doesn't, what we don't know
 8. **Future Work** — Phase 003 directions (brief)
 
 ---
 
 ## Key Principle
 
-**Lead with empirical findings.**
+**Lead with reproducible empirical findings.**
 
-- "We observe G ∝ 1/H across four systems"
+- "We observe G ∝ 1/H across four curated systems (r = -0.951, provisional)"
+- "The synthetic ensemble test did not reproduce this relation"
+- "The relation may be system-specific rather than universal"
+- NOT "We discovered a universal organizational law"
 - NOT "The manifold has nontrivial curvature"
 - NOT "Historical entanglement creates persistence"
 
-The paper is about what we measured, not what we think it means geometrically.
+The paper is about what we measured, what we tested, and what we don't know.

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Phase 001 of the SGI Persistence Program investigated organizational persistence through a series of scalar audits across four independent domains. The phase established the dominant empirical law of the program and systematically eliminated candidate explanations.
+Phase 001 of the SGI Persistence Program investigated organizational persistence through a series of scalar audits across four independent domains. The phase established an observed correlation and systematically eliminated candidate explanations.
 
 ## Duration
 
@@ -12,11 +12,11 @@ Phase 001 of the SGI Persistence Program investigated organizational persistence
 
 ## Central Finding
 
-**G ∝ 1/H** (organizational replay stability inversely proportional to historical residue coupling)
+**Observed G ∝ 1/H correlation** (organizational replay stability inversely proportional to historical residue coupling)
 
 Cross-domain correlation: r ≈ -0.951
 
-This relationship survived all attempted falsifications throughout the phase.
+**Note:** This correlation is provisional and system-specific. The synthetic ensemble test (100 randomized systems) did not reproduce the relation, suggesting it may reflect shared architectural features of the 4 curated systems rather than a universal law.
 
 ## Systems Studied
 

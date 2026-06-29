@@ -1,6 +1,6 @@
 # Results
 
-## G ∝ 1/H Empirical Law
+## Observed G ∝ 1/H Correlation
 
 | System | G | H | G × H |
 |--------|------|------|-------|
@@ -10,6 +10,8 @@
 | Immune | 0.875 | 0.180 | 0.158 |
 
 Cross-domain correlation: r = −0.951
+
+**Note:** This correlation is provisional and based on 4 curated systems. The synthetic ensemble test (100 randomized systems) did not reproduce the relation, suggesting it may be system-specific rather than universal.
 
 ## Representation Ceiling
 
@@ -26,6 +28,6 @@ Starting at Study 001N, scalar observables saturated — distinct systems collap
 
 ## Summary
 
-1. G ∝ 1/H holds across four system classes
+1. Observed G ∝ 1/H correlation across four curated system classes (r = -0.951, provisional)
 2. Representation ceiling discovered at scalar level
 3. Transport geometry needed for further differentiation

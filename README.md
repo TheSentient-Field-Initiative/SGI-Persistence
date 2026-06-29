@@ -1,6 +1,6 @@
 # SGI Persistence Program
 
-**Computational Organizational Geometry: Empirical Laws of Persistent Adaptive Systems**
+**A Reproducible Empirical Investigation into Replay Stability, Historical Residue Coupling, and Organizational Representation Limits Across Adaptive Systems**
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
@@ -16,19 +16,21 @@ The SGI Persistence Program investigates the mathematical structure of persisten
 - **Organizational geometry**: The fiber bundle structure over organizational state space, enabling geometric observables beyond scalar metrics.
 - **Replay equivalence**: The relationship between different replay paths and their outcomes, formalized through transport operators.
 
-## Main Empirical Law
+## Main Empirical Finding
 
-We discover a robust inverse relationship between organizational replay stability and historical residue coupling:
+We observe an inverse correlation between organizational replay stability and historical residue coupling across four curated system classes:
 
 $$G \propto \frac{1}{H}$$
 
 with cross-domain correlation **r = -0.951** across four system classes (distributed coordination, immune signaling, ant colony stigmergy, institutional trust networks).
 
+**Note:** This correlation is provisional and system-specific. The synthetic ensemble test (100 randomized systems) did not reproduce the relation, suggesting it may be system-specific rather than universal. See `docs/validation/synthetic_ensemble_failure_analysis.md` for details.
+
 ## Phase Evolution
 
 | Phase | Purpose | Outcome |
 |-------|---------|---------|
-| 001 | Scalar persistence audits | G ∝ 1/H confirmed (r = -0.951); representation ceiling discovered |
+| 001 | Scalar persistence audits | Observed G ∝ 1/H correlation (r = -0.951); representation ceiling discovered |
 | 002A | Organizational fiber geometry | Geometric differentiation achieved; transport error separates systems |
 | 002B | True connection formalism | 122.5x improvement in replay transport coupling separation |
 | 002C | Discrete transport algebra | Transport instability T emerges; immune fragility discovered |

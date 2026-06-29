@@ -2,7 +2,7 @@
 
 ## Motivation
 
-Phase 001 established the empirical law G ∝ 1/H across four system classes. However, the representation ceiling discovered at Study 001N — where scalar observables saturated and distinct systems collapsed to identical values — indicated that scalar metrics alone cannot fully characterize organizational persistence.
+Phase 001 established an observed correlation G ∝ 1/H across four curated system classes (r = -0.951, provisional). However, the representation ceiling discovered at Study 001N — where scalar observables saturated and distinct systems collapsed to identical values — indicated that scalar metrics alone cannot fully characterize organizational persistence.
 
 ## Geometric Approach
 

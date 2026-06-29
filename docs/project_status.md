@@ -3,15 +3,15 @@
 **Last updated:** 2026-06-28
 **Version:** 0.2.0
 
-> **Transport Model Warning:** Current transport algebra is experimental. Holonomy and curvature observables remain numerically unstable. Noncommutativity results are inconclusive. These limitations do not affect the core G ∝ 1/H law or transport error separation.
+> **Transport Model Warning:** Current transport algebra is experimental. Holonomy and curvature observables remain numerically unstable. Noncommutativity results are inconclusive. These limitations do not affect the observed G ∝ 1/H correlation or transport error separation.
 
 ## Frozen Findings
 
 ### Phase 001 (Frozen at v0.1_phase001_frozen)
 
-1. **G ∝ 1/H law**: Organizational replay stability is inversely proportional to historical residue coupling (r = -0.951 across 4 systems).
+1. **Observed G ∝ 1/H correlation**: Organizational replay stability is inversely proportional to historical residue coupling (r = -0.951 across 4 curated systems). **Note:** This correlation is provisional and system-specific. The synthetic ensemble test (100 randomized systems) did not reproduce the relation.
 2. **Representation ceiling**: Scalar observables saturate at a fundamental limit (Study 001N).
-3. **Cross-domain consistency**: The law holds across distributed, immune, ant colony, and institutional systems.
+3. **Cross-domain consistency**: The correlation holds across distributed, immune, ant colony, and institutional systems.
 
 ### Phase 002 (Current at v0.2_phase002_transport)
 
@@ -32,7 +32,7 @@
 
 ### Open Empirical Questions
 
-1. **Additional system classes**: Does G ∝ 1/H hold for neural networks, economic systems, or social networks?
+1. **Additional system classes**: Does the G ∝ 1/H correlation hold for neural networks, economic systems, or social networks? (Note: synthetic ensemble test failed, suggesting system-specificity.)
 2. **Stochastic effects**: All current experiments use deterministic protocols. How do stochastic perturbations affect results?
 3. **Runtime cost analysis**: What are the computational costs of real-time organizational monitoring?
 

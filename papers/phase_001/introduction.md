@@ -14,7 +14,7 @@ What mathematical laws govern the persistence of adaptive organization across ra
 
 ## Contributions
 
-1. **Empirical law**: G ∝ 1/H with r = −0.951 across four system classes
+1. **Observed correlation**: G ∝ 1/H with r = −0.951 across four curated system classes (provisional, system-specific)
 2. **Representation ceiling**: Scalar observables saturate at a fundamental limit
 3. **Geometric formalism**: Fiber bundle structure over organizational state space
 4. **Transport observable**: Transport error as the primary discriminator
