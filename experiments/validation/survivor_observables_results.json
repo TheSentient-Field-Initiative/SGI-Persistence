@@ -1,0 +1,705 @@
+{
+  "results": {
+    "distributed": {
+      "variance_mean": {
+        "canonical": 0.017017219640596604,
+        "variance_under_corruption": 201865.78568596998,
+        "null_mean": 0.9911863225554386,
+        "null_std": 0.06667242960437433,
+        "z_score": -14.611273485838701,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.017017219640596604,
+          76.09761651471602,
+          304.5523591246954,
+          685.3812450495789,
+          1218.5842742893662
+        ]
+      },
+      "variance_total": {
+        "canonical": 1330.3427164383206,
+        "variance_under_corruption": 224493.36073019513,
+        "null_mean": 1.0043902798114472,
+        "null_std": 0.06819143480034277,
+        "z_score": 19494.212580372732,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          1330.3427164383206,
+          1410.8200503389955,
+          1651.8378928431605,
+          2053.3962439508164,
+          2615.495103661962
+        ]
+      },
+      "entropy_rate": {
+        "canonical": 1.8801139046176196e-06,
+        "variance_under_corruption": 5.012532242982008e-06,
+        "null_mean": 0.0032594417188864947,
+        "null_std": 0.017580743278345464,
+        "z_score": -0.18529146085616743,
+        "outperforms_null": false,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          1.8801139046176196e-06,
+          -0.0005838064484911532,
+          -0.0021929364710535637,
+          -0.004199956722335307,
+          -0.005991534877587523
+        ]
+      },
+      "persistence": {
+        "canonical": 0.16666666666666666,
+        "variance_under_corruption": 0.0044444444444444444,
+        "null_mean": 0.03333333333333333,
+        "null_std": 0.06666666666666667,
+        "z_score": 2.0,
+        "outperforms_null": false,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.16666666666666666,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "lagged_stability": {
+        "canonical": 0.9999960192628621,
+        "variance_under_corruption": 0.02707545173604604,
+        "null_mean": 0.041233427284281796,
+        "null_std": 0.028122263265624323,
+        "z_score": 34.09265402726452,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.9999960192628621,
+          0.9532102740961875,
+          0.8352181214775224,
+          0.6915967382272165,
+          0.5567225861261317
+        ]
+      },
+      "transition_density": {
+        "canonical": 0.2925170068027211,
+        "variance_under_corruption": 0.08008514970614097,
+        "null_mean": 1.0,
+        "null_std": 0.0,
+        "z_score": 0.0,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.2925170068027211,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "coordinate_diversity": {
+        "canonical": 0.34980152095979405,
+        "variance_under_corruption": 0.32128717200360357,
+        "null_mean": 1.783704933379201,
+        "null_std": 0.0013819157755771282,
+        "z_score": -1037.6199749370162,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.34980152095979405,
+          1.76666190835462,
+          1.766859592365693,
+          1.7669331232085108,
+          1.7669712917346092
+        ]
+      },
+      "spectral_entropy": {
+        "canonical": 0.08208463194259924,
+        "variance_under_corruption": 0.43204065003764747,
+        "null_mean": 1.7288706948791834,
+        "null_std": 0.024092736721806566,
+        "z_score": -68.35197188063997,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.08208463194259924,
+          1.725095542212115,
+          1.7253340624419784,
+          1.7254217028252725,
+          1.7254670133832157
+        ]
+      },
+      "mean_stability": {
+        "canonical": 0.9665412297568019,
+        "variance_under_corruption": 0.11323304877595639,
+        "null_mean": 0.7204233450142714,
+        "null_std": 0.0221958491321321,
+        "z_score": 11.088464481687021,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.9665412297568019,
+          0.24271533482246513,
+          0.13805775339204127,
+          0.0964626984879941,
+          0.07412858128470155
+        ]
+      },
+      "local_variance": {
+        "canonical": 1330.3426338346435,
+        "variance_under_corruption": 221166.8465913875,
+        "null_mean": 0.9910769106938748,
+        "null_std": 0.061801241972995115,
+        "z_score": 21510.110711121753,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          1330.3426338346435,
+          1410.2151343793678,
+          1649.4380651341712,
+          2048.0114260990536,
+          2605.9352172740155
+        ]
+      }
+    },
+    "immune": {
+      "variance_mean": {
+        "canonical": 0.04285684581301346,
+        "variance_under_corruption": 79442.97672487893,
+        "null_mean": 0.9880240680515116,
+        "null_std": 0.05722344938691497,
+        "z_score": -16.517131217445016,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.04285684581301346,
+          48.025547039548194,
+          191.44492995243002,
+          430.3010055844586,
+          764.5937739356337
+        ]
+      },
+      "variance_total": {
+        "canonical": 811.3161085188054,
+        "variance_under_corruption": 83490.42277497858,
+        "null_mean": 1.01011593652883,
+        "null_std": 0.053973088015781864,
+        "z_score": 15013.148633358558,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          811.3161085188054,
+          862.64455202264,
+          1010.5327080699738,
+          1254.9805766608072,
+          1595.98815779514
+        ]
+      },
+      "entropy_rate": {
+        "canonical": 1.0202207196274848e-06,
+        "variance_under_corruption": 1.3869858279785363e-05,
+        "null_mean": 0.014085150618765469,
+        "null_std": 0.018435630009304482,
+        "z_score": -0.7639625220802091,
+        "outperforms_null": false,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          1.0202207196274848e-06,
+          0.0011717050500261728,
+          0.00393538530103732,
+          0.007130633235791939,
+          0.010049850678107541
+        ]
+      },
+      "persistence": {
+        "canonical": 0.5454545454545454,
+        "variance_under_corruption": 0.047603305785123964,
+        "null_mean": 0.0,
+        "null_std": 0.0,
+        "z_score": 0.0,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.5454545454545454,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "lagged_stability": {
+        "canonical": 0.9999988895354871,
+        "variance_under_corruption": 0.029533783955459213,
+        "null_mean": 0.0183807736286497,
+        "null_std": 0.012516260285419398,
+        "z_score": 78.42742908202034,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.9999988895354871,
+          0.9492083397982584,
+          0.8235125328485259,
+          0.6742053610301324,
+          0.5371698285703065
+        ]
+      },
+      "transition_density": {
+        "canonical": 0.5139146567717996,
+        "variance_under_corruption": 0.037804633744204376,
+        "null_mean": 1.0,
+        "null_std": 0.0,
+        "z_score": 0.0,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.5139146567717996,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "coordinate_diversity": {
+        "canonical": 0.5582792053593062,
+        "variance_under_corruption": 0.5291770435224301,
+        "null_mean": 2.383891724957398,
+        "null_std": 0.005395048473440287,
+        "z_score": -338.38667596510845,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.5582792053593062,
+          2.3759248490921046,
+          2.376960968426286,
+          2.377268781377043,
+          2.3774159628236315
+        ]
+      },
+      "spectral_entropy": {
+        "canonical": 0.2102629687643962,
+        "variance_under_corruption": 0.6853138558157343,
+        "null_mean": 2.2819785002760185,
+        "null_std": 0.021449687640817637,
+        "z_score": -96.58488115086841,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.2102629687643962,
+          2.278381981374054,
+          2.2799438091165642,
+          2.2804276473273246,
+          2.28066315543185
+        ]
+      },
+      "mean_stability": {
+        "canonical": 0.9650410861607259,
+        "variance_under_corruption": 0.10133393704413315,
+        "null_mean": 0.7727993191263958,
+        "null_std": 0.0169021822021652,
+        "z_score": 11.373783854353649,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.9650410861607259,
+          0.32560789366795956,
+          0.19421527294439345,
+          0.138374317284141,
+          0.10747315730603048
+        ]
+      },
+      "local_variance": {
+        "canonical": 811.3150873690496,
+        "variance_under_corruption": 81481.22996642569,
+        "null_mean": 1.000202646949207,
+        "null_std": 0.04978020048935549,
+        "z_score": 16277.854985645752,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          811.3150873690496,
+          862.0700702206202,
+          1008.1871887827317,
+          1249.6664430553842,
+          1586.507833038578
+        ]
+      }
+    },
+    "ant_colony": {
+      "variance_mean": {
+        "canonical": 1816.4888745853737,
+        "variance_under_corruption": 5599242143569.519,
+        "null_mean": 0.9763197181603628,
+        "null_std": 0.03916077644302147,
+        "z_score": 46360.484131584206,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          1816.4888745853737,
+          403436.4363531698,
+          1606999.5470518665,
+          3612505.8209706745,
+          6419955.258109594
+        ]
+      },
+      "variance_total": {
+        "canonical": 6760367.882425199,
+        "variance_under_corruption": 5857893179501.878,
+        "null_mean": 0.9981122533528136,
+        "null_std": 0.04562057174473583,
+        "z_score": 148186807.52489752,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          6760367.882425199,
+          7178379.297721197,
+          8412335.320400564,
+          10462235.950463297,
+          13328081.187909402
+        ]
+      },
+      "entropy_rate": {
+        "canonical": 4.011435211170866e-06,
+        "variance_under_corruption": 7.01575856086979e-06,
+        "null_mean": -0.007268814259648223,
+        "null_std": 0.010963150494429436,
+        "z_score": 0.6633882932241824,
+        "outperforms_null": false,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          4.011435211170866e-06,
+          -0.0007800090235283719,
+          -0.002802098630505734,
+          -0.00512540701143932,
+          -0.007085884843676615
+        ]
+      },
+      "persistence": {
+        "canonical": 0.23076923076923078,
+        "variance_under_corruption": 0.00378698224852071,
+        "null_mean": 0.0,
+        "null_std": 0.0,
+        "z_score": 0.0,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.23076923076923078,
+          0.07692307692307693,
+          0.07692307692307693,
+          0.07692307692307693,
+          0.07692307692307693
+        ]
+      },
+      "lagged_stability": {
+        "canonical": 0.9999954170283525,
+        "variance_under_corruption": 0.030022618037912795,
+        "null_mean": 0.032632147465517146,
+        "null_std": 0.017549993688419297,
+        "z_score": 55.120434043299326,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.9999954170283525,
+          0.9476813612978431,
+          0.8196675307799123,
+          0.6695925238726779,
+          0.5333757593150602
+        ]
+      },
+      "transition_density": {
+        "canonical": 0.6938775510204082,
+        "variance_under_corruption": 0.014993752603082045,
+        "null_mean": 1.0,
+        "null_std": 0.0,
+        "z_score": 0.0,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.6938775510204082,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "coordinate_diversity": {
+        "canonical": 0.6572716665984589,
+        "variance_under_corruption": 0.571515290311111,
+        "null_mean": 2.54746942913091,
+        "null_std": 0.008461826845277704,
+        "z_score": -223.37939514648835,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.6572716665984589,
+          2.546742640005319,
+          2.547348799879684,
+          2.5474214846540137,
+          2.547436334384063
+        ]
+      },
+      "spectral_entropy": {
+        "canonical": 0.1256152171860861,
+        "variance_under_corruption": 0.8511105860873466,
+        "null_mean": 2.4235598347565803,
+        "null_std": 0.012281866213287671,
+        "z_score": -187.10060650916085,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.1256152171860861,
+          2.4320276469508553,
+          2.432105631846428,
+          2.431988012900292,
+          2.4319050442985324
+        ]
+      },
+      "mean_stability": {
+        "canonical": 0.20586438260607223,
+        "variance_under_corruption": 0.00660958579011082,
+        "null_mean": 0.7782323257940466,
+        "null_std": 0.008201521279274862,
+        "z_score": -69.78802147771545,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.20586438260607223,
+          0.005060280778867569,
+          0.002540698957085578,
+          0.0016961233675665194,
+          0.0012729608532011847
+        ]
+      },
+      "local_variance": {
+        "canonical": 6760357.104101432,
+        "variance_under_corruption": 5811844030510.252,
+        "null_mean": 0.992495559547122,
+        "null_std": 0.04491595846989615,
+        "z_score": 150511229.0131099,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          6760357.104101432,
+          7176619.484235503,
+          8405674.462880667,
+          10447522.040036932,
+          13302162.215704288
+        ]
+      }
+    },
+    "institution": {
+      "variance_mean": {
+        "canonical": 5.588075331964831e+16,
+        "variance_under_corruption": 1.4464036491885695e+33,
+        "null_mean": 0.9880240680515116,
+        "null_std": 0.05722344938691497,
+        "z_score": 9.76535911734575e+17,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          5.588075331964831e+16,
+          6.232401587876285e+16,
+          8.166341188839672e+16,
+          1.1389894134854994e+17,
+          1.590306042592225e+17
+        ]
+      },
+      "variance_total": {
+        "canonical": 1.0963121738517109e+17,
+        "variance_under_corruption": 1.3905547679044314e+33,
+        "null_mean": 1.01011593652883,
+        "null_std": 0.053973088015781864,
+        "z_score": 2.031220028639359e+18,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          1.0963121738517109e+17,
+          1.152723007548594e+17,
+          1.3396126857470672e+17,
+          1.65698120844713e+17,
+          2.1048285756487827e+17
+        ]
+      },
+      "entropy_rate": {
+        "canonical": 0.008601686543288078,
+        "variance_under_corruption": 1.3560864805479877e-05,
+        "null_mean": 0.014085150618765469,
+        "null_std": 0.018435630009304482,
+        "z_score": -0.2974383882031631,
+        "outperforms_null": false,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.008601686543288078,
+          0.010644681934399325,
+          0.013724246768333948,
+          0.0165451582473094,
+          0.018640113843776174
+        ]
+      },
+      "persistence": {
+        "canonical": 0.09090909090909091,
+        "variance_under_corruption": 0.0013223140495867767,
+        "null_mean": 0.0,
+        "null_std": 0.0,
+        "z_score": 0.0,
+        "outperforms_null": false,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          0.09090909090909091,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "lagged_stability": {
+        "canonical": 0.9909480064813597,
+        "variance_under_corruption": 0.03319001617818888,
+        "null_mean": 0.0183807736286497,
+        "null_std": 0.012516260285419398,
+        "z_score": 77.7042991016802,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.9909480064813597,
+          0.9348993611027492,
+          0.7993579292913838,
+          0.6416545127129942,
+          0.500434375926618
+        ]
+      },
+      "transition_density": {
+        "canonical": 0.6326530612244898,
+        "variance_under_corruption": 0.021591003748438146,
+        "null_mean": 1.0,
+        "null_std": 0.0,
+        "z_score": 0.0,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          0.6326530612244898,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "coordinate_diversity": {
+        "canonical": -9.528744059515086e-11,
+        "variance_under_corruption": 0.5788237749148077,
+        "null_mean": 2.383891724957398,
+        "null_std": 0.005395048473440287,
+        "z_score": -441.86659986254716,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          -9.528744059515086e-11,
+          0.534366780268476,
+          1.271770585996281,
+          1.7683427170760087,
+          2.0438165239457833
+        ]
+      },
+      "spectral_entropy": {
+        "canonical": -9.924604178483175e-11,
+        "variance_under_corruption": 0.5443766659119731,
+        "null_mean": 2.2819785002760185,
+        "null_std": 0.021449687640817637,
+        "z_score": -106.38749330935609,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          -9.924604178483175e-11,
+          0.5210276147165173,
+          1.236936038319184,
+          1.7169310398820472,
+          1.9818689227138848
+        ]
+      },
+      "mean_stability": {
+        "canonical": 1.4030237868240766e-08,
+        "variance_under_corruption": 4.270888664597935e-18,
+        "null_mean": 0.7727993191263958,
+        "null_std": 0.0169021822021652,
+        "z_score": -45.721865724365514,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 3,
+        "corrupted_values": [
+          1.4030237868240766e-08,
+          1.3473991249868712e-08,
+          1.1865190557299857e-08,
+          1.0068198018434876e-08,
+          8.5145082946211e-09
+        ]
+      },
+      "local_variance": {
+        "canonical": 1.0503674744044219e+17,
+        "variance_under_corruption": 1.398048664284613e+33,
+        "null_mean": 1.000202646949207,
+        "null_std": 0.04978020048935549,
+        "z_score": 2.110010534467458e+18,
+        "outperforms_null": true,
+        "basis_stable": true,
+        "survival_score": 2,
+        "corrupted_values": [
+          1.0503674744044219e+17,
+          1.1102379358838715e+17,
+          1.2989689847548774e+17,
+          1.61656062101744e+17,
+          2.063012844671559e+17
+        ]
+      }
+    }
+  },
+  "survivor_counts": {
+    "variance_mean": 4,
+    "variance_total": 4,
+    "entropy_rate": 4,
+    "persistence": 4,
+    "lagged_stability": 4,
+    "transition_density": 4,
+    "coordinate_diversity": 4,
+    "spectral_entropy": 4,
+    "mean_stability": 4,
+    "local_variance": 4
+  },
+  "runtime_seconds": 1.3
+}

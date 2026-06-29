@@ -1,0 +1,1229 @@
+{
+  "results": {
+    "distributed": {
+      "full": {
+        "variance_mean": {
+          "canonical": 0.017017219640596604,
+          "variance_under_corruption": 201865.78568596998,
+          "z_score": -9.333366609446237,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 1330.3427164383206,
+          "variance_under_corruption": 224493.36073019513,
+          "z_score": 0.01728242045876897,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 1.8801139046176196e-06,
+          "variance_under_corruption": 5.012532242982008e-06,
+          "z_score": -0.9468224452767857,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.16666666666666666,
+          "variance_under_corruption": 0.0044444444444444444,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9999960192628621,
+          "variance_under_corruption": 0.02707545173604604,
+          "z_score": 24.353230702885146,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.2925170068027211,
+          "variance_under_corruption": 0.08008514970614097,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "1d": {
+        "variance_mean": {
+          "canonical": 0.00017457161343425548,
+          "variance_under_corruption": 5.516729728412888e-09,
+          "z_score": -0.020832932855728743,
+          "outperforms_null": false
+        },
+        "variance_total": {
+          "canonical": 0.00017457161343425548,
+          "variance_under_corruption": 5.516729728412888e-09,
+          "z_score": 0.4133798752726492,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 3.2303935637578718e-09,
+          "variance_under_corruption": 3.8615908318266656e-19,
+          "z_score": 5.41063815774757,
+          "outperforms_null": true
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.9999999934361259,
+          "variance_under_corruption": 3.337498869886922e-17,
+          "z_score": 8.598123109203055,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.9591836734693877,
+          "variance_under_corruption": 0.0002665556018325704,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "2d": {
+        "variance_mean": {
+          "canonical": 0.05023444725833514,
+          "variance_under_corruption": 570078.9504760803,
+          "z_score": -8.08712827036497,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 2510.3158484612613,
+          "variance_under_corruption": 656603.6104411061,
+          "z_score": -0.4046656965227565,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 1.8557495374826871e-06,
+          "variance_under_corruption": 8.049897131080565e-07,
+          "z_score": 0.2576257061502631,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": -0.816496580927726,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.9999961314677255,
+          "variance_under_corruption": 0.010515590027931582,
+          "z_score": 9.468361957229623,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.9591836734693877,
+          "variance_under_corruption": 0.0002665556018325704,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "sparse_50": {
+        "variance_mean": {
+          "canonical": 418.37296502130533,
+          "variance_under_corruption": 64825.2661284731,
+          "z_score": -5.609970206142382,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 751.3689941606747,
+          "variance_under_corruption": 71785.2375070166,
+          "z_score": 0.7734107735787785,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": -0.005648601054106528,
+          "variance_under_corruption": 4.860746164985721e-05,
+          "z_score": 0.184297264347471,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": -0.5,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.45875112565805204,
+          "variance_under_corruption": 0.008001990595784504,
+          "z_score": 4.054832651657381,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.6020408163265306,
+          "variance_under_corruption": 0.025339441899208663,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "sparse_75": {
+        "variance_mean": {
+          "canonical": 267.8470260978121,
+          "variance_under_corruption": 11051.291728681055,
+          "z_score": -1.2620843891671008,
+          "outperforms_null": false
+        },
+        "variance_total": {
+          "canonical": 320.6580679553355,
+          "variance_under_corruption": 12310.09748540325,
+          "z_score": -1.2355922333328984,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": -0.14878478850570875,
+          "variance_under_corruption": 0.0005226266928338317,
+          "z_score": -2.5678022023772162,
+          "outperforms_null": true
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.2003996491087184,
+          "variance_under_corruption": 0.0018922596503252586,
+          "z_score": 6.45516703221541,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.4013605442176871,
+          "variance_under_corruption": 0.05733907168309501,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "orthogonal": {
+        "variance_mean": {
+          "canonical": 0.016666666666666666,
+          "variance_under_corruption": 4.419095273644255e-05,
+          "z_score": -1.245084141058195,
+          "outperforms_null": false
+        },
+        "variance_total": {
+          "canonical": 0.019348343546452748,
+          "variance_under_corruption": 4.313002136853919e-05,
+          "z_score": -1.2068560906507677,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 0.05838478540829517,
+          "variance_under_corruption": 0.0004644189156273089,
+          "z_score": 2.763667745459775,
+          "outperforms_null": true
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.29578704016620794,
+          "variance_under_corruption": 0.007205299724898936,
+          "z_score": 6.744743762161919,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.9795918367346939,
+          "variance_under_corruption": 6.66389004581426e-05,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "compressed_50": {
+        "variance_mean": {
+          "canonical": 0.03403443928119323,
+          "variance_under_corruption": 525473.5196826803,
+          "z_score": -7.800934087813502,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 2231.380324608922,
+          "variance_under_corruption": 472240.8737590167,
+          "z_score": -0.17997362339442988,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 1.8801139046176196e-06,
+          "variance_under_corruption": 1.6999583568759794e-05,
+          "z_score": 0.4543117398553675,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": -0.5,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.9999960192628621,
+          "variance_under_corruption": 0.01730642605462736,
+          "z_score": 13.610993932355129,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.9591836734693877,
+          "variance_under_corruption": 0.0002665556018325704,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "compressed_25": {
+        "variance_mean": {
+          "canonical": 0.00017457161343425548,
+          "variance_under_corruption": 5.516729728412888e-09,
+          "z_score": 1.0032201219798955,
+          "outperforms_null": false
+        },
+        "variance_total": {
+          "canonical": 0.00017457161343425548,
+          "variance_under_corruption": 5.516729728412888e-09,
+          "z_score": -0.2768660701728887,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 3.2303935637578718e-09,
+          "variance_under_corruption": 3.8615908318266656e-19,
+          "z_score": 1.3668912595197587,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.9999999934361259,
+          "variance_under_corruption": 3.337498869886922e-17,
+          "z_score": 3.434092528441707,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.9591836734693877,
+          "variance_under_corruption": 0.0002665556018325704,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      }
+    },
+    "immune": {
+      "full": {
+        "variance_mean": {
+          "canonical": 0.04285684581301346,
+          "variance_under_corruption": 79442.97672487893,
+          "z_score": -24.622729468922277,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 811.3161085188054,
+          "variance_under_corruption": 83490.42277497858,
+          "z_score": 1.1453473726664098,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 1.0202207196274848e-06,
+          "variance_under_corruption": 1.3869858279785363e-05,
+          "z_score": 0.7148266042241656,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.5454545454545454,
+          "variance_under_corruption": 0.047603305785123964,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9999988895354871,
+          "variance_under_corruption": 0.029533783955459213,
+          "z_score": 14.890910673017313,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.5139146567717996,
+          "variance_under_corruption": 0.037804633744204376,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "1d": {
+        "variance_mean": {
+          "canonical": 0.00011007113131373695,
+          "variance_under_corruption": 1.9771059971075777e-09,
+          "z_score": -0.4183546089967951,
+          "outperforms_null": false
+        },
+        "variance_total": {
+          "canonical": 0.00011007113131373695,
+          "variance_under_corruption": 1.9771059971075777e-09,
+          "z_score": -0.2909031332435921,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 1.832872742468794e-11,
+          "variance_under_corruption": 1.2483120911087448e-20,
+          "z_score": 0.6231263042882144,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 1.9999999999999998,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.9999999999797725,
+          "variance_under_corruption": 1.2900709953957646e-17,
+          "z_score": 3.885376528574556,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "2d": {
+        "variance_mean": {
+          "canonical": 0.22299043622087736,
+          "variance_under_corruption": 567300.9992642419,
+          "z_score": -7.672035122109899,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 2505.9445201526523,
+          "variance_under_corruption": 653458.562112361,
+          "z_score": 2.800973462358757,
+          "outperforms_null": true
+        },
+        "entropy_rate": {
+          "canonical": 9.023620061721083e-07,
+          "variance_under_corruption": 7.865551062921214e-07,
+          "z_score": 0.2597279451873993,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.16000000000000006,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9999990208826058,
+          "variance_under_corruption": 0.01054054330992002,
+          "z_score": 8.363481594661074,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "sparse_50": {
+        "variance_mean": {
+          "canonical": 227.45196499444165,
+          "variance_under_corruption": 22627.25814737002,
+          "z_score": -23.616500855309795,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 446.74712777233333,
+          "variance_under_corruption": 23620.460461988194,
+          "z_score": -0.25127056836515743,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": -0.044475535837971036,
+          "variance_under_corruption": 0.00023935471790491862,
+          "z_score": -2.782010086015241,
+          "outperforms_null": true
+        },
+        "persistence": {
+          "canonical": 0.36363636363636365,
+          "variance_under_corruption": 0.021157024793388428,
+          "z_score": 9.5,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.64015688287336,
+          "variance_under_corruption": 0.011640188672438694,
+          "z_score": 13.121361234372472,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.6363636363636364,
+          "variance_under_corruption": 0.02115702479338843,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "sparse_75": {
+        "variance_mean": {
+          "canonical": 166.25793421502183,
+          "variance_under_corruption": 5322.403754300046,
+          "z_score": -4.201842316811594,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 212.83049635161322,
+          "variance_under_corruption": 5520.668573152571,
+          "z_score": -1.3150689129455586,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": -0.005624469108771152,
+          "variance_under_corruption": 0.00022769701467489572,
+          "z_score": -0.2658820269643034,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.09090909090909091,
+          "variance_under_corruption": 0.0013223140495867767,
+          "z_score": 2.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.2609253101566717,
+          "variance_under_corruption": 0.002684862609161273,
+          "z_score": 11.547821518809972,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.424860853432282,
+          "variance_under_corruption": 0.05292560606634289,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "orthogonal": {
+        "variance_mean": {
+          "canonical": 0.018181818181818184,
+          "variance_under_corruption": 4.111761784915257e-05,
+          "z_score": -1.3610106280546546,
+          "outperforms_null": false
+        },
+        "variance_total": {
+          "canonical": 0.01979441757066205,
+          "variance_under_corruption": 4.0651498450063364e-05,
+          "z_score": 0.9946383110257393,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 0.03845442419028408,
+          "variance_under_corruption": 9.129710434458404e-06,
+          "z_score": 4.086038061240934,
+          "outperforms_null": true
+        },
+        "persistence": {
+          "canonical": 0.36363636363636365,
+          "variance_under_corruption": 0.013223140495867768,
+          "z_score": 9.5,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.40213842385368126,
+          "variance_under_corruption": 0.007417077191954819,
+          "z_score": 32.30501391743173,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "compressed_50": {
+        "variance_mean": {
+          "canonical": 0.09428506078534485,
+          "variance_under_corruption": 298476.79320225964,
+          "z_score": -10.420229232255501,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 1603.7547447906315,
+          "variance_under_corruption": 247295.49327678824,
+          "z_score": -0.21069401157738388,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 1.0202207191833956e-06,
+          "variance_under_corruption": 0.00020871080490882793,
+          "z_score": -1.2873736473469037,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.6,
+          "variance_under_corruption": 0.057600000000000005,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9999988895354879,
+          "variance_under_corruption": 0.03183029149857068,
+          "z_score": 19.1234943098785,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.9795918367346939,
+          "variance_under_corruption": 6.66389004581426e-05,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "compressed_25": {
+        "variance_mean": {
+          "canonical": 0.22299043622087736,
+          "variance_under_corruption": 567300.9992642419,
+          "z_score": -5.347257689309523,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 2505.9445201526523,
+          "variance_under_corruption": 653458.562112361,
+          "z_score": -0.9484617001881561,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 9.023620061721083e-07,
+          "variance_under_corruption": 7.865551062921214e-07,
+          "z_score": 0.17487069249302256,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.16000000000000006,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9999990208826058,
+          "variance_under_corruption": 0.01054054330992002,
+          "z_score": 9.427271278236605,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      }
+    },
+    "ant_colony": {
+      "full": {
+        "variance_mean": {
+          "canonical": 1816.4888745853737,
+          "variance_under_corruption": 5599242143569.519,
+          "z_score": -17.770258025512163,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 6760367.882425199,
+          "variance_under_corruption": 5857893179501.878,
+          "z_score": -0.4778856770737064,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 4.011435211170866e-06,
+          "variance_under_corruption": 7.01575856086979e-06,
+          "z_score": -0.21204647595867318,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.23076923076923078,
+          "variance_under_corruption": 0.00378698224852071,
+          "z_score": 5.307227776030219,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9999954170283525,
+          "variance_under_corruption": 0.030022618037912795,
+          "z_score": 36.78215486189303,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.6938775510204082,
+          "variance_under_corruption": 0.014993752603082045,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "1d": {
+        "variance_mean": {
+          "canonical": 7542.453251307472,
+          "variance_under_corruption": 1965693.9486619397,
+          "z_score": -0.045011168992551344,
+          "outperforms_null": false
+        },
+        "variance_total": {
+          "canonical": 7542.453251307472,
+          "variance_under_corruption": 1965693.9486619397,
+          "z_score": -0.9143755139455341,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 9.622054564228932e-08,
+          "variance_under_corruption": 4.586244022735552e-13,
+          "z_score": -0.4398603290931104,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.24000000000000005,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9999998431758672,
+          "variance_under_corruption": 6.576175008349379e-10,
+          "z_score": 10.89684158890432,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "2d": {
+        "variance_mean": {
+          "canonical": 11795.052478889542,
+          "variance_under_corruption": 51949286943112.92,
+          "z_score": -6.522630837112173,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 23962682.209954157,
+          "variance_under_corruption": 59831810251022.15,
+          "z_score": -1.4357173163579595,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 3.947562796813298e-06,
+          "variance_under_corruption": 8.96148249631674e-07,
+          "z_score": -0.09625692137572477,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.16000000000000006,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9999956302005737,
+          "variance_under_corruption": 0.010523414055555898,
+          "z_score": 9.540537536160183,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "sparse_50": {
+        "variance_mean": {
+          "canonical": 1841486.6405252104,
+          "variance_under_corruption": 1643305508022.9844,
+          "z_score": -13.69814219651528,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 3398993.8024988095,
+          "variance_under_corruption": 1709005986346.5913,
+          "z_score": 0.1594974355585624,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 0.0005848246468035945,
+          "variance_under_corruption": 8.663295453774657e-05,
+          "z_score": 0.44207344112965596,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0009467455621301777,
+          "z_score": -0.5,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.5549471132407691,
+          "variance_under_corruption": 0.010717541347748886,
+          "z_score": 22.062086975335667,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.6138147566718996,
+          "variance_under_corruption": 0.023862246746301462,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "sparse_75": {
+        "variance_mean": {
+          "canonical": 1185788.3658166993,
+          "variance_under_corruption": 301525431387.00085,
+          "z_score": -2.6489219024477797,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 1457113.5877185618,
+          "variance_under_corruption": 312940513126.09314,
+          "z_score": -0.27061448402832017,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": -0.00028026376166190303,
+          "variance_under_corruption": 1.565921298296575e-05,
+          "z_score": -0.7518862844883935,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0009467455621301777,
+          "z_score": 0.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.20203417252781203,
+          "variance_under_corruption": 0.0014844291967590433,
+          "z_score": 5.192030979667239,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.3814756671899529,
+          "variance_under_corruption": 0.06121157604449823,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "orthogonal": {
+        "variance_mean": {
+          "canonical": 0.01846154459026922,
+          "variance_under_corruption": 4.4521954078367243e-05,
+          "z_score": -1.0940835056245959,
+          "outperforms_null": false
+        },
+        "variance_total": {
+          "canonical": 0.01972900192779317,
+          "variance_under_corruption": 4.8874537362691026e-05,
+          "z_score": 0.13630782225824692,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 0.146381810378581,
+          "variance_under_corruption": 0.0013905148400894705,
+          "z_score": 7.22587103382182,
+          "outperforms_null": true
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.21686017678183483,
+          "variance_under_corruption": 0.00040384463189027144,
+          "z_score": 7.666118884460396,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "compressed_50": {
+        "variance_mean": {
+          "canonical": 3935.7231050357295,
+          "variance_under_corruption": 20252396165745.49,
+          "z_score": -10.000329101876325,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 13307681.870702596,
+          "variance_under_corruption": 15066871309099.098,
+          "z_score": 1.364705014050299,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 4.011383830437865e-06,
+          "variance_under_corruption": 7.612738856181216e-06,
+          "z_score": 1.3511066045475848,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.3333333333333333,
+          "variance_under_corruption": 0.017777777777777778,
+          "z_score": 3.2659863237109046,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9999954171849541,
+          "variance_under_corruption": 0.032894559983340135,
+          "z_score": 12.80612824754052,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "compressed_25": {
+        "variance_mean": {
+          "canonical": 7871.093723947699,
+          "variance_under_corruption": 47956519878226.12,
+          "z_score": -11.472860698694735,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 21295249.4360265,
+          "variance_under_corruption": 43103336092213.766,
+          "z_score": -1.123884820231857,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 4.009615868660887e-06,
+          "variance_under_corruption": 1.7379637521215524e-05,
+          "z_score": -0.6260790741120279,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.6666666666666666,
+          "variance_under_corruption": 0.07111111111111111,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9999954248951695,
+          "variance_under_corruption": 0.017312169096981522,
+          "z_score": 16.97901758048168,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      }
+    },
+    "institution": {
+      "full": {
+        "variance_mean": {
+          "canonical": 5.588075331964831e+16,
+          "variance_under_corruption": 1.4464036491885695e+33,
+          "z_score": -9.142415047271474,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 1.0963121738517109e+17,
+          "variance_under_corruption": 1.3905547679044314e+33,
+          "z_score": -1.6350719156209428,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 0.008601686543288078,
+          "variance_under_corruption": 1.3560864805479877e-05,
+          "z_score": 1.408890705631676,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.09090909090909091,
+          "variance_under_corruption": 0.0013223140495867767,
+          "z_score": 0.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.9909480064813597,
+          "variance_under_corruption": 0.03319001617818888,
+          "z_score": 26.88897981750891,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.6326530612244898,
+          "variance_under_corruption": 0.021591003748438146,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "1d": {
+        "variance_mean": {
+          "canonical": 6.146882865160925e+17,
+          "variance_under_corruption": 5.150200097279618e+34,
+          "z_score": -0.9964109708761835,
+          "outperforms_null": false
+        },
+        "variance_total": {
+          "canonical": 6.146882865160925e+17,
+          "variance_under_corruption": 5.150200097279618e+34,
+          "z_score": -0.28856523478961926,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 0.008601686543285525,
+          "variance_under_corruption": 2.806947044028376e-05,
+          "z_score": 0.8384394330555484,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.990948006481362,
+          "variance_under_corruption": 0.008266542862115488,
+          "z_score": 7.662332786788332,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "2d": {
+        "variance_mean": {
+          "canonical": 3.07344143258066e+17,
+          "variance_under_corruption": 1.8166098573189114e+34,
+          "z_score": -2.9538577503161534,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 4.699393777915828e+17,
+          "variance_under_corruption": 1.9855422082280566e+34,
+          "z_score": 0.6886932240666996,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 0.008601686543288078,
+          "variance_under_corruption": 5.489593746839701e-06,
+          "z_score": 0.04997569651381658,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.5,
+          "variance_under_corruption": 0.040000000000000015,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9909480064813599,
+          "variance_under_corruption": 0.019167520351228706,
+          "z_score": 7.174416509225515,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "sparse_50": {
+        "variance_mean": {
+          "canonical": 5.0425015775818184e+16,
+          "variance_under_corruption": 6.903304015010674e+32,
+          "z_score": -7.734340663714042,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 7.454969699051224e+16,
+          "variance_under_corruption": 6.718724786553259e+32,
+          "z_score": -0.6253031720258085,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": -0.013003165497725011,
+          "variance_under_corruption": 2.9959559897933422e-05,
+          "z_score": -0.32617668197739785,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.6672204311243713,
+          "variance_under_corruption": 0.017077976484496687,
+          "z_score": 10.404131755112227,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.6753246753246753,
+          "variance_under_corruption": 0.0168662506324844,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "sparse_75": {
+        "variance_mean": {
+          "canonical": 4.067194122405622e+16,
+          "variance_under_corruption": 2.8967247932089965e+32,
+          "z_score": -3.6664351340865617,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 5.078647124518951e+16,
+          "variance_under_corruption": 2.8483228354204533e+32,
+          "z_score": -0.18528726204230575,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": -0.025697310233378345,
+          "variance_under_corruption": 2.7112530271819934e-05,
+          "z_score": -0.7171215253093205,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        },
+        "lagged_stability": {
+          "canonical": 0.446158420575022,
+          "variance_under_corruption": 0.008306010783266485,
+          "z_score": 11.172189252685568,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.45269016697588127,
+          "variance_under_corruption": 0.047927688531982204,
+          "z_score": 0.0,
+          "outperforms_null": true
+        }
+      },
+      "orthogonal": {
+        "variance_mean": {
+          "canonical": 0.018181818181818184,
+          "variance_under_corruption": 5.422701062261987e-05,
+          "z_score": -3.4541679970020067,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 0.019819212477730296,
+          "variance_under_corruption": 5.34390222472016e-05,
+          "z_score": -0.5029925523352955,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 0.01931593799149195,
+          "variance_under_corruption": 0.00020090578690776343,
+          "z_score": 2.229934513680544,
+          "outperforms_null": true
+        },
+        "persistence": {
+          "canonical": 0.18181818181818182,
+          "variance_under_corruption": 0.007933884297520661,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.3231966975331938,
+          "variance_under_corruption": 0.002029825513811867,
+          "z_score": 7.8289976553628815,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 0.9944341372912802,
+          "variance_under_corruption": 4.956612430770901e-06,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "compressed_50": {
+        "variance_mean": {
+          "canonical": 1.229376573032264e+17,
+          "variance_under_corruption": 4.929679458684773e+33,
+          "z_score": -5.714394589411826,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 2.269985806609999e+17,
+          "variance_under_corruption": 4.3176170561987783e+33,
+          "z_score": -0.13484286530898312,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 0.008601686543288023,
+          "variance_under_corruption": 0.00019564422188162839,
+          "z_score": -0.04767959394745265,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.4,
+          "variance_under_corruption": 0.0256,
+          "z_score": 4.5,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9909480064813596,
+          "variance_under_corruption": 0.03849846804593474,
+          "z_score": 12.249426962771427,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      },
+      "compressed_25": {
+        "variance_mean": {
+          "canonical": 3.07344143258066e+17,
+          "variance_under_corruption": 1.8166098573189114e+34,
+          "z_score": -2.2514306597179212,
+          "outperforms_null": true
+        },
+        "variance_total": {
+          "canonical": 4.699393777915828e+17,
+          "variance_under_corruption": 1.9855422082280566e+34,
+          "z_score": -0.022624252261629698,
+          "outperforms_null": false
+        },
+        "entropy_rate": {
+          "canonical": 0.008601686543288078,
+          "variance_under_corruption": 5.489593746839701e-06,
+          "z_score": -0.345754851672879,
+          "outperforms_null": false
+        },
+        "persistence": {
+          "canonical": 0.5,
+          "variance_under_corruption": 0.040000000000000015,
+          "z_score": 0.0,
+          "outperforms_null": true
+        },
+        "lagged_stability": {
+          "canonical": 0.9909480064813599,
+          "variance_under_corruption": 0.019167520351228706,
+          "z_score": 13.938002535044062,
+          "outperforms_null": true
+        },
+        "transition_density": {
+          "canonical": 1.0,
+          "variance_under_corruption": 0.0,
+          "z_score": 0.0,
+          "outperforms_null": false
+        }
+      }
+    }
+  },
+  "runtime_seconds": 2.8
+}
