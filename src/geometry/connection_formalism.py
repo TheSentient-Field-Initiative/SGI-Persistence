@@ -600,27 +600,43 @@ class OrganizationalGeodesics:
 # ═══════════════════════════════════════════════════════════════════
 
 def state_to_vector(state: dict) -> np.ndarray:
-    """Convert simulation state dict to fixed 8-dimensional normalized vector."""
+    """Convert simulation state dict to fixed 8-dimensional normalized vector.
+    
+    Handles different key names across system types:
+    - Distributed: connectivity, n_active, routing_entropy, assignment_rate, allocation_entropy
+    - Immune: mean_activation, n_active, signaling_connectivity, type_entropy
+    - Ant Colony: trail_connectivity, total_pheromone, recruitment_rate, path_redundancy
+    - Institution: network_connectivity, mean_trust, cooperation_rate, strategy_entropy
+    """
     if not state:
         return np.zeros(8)
     
-    # Fixed-order keys: always map to the same 8 dimensions
-    fixed_keys = [
-        'connectivity',        # dim 0: graph connectivity
-        'n_active',            # dim 1: active elements
-        'routing_entropy',     # dim 2: routing diversity
-        'assignment_rate',     # dim 3: task allocation
-        'allocation_entropy',  # dim 4: allocation diversity
-        'mean_activation',     # dim 5: mean activation level
-        'type_entropy',        # dim 6: type diversity
-        'efficiency',          # dim 7: system efficiency
-    ]
+    # Map various key names to canonical dimensions
+    key_mapping = {
+        # dim 0: connectivity
+        'connectivity': 0, 'signaling_connectivity': 0, 
+        'trail_connectivity': 0, 'network_connectivity': 0,
+        # dim 1: active elements
+        'n_active': 1,
+        # dim 2: entropy/diversity
+        'routing_entropy': 2, 'type_entropy': 2, 'strategy_entropy': 2,
+        # dim 3: rate
+        'assignment_rate': 3, 'recruitment_rate': 3, 'cooperation_rate': 3,
+        # dim 4: allocation diversity
+        'allocation_entropy': 4, 'path_redundancy': 4,
+        # dim 5: mean level
+        'mean_activation': 5, 'mean_trust': 5, 'total_pheromone': 5,
+        # dim 6: components/structure
+        'n_components': 6, 'largest_component': 6,
+        # dim 7: efficiency/performance
+        'efficiency': 7, 'mean_payoff': 7,
+    }
     
     vec = np.zeros(8)
-    for i, key in enumerate(fixed_keys):
-        v = state.get(key, None)
-        if v is not None and isinstance(v, (int, float)):
-            vec[i] = float(v)
+    for key, value in state.items():
+        if key in key_mapping and isinstance(value, (int, float)):
+            dim = key_mapping[key]
+            vec[dim] = float(value)
     
     # Normalize by max absolute value
     max_abs = np.max(np.abs(vec))

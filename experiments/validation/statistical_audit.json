@@ -1,0 +1,91 @@
+{
+  "bootstrap": {
+    "mean": -0.7407202261354358,
+    "std": 0.34100238602274113,
+    "ci_lower": -0.9983026785379044,
+    "ci_upper": -0.07998949725753285,
+    "ci_level": 0.95,
+    "n_bootstrap": 9552
+  },
+  "permutation": {
+    "observed_correlation": -0.9427526477031781,
+    "p_value": 0.0,
+    "n_permutations": 10000,
+    "significant_at_005": 1,
+    "significant_at_001": 1
+  },
+  "effect_size": {
+    "cohens_d_high_vs_low_H": 0.19169934517180395
+  },
+  "leave_one_domain_out": [
+    {
+      "held_out_domain": "scale_free",
+      "train_n": 75,
+      "test_n": 25,
+      "train_correlation": -0.995959058332343,
+      "test_correlation": -0.11615931257590778
+    },
+    {
+      "held_out_domain": "none",
+      "train_n": 71,
+      "test_n": 29,
+      "train_correlation": -0.9424632138874414,
+      "test_correlation": 0.0
+    },
+    {
+      "held_out_domain": "random",
+      "train_n": 71,
+      "test_n": 29,
+      "train_correlation": -0.13801073816394654,
+      "test_correlation": -0.9963914670495165
+    },
+    {
+      "held_out_domain": "small_world",
+      "train_n": 83,
+      "test_n": 17,
+      "train_correlation": -0.9429785545969507,
+      "test_correlation": 0.0
+    }
+  ],
+  "sensitivity": {
+    "memory_depth": {
+      "corr_with_G": -0.10911232936980429,
+      "corr_with_invH": 0.08120298935253119
+    },
+    "adaptation_rate": {
+      "corr_with_G": -0.032923100673501425,
+      "corr_with_invH": 0.05151249882283998
+    },
+    "stochasticity": {
+      "corr_with_G": 0.06099496478138387,
+      "corr_with_invH": -0.0887249710843705
+    },
+    "replay_dependence": {
+      "corr_with_G": 0.17792718413212008,
+      "corr_with_invH": -0.17954730770328653
+    }
+  },
+  "control_comparison": {
+    "memoryless": {
+      "n": 20,
+      "mean_G": 0.99,
+      "mean_H": 0.9983250000000001,
+      "mean_GH": 0.9885800000000001,
+      "G_invH_correlation": -0.9925867286201913
+    },
+    "pure_stochastic": {
+      "n": 20,
+      "mean_G": 1.0,
+      "mean_H": 0.9995550000000002,
+      "mean_GH": 0.9995550000000002,
+      "G_invH_correlation": 0.0
+    },
+    "shuffled_history": {
+      "n": 20,
+      "mean_G": 1.0,
+      "mean_H": 0.9992500000000002,
+      "mean_GH": 0.9992500000000002,
+      "G_invH_correlation": 0.0
+    }
+  }
+}

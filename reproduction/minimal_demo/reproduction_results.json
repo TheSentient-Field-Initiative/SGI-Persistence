@@ -1,0 +1,24 @@
+{
+  "results": {
+    "distributed": {
+      "G": 0.5,
+      "H": 0.9999975141527052
+    },
+    "immune": {
+      "G": 0.75,
+      "H": 0.9999999994558342
+    },
+    "ant_colony": {
+      "G": 0.25,
+      "H": 0.9999473215523901
+    },
+    "institution": {
+      "G": 0.25,
+      "H": 0.9999719656102324
+    }
+  },
+  "correlation_G_invH": -0.8430263052318316,
+  "runtime_seconds": 0.8,
+  "passed": true,
+  "note": "G is based on sector alignment. Original G values: distributed=0.250, immune=0.875, ant_colony=0.125, institution=0.250"
+}

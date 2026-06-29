@@ -1,0 +1,1831 @@
+{
+  "ensemble": [
+    {
+      "system_id": "synthetic_000",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.767,
+        "stochasticity": 0.817,
+        "replay_dependence": 0.85
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2508,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_001",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "random",
+        "adaptation_rate": 0.654,
+        "stochasticity": 0.213,
+        "replay_dependence": 0.686
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.3018,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_002",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "random",
+        "adaptation_rate": 0.379,
+        "stochasticity": 0.882,
+        "replay_dependence": 0.701
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2544,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_003",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.031,
+        "stochasticity": 0.937,
+        "replay_dependence": 0.126
+      },
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.2256,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_004",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "random",
+        "adaptation_rate": 0.549,
+        "stochasticity": 0.239,
+        "replay_dependence": 0.736
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.4105,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_005",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "random",
+        "adaptation_rate": 0.482,
+        "stochasticity": 0.074,
+        "replay_dependence": 0.453
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.4054,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_006",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "none",
+        "adaptation_rate": 0.959,
+        "stochasticity": 0.787,
+        "replay_dependence": 0.976
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.2919,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_007",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.793,
+        "stochasticity": 0.514,
+        "replay_dependence": 0.891
+      },
+      "G": 0.5,
+      "H": 0.9674,
+      "TE": 1.3223,
+      "GH": 0.4837
+    },
+    {
+      "system_id": "synthetic_008",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "none",
+        "adaptation_rate": 0.905,
+        "stochasticity": 0.518,
+        "replay_dependence": 0.244
+      },
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.2485,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_009",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.151,
+        "stochasticity": 0.636,
+        "replay_dependence": 0.407
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.228,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_010",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "none",
+        "adaptation_rate": 0.038,
+        "stochasticity": 0.207,
+        "replay_dependence": 0.17
+      },
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.234,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_011",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.159,
+        "stochasticity": 0.867,
+        "replay_dependence": 0.96
+      },
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.345,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_012",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "none",
+        "adaptation_rate": 0.628,
+        "stochasticity": 0.923,
+        "replay_dependence": 0.587
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.3405,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_013",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.925,
+        "stochasticity": 0.035,
+        "replay_dependence": 0.993
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.4494,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_014",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.34,
+        "stochasticity": 0.821,
+        "replay_dependence": 0.743
+      },
+      "G": 0.5,
+      "H": 0.9994,
+      "TE": 1.2787,
+      "GH": 0.4997
+    },
+    {
+      "system_id": "synthetic_015",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.325,
+        "stochasticity": 0.191,
+        "replay_dependence": 0.091
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2494,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_016",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "none",
+        "adaptation_rate": 0.121,
+        "stochasticity": 0.863,
+        "replay_dependence": 0.099
+      },
+      "G": 0.5,
+      "H": 0.9994,
+      "TE": 1.2963,
+      "GH": 0.4997
+    },
+    {
+      "system_id": "synthetic_017",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "none",
+        "adaptation_rate": 0.666,
+        "stochasticity": 0.632,
+        "replay_dependence": 0.481
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.3516,
+      "GH": 0.4997
+    },
+    {
+      "system_id": "synthetic_018",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.337,
+        "stochasticity": 0.848,
+        "replay_dependence": 0.296
+      },
+      "G": 0.5,
+      "H": 0.9994,
+      "TE": 1.3553,
+      "GH": 0.4997
+    },
+    {
+      "system_id": "synthetic_019",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.387,
+        "stochasticity": 0.116,
+        "replay_dependence": 0.986
+      },
+      "G": 0.5,
+      "H": 0.9992,
+      "TE": 1.3386,
+      "GH": 0.4996
+    },
+    {
+      "system_id": "synthetic_020",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "none",
+        "adaptation_rate": 0.076,
+        "stochasticity": 0.926,
+        "replay_dependence": 0.451
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.4134,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_021",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "none",
+        "adaptation_rate": 0.514,
+        "stochasticity": 0.964,
+        "replay_dependence": 0.286
+      },
+      "G": 0.75,
+      "H": 0.9997,
+      "TE": 1.125,
+      "GH": 0.7498
+    },
+    {
+      "system_id": "synthetic_022",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "random",
+        "adaptation_rate": 0.953,
+        "stochasticity": 0.294,
+        "replay_dependence": 0.318
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.391,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_023",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.451,
+        "stochasticity": 0.634,
+        "replay_dependence": 0.643
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.423,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_024",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "random",
+        "adaptation_rate": 0.873,
+        "stochasticity": 0.113,
+        "replay_dependence": 0.15
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.3071,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_025",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.357,
+        "stochasticity": 0.75,
+        "replay_dependence": 0.929
+      },
+      "G": 0.5,
+      "H": 0.9992,
+      "TE": 1.2015,
+      "GH": 0.4996
+    },
+    {
+      "system_id": "synthetic_026",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.304,
+        "stochasticity": 0.793,
+        "replay_dependence": 0.901
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.3429,
+      "GH": 0.4997
+    },
+    {
+      "system_id": "synthetic_027",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.826,
+        "stochasticity": 0.917,
+        "replay_dependence": 0.031
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3157,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_028",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "random",
+        "adaptation_rate": 0.97,
+        "stochasticity": 0.245,
+        "replay_dependence": 0.074
+      },
+      "G": 0.5,
+      "H": 0.7883,
+      "TE": 1.3409,
+      "GH": 0.3942
+    },
+    {
+      "system_id": "synthetic_029",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "random",
+        "adaptation_rate": 0.361,
+        "stochasticity": 0.361,
+        "replay_dependence": 0.871
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.4284,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_030",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.799,
+        "stochasticity": 0.078,
+        "replay_dependence": 0.841
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.3908,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_031",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "random",
+        "adaptation_rate": 0.364,
+        "stochasticity": 0.52,
+        "replay_dependence": 0.47
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.3463,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_032",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.342,
+        "stochasticity": 0.607,
+        "replay_dependence": 0.519
+      },
+      "G": 0.5,
+      "H": 0.9991,
+      "TE": 1.1589,
+      "GH": 0.4995
+    },
+    {
+      "system_id": "synthetic_033",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.049,
+        "stochasticity": 0.072,
+        "replay_dependence": 0.65
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3444,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_034",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "none",
+        "adaptation_rate": 0.538,
+        "stochasticity": 0.383,
+        "replay_dependence": 0.193
+      },
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.2454,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_035",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.029,
+        "stochasticity": 0.269,
+        "replay_dependence": 0.9
+      },
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.3898,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_036",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.081,
+        "stochasticity": 0.253,
+        "replay_dependence": 0.248
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2643,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_037",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "random",
+        "adaptation_rate": 0.799,
+        "stochasticity": 0.583,
+        "replay_dependence": 0.562
+      },
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.173,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_038",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "none",
+        "adaptation_rate": 0.325,
+        "stochasticity": 0.323,
+        "replay_dependence": 0.988
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.4371,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_039",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.229,
+        "stochasticity": 0.512,
+        "replay_dependence": 0.508
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2982,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_040",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.985,
+        "stochasticity": 0.791,
+        "replay_dependence": 0.478
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.1356,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_041",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.671,
+        "stochasticity": 0.749,
+        "replay_dependence": 0.045
+      },
+      "G": 0.5,
+      "H": 0.9988,
+      "TE": 1.3602,
+      "GH": 0.4994
+    },
+    {
+      "system_id": "synthetic_042",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.127,
+        "stochasticity": 0.401,
+        "replay_dependence": 0.816
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.1862,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_043",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "random",
+        "adaptation_rate": 0.584,
+        "stochasticity": 0.475,
+        "replay_dependence": 0.678
+      },
+      "G": 0.5,
+      "H": 0.9984,
+      "TE": 1.1896,
+      "GH": 0.4992
+    },
+    {
+      "system_id": "synthetic_044",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.506,
+        "stochasticity": 0.152,
+        "replay_dependence": 0.999
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2029,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_045",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.338,
+        "stochasticity": 0.353,
+        "replay_dependence": 0.088
+      },
+      "G": 0.5,
+      "H": 0.9993,
+      "TE": 1.1647,
+      "GH": 0.4997
+    },
+    {
+      "system_id": "synthetic_046",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "random",
+        "adaptation_rate": 0.056,
+        "stochasticity": 0.307,
+        "replay_dependence": 0.541
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3056,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_047",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "small_world",
+        "adaptation_rate": 1.0,
+        "stochasticity": 0.822,
+        "replay_dependence": 0.188
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.4003,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_048",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "none",
+        "adaptation_rate": 0.598,
+        "stochasticity": 0.274,
+        "replay_dependence": 0.266
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.1799,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_049",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.127,
+        "stochasticity": 0.729,
+        "replay_dependence": 0.169
+      },
+      "G": 0.5,
+      "H": 0.9993,
+      "TE": 1.2519,
+      "GH": 0.4996
+    },
+    {
+      "system_id": "synthetic_050",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "random",
+        "adaptation_rate": 0.065,
+        "stochasticity": 0.809,
+        "replay_dependence": 0.801
+      },
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.3733,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_051",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "random",
+        "adaptation_rate": 0.422,
+        "stochasticity": 0.268,
+        "replay_dependence": 0.133
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.3515,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_052",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.707,
+        "stochasticity": 0.384,
+        "replay_dependence": 0.46
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.1177,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_053",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.502,
+        "stochasticity": 0.214,
+        "replay_dependence": 0.919
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2083,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_054",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "none",
+        "adaptation_rate": 0.436,
+        "stochasticity": 0.837,
+        "replay_dependence": 0.798
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.3776,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_055",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "none",
+        "adaptation_rate": 0.867,
+        "stochasticity": 0.652,
+        "replay_dependence": 0.297
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.2648,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_056",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.767,
+        "stochasticity": 0.581,
+        "replay_dependence": 0.213
+      },
+      "G": 0.5,
+      "H": 0.9992,
+      "TE": 1.3431,
+      "GH": 0.4996
+    },
+    {
+      "system_id": "synthetic_057",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.075,
+        "stochasticity": 0.628,
+        "replay_dependence": 0.591
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.2904,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_058",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.439,
+        "stochasticity": 0.226,
+        "replay_dependence": 0.011
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.384,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_059",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.644,
+        "stochasticity": 0.894,
+        "replay_dependence": 0.969
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.2982,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_060",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.354,
+        "stochasticity": 0.072,
+        "replay_dependence": 0.976
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.3224,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_061",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "none",
+        "adaptation_rate": 0.938,
+        "stochasticity": 0.149,
+        "replay_dependence": 0.075
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.3651,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_062",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "none",
+        "adaptation_rate": 0.739,
+        "stochasticity": 0.495,
+        "replay_dependence": 0.483
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.2455,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_063",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "random",
+        "adaptation_rate": 0.823,
+        "stochasticity": 0.789,
+        "replay_dependence": 0.889
+      },
+      "G": 0.5,
+      "H": 0.9988,
+      "TE": 1.254,
+      "GH": 0.4994
+    },
+    {
+      "system_id": "synthetic_064",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "random",
+        "adaptation_rate": 0.378,
+        "stochasticity": 0.532,
+        "replay_dependence": 0.526
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2311,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_065",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "none",
+        "adaptation_rate": 0.284,
+        "stochasticity": 0.425,
+        "replay_dependence": 0.447
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.3513,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_066",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "random",
+        "adaptation_rate": 0.238,
+        "stochasticity": 0.977,
+        "replay_dependence": 0.745
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3051,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_067",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "random",
+        "adaptation_rate": 0.652,
+        "stochasticity": 0.45,
+        "replay_dependence": 0.891
+      },
+      "G": 0.5,
+      "H": 0.9849,
+      "TE": 1.2206,
+      "GH": 0.4925
+    },
+    {
+      "system_id": "synthetic_068",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.386,
+        "stochasticity": 0.466,
+        "replay_dependence": 0.378
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.3882,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_069",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.785,
+        "stochasticity": 0.537,
+        "replay_dependence": 0.045
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.0331,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_070",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "none",
+        "adaptation_rate": 0.045,
+        "stochasticity": 0.941,
+        "replay_dependence": 0.114
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.2479,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_071",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "random",
+        "adaptation_rate": 0.664,
+        "stochasticity": 0.632,
+        "replay_dependence": 0.684
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.3947,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_072",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.001,
+        "stochasticity": 0.05,
+        "replay_dependence": 0.506
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.2315,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_073",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.234,
+        "stochasticity": 0.715,
+        "replay_dependence": 0.213
+      },
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.1725,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_074",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.116,
+        "stochasticity": 0.668,
+        "replay_dependence": 0.691
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.3218,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_075",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "random",
+        "adaptation_rate": 0.918,
+        "stochasticity": 0.532,
+        "replay_dependence": 0.605
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.1737,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_076",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "random",
+        "adaptation_rate": 0.762,
+        "stochasticity": 0.868,
+        "replay_dependence": 0.719
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3892,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_077",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.125,
+        "stochasticity": 0.74,
+        "replay_dependence": 0.683
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2978,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_078",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.12,
+        "stochasticity": 0.997,
+        "replay_dependence": 0.342
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3389,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_079",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "random",
+        "adaptation_rate": 0.187,
+        "stochasticity": 0.792,
+        "replay_dependence": 0.649
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.2486,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_080",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "none",
+        "adaptation_rate": 0.345,
+        "stochasticity": 0.597,
+        "replay_dependence": 0.583
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.3149,
+      "GH": 0.4997
+    },
+    {
+      "system_id": "synthetic_081",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.107,
+        "stochasticity": 0.395,
+        "replay_dependence": 0.488
+      },
+      "G": 0.5,
+      "H": 0.9992,
+      "TE": 1.3086,
+      "GH": 0.4996
+    },
+    {
+      "system_id": "synthetic_082",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.699,
+        "stochasticity": 0.942,
+        "replay_dependence": 0.961
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2758,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_083",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "random",
+        "adaptation_rate": 0.811,
+        "stochasticity": 0.833,
+        "replay_dependence": 0.376
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3945,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_084",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.089,
+        "stochasticity": 0.028,
+        "replay_dependence": 0.769
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3337,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_085",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "none",
+        "adaptation_rate": 0.344,
+        "stochasticity": 0.643,
+        "replay_dependence": 0.913
+      },
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.2029,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_086",
+      "params": {
+        "memory_depth": 15,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.661,
+        "stochasticity": 0.608,
+        "replay_dependence": 0.354
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2538,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_087",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.434,
+        "stochasticity": 0.914,
+        "replay_dependence": 0.275
+      },
+      "G": 0.5,
+      "H": 0.9984,
+      "TE": 1.2969,
+      "GH": 0.4992
+    },
+    {
+      "system_id": "synthetic_088",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "random",
+        "adaptation_rate": 0.402,
+        "stochasticity": 0.831,
+        "replay_dependence": 0.32
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2898,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_089",
+      "params": {
+        "memory_depth": 20,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.597,
+        "stochasticity": 0.433,
+        "replay_dependence": 0.049
+      },
+      "G": 0.5,
+      "H": 0.9988,
+      "TE": 1.1608,
+      "GH": 0.4994
+    },
+    {
+      "system_id": "synthetic_090",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.781,
+        "stochasticity": 0.314,
+        "replay_dependence": 0.5
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.1536,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_091",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "small_world",
+        "adaptation_rate": 0.542,
+        "stochasticity": 0.353,
+        "replay_dependence": 0.843
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2523,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_092",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "random",
+        "adaptation_rate": 0.87,
+        "stochasticity": 0.792,
+        "replay_dependence": 0.084
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2293,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_093",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "none",
+        "adaptation_rate": 0.632,
+        "stochasticity": 0.549,
+        "replay_dependence": 0.712
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.1367,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_094",
+      "params": {
+        "memory_depth": 0,
+        "coupling_type": "random",
+        "adaptation_rate": 0.89,
+        "stochasticity": 0.015,
+        "replay_dependence": 0.348
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2201,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_095",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "none",
+        "adaptation_rate": 0.031,
+        "stochasticity": 0.929,
+        "replay_dependence": 0.935
+      },
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.321,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_096",
+      "params": {
+        "memory_depth": 2,
+        "coupling_type": "scale_free",
+        "adaptation_rate": 0.519,
+        "stochasticity": 0.335,
+        "replay_dependence": 0.881
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.1452,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_097",
+      "params": {
+        "memory_depth": 5,
+        "coupling_type": "random",
+        "adaptation_rate": 0.377,
+        "stochasticity": 0.463,
+        "replay_dependence": 0.936
+      },
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.1516,
+      "GH": 0.4999
+    },
+    {
+      "system_id": "synthetic_098",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "none",
+        "adaptation_rate": 0.021,
+        "stochasticity": 0.745,
+        "replay_dependence": 0.128
+      },
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.3731,
+      "GH": 0.4998
+    },
+    {
+      "system_id": "synthetic_099",
+      "params": {
+        "memory_depth": 10,
+        "coupling_type": "random",
+        "adaptation_rate": 0.407,
+        "stochasticity": 0.477,
+        "replay_dependence": 0.881
+      },
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3464,
+      "GH": 0.4999
+    }
+  ],
+  "controls": [
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.977,
+      "TE": 1.2649,
+      "GH": 0.4885
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2019,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.1966,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2996,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3935,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3308,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2276,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.0693,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9994,
+      "TE": 1.3572,
+      "GH": 0.4997
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2337,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2745,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.1483,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2702,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.2654,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2892,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9994,
+      "TE": 1.2528,
+      "GH": 0.4997
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3312,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2445,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9984,
+      "TE": 1.369,
+      "GH": 0.4992
+    },
+    {
+      "control_type": "memoryless",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3472,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.3287,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.75,
+      "H": 0.9996,
+      "TE": 1.2591,
+      "GH": 0.7497
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.2599,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9993,
+      "TE": 1.1954,
+      "GH": 0.4997
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.5723,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.1993,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.335,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.2118,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.2405,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.3788,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.29,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.3158,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.3422,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9995,
+      "TE": 1.3209,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.3476,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.177,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.3524,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.4787,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.4034,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "pure_stochastic",
+      "G": 0.5,
+      "H": 0.9996,
+      "TE": 1.4102,
+      "GH": 0.4998
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2914,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.3387,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2338,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9993,
+      "TE": 1.2526,
+      "GH": 0.4997
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.303,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9982,
+      "TE": 1.212,
+      "GH": 0.4991
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.4479,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.3846,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.4866,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3621,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.1984,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9997,
+      "TE": 1.4135,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2775,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2842,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9985,
+      "TE": 1.2479,
+      "GH": 0.4993
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.3129,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.307,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.3948,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9998,
+      "TE": 1.2869,
+      "GH": 0.4999
+    },
+    {
+      "control_type": "shuffled_history",
+      "G": 0.5,
+      "H": 0.9999,
+      "TE": 1.3183,
+      "GH": 0.4999
+    }
+  ],
+  "summary": {
+    "n_systems": 100,
+    "n_controls": 60,
+    "ensemble_GH_correlation": -0.01212874016452238
+  }
+}
