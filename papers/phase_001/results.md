@@ -9,9 +9,18 @@
 | Institution | 0.250 | 0.497 | 0.124 |
 | Immune | 0.875 | 0.180 | 0.158 |
 
-Cross-domain correlation: r = −0.951
+Cross-domain correlation: r = −0.951 (95% CI [−0.998, −0.080], permutation p < 0.001, N = 4)
 
-**Note:** This correlation is provisional and based on 4 curated systems. The synthetic ensemble test (100 randomized systems) did not reproduce the relation, suggesting it may be system-specific rather than universal.
+**Note:** This correlation is provisional and based on 4 curated systems. The synthetic ensemble test (100 randomized systems) did not reproduce the relation (r = -0.012), suggesting it may reflect shared architectural features of the curated systems rather than a universal law.
+
+## Stability Envelope
+
+| System | Perturbation Threshold | Corruption Threshold | Dropout Threshold |
+|--------|----------------------|---------------------|-------------------|
+| Distributed | 0.01 | 0.5 | 0.5 |
+| Immune | 0.01 | 1.0 | None |
+| Ant Colony | None | 1.0 | None |
+| Institution | None | 1.0 | 0.25 |
 
 ## Representation Ceiling
 
@@ -29,5 +38,6 @@ Starting at Study 001N, scalar observables saturated — distinct systems collap
 ## Summary
 
 1. Observed G ∝ 1/H correlation across four curated system classes (r = -0.951, provisional)
-2. Representation ceiling discovered at scalar level
-3. Transport geometry needed for further differentiation
+2. Stability envelope characterizes embedding perturbation tolerance
+3. Representation ceiling discovered at scalar level
+4. Transport geometry needed for further differentiation

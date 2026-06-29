@@ -1,0 +1,539 @@
+{
+  "results": {
+    "distributed": {
+      "baseline_G": 0.5,
+      "perturbation": [
+        {
+          "noise_level": 0.01,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        },
+        {
+          "noise_level": 0.05,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        },
+        {
+          "noise_level": 0.1,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        },
+        {
+          "noise_level": 0.2,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        },
+        {
+          "noise_level": 0.5,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        },
+        {
+          "noise_level": 1.0,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        }
+      ],
+      "perturbation_collapse_threshold": 0.01,
+      "corruption": [
+        {
+          "corruption_fraction": 0.0,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.25,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.5,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.75,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 1.0,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false,
+          "n_sectors_remaining": 0
+        }
+      ],
+      "corruption_collapse_threshold": 0.5,
+      "dropout": [
+        {
+          "dropout_fraction": 0.0,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": []
+        },
+        {
+          "dropout_fraction": 0.25,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": [
+            "allocation_entropy"
+          ]
+        },
+        {
+          "dropout_fraction": 0.5,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false,
+          "dropped_keys": [
+            "allocation_entropy",
+            "assignment_rate",
+            "routing_entropy"
+          ]
+        },
+        {
+          "dropout_fraction": 0.75,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false,
+          "dropped_keys": [
+            "allocation_entropy",
+            "assignment_rate",
+            "routing_entropy",
+            "connectivity"
+          ]
+        }
+      ],
+      "dropout_collapse_threshold": 0.5
+    },
+    "immune": {
+      "baseline_G": 0.5,
+      "perturbation": [
+        {
+          "noise_level": 0.01,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        },
+        {
+          "noise_level": 0.05,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        },
+        {
+          "noise_level": 0.1,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        },
+        {
+          "noise_level": 0.2,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        },
+        {
+          "noise_level": 0.5,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        },
+        {
+          "noise_level": 1.0,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false
+        }
+      ],
+      "perturbation_collapse_threshold": 0.01,
+      "corruption": [
+        {
+          "corruption_fraction": 0.0,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.25,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.5,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.75,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 1.0,
+          "G": 0.0,
+          "delta_G": -0.5,
+          "stable": false,
+          "n_sectors_remaining": 0
+        }
+      ],
+      "corruption_collapse_threshold": 1.0,
+      "dropout": [
+        {
+          "dropout_fraction": 0.0,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": []
+        },
+        {
+          "dropout_fraction": 0.25,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": [
+            "n_components",
+            "cov_condition"
+          ]
+        },
+        {
+          "dropout_fraction": 0.5,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": [
+            "largest_component",
+            "cov_condition",
+            "n_components",
+            "total_cytokines",
+            "type_entropy"
+          ]
+        },
+        {
+          "dropout_fraction": 0.75,
+          "G": 0.5,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": [
+            "largest_component",
+            "signaling_noise",
+            "cov_trace",
+            "cov_condition",
+            "n_components",
+            "n_active",
+            "total_cytokines",
+            "type_entropy"
+          ]
+        }
+      ],
+      "dropout_collapse_threshold": null
+    },
+    "ant_colony": {
+      "baseline_G": 0.0,
+      "perturbation": [
+        {
+          "noise_level": 0.01,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        },
+        {
+          "noise_level": 0.05,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        },
+        {
+          "noise_level": 0.1,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        },
+        {
+          "noise_level": 0.2,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        },
+        {
+          "noise_level": 0.5,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        },
+        {
+          "noise_level": 1.0,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        }
+      ],
+      "perturbation_collapse_threshold": null,
+      "corruption": [
+        {
+          "corruption_fraction": 0.0,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.25,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.5,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.75,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 1.0,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": false,
+          "n_sectors_remaining": 0
+        }
+      ],
+      "corruption_collapse_threshold": 1.0,
+      "dropout": [
+        {
+          "dropout_fraction": 0.0,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": []
+        },
+        {
+          "dropout_fraction": 0.25,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": [
+            "residual_energy",
+            "total_pheromone",
+            "anisotropy"
+          ]
+        },
+        {
+          "dropout_fraction": 0.5,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": [
+            "residual_energy",
+            "residual_deviation",
+            "cov_trace",
+            "non_principal",
+            "anisotropy",
+            "total_pheromone"
+          ]
+        },
+        {
+          "dropout_fraction": 0.75,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": [
+            "residual_energy",
+            "residual_deviation",
+            "cov_trace",
+            "cov_condition",
+            "non_principal",
+            "trail_connectivity",
+            "n_components",
+            "anisotropy",
+            "total_pheromone"
+          ]
+        }
+      ],
+      "dropout_collapse_threshold": null
+    },
+    "institution": {
+      "baseline_G": 0.0,
+      "perturbation": [
+        {
+          "noise_level": 0.01,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        },
+        {
+          "noise_level": 0.05,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        },
+        {
+          "noise_level": 0.1,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        },
+        {
+          "noise_level": 0.2,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        },
+        {
+          "noise_level": 0.5,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        },
+        {
+          "noise_level": 1.0,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true
+        }
+      ],
+      "perturbation_collapse_threshold": null,
+      "corruption": [
+        {
+          "corruption_fraction": 0.0,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.25,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.5,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 0.75,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "n_sectors_remaining": 2
+        },
+        {
+          "corruption_fraction": 1.0,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": false,
+          "n_sectors_remaining": 0
+        }
+      ],
+      "corruption_collapse_threshold": 1.0,
+      "dropout": [
+        {
+          "dropout_fraction": 0.0,
+          "G": 0.0,
+          "delta_G": 0.0,
+          "stable": true,
+          "dropped_keys": []
+        },
+        {
+          "dropout_fraction": 0.25,
+          "G": 0.5,
+          "delta_G": 0.5,
+          "stable": false,
+          "dropped_keys": [
+            "mean_trust",
+            "cooperation_rate"
+          ]
+        },
+        {
+          "dropout_fraction": 0.5,
+          "G": 0.5,
+          "delta_G": 0.5,
+          "stable": false,
+          "dropped_keys": [
+            "cov_trace",
+            "strategy_entropy",
+            "mean_trust",
+            "norm_deviation",
+            "cooperation_rate"
+          ]
+        },
+        {
+          "dropout_fraction": 0.75,
+          "G": 0.5,
+          "delta_G": 0.5,
+          "stable": false,
+          "dropped_keys": [
+            "cov_trace",
+            "cov_condition",
+            "strategy_entropy",
+            "non_principal",
+            "mean_payoff",
+            "mean_trust",
+            "norm_deviation",
+            "cooperation_rate"
+          ]
+        }
+      ],
+      "dropout_collapse_threshold": 0.25
+    }
+  },
+  "runtime_seconds": 0.9,
+  "summary": {
+    "distributed": {
+      "perturbation_collapse": 0.01,
+      "corruption_collapse": 0.5,
+      "dropout_collapse": 0.5
+    },
+    "immune": {
+      "perturbation_collapse": 0.01,
+      "corruption_collapse": 1.0,
+      "dropout_collapse": null
+    },
+    "ant_colony": {
+      "perturbation_collapse": null,
+      "corruption_collapse": 1.0,
+      "dropout_collapse": null
+    },
+    "institution": {
+      "perturbation_collapse": null,
+      "corruption_collapse": 1.0,
+      "dropout_collapse": 0.25
+    }
+  }
+}

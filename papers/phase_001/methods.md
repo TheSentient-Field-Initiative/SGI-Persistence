@@ -27,11 +27,19 @@
 ### Organizational Replay Stability (G)
 Fraction of organizational states that can be reproduced through replay of the generative process.
 
+**Canonical Implementation:** `src/metrics/contracts.py` → `compute_G()`
+**Sector Definitions:** System-specific (see `docs/specifications/canonical_metric_contract.md`)
+
 ### Historical Residue Coupling (H)
 Correlation between current organizational state and the trajectory of historical states.
 
+**Canonical Implementation:** `src/metrics/contracts.py` → `compute_H()`
+**Embedding:** System-specific z-score normalized embeddings (see `src/embeddings/`)
+
 ### Transport Error
 Frobenius norm of the difference between fiber states at adjacent points along a trajectory.
+
+**Canonical Implementation:** `src/metrics/contracts.py` → `compute_TE()`
 
 ### Fiber Entanglement (Replay Transport Coupling)
 Magnitude of the historical fiber residue vector.
@@ -43,3 +51,12 @@ All experiments use:
 - Deterministic seeds (seed=42)
 - 4 perturbation protocols per system class
 - 50 timesteps of recovery measurement
+- Canonical metric contracts (see `docs/specifications/canonical_metric_contract.md`)
+- System-specific embeddings (see `src/embeddings/`)
+
+## Reproducibility
+
+All experiments are reproducible via:
+- `make deterministic` (deterministic replay with fixed seeds)
+- `make hash` (artifact verification)
+- External review package (see `reproduction/external_review/`)
