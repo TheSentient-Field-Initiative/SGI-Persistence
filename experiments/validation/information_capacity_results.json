@@ -1,0 +1,428 @@
+{
+  "results": {
+    "distributed": {
+      "matrix_shape": [
+        50,
+        6
+      ],
+      "n_keys": 6,
+      "keys": [
+        "allocation_entropy",
+        "assignment_rate",
+        "connectivity",
+        "n_active",
+        "n_components",
+        "routing_entropy"
+      ],
+      "entropy": -0.30308980559063314,
+      "snr": 0.39348138872982685,
+      "predictive_information": 0.0,
+      "compression_loss_1d": 0.9982902454401068,
+      "average_pairwise_mi": Infinity,
+      "mi_matrix": [
+        [
+          0.0,
+          0.0,
+          0.14040816326530692,
+          0.14040816326530692,
+          0.14040816326530692,
+          0.14040816326530692
+        ],
+        [
+          0.0,
+          0.0,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity
+        ],
+        [
+          0.14040816326530692,
+          Infinity,
+          0.0,
+          Infinity,
+          Infinity,
+          Infinity
+        ],
+        [
+          0.14040816326530692,
+          Infinity,
+          Infinity,
+          0.0,
+          Infinity,
+          Infinity
+        ],
+        [
+          0.14040816326530692,
+          Infinity,
+          Infinity,
+          Infinity,
+          0.0,
+          Infinity
+        ],
+        [
+          0.14040816326530692,
+          Infinity,
+          Infinity,
+          Infinity,
+          Infinity,
+          0.0
+        ]
+      ]
+    },
+    "immune": {
+      "matrix_shape": [
+        50,
+        11
+      ],
+      "n_keys": 11,
+      "keys": [
+        "cov_condition",
+        "cov_trace",
+        "largest_component",
+        "mean_activation",
+        "n_active",
+        "n_components",
+        "non_principal",
+        "signaling_connectivity",
+        "signaling_noise",
+        "total_cytokines",
+        "type_entropy"
+      ],
+      "entropy": 0.6355479068637085,
+      "snr": 7.798229179009545,
+      "predictive_information": 1.9768243859484733,
+      "compression_loss_1d": 0.999766514163814,
+      "average_pairwise_mi": Infinity,
+      "mi_matrix": [
+        [
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.0,
+          0.02040816326530681,
+          0.02040816326530681,
+          0.01376535254099931,
+          0.02040816326530681
+        ],
+        [
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.0,
+          0.02040816326530681,
+          0.02040816326530681,
+          0.0,
+          0.02040816326530681
+        ],
+        [
+          0.02040816326530681,
+          0.02040816326530681,
+          0.0,
+          0.02040816326530681,
+          Infinity,
+          Infinity,
+          0.02040816326530681,
+          Infinity
+        ],
+        [
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.0,
+          0.02040816326530681,
+          0.02040816326530681,
+          0.8478059146349666,
+          0.02040816326530681
+        ],
+        [
+          0.02040816326530681,
+          0.02040816326530681,
+          Infinity,
+          0.02040816326530681,
+          0.0,
+          Infinity,
+          0.02040816326530681,
+          Infinity
+        ],
+        [
+          0.02040816326530681,
+          0.02040816326530681,
+          Infinity,
+          0.02040816326530681,
+          Infinity,
+          0.0,
+          0.02040816326530681,
+          Infinity
+        ],
+        [
+          0.01376535254099931,
+          0.0,
+          0.02040816326530681,
+          0.8478059146349666,
+          0.02040816326530681,
+          0.02040816326530681,
+          0.0,
+          0.02040816326530681
+        ],
+        [
+          0.02040816326530681,
+          0.02040816326530681,
+          Infinity,
+          0.02040816326530681,
+          Infinity,
+          Infinity,
+          0.02040816326530681,
+          0.0
+        ]
+      ]
+    },
+    "ant_colony": {
+      "matrix_shape": [
+        50,
+        13
+      ],
+      "n_keys": 13,
+      "keys": [
+        "anisotropy",
+        "cov_condition",
+        "cov_trace",
+        "largest_component",
+        "n_components",
+        "non_principal",
+        "path_redundancy",
+        "recruitment_rate",
+        "residual_deviation",
+        "residual_energy",
+        "total_food_remaining",
+        "total_pheromone",
+        "trail_connectivity"
+      ],
+      "entropy": 6.223097497422118,
+      "snr": 1000.4244092893382,
+      "predictive_information": 1.441628402793306,
+      "compression_loss_1d": 0.6805988080871312,
+      "average_pairwise_mi": Infinity,
+      "mi_matrix": [
+        [
+          0.0,
+          1.4944126865367742,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.4944126865367742,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          Infinity,
+          0.0,
+          Infinity,
+          Infinity
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          Infinity,
+          0.0,
+          0.0,
+          Infinity,
+          Infinity
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          Infinity,
+          Infinity,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          Infinity,
+          Infinity,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "institution": {
+      "matrix_shape": [
+        50,
+        11
+      ],
+      "n_keys": 11,
+      "keys": [
+        "cooperation_rate",
+        "cov_condition",
+        "cov_trace",
+        "largest_component",
+        "mean_payoff",
+        "mean_trust",
+        "n_components",
+        "network_connectivity",
+        "non_principal",
+        "norm_deviation",
+        "strategy_entropy"
+      ],
+      "entropy": 17.45911554145467,
+      "snr": 8140205931.937579,
+      "predictive_information": 0.390772426264141,
+      "compression_loss_1d": 6.328271240363392e-14,
+      "average_pairwise_mi": Infinity,
+      "mi_matrix": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          Infinity,
+          0.0,
+          0.0,
+          Infinity,
+          Infinity
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.02040816326530681
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.02040816326530681
+        ],
+        [
+          Infinity,
+          0.02040816326530681,
+          0.02040816326530681,
+          0.0,
+          0.02040816326530681,
+          0.02040816326530681,
+          Infinity,
+          Infinity
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.02040816326530681
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.0,
+          0.0,
+          0.02040816326530681,
+          0.02040816326530681
+        ],
+        [
+          Infinity,
+          0.02040816326530681,
+          0.02040816326530681,
+          Infinity,
+          0.02040816326530681,
+          0.02040816326530681,
+          0.0,
+          Infinity
+        ],
+        [
+          Infinity,
+          0.02040816326530681,
+          0.02040816326530681,
+          Infinity,
+          0.02040816326530681,
+          0.02040816326530681,
+          Infinity,
+          0.0
+        ]
+      ]
+    }
+  },
+  "runtime_seconds": 0.9,
+  "summary": {
+    "distributed": {
+      "entropy": -0.30308980559063314,
+      "snr": 0.39348138872982685,
+      "predictive_information": 0.0,
+      "compression_loss_1d": 0.9982902454401068,
+      "average_pairwise_mi": Infinity
+    },
+    "immune": {
+      "entropy": 0.6355479068637085,
+      "snr": 7.798229179009545,
+      "predictive_information": 1.9768243859484733,
+      "compression_loss_1d": 0.999766514163814,
+      "average_pairwise_mi": Infinity
+    },
+    "ant_colony": {
+      "entropy": 6.223097497422118,
+      "snr": 1000.4244092893382,
+      "predictive_information": 1.441628402793306,
+      "compression_loss_1d": 0.6805988080871312,
+      "average_pairwise_mi": Infinity
+    },
+    "institution": {
+      "entropy": 17.45911554145467,
+      "snr": 8140205931.937579,
+      "predictive_information": 0.390772426264141,
+      "compression_loss_1d": 6.328271240363392e-14,
+      "average_pairwise_mi": Infinity
+    }
+  }
+}

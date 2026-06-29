@@ -1,0 +1,175 @@
+{
+  "results": {
+    "distributed": {
+      "canonical": {
+        "G": 0.5,
+        "H": 0.9999947026463604
+      },
+      "null_observables": {
+        "random": {
+          "G": 0.0,
+          "H": 0.22964975992169764
+        },
+        "shuffled": {
+          "G": 0.5,
+          "H": 0.9999891411316684
+        },
+        "coordinate_noise": {
+          "G": 0.0,
+          "H": 0.9999883801094697
+        },
+        "constant": {
+          "G": 0.0,
+          "H": 1.0
+        },
+        "linear_trend": {
+          "G": 0.0,
+          "H": 0.99985831025145
+        }
+      },
+      "null_G_range": [
+        0.0,
+        0.5
+      ],
+      "null_H_range": [
+        0.22964975992169764,
+        1.0
+      ],
+      "G_outperforms_null": false,
+      "H_outperforms_null": false
+    },
+    "immune": {
+      "canonical": {
+        "G": 1.0,
+        "H": 0.9999973260729786
+      },
+      "null_observables": {
+        "random": {
+          "G": 0.0,
+          "H": 0.13645778962742153
+        },
+        "shuffled": {
+          "G": 0.0,
+          "H": 0.9999526486062134
+        },
+        "coordinate_noise": {
+          "G": 0.0,
+          "H": 0.9999599317495704
+        },
+        "constant": {
+          "G": 0.0,
+          "H": 1.0
+        },
+        "linear_trend": {
+          "G": 0.0,
+          "H": 0.9997353475746706
+        }
+      },
+      "null_G_range": [
+        0.0,
+        0.0
+      ],
+      "null_H_range": [
+        0.13645778962742153,
+        1.0
+      ],
+      "G_outperforms_null": true,
+      "H_outperforms_null": false
+    },
+    "ant_colony": {
+      "canonical": {
+        "G": 0.0,
+        "H": 0.9999894596087875
+      },
+      "null_observables": {
+        "random": {
+          "G": 1.0,
+          "H": 0.07915522194623703
+        },
+        "shuffled": {
+          "G": 0.0,
+          "H": 0.9997644889598739
+        },
+        "coordinate_noise": {
+          "G": 0.0,
+          "H": 0.999866906507549
+        },
+        "constant": {
+          "G": 1.0,
+          "H": 1.0
+        },
+        "linear_trend": {
+          "G": 0.0,
+          "H": 0.9996695278081251
+        }
+      },
+      "null_G_range": [
+        0.0,
+        1.0
+      ],
+      "null_H_range": [
+        0.07915522194623703,
+        1.0
+      ],
+      "G_outperforms_null": false,
+      "H_outperforms_null": false
+    },
+    "institution": {
+      "canonical": {
+        "G": 0.5,
+        "H": 0.9769483941070419
+      },
+      "null_observables": {
+        "random": {
+          "G": 1.0,
+          "H": 0.07379401114124538
+        },
+        "shuffled": {
+          "G": 0.0,
+          "H": 0.48983530029246836
+        },
+        "coordinate_noise": {
+          "G": 0.5,
+          "H": 0.9769483941070419
+        },
+        "constant": {
+          "G": 1.0,
+          "H": 1.0
+        },
+        "linear_trend": {
+          "G": 0.0,
+          "H": 0.9995222205141594
+        }
+      },
+      "null_G_range": [
+        0.0,
+        1.0
+      ],
+      "null_H_range": [
+        0.07379401114124538,
+        1.0
+      ],
+      "G_outperforms_null": false,
+      "H_outperforms_null": false
+    }
+  },
+  "runtime_seconds": 0.7,
+  "summary": {
+    "distributed": {
+      "G_outperforms_null": false,
+      "H_outperforms_null": false
+    },
+    "immune": {
+      "G_outperforms_null": true,
+      "H_outperforms_null": false
+    },
+    "ant_colony": {
+      "G_outperforms_null": false,
+      "H_outperforms_null": false
+    },
+    "institution": {
+      "G_outperforms_null": false,
+      "H_outperforms_null": false
+    }
+  }
+}

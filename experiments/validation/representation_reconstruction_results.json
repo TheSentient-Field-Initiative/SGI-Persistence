@@ -1,0 +1,99 @@
+{
+  "results": {
+    "distributed": {
+      "matrix_shape": [
+        50,
+        6
+      ],
+      "reconstruction_error_mse": 0.016988124661510243,
+      "prediction_error_1d": 2.9811237062189943e-05,
+      "variance_explained_1d": 0.9999898489032624,
+      "average_correlation_1d": 0.9563952002286893,
+      "information_loss": 0.9982902454401068,
+      "svd_values": [
+        708.5567822570896,
+        2.239356209294018,
+        0.28586914200282093,
+        1.7943369926098213e-15,
+        3.123627050732581e-16
+      ]
+    },
+    "immune": {
+      "matrix_shape": [
+        50,
+        11
+      ],
+      "reconstruction_error_mse": 0.04284683966052065,
+      "prediction_error_1d": 4.84483532072018e-08,
+      "variance_explained_1d": 0.9999529782529981,
+      "average_correlation_1d": 0.7991335969578836,
+      "information_loss": 0.999766514163814,
+      "svd_values": [
+        707.9150588600581,
+        4.721603565935113,
+        1.127926870299873,
+        0.0012659413603387634,
+        0.0009753266066347837
+      ]
+    },
+    "ant_colony": {
+      "matrix_shape": [
+        50,
+        13
+      ],
+      "reconstruction_error_mse": 1236.3864088259902,
+      "prediction_error_1d": 10.343163373982323,
+      "variance_explained_1d": 0.9998322344112913,
+      "average_correlation_1d": 0.49675082444726054,
+      "information_loss": 0.680598808087131,
+      "svd_values": [
+        69206.3450965626,
+        895.78939767017,
+        34.04131096018258,
+        5.940563918441513,
+        4.080461152236081
+      ]
+    },
+    "institution": {
+      "matrix_shape": [
+        50,
+        11
+      ],
+      "reconstruction_error_mse": 5333.492574994044,
+      "prediction_error_1d": 5699833308895320.0,
+      "variance_explained_1d": 0.9999999999999536,
+      "average_correlation_1d": 0.43783482213842784,
+      "information_loss": 6.306066779870889e-14,
+      "svd_values": [
+        7953203761.797335,
+        1712.7029860611399,
+        8.317755077326195,
+        0.39234161522598077,
+        0.20921875451763225
+      ]
+    }
+  },
+  "runtime_seconds": 0.7,
+  "summary": {
+    "distributed": {
+      "reconstruction_error": 0.016988124661510243,
+      "variance_explained": 0.9999898489032624,
+      "information_loss": 0.9982902454401068
+    },
+    "immune": {
+      "reconstruction_error": 0.04284683966052065,
+      "variance_explained": 0.9999529782529981,
+      "information_loss": 0.999766514163814
+    },
+    "ant_colony": {
+      "reconstruction_error": 1236.3864088259902,
+      "variance_explained": 0.9998322344112913,
+      "information_loss": 0.680598808087131
+    },
+    "institution": {
+      "reconstruction_error": 5333.492574994044,
+      "variance_explained": 0.9999999999999536,
+      "information_loss": 6.306066779870889e-14
+    }
+  }
+}
