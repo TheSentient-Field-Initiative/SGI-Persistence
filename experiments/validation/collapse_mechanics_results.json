@@ -1,0 +1,53 @@
+{
+  "results": {
+    "distributed": {
+      "G_collapse_rate": 24.49999987995,
+      "G_collapse_acceleration": 24.49999987995,
+      "G_critical_exponent": 2.511156271466688e-17,
+      "G_recovery_rate": 0.5104166641656244,
+      "G_metastability_region": 0.0,
+      "H_collapse_rate": 0.5559556707069183,
+      "H_collapse_acceleration": 0.030606370222841673,
+      "H_critical_exponent": 0.12318174546978324,
+      "H_recovery_rate": 0.0,
+      "H_metastability_region": 0.0
+    },
+    "immune": {
+      "G_collapse_rate": 48.9999997599,
+      "G_collapse_acceleration": 48.9999997599,
+      "G_critical_exponent": 2.511156271466688e-17,
+      "G_recovery_rate": 0.510416664165625,
+      "G_metastability_region": 0.0,
+      "H_collapse_rate": 0.5802121748510312,
+      "H_collapse_acceleration": 0.03369901055887868,
+      "H_critical_exponent": 0.1305213310261219,
+      "H_recovery_rate": 0.0,
+      "H_metastability_region": 0.0
+    },
+    "ant_colony": {
+      "G_collapse_rate": 24.49999987995,
+      "G_collapse_acceleration": 24.49999987995,
+      "G_critical_exponent": 2.511156271466688e-17,
+      "G_recovery_rate": 0.49999999755,
+      "G_metastability_region": 0.0,
+      "H_collapse_rate": 0.6055774510585811,
+      "H_collapse_acceleration": 0.036131643315272736,
+      "H_critical_exponent": 0.13883328671878786,
+      "H_recovery_rate": 0.0,
+      "H_metastability_region": 0.0
+    },
+    "institution": {
+      "G_collapse_rate": 24.49999987994997,
+      "G_collapse_acceleration": 24.49999987995,
+      "G_critical_exponent": 0.09974545188851472,
+      "G_recovery_rate": 0.4999999975499994,
+      "G_metastability_region": 0.0,
+      "H_collapse_rate": 0.610126639988336,
+      "H_collapse_acceleration": 0.035860906378655355,
+      "H_critical_exponent": 0.14464845122311615,
+      "H_recovery_rate": 0.0,
+      "H_metastability_region": 0.0
+    }
+  },
+  "runtime_seconds": 0.8
+}
