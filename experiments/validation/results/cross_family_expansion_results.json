@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "num_systems": 12,
+    "num_seeds": 5,
+    "num_timesteps": 200,
+    "ed_threshold": 2.0,
+    "total_time": 18.94318699836731,
+    "low_rank_count": 8,
+    "not_low_rank_count": 4
+  },
+  "results": {
+    "distributed": {
+      "avg_ed": 1.0,
+      "std_ed": 0.0,
+      "is_low_rank": "True",
+      "n_seeds": 5
+    },
+    "immune": {
+      "avg_ed": 2.953012616722358,
+      "std_ed": 0.0282997777109069,
+      "is_low_rank": "False",
+      "n_seeds": 5
+    },
+    "ant_colony": {
+      "avg_ed": 1.0407707194011508,
+      "std_ed": 0.0023174246682184,
+      "is_low_rank": "True",
+      "n_seeds": 5
+    },
+    "institution": {
+      "avg_ed": 1.0212808793382755,
+      "std_ed": 0.0015304125993054845,
+      "is_low_rank": "True",
+      "n_seeds": 5
+    },
+    "epidemic": {
+      "avg_ed": 2.978645046785512,
+      "std_ed": 0.03423736795697182,
+      "is_low_rank": "False",
+      "n_seeds": 5
+    },
+    "neural": {
+      "avg_ed": 9.957426245474583,
+      "std_ed": 0.14477056914957773,
+      "is_low_rank": "False",
+      "n_seeds": 5
+    },
+    "market": {
+      "avg_ed": 11.35850070576032,
+      "std_ed": 0.11626883566115467,
+      "is_low_rank": "False",
+      "n_seeds": 5
+    },
+    "ecological": {
+      "avg_ed": 1.223220593544515,
+      "std_ed": 0.015384376414312218,
+      "is_low_rank": "True",
+      "n_seeds": 5
+    },
+    "swarm": {
+      "avg_ed": 1.255063456945952,
+      "std_ed": 0.21860950547524835,
+      "is_low_rank": "True",
+      "n_seeds": 5
+    },
+    "reservoir": {
+      "avg_ed": 1.0035935146592214,
+      "std_ed": 0.0015617209248177197,
+      "is_low_rank": "True",
+      "n_seeds": 5
+    },
+    "reaction_diffusion": {
+      "avg_ed": 1.0194790476630629,
+      "std_ed": 0.008436507332879983,
+      "is_low_rank": "True",
+      "n_seeds": 5
+    },
+    "evolutionary_game": {
+      "avg_ed": 1.003610646513121,
+      "std_ed": 0.006573094334599041,
+      "is_low_rank": "True",
+      "n_seeds": 5
+    }
+  },
+  "families": {
+    "distributed_networks": [
+      "distributed",
+      "immune",
+      "ant_colony",
+      "institution"
+    ],
+    "dynamical_systems": [
+      "epidemic",
+      "neural",
+      "ecological"
+    ],
+    "economic_systems": [
+      "market"
+    ],
+    "swarm_systems": [
+      "swarm"
+    ],
+    "reservoir_systems": [
+      "reservoir"
+    ],
+    "pattern_formation": [
+      "reaction_diffusion"
+    ],
+    "evolutionary_systems": [
+      "evolutionary_game"
+    ]
+  }
+}

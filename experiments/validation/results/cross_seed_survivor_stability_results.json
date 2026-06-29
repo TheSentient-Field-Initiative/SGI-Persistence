@@ -1,0 +1,773 @@
+{
+  "metadata": {
+    "num_seeds": 10,
+    "num_timesteps": 200,
+    "total_time": 30.346065998077393
+  },
+  "main_results": {
+    "distributed": {
+      "seeds": [
+        {
+          "variance_mean": 0.006542863261907453,
+          "lagged_stability": 0.9999966724141055,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.27638190954773867,
+          "variance_of_variance": 0.00017027417010809256,
+          "mean_absolute_difference": 0.02110564893679636,
+          "approx_entropy": 0.8604939878262288,
+          "seed": 0,
+          "runtime": 1.097243070602417
+        },
+        {
+          "variance_mean": 0.006223024327661537,
+          "lagged_stability": 0.9999971499428215,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.2897822445561139,
+          "variance_of_variance": 0.00014501587406424136,
+          "mean_absolute_difference": 0.02107752473407368,
+          "approx_entropy": 0.8643412620031342,
+          "seed": 1,
+          "runtime": 1.1225306987762451
+        },
+        {
+          "variance_mean": 0.010275349758224844,
+          "lagged_stability": 0.9999944338695356,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.28726968174204354,
+          "variance_of_variance": 0.00044936319128844785,
+          "mean_absolute_difference": 0.026194338001820635,
+          "approx_entropy": 0.892196084869803,
+          "seed": 2,
+          "runtime": 1.45501708984375
+        },
+        {
+          "variance_mean": 0.008302518955175161,
+          "lagged_stability": 0.9999965857940412,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.271356783919598,
+          "variance_of_variance": 0.0002671606221692753,
+          "mean_absolute_difference": 0.01936404505636845,
+          "approx_entropy": 0.8624134380894887,
+          "seed": 3,
+          "runtime": 1.3033487796783447
+        },
+        {
+          "variance_mean": 0.008785907880417464,
+          "lagged_stability": 0.9999961668416297,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.2864321608040201,
+          "variance_of_variance": 0.00031622941131351657,
+          "mean_absolute_difference": 0.02350604409417159,
+          "approx_entropy": 0.8709834101321167,
+          "seed": 4,
+          "runtime": 1.3045189380645752
+        },
+        {
+          "variance_mean": 0.008032601126230622,
+          "lagged_stability": 0.999996125280554,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.28391959798994976,
+          "variance_of_variance": 0.0002598710969046826,
+          "mean_absolute_difference": 0.024789456664957604,
+          "approx_entropy": 0.8583172573977825,
+          "seed": 5,
+          "runtime": 1.8075222969055176
+        },
+        {
+          "variance_mean": 0.006534151191094351,
+          "lagged_stability": 0.9999969238425047,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.2797319932998325,
+          "variance_of_variance": 0.00016496814131838458,
+          "mean_absolute_difference": 0.020319240931562337,
+          "approx_entropy": 0.8604939878262288,
+          "seed": 6,
+          "runtime": 0.8336880207061768
+        },
+        {
+          "variance_mean": 0.008545198269389853,
+          "lagged_stability": 0.9999954393933448,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.29061976549413737,
+          "variance_of_variance": 0.00029974445150161036,
+          "mean_absolute_difference": 0.02361105522848046,
+          "approx_entropy": 0.8604368226116635,
+          "seed": 7,
+          "runtime": 0.9186873435974121
+        },
+        {
+          "variance_mean": 0.009453952584033672,
+          "lagged_stability": 0.9999948690892749,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.2797319932998325,
+          "variance_of_variance": 0.00037156268931454986,
+          "mean_absolute_difference": 0.022781983436397167,
+          "approx_entropy": 0.8623959453766585,
+          "seed": 8,
+          "runtime": 0.8392703533172607
+        },
+        {
+          "variance_mean": 0.01089715096117972,
+          "lagged_stability": 0.9999950209043634,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.288107202680067,
+          "variance_of_variance": 0.0005045807099221337,
+          "mean_absolute_difference": 0.023488084479585145,
+          "approx_entropy": 0.8741347013260635,
+          "seed": 9,
+          "runtime": 0.7539334297180176
+        }
+      ],
+      "statistics": {
+        "variance_mean": {
+          "mean": 0.008359271831531467,
+          "std": 0.0015109927692311582,
+          "cv": 0.18075650603102061,
+          "min": 0.006223024327661537,
+          "max": 0.01089715096117972,
+          "range": 0.004674126633518183,
+          "is_stable": "True"
+        },
+        "lagged_stability": {
+          "mean": 0.9999959387372174,
+          "std": 8.934081207829218e-07,
+          "cv": 8.934117491628083e-07,
+          "min": 0.9999944338695356,
+          "max": 0.9999971499428215,
+          "range": 2.7160732859465853e-06,
+          "is_stable": "True"
+        },
+        "persistence": {
+          "mean": 0.33333333333333337,
+          "std": 5.551115123125783e-17,
+          "cv": 1.6653345369377346e-16,
+          "min": 0.3333333333333333,
+          "max": 0.3333333333333333,
+          "range": 0.0,
+          "is_stable": "True"
+        },
+        "transition_density": {
+          "mean": 0.2833333333333333,
+          "std": 0.006005089370265782,
+          "cv": 0.02119443307152629,
+          "min": 0.271356783919598,
+          "max": 0.29061976549413737,
+          "range": 0.019262981574539373,
+          "is_stable": "True"
+        },
+        "variance_of_variance": {
+          "mean": 0.00029487703579049354,
+          "std": 0.00011447973028091628,
+          "cv": 0.3882287068371533,
+          "min": 0.00014501587406424136,
+          "max": 0.0005045807099221337,
+          "range": 0.00035956483585789233,
+          "is_stable": "False"
+        },
+        "mean_absolute_difference": {
+          "mean": 0.022623742156421343,
+          "std": 0.002014859603289943,
+          "cv": 0.08905951939158135,
+          "min": 0.01936404505636845,
+          "max": 0.026194338001820635,
+          "range": 0.0068302929454521835,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": 0.8666206897459169,
+          "std": 0.009760122497068693,
+          "cv": 0.011262277271421072,
+          "min": 0.8583172573977825,
+          "max": 0.892196084869803,
+          "range": 0.03387882747202042,
+          "is_stable": "True"
+        }
+      },
+      "n_seeds": 10
+    },
+    "immune": {
+      "seeds": [
+        {
+          "variance_mean": 0.4630387622817522,
+          "lagged_stability": 0.9999879061778183,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.036089538602101415,
+          "variance_of_variance": 1.9871219255148211,
+          "mean_absolute_difference": 0.00417001647013861,
+          "approx_entropy": 0.7182723574636837,
+          "seed": 0,
+          "runtime": 0.35372185707092285
+        },
+        {
+          "variance_mean": 1.07212512858763,
+          "lagged_stability": 0.9999681944120908,
+          "persistence": 0.18181818181818182,
+          "transition_density": 0.03654636820465966,
+          "variance_of_variance": 11.053863521292858,
+          "mean_absolute_difference": 0.0065308525071453676,
+          "approx_entropy": 0.6003517686889662,
+          "seed": 1,
+          "runtime": 0.361644983291626
+        },
+        {
+          "variance_mean": 0.27693518339913636,
+          "lagged_stability": 0.9999929564681931,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.03563270899954317,
+          "variance_of_variance": 0.6739685668713448,
+          "mean_absolute_difference": 0.003326649664815888,
+          "approx_entropy": 0.5730495533896389,
+          "seed": 2,
+          "runtime": 0.350799560546875
+        },
+        {
+          "variance_mean": 0.33301968060956705,
+          "lagged_stability": 0.9999886864039322,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.03746002740977615,
+          "variance_of_variance": 0.9975561897279732,
+          "mean_absolute_difference": 0.004337985772416375,
+          "approx_entropy": 0.5876272440470481,
+          "seed": 3,
+          "runtime": 0.39957237243652344
+        },
+        {
+          "variance_mean": 1.2184840717222292,
+          "lagged_stability": 0.9999723127273896,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.037003197807217905,
+          "variance_of_variance": 14.429974430511958,
+          "mean_absolute_difference": 0.005601072059643244,
+          "approx_entropy": 0.5952382204425998,
+          "seed": 4,
+          "runtime": 0.3656795024871826
+        },
+        {
+          "variance_mean": 0.3849544658514082,
+          "lagged_stability": 0.9999898536913072,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.036089538602101415,
+          "variance_of_variance": 1.357339715633355,
+          "mean_absolute_difference": 0.003774294344392822,
+          "approx_entropy": 0.5841053500428386,
+          "seed": 5,
+          "runtime": 0.36554884910583496
+        },
+        {
+          "variance_mean": 0.4600870218251576,
+          "lagged_stability": 0.9999856231260805,
+          "persistence": 0.18181818181818182,
+          "transition_density": 0.037003197807217905,
+          "variance_of_variance": 1.9480936370567632,
+          "mean_absolute_difference": 0.004589403372143841,
+          "approx_entropy": 0.7160301215283238,
+          "seed": 6,
+          "runtime": 0.36168527603149414
+        },
+        {
+          "variance_mean": 0.5266702846300798,
+          "lagged_stability": 0.9999815334992495,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.03746002740977615,
+          "variance_of_variance": 2.595061298629701,
+          "mean_absolute_difference": 0.005239817287906943,
+          "approx_entropy": 0.7208995891746398,
+          "seed": 7,
+          "runtime": 0.3712747097015381
+        },
+        {
+          "variance_mean": 0.44791869216089497,
+          "lagged_stability": 0.9999860676078148,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.037003197807217905,
+          "variance_of_variance": 1.8481186192837649,
+          "mean_absolute_difference": 0.004601498067269304,
+          "approx_entropy": 0.58533573486328,
+          "seed": 8,
+          "runtime": 0.3723032474517822
+        },
+        {
+          "variance_mean": 0.1004059473461107,
+          "lagged_stability": 0.9999962428950073,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.0379168570123344,
+          "variance_of_variance": 0.06420864891031362,
+          "mean_absolute_difference": 0.0026043541697520142,
+          "approx_entropy": 0.6615562384239031,
+          "seed": 9,
+          "runtime": 0.40563225746154785
+        }
+      ],
+      "statistics": {
+        "variance_mean": {
+          "mean": 0.5283639238413966,
+          "std": 0.3305201308944576,
+          "cv": 0.6255539335302396,
+          "min": 0.1004059473461107,
+          "max": 1.2184840717222292,
+          "range": 1.1180781243761184,
+          "is_stable": "False"
+        },
+        "lagged_stability": {
+          "mean": 0.9999849377008883,
+          "std": 8.319870170283652e-06,
+          "cv": 8.319995488544309e-06,
+          "min": 0.9999681944120908,
+          "max": 0.9999962428950073,
+          "range": 2.8048482916487316e-05,
+          "is_stable": "True"
+        },
+        "persistence": {
+          "mean": 0.23636363636363633,
+          "std": 0.06030226891555271,
+          "cv": 0.25512498387349225,
+          "min": 0.09090909090909091,
+          "max": 0.2727272727272727,
+          "range": 0.1818181818181818,
+          "is_stable": "False"
+        },
+        "transition_density": {
+          "mean": 0.03682046596619461,
+          "std": 0.0006837199427636259,
+          "cv": 0.01856901928920071,
+          "min": 0.03563270899954317,
+          "max": 0.0379168570123344,
+          "range": 0.002284148012791233,
+          "is_stable": "True"
+        },
+        "variance_of_variance": {
+          "mean": 3.6955306553432856,
+          "std": 4.637154799464815,
+          "cv": 1.2548007936992909,
+          "min": 0.06420864891031362,
+          "max": 14.429974430511958,
+          "range": 14.365765781601645,
+          "is_stable": "False"
+        },
+        "mean_absolute_difference": {
+          "mean": 0.00447759437156244,
+          "std": 0.0010737474780346489,
+          "cv": 0.23980454434508516,
+          "min": 0.0026043541697520142,
+          "max": 0.0065308525071453676,
+          "range": 0.003926498337393353,
+          "is_stable": "False"
+        },
+        "approx_entropy": {
+          "mean": 0.6342466178064922,
+          "std": 0.05958087192962713,
+          "cv": 0.09393959740090436,
+          "min": 0.5730495533896389,
+          "max": 0.7208995891746398,
+          "range": 0.1478500357850009,
+          "is_stable": "True"
+        }
+      },
+      "n_seeds": 10
+    },
+    "ant_colony": {
+      "seeds": [
+        {
+          "variance_mean": 628.8305785849703,
+          "lagged_stability": 0.9999935120132932,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.4596057209122536,
+          "variance_of_variance": 2451994.034588078,
+          "mean_absolute_difference": 0.5803639054649813,
+          "approx_entropy": 0.028790930480943996,
+          "seed": 0,
+          "runtime": 0.9699993133544922
+        },
+        {
+          "variance_mean": 2756.0994791293683,
+          "lagged_stability": 0.9999879236040201,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.42945496714340936,
+          "variance_of_variance": 46248695.59194095,
+          "mean_absolute_difference": 0.9090443811852529,
+          "approx_entropy": 0.029601370660733987,
+          "seed": 1,
+          "runtime": 0.823859453201294
+        },
+        {
+          "variance_mean": 915.7731675661315,
+          "lagged_stability": 0.9999901639199716,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.42945496714340936,
+          "variance_of_variance": 5036393.91866488,
+          "mean_absolute_difference": 0.7639232407646026,
+          "approx_entropy": 0.029082686933427023,
+          "seed": 2,
+          "runtime": 0.869290828704834
+        },
+        {
+          "variance_mean": 619.738079212855,
+          "lagged_stability": 0.9999921917939742,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.4205643602628527,
+          "variance_of_variance": 2165110.096441319,
+          "mean_absolute_difference": 0.615666405794124,
+          "approx_entropy": 0.02949663995724185,
+          "seed": 3,
+          "runtime": 0.9394326210021973
+        },
+        {
+          "variance_mean": 908.2950725577741,
+          "lagged_stability": 0.9999953000162918,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.43448009277155003,
+          "variance_of_variance": 4592144.319519425,
+          "mean_absolute_difference": 0.5835372757948749,
+          "approx_entropy": 0.028949188195908034,
+          "seed": 4,
+          "runtime": 0.9814701080322266
+        },
+        {
+          "variance_mean": 1283.6298747193925,
+          "lagged_stability": 0.9999889798290174,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.438345574023966,
+          "variance_of_variance": 9058722.377373401,
+          "mean_absolute_difference": 0.7380636520699824,
+          "approx_entropy": 0.02944671649432059,
+          "seed": 5,
+          "runtime": 1.1217091083526611
+        },
+        {
+          "variance_mean": 4337.878000953008,
+          "lagged_stability": 0.999986222391227,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.40162350212601466,
+          "variance_of_variance": 109862523.63387138,
+          "mean_absolute_difference": 0.9929852306213455,
+          "approx_entropy": 0.03094233504409953,
+          "seed": 6,
+          "runtime": 0.9085249900817871
+        },
+        {
+          "variance_mean": 1161.4239711006335,
+          "lagged_stability": 0.9999889157337736,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.46463084654039427,
+          "variance_of_variance": 8030408.0123724025,
+          "mean_absolute_difference": 0.8062691422444284,
+          "approx_entropy": 0.02916263350284147,
+          "seed": 7,
+          "runtime": 0.9218103885650635
+        },
+        {
+          "variance_mean": 2469.1853026699273,
+          "lagged_stability": 0.9999874048228431,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.4217240046385775,
+          "variance_of_variance": 37925594.94500316,
+          "mean_absolute_difference": 0.8148758698190395,
+          "approx_entropy": 0.029461099093394286,
+          "seed": 8,
+          "runtime": 0.9279365539550781
+        },
+        {
+          "variance_mean": 2545.025368016509,
+          "lagged_stability": 0.9999865299917783,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.4317742558948589,
+          "variance_of_variance": 38042397.99805507,
+          "mean_absolute_difference": 0.8521333693409616,
+          "approx_entropy": 0.02954346641193171,
+          "seed": 9,
+          "runtime": 0.9287514686584473
+        }
+      ],
+      "statistics": {
+        "variance_mean": {
+          "mean": 1762.587889451057,
+          "std": 1155.8500899752853,
+          "cv": 0.6557687686911686,
+          "min": 619.738079212855,
+          "max": 4337.878000953008,
+          "range": 3718.139921740153,
+          "is_stable": "False"
+        },
+        "lagged_stability": {
+          "mean": 0.999989714411619,
+          "std": 2.89851108914832e-06,
+          "cv": 2.898540902346947e-06,
+          "min": 0.999986222391227,
+          "max": 0.9999953000162918,
+          "range": 9.077625064746186e-06,
+          "is_stable": "True"
+        },
+        "persistence": {
+          "mean": 0.15384615384615383,
+          "std": 2.7755575615628914e-17,
+          "cv": 1.8041124150158796e-16,
+          "min": 0.15384615384615385,
+          "max": 0.15384615384615385,
+          "range": 0.0,
+          "is_stable": "True"
+        },
+        "transition_density": {
+          "mean": 0.43316582914572865,
+          "std": 0.01741200870590212,
+          "cv": 0.04019709666443761,
+          "min": 0.40162350212601466,
+          "max": 0.46463084654039427,
+          "range": 0.0630073444143796,
+          "is_stable": "True"
+        },
+        "variance_of_variance": {
+          "mean": 26341398.492783006,
+          "std": 32185864.79895182,
+          "cv": 1.221873804755282,
+          "min": 2165110.096441319,
+          "max": 109862523.63387138,
+          "range": 107697413.53743006,
+          "is_stable": "False"
+        },
+        "mean_absolute_difference": {
+          "mean": 0.7656862473099594,
+          "std": 0.13211766142840412,
+          "cv": 0.17254804026135426,
+          "min": 0.5803639054649813,
+          "max": 0.9929852306213455,
+          "range": 0.4126213251563642,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": 0.029447706677484246,
+          "std": 0.0005624636060388781,
+          "cv": 0.019100421374033123,
+          "min": 0.028790930480943996,
+          "max": 0.03094233504409953,
+          "range": 0.002151404563155535,
+          "is_stable": "True"
+        }
+      },
+      "n_seeds": 10
+    },
+    "institution": {
+      "seeds": [
+        {
+          "variance_mean": 2.6360238788750704e+16,
+          "lagged_stability": 0.9887895025387168,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.28688899040657834,
+          "variance_of_variance": 6.948621889921075e+33,
+          "mean_absolute_difference": 2961867.232750461,
+          "approx_entropy": 5.048656601821027e-07,
+          "seed": 0,
+          "runtime": 0.4934070110321045
+        },
+        {
+          "variance_mean": 3.7648125338345416e+16,
+          "lagged_stability": 0.9899148643892557,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.2722704431247145,
+          "variance_of_variance": 1.4173813414794635e+34,
+          "mean_absolute_difference": 2955898.902946433,
+          "approx_entropy": 4.251711659378641e-07,
+          "seed": 1,
+          "runtime": 0.662431001663208
+        },
+        {
+          "variance_mean": 3.177128856570474e+16,
+          "lagged_stability": 0.9896728192192781,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.2718136135221562,
+          "variance_of_variance": 1.0094147771148351e+34,
+          "mean_absolute_difference": 2820221.598526889,
+          "approx_entropy": 4.577995296680936e-07,
+          "seed": 2,
+          "runtime": 0.5678238868713379
+        },
+        {
+          "variance_mean": 3.2682914111194096e+16,
+          "lagged_stability": 0.9892558111171763,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.2809502055733212,
+          "variance_of_variance": 1.0681728747901068e+34,
+          "mean_absolute_difference": 3135079.7264212724,
+          "approx_entropy": 4.4530906867935633e-07,
+          "seed": 3,
+          "runtime": 0.5812404155731201
+        },
+        {
+          "variance_mean": 1.3930852120164946e+16,
+          "lagged_stability": 0.9875592723044185,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.3165829145728643,
+          "variance_of_variance": 1.9406864078877314e+33,
+          "mean_absolute_difference": 3166042.6702646376,
+          "approx_entropy": 6.379088811906582e-07,
+          "seed": 4,
+          "runtime": 0.517061710357666
+        },
+        {
+          "variance_mean": 2.0497291526196476e+16,
+          "lagged_stability": 0.9899248042150912,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.30470534490634993,
+          "variance_of_variance": 4.201389599027402e+33,
+          "mean_absolute_difference": 2786217.6835356606,
+          "approx_entropy": 5.531546062252611e-07,
+          "seed": 5,
+          "runtime": 0.5454926490783691
+        },
+        {
+          "variance_mean": 2.547977470597643e+16,
+          "lagged_stability": 0.9893627983912096,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.2809502055733212,
+          "variance_of_variance": 6.492189190589589e+33,
+          "mean_absolute_difference": 2542260.4174388284,
+          "approx_entropy": 5.143931669494378e-07,
+          "seed": 6,
+          "runtime": 0.5275168418884277
+        },
+        {
+          "variance_mean": 2.2506876695212816e+16,
+          "lagged_stability": 0.9882619404616119,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.31201461854728185,
+          "variance_of_variance": 5.065594985655343e+33,
+          "mean_absolute_difference": 3629527.768363341,
+          "approx_entropy": 5.111963376772377e-07,
+          "seed": 7,
+          "runtime": 0.6469736099243164
+        },
+        {
+          "variance_mean": 1.1985604085888792e+16,
+          "lagged_stability": 0.9868075260577853,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.32389218821379623,
+          "variance_of_variance": 1.4365470529939304e+33,
+          "mean_absolute_difference": 3561363.392280734,
+          "approx_entropy": 6.76352079066881e-07,
+          "seed": 8,
+          "runtime": 0.5861711502075195
+        },
+        {
+          "variance_mean": 1.6922790164827698e+16,
+          "lagged_stability": 0.9888680915768713,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.28277752398355416,
+          "variance_of_variance": 2.8638082695706494e+33,
+          "mean_absolute_difference": 2642000.615430783,
+          "approx_entropy": 6.08224300946716e-07,
+          "seed": 9,
+          "runtime": 0.6654996871948242
+        }
+      ],
+      "statistics": {
+        "variance_mean": {
+          "mean": 2.3978575610226212e+16,
+          "std": 8000824020527037.0,
+          "cv": 0.3336655250328924,
+          "min": 1.1985604085888792e+16,
+          "max": 3.7648125338345416e+16,
+          "range": 2.5662521252456624e+16,
+          "is_stable": "False"
+        },
+        "lagged_stability": {
+          "mean": 0.9888417430271413,
+          "std": 0.000978806102870784,
+          "cv": 0.0009898511159878473,
+          "min": 0.9868075260577853,
+          "max": 0.9899248042150912,
+          "range": 0.0031172781573058916,
+          "is_stable": "True"
+        },
+        "persistence": {
+          "mean": 0.09090909090909091,
+          "std": 0.0,
+          "cv": 0.0,
+          "min": 0.09090909090909091,
+          "max": 0.09090909090909091,
+          "range": 0.0,
+          "is_stable": "True"
+        },
+        "transition_density": {
+          "mean": 0.29328460484239377,
+          "std": 0.018218282073077404,
+          "cv": 0.06211809884418448,
+          "min": 0.2718136135221562,
+          "max": 0.32389218821379623,
+          "range": 0.05207857469164001,
+          "is_stable": "True"
+        },
+        "variance_of_variance": {
+          "mean": 6.389852732948977e+33,
+          "std": 3.9542518666654296e+33,
+          "cv": 0.6188330204036651,
+          "min": 1.4365470529939304e+33,
+          "max": 1.4173813414794635e+34,
+          "range": 1.2737266361800706e+34,
+          "is_stable": "False"
+        },
+        "mean_absolute_difference": {
+          "mean": 3020048.000795904,
+          "std": 342394.918007953,
+          "cv": 0.11337399866416631,
+          "min": 2542260.4174388284,
+          "max": 3629527.768363341,
+          "range": 1087267.3509245128,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": 5.334374796523608e-07,
+          "std": 8.01272140281284e-08,
+          "cv": 0.15020919430023366,
+          "min": 4.251711659378641e-07,
+          "max": 6.76352079066881e-07,
+          "range": 2.511809131290169e-07,
+          "is_stable": "True"
+        }
+      },
+      "n_seeds": 10
+    }
+  },
+  "cross_system_stability": {
+    "variance_mean": {
+      "n_stable_systems": 1,
+      "total_systems": 4,
+      "mean_cv": 0.4489361833213303,
+      "is_cross_system_stable": false
+    },
+    "lagged_stability": {
+      "n_stable_systems": 4,
+      "total_systems": 4,
+      "mean_cv": 0.00025049076603197534,
+      "is_cross_system_stable": true
+    },
+    "persistence": {
+      "n_stable_systems": 3,
+      "total_systems": 4,
+      "mean_cv": 0.06378124596837315,
+      "is_cross_system_stable": false
+    },
+    "transition_density": {
+      "n_stable_systems": 4,
+      "total_systems": 4,
+      "mean_cv": 0.035519661967337274,
+      "is_cross_system_stable": true
+    },
+    "variance_of_variance": {
+      "n_stable_systems": 0,
+      "total_systems": 4,
+      "mean_cv": 0.8709340814238478,
+      "is_cross_system_stable": false
+    },
+    "mean_absolute_difference": {
+      "n_stable_systems": 3,
+      "total_systems": 4,
+      "mean_cv": 0.15369652566554678,
+      "is_cross_system_stable": false
+    },
+    "approx_entropy": {
+      "n_stable_systems": 4,
+      "total_systems": 4,
+      "mean_cv": 0.06862787258664806,
+      "is_cross_system_stable": true
+    }
+  }
+}

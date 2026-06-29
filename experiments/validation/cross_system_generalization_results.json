@@ -1,0 +1,155 @@
+{
+  "results": {
+    "variance_mean": {
+      "values": {
+        "distributed": 0.017017219640596604,
+        "immune": 0.04285684581301346,
+        "ant_colony": 1816.4888745853737,
+        "institution": 5.588075331964831e+16
+      },
+      "generalization_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mean_generalization": 0.0,
+      "min_generalization": 0.0
+    },
+    "lagged_stability": {
+      "values": {
+        "distributed": 0.9999960192628621,
+        "immune": 0.9999988895354871,
+        "ant_colony": 0.9999954170283525,
+        "institution": 0.9909480064813597
+      },
+      "generalization_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mean_generalization": 0.16666666666666666,
+      "min_generalization": 0.0
+    },
+    "persistence": {
+      "values": {
+        "distributed": 0.16666666666666666,
+        "immune": 0.5454545454545454,
+        "ant_colony": 0.23076923076923078,
+        "institution": 0.09090909090909091
+      },
+      "generalization_matrix": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "mean_generalization": 1.0,
+      "min_generalization": 1.0
+    },
+    "transition_density": {
+      "values": {
+        "distributed": 0.2925170068027211,
+        "immune": 0.5139146567717996,
+        "ant_colony": 0.6938775510204082,
+        "institution": 0.6326530612244898
+      },
+      "generalization_matrix": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "mean_generalization": 1.0,
+      "min_generalization": 1.0
+    }
+  },
+  "rankings": {
+    "variance_mean": 0.0,
+    "lagged_stability": 0.16666666666666666,
+    "persistence": 1.0,
+    "transition_density": 1.0
+  },
+  "runtime_seconds": 1.4
+}

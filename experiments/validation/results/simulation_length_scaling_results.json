@@ -1,0 +1,3518 @@
+{
+  "metadata": {
+    "sim_lengths": [
+      100,
+      200,
+      300,
+      500,
+      750,
+      1000
+    ],
+    "num_seeds": 5,
+    "total_time": 201.86116003990173
+  },
+  "main_results": {
+    "distributed": {
+      "100": {
+        "seeds": [
+          {
+            "n_timesteps": 100,
+            "n_dims": 6,
+            "condition_number": 29.844938169989273,
+            "participation_ratio": 1.0669378885277043,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0669378885277043,
+            "variance_explained_pc1": 0.9675797696695352,
+            "seed": 0,
+            "runtime": 0.5973498821258545
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 6,
+            "condition_number": 22.62242313995888,
+            "participation_ratio": 1.0882354482588827,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0882354482588827,
+            "variance_explained_pc1": 0.9576673403031023,
+            "seed": 1,
+            "runtime": 0.43607187271118164
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 6,
+            "condition_number": 31.275596576572894,
+            "participation_ratio": 1.0638823126569463,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0638823126569463,
+            "variance_explained_pc1": 0.9690168391581073,
+            "seed": 2,
+            "runtime": 0.5812928676605225
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 6,
+            "condition_number": 45.692298399352346,
+            "participation_ratio": 1.0437500974150848,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0437500974150848,
+            "variance_explained_pc1": 0.9785831917836396,
+            "seed": 3,
+            "runtime": 0.46692490577697754
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 6,
+            "condition_number": 31.19402350507243,
+            "participation_ratio": 1.0640490237830482,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0640490237830482,
+            "variance_explained_pc1": 0.9689383341649594,
+            "seed": 4,
+            "runtime": 0.5007421970367432
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 100.0,
+            "std": 0.0,
+            "min": 100.0,
+            "max": 100.0,
+            "ci_95": [
+              100.0,
+              100.0
+            ]
+          },
+          "n_dims": {
+            "mean": 6.0,
+            "std": 0.0,
+            "min": 6.0,
+            "max": 6.0,
+            "ci_95": [
+              6.0,
+              6.0
+            ]
+          },
+          "condition_number": {
+            "mean": 32.12585595818917,
+            "std": 7.498765692208882,
+            "min": 22.62242313995888,
+            "max": 45.692298399352346,
+            "ci_95": [
+              23.34467464296192,
+              44.2506282170744
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0653709541283334,
+            "std": 0.014118536563970089,
+            "min": 1.0437500974150848,
+            "max": 1.0882354482588827,
+            "ci_95": [
+              1.045763318939271,
+              1.0861056922857648
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0653709541283334,
+            "std": 0.014118536563970089,
+            "min": 1.0437500974150848,
+            "max": 1.0882354482588827,
+            "ci_95": [
+              1.045763318939271,
+              1.0861056922857648
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9683570950158688,
+            "std": 0.0066365841650450385,
+            "min": 0.9576673403031023,
+            "max": 0.9785831917836396,
+            "ci_95": [
+              0.9586585832397456,
+              0.9776265565210864
+            ]
+          },
+          "runtime": {
+            "mean": 0.5164763450622558,
+            "std": 0.06310229523923024,
+            "min": 0.43607187271118164,
+            "max": 0.5973498821258545,
+            "ci_95": [
+              0.4391571760177612,
+              0.5957441806793213
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "200": {
+        "seeds": [
+          {
+            "n_timesteps": 200,
+            "n_dims": 6,
+            "condition_number": 29.181833726123838,
+            "participation_ratio": 1.06845540263958,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.06845540263958,
+            "variance_explained_pc1": 0.966867486943497,
+            "seed": 0,
+            "runtime": 0.8684396743774414
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 6,
+            "condition_number": 21.34959243785339,
+            "participation_ratio": 1.0934735298086549,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0934735298086549,
+            "variance_explained_pc1": 0.9552564547751525,
+            "seed": 1,
+            "runtime": 0.8972277641296387
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 6,
+            "condition_number": 34.11503773132472,
+            "participation_ratio": 1.0585748441945428,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0585748441945428,
+            "variance_explained_pc1": 0.9715221721345912,
+            "seed": 2,
+            "runtime": 1.16776704788208
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 6,
+            "condition_number": 37.19611459993821,
+            "participation_ratio": 1.0537302218207456,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0537302218207456,
+            "variance_explained_pc1": 0.9738193266390079,
+            "seed": 3,
+            "runtime": 0.9468388557434082
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 6,
+            "condition_number": 35.28644423898652,
+            "participation_ratio": 1.0566335055335876,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0566335055335876,
+            "variance_explained_pc1": 0.9724414992713563,
+            "seed": 4,
+            "runtime": 0.8245813846588135
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 200.0,
+            "std": 0.0,
+            "min": 200.0,
+            "max": 200.0,
+            "ci_95": [
+              200.0,
+              200.0
+            ]
+          },
+          "n_dims": {
+            "mean": 6.0,
+            "std": 0.0,
+            "min": 6.0,
+            "max": 6.0,
+            "ci_95": [
+              6.0,
+              6.0
+            ]
+          },
+          "condition_number": {
+            "mean": 31.425804546845335,
+            "std": 5.69207251484925,
+            "min": 21.34959243785339,
+            "max": 37.19611459993821,
+            "ci_95": [
+              22.132816566680432,
+              37.005147563843046
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.066173500799422,
+            "std": 0.014519538171204063,
+            "min": 1.0537302218207456,
+            "max": 1.0934735298086549,
+            "ci_95": [
+              1.05402055019203,
+              1.0909717170917475
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.066173500799422,
+            "std": 0.014519538171204063,
+            "min": 1.0537302218207456,
+            "max": 1.0934735298086549,
+            "ci_95": [
+              1.05402055019203,
+              1.0909717170917475
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9679813879527212,
+            "std": 0.006777550789687668,
+            "min": 0.9552564547751525,
+            "max": 0.9738193266390079,
+            "ci_95": [
+              0.956417557991987,
+              0.9736815439022428
+            ]
+          },
+          "runtime": {
+            "mean": 0.9409709453582764,
+            "std": 0.1201596317455961,
+            "min": 0.8245813846588135,
+            "max": 1.16776704788208,
+            "ci_95": [
+              0.8289672136306763,
+              1.145674228668213
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "300": {
+        "seeds": [
+          {
+            "n_timesteps": 300,
+            "n_dims": 6,
+            "condition_number": 29.77625528214869,
+            "participation_ratio": 1.0670919421618705,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0670919421618705,
+            "variance_explained_pc1": 0.9675074179482767,
+            "seed": 0,
+            "runtime": 1.1998279094696045
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 6,
+            "condition_number": 25.771736717023483,
+            "participation_ratio": 1.0774877272682115,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0774877272682115,
+            "variance_explained_pc1": 0.9626471748706491,
+            "seed": 1,
+            "runtime": 1.2762455940246582
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 6,
+            "condition_number": 36.296617045262934,
+            "participation_ratio": 1.0550597610326353,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0550597610326353,
+            "variance_explained_pc1": 0.9731879167811277,
+            "seed": 2,
+            "runtime": 1.3894433975219727
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 6,
+            "condition_number": 35.72331761877661,
+            "participation_ratio": 1.0559420051969082,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0559420051969082,
+            "variance_explained_pc1": 0.9727693447966504,
+            "seed": 3,
+            "runtime": 1.4440815448760986
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 6,
+            "condition_number": 34.91668192321384,
+            "participation_ratio": 1.0572322677972645,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0572322677972645,
+            "variance_explained_pc1": 0.9721577844485219,
+            "seed": 4,
+            "runtime": 1.2775285243988037
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 300.0,
+            "std": 0.0,
+            "min": 300.0,
+            "max": 300.0,
+            "ci_95": [
+              300.0,
+              300.0
+            ]
+          },
+          "n_dims": {
+            "mean": 6.0,
+            "std": 0.0,
+            "min": 6.0,
+            "max": 6.0,
+            "ci_95": [
+              6.0,
+              6.0
+            ]
+          },
+          "condition_number": {
+            "mean": 32.49692171728511,
+            "std": 4.082467236655692,
+            "min": 25.771736717023483,
+            "max": 36.296617045262934,
+            "ci_95": [
+              26.172188573536005,
+              36.2392871026143
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0625627406913778,
+            "std": 0.00862335983014845,
+            "min": 1.0550597610326353,
+            "max": 1.0774877272682115,
+            "ci_95": [
+              1.0551479854490626,
+              1.0764481487575774
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0625627406913778,
+            "std": 0.00862335983014845,
+            "min": 1.0550597610326353,
+            "max": 1.0774877272682115,
+            "ci_95": [
+              1.0551479854490626,
+              1.0764481487575774
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9696539277690451,
+            "std": 0.004053795516663621,
+            "min": 0.9626471748706491,
+            "max": 0.9731879167811277,
+            "ci_95": [
+              0.9631331991784119,
+              0.97314605958268
+            ]
+          },
+          "runtime": {
+            "mean": 1.3174253940582275,
+            "std": 0.08757291577183046,
+            "min": 1.1998279094696045,
+            "max": 1.4440815448760986,
+            "ci_95": [
+              1.20746967792511,
+              1.438617730140686
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "500": {
+        "seeds": [
+          {
+            "n_timesteps": 500,
+            "n_dims": 6,
+            "condition_number": 37.343539193307954,
+            "participation_ratio": 1.053518410576411,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.053518410576411,
+            "variance_explained_pc1": 0.9739199870163647,
+            "seed": 0,
+            "runtime": 1.9070794582366943
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 6,
+            "condition_number": 29.452465718587824,
+            "participation_ratio": 1.0678278368795462,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0678278368795462,
+            "variance_explained_pc1": 0.9671619365984669,
+            "seed": 1,
+            "runtime": 2.221784830093384
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 6,
+            "condition_number": 38.45559420244338,
+            "participation_ratio": 1.0519728933422685,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0519728933422685,
+            "variance_explained_pc1": 0.9746550515785142,
+            "seed": 2,
+            "runtime": 2.2862071990966797
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 6,
+            "condition_number": 39.15070685446752,
+            "participation_ratio": 1.051051339574145,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.051051339574145,
+            "variance_explained_pc1": 0.9750938382324212,
+            "seed": 3,
+            "runtime": 2.1857151985168457
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 6,
+            "condition_number": 35.68419284919647,
+            "participation_ratio": 1.056003244775742,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.056003244775742,
+            "variance_explained_pc1": 0.9727403025027467,
+            "seed": 4,
+            "runtime": 2.194925546646118
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 500.0,
+            "std": 0.0,
+            "min": 500.0,
+            "max": 500.0,
+            "ci_95": [
+              500.0,
+              500.0
+            ]
+          },
+          "n_dims": {
+            "mean": 6.0,
+            "std": 0.0,
+            "min": 6.0,
+            "max": 6.0,
+            "ci_95": [
+              6.0,
+              6.0
+            ]
+          },
+          "condition_number": {
+            "mean": 36.01729976360063,
+            "std": 3.4851237294385937,
+            "min": 29.452465718587824,
+            "max": 39.15070685446752,
+            "ci_95": [
+              30.075638431648688,
+              39.08119558926511
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0560747450296226,
+            "std": 0.006111217813020472,
+            "min": 1.051051339574145,
+            "max": 1.0678278368795462,
+            "ci_95": [
+              1.0511434949509573,
+              1.0666453776691658
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0560747450296226,
+            "std": 0.006111217813020472,
+            "min": 1.051051339574145,
+            "max": 1.0678278368795462,
+            "ci_95": [
+              1.0511434949509573,
+              1.0666453776691658
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9727142231857027,
+            "std": 0.00288831492444369,
+            "min": 0.9671619365984669,
+            "max": 0.9750938382324212,
+            "ci_95": [
+              0.9677197731888949,
+              0.9750499595670306
+            ]
+          },
+          "runtime": {
+            "mean": 2.1591424465179445,
+            "std": 0.13083715911984586,
+            "min": 1.9070794582366943,
+            "max": 2.2862071990966797,
+            "ci_95": [
+              1.9349430322647094,
+              2.2797649621963503
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "750": {
+        "seeds": [
+          {
+            "n_timesteps": 750,
+            "n_dims": 6,
+            "condition_number": 44.333403120592806,
+            "participation_ratio": 1.045089769754148,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.045089769754148,
+            "variance_explained_pc1": 0.9779412104284368,
+            "seed": 0,
+            "runtime": 3.2004551887512207
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 6,
+            "condition_number": 30.393038832533968,
+            "participation_ratio": 1.065733381695401,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.065733381695401,
+            "variance_explained_pc1": 0.9681458043824781,
+            "seed": 1,
+            "runtime": 3.6021924018859863
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 6,
+            "condition_number": 39.04842718470846,
+            "participation_ratio": 1.051184883460046,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.051184883460046,
+            "variance_explained_pc1": 0.9750302303911245,
+            "seed": 2,
+            "runtime": 3.5058071613311768
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 6,
+            "condition_number": 38.52038985675615,
+            "participation_ratio": 1.0518855869115395,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0518855869115395,
+            "variance_explained_pc1": 0.9746966058881363,
+            "seed": 3,
+            "runtime": 3.560837507247925
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 6,
+            "condition_number": 34.45385505226181,
+            "participation_ratio": 1.057999796882618,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.057999796882618,
+            "variance_explained_pc1": 0.9717943225489606,
+            "seed": 4,
+            "runtime": 3.232748031616211
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 750.0,
+            "std": 0.0,
+            "min": 750.0,
+            "max": 750.0,
+            "ci_95": [
+              750.0,
+              750.0
+            ]
+          },
+          "n_dims": {
+            "mean": 6.0,
+            "std": 0.0,
+            "min": 6.0,
+            "max": 6.0,
+            "ci_95": [
+              6.0,
+              6.0
+            ]
+          },
+          "condition_number": {
+            "mean": 37.349822809370636,
+            "std": 4.686349337175301,
+            "min": 30.393038832533968,
+            "max": 44.333403120592806,
+            "ci_95": [
+              30.799120454506753,
+              43.80490552700437
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0543786837407505,
+            "std": 0.00699630532654063,
+            "min": 1.045089769754148,
+            "max": 1.065733381695401,
+            "ci_95": [
+              1.0456992811247376,
+              1.0649600232141228
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0543786837407505,
+            "std": 0.00699630532654063,
+            "min": 1.045089769754148,
+            "max": 1.065733381695401,
+            "ci_95": [
+              1.0456992811247376,
+              1.0649600232141228
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9735216347278273,
+            "std": 0.0033188017940676685,
+            "min": 0.9681458043824781,
+            "max": 0.9779412104284368,
+            "ci_95": [
+              0.9685106561991264,
+              0.9776501124247056
+            ]
+          },
+          "runtime": {
+            "mean": 3.4204080581665037,
+            "std": 0.16950193800723226,
+            "min": 3.2004551887512207,
+            "max": 3.6021924018859863,
+            "ci_95": [
+              3.2036844730377196,
+              3.59805691242218
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "1000": {
+        "seeds": [
+          {
+            "n_timesteps": 1000,
+            "n_dims": 6,
+            "condition_number": 46.60410832118796,
+            "participation_ratio": 1.042894921955805,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.042894921955805,
+            "variance_explained_pc1": 0.9789934097021009,
+            "seed": 0,
+            "runtime": 5.017352104187012
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 6,
+            "condition_number": 31.900905813882694,
+            "participation_ratio": 1.062632599307371,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.062632599307371,
+            "variance_explained_pc1": 0.9696057000479894,
+            "seed": 1,
+            "runtime": 4.086466073989868
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 6,
+            "condition_number": 41.0904510438615,
+            "participation_ratio": 1.0486442984830402,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0486442984830402,
+            "variance_explained_pc1": 0.9762416421017222,
+            "seed": 2,
+            "runtime": 5.290897607803345
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 6,
+            "condition_number": 39.57175059063002,
+            "participation_ratio": 1.0505088499655497,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0505088499655497,
+            "variance_explained_pc1": 0.9753523083070773,
+            "seed": 3,
+            "runtime": 4.563169240951538
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 6,
+            "condition_number": 34.97717346854283,
+            "participation_ratio": 1.0571334488257362,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0571334488257362,
+            "variance_explained_pc1": 0.9722045979828191,
+            "seed": 4,
+            "runtime": 4.231042861938477
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 1000.0,
+            "std": 0.0,
+            "min": 1000.0,
+            "max": 1000.0,
+            "ci_95": [
+              1000.0,
+              1000.0
+            ]
+          },
+          "n_dims": {
+            "mean": 6.0,
+            "std": 0.0,
+            "min": 6.0,
+            "max": 6.0,
+            "ci_95": [
+              6.0,
+              6.0
+            ]
+          },
+          "condition_number": {
+            "mean": 38.828877847621,
+            "std": 5.078448685876692,
+            "min": 31.900905813882694,
+            "max": 46.60410832118796,
+            "ci_95": [
+              32.208532579348706,
+              46.052742593455314
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0523628237075004,
+            "std": 0.006857593848442583,
+            "min": 1.042894921955805,
+            "max": 1.062632599307371,
+            "ci_95": [
+              1.0434698596085286,
+              1.0620826842592075
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0523628237075004,
+            "std": 0.006857593848442583,
+            "min": 1.042894921955805,
+            "max": 1.062632599307371,
+            "ci_95": [
+              1.0434698596085286,
+              1.0620826842592075
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9744795316283417,
+            "std": 0.0032610251480562394,
+            "min": 0.9696057000479894,
+            "max": 0.9789934097021009,
+            "ci_95": [
+              0.9698655898414724,
+              0.9787182329420631
+            ]
+          },
+          "runtime": {
+            "mean": 4.637785577774048,
+            "std": 0.4572934509920589,
+            "min": 4.086466073989868,
+            "max": 5.290897607803345,
+            "ci_95": [
+              4.100923752784729,
+              5.263543057441711
+            ]
+          }
+        },
+        "n_seeds": 5
+      }
+    },
+    "immune": {
+      "100": {
+        "seeds": [
+          {
+            "n_timesteps": 100,
+            "n_dims": 11,
+            "condition_number": 29851029662.32636,
+            "participation_ratio": 1.1328826786490431,
+            "rank_deficiency": 6,
+            "effective_dimensionality": 1.1328826786490431,
+            "variance_explained_pc1": 0.9374796488848968,
+            "seed": 0,
+            "runtime": 0.18723106384277344
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 11,
+            "condition_number": 76980552219.2015,
+            "participation_ratio": 1.0752479540313904,
+            "rank_deficiency": 6,
+            "effective_dimensionality": 1.0752479540313904,
+            "variance_explained_pc1": 0.9637035708348243,
+            "seed": 1,
+            "runtime": 0.1879591941833496
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 11,
+            "condition_number": 61956241.80290506,
+            "participation_ratio": 1.2131380907827314,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.2131380907827314,
+            "variance_explained_pc1": 0.9027982285289332,
+            "seed": 2,
+            "runtime": 0.17795753479003906
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 11,
+            "condition_number": 110436059.38364038,
+            "participation_ratio": 1.1998004261755753,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.1998004261755753,
+            "variance_explained_pc1": 0.9084575378512906,
+            "seed": 3,
+            "runtime": 0.1829235553741455
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 11,
+            "condition_number": 308574054.45379865,
+            "participation_ratio": 1.043884448893061,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.043884448893061,
+            "variance_explained_pc1": 0.9785250263146976,
+            "seed": 4,
+            "runtime": 0.1810448169708252
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 100.0,
+            "std": 0.0,
+            "min": 100.0,
+            "max": 100.0,
+            "ci_95": [
+              100.0,
+              100.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 21462509647.43364,
+            "std": 30046643881.43734,
+            "min": 61956241.80290506,
+            "max": 76980552219.2015,
+            "ci_95": [
+              66804223.56097859,
+              72267599963.51399
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.1329907197063602,
+            "std": 0.06657522681579654,
+            "min": 1.043884448893061,
+            "max": 1.2131380907827314,
+            "ci_95": [
+              1.0470207994068939,
+              1.2118043243220158
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 6.6,
+            "std": 0.48989794855663565,
+            "min": 6.0,
+            "max": 7.0,
+            "ci_95": [
+              6.0,
+              7.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.1329907197063602,
+            "std": 0.06657522681579654,
+            "min": 1.043884448893061,
+            "max": 1.2131380907827314,
+            "ci_95": [
+              1.0470207994068939,
+              1.2118043243220158
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9381928024829286,
+            "std": 0.029715174565439716,
+            "min": 0.9027982285289332,
+            "max": 0.9785250263146976,
+            "ci_95": [
+              0.903364159461169,
+              0.9770428807667103
+            ]
+          },
+          "runtime": {
+            "mean": 0.18342323303222657,
+            "std": 0.003764436665532214,
+            "min": 0.17795753479003906,
+            "max": 0.1879591941833496,
+            "ci_95": [
+              0.17826626300811768,
+              0.187886381149292
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "200": {
+        "seeds": [
+          {
+            "n_timesteps": 200,
+            "n_dims": 11,
+            "condition_number": 302245368.0392137,
+            "participation_ratio": 1.043224046736845,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.043224046736845,
+            "variance_explained_pc1": 0.9788444193323895,
+            "seed": 0,
+            "runtime": 0.38271045684814453
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 11,
+            "condition_number": 541386872.6514465,
+            "participation_ratio": 1.0253877003436704,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0253877003436704,
+            "variance_explained_pc1": 0.9874663890171026,
+            "seed": 1,
+            "runtime": 0.3884735107421875
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 11,
+            "condition_number": 189217179.52564964,
+            "participation_ratio": 1.0680597804444052,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0680597804444052,
+            "variance_explained_pc1": 0.9670794260522845,
+            "seed": 2,
+            "runtime": 0.4272193908691406
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 11,
+            "condition_number": 295186208.9766801,
+            "participation_ratio": 1.0668435346423981,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0668435346423981,
+            "variance_explained_pc1": 0.9676470888904883,
+            "seed": 3,
+            "runtime": 0.370011568069458
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 11,
+            "condition_number": 849084429.0645975,
+            "participation_ratio": 1.016218498576726,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.016218498576726,
+            "variance_explained_pc1": 0.9919576352926539,
+            "seed": 4,
+            "runtime": 0.3691239356994629
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 200.0,
+            "std": 0.0,
+            "min": 200.0,
+            "max": 200.0,
+            "ci_95": [
+              200.0,
+              200.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 435424011.6515175,
+            "std": 236796987.07736498,
+            "min": 189217179.52564964,
+            "max": 849084429.0645975,
+            "ci_95": [
+              199814082.4707527,
+              818314673.4232824
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0439467121488089,
+            "std": 0.021069017705203943,
+            "min": 1.016218498576726,
+            "max": 1.0680597804444052,
+            "ci_95": [
+              1.0171354187534205,
+              1.0679381558642045
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 7.0,
+            "std": 0.0,
+            "min": 7.0,
+            "max": 7.0,
+            "ci_95": [
+              7.0,
+              7.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0439467121488089,
+            "std": 0.021069017705203943,
+            "min": 1.016218498576726,
+            "max": 1.0680597804444052,
+            "ci_95": [
+              1.0171354187534205,
+              1.0679381558642045
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9785989917169837,
+            "std": 0.010097414484893336,
+            "min": 0.9670794260522845,
+            "max": 0.9919576352926539,
+            "ci_95": [
+              0.9671361923361048,
+              0.9915085106650988
+            ]
+          },
+          "runtime": {
+            "mean": 0.3875077724456787,
+            "std": 0.02118981900015348,
+            "min": 0.3691239356994629,
+            "max": 0.4272193908691406,
+            "ci_95": [
+              0.3692126989364624,
+              0.4233448028564453
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "300": {
+        "seeds": [
+          {
+            "n_timesteps": 300,
+            "n_dims": 11,
+            "condition_number": 369032346.82658076,
+            "participation_ratio": 1.035265779419349,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.035265779419349,
+            "variance_explained_pc1": 0.9826735633820195,
+            "seed": 0,
+            "runtime": 0.537628173828125
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 11,
+            "condition_number": 658698540.3293631,
+            "participation_ratio": 1.0207831322433936,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0207831322433936,
+            "variance_explained_pc1": 0.9897164025856799,
+            "seed": 1,
+            "runtime": 0.5550134181976318
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 11,
+            "condition_number": 232339153.15701342,
+            "participation_ratio": 1.0554161351561242,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0554161351561242,
+            "variance_explained_pc1": 0.9730371329335817,
+            "seed": 2,
+            "runtime": 0.5298340320587158
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 11,
+            "condition_number": 359948715.96607786,
+            "participation_ratio": 1.054616886519155,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.054616886519155,
+            "variance_explained_pc1": 0.9734140419286159,
+            "seed": 3,
+            "runtime": 0.5339486598968506
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 11,
+            "condition_number": 1029847260.5938461,
+            "participation_ratio": 1.0133995536540426,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0133995536540426,
+            "variance_explained_pc1": 0.9933460932834075,
+            "seed": 4,
+            "runtime": 0.5586850643157959
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 300.0,
+            "std": 0.0,
+            "min": 300.0,
+            "max": 300.0,
+            "ci_95": [
+              300.0,
+              300.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 529973203.3745762,
+            "std": 286300750.5853986,
+            "min": 232339153.15701342,
+            "max": 1029847260.5938461,
+            "ci_95": [
+              245100109.43791986,
+              992732388.5673977
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0358962973984127,
+            "std": 0.017125380673956993,
+            "min": 1.0133995536540426,
+            "max": 1.0554161351561242,
+            "ci_95": [
+              1.0141379115129776,
+              1.0553362102924273
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 7.0,
+            "std": 0.0,
+            "min": 7.0,
+            "max": 7.0,
+            "ci_95": [
+              7.0,
+              7.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0358962973984127,
+            "std": 0.017125380673956993,
+            "min": 1.0133995536540426,
+            "max": 1.0554161351561242,
+            "ci_95": [
+              1.0141379115129776,
+              1.0553362102924273
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9824374468226609,
+            "std": 0.008268316064716449,
+            "min": 0.9730371329335817,
+            "max": 0.9933460932834075,
+            "ci_95": [
+              0.9730748238330852,
+              0.9929831242136348
+            ]
+          },
+          "runtime": {
+            "mean": 0.5430218696594238,
+            "std": 0.011614362263047195,
+            "min": 0.5298340320587158,
+            "max": 0.5586850643157959,
+            "ci_95": [
+              0.5302454948425293,
+              0.5583178997039795
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "500": {
+        "seeds": [
+          {
+            "n_timesteps": 500,
+            "n_dims": 11,
+            "condition_number": 422560905.6724186,
+            "participation_ratio": 1.030737530068421,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.030737530068421,
+            "variance_explained_pc1": 0.9848651801402691,
+            "seed": 0,
+            "runtime": 0.8871593475341797
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 11,
+            "condition_number": 752803844.7684668,
+            "participation_ratio": 1.0181492972007102,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0181492972007102,
+            "variance_explained_pc1": 0.9910079436370142,
+            "seed": 1,
+            "runtime": 0.9162900447845459
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 11,
+            "condition_number": 266859478.77624848,
+            "participation_ratio": 1.048243513135259,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.048243513135259,
+            "variance_explained_pc1": 0.9764472700490847,
+            "seed": 2,
+            "runtime": 0.9093871116638184
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 11,
+            "condition_number": 411899910.40832776,
+            "participation_ratio": 1.0476408343137351,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0476408343137351,
+            "variance_explained_pc1": 0.9767331955027051,
+            "seed": 3,
+            "runtime": 0.906841516494751
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 11,
+            "condition_number": 1174473230.586264,
+            "participation_ratio": 1.0117636696753534,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0117636696753534,
+            "variance_explained_pc1": 0.9941536149494687,
+            "seed": 4,
+            "runtime": 0.8909642696380615
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 500.0,
+            "std": 0.0,
+            "min": 500.0,
+            "max": 500.0,
+            "ci_95": [
+              500.0,
+              500.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 605719474.0423452,
+            "std": 325899932.03468436,
+            "min": 266859478.77624848,
+            "max": 1174473230.586264,
+            "ci_95": [
+              281363521.9394564,
+              1132306292.0044842
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0313069688786958,
+            "std": 0.014893158292989244,
+            "min": 1.0117636696753534,
+            "max": 1.048243513135259,
+            "ci_95": [
+              1.012402232427889,
+              1.0481832452531066
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 7.0,
+            "std": 0.0,
+            "min": 7.0,
+            "max": 7.0,
+            "ci_95": [
+              7.0,
+              7.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0313069688786958,
+            "std": 0.014893158292989244,
+            "min": 1.0117636696753534,
+            "max": 1.048243513135259,
+            "ci_95": [
+              1.012402232427889,
+              1.0481832452531066
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9846414408557085,
+            "std": 0.007221477033034965,
+            "min": 0.9764472700490847,
+            "max": 0.9941536149494687,
+            "ci_95": [
+              0.9764758625944467,
+              0.9938390478182233
+            ]
+          },
+          "runtime": {
+            "mean": 0.9021284580230713,
+            "std": 0.01117286788216174,
+            "min": 0.8871593475341797,
+            "max": 0.9162900447845459,
+            "ci_95": [
+              0.8875398397445678,
+              0.9155997514724732
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "750": {
+        "seeds": [
+          {
+            "n_timesteps": 750,
+            "n_dims": 11,
+            "condition_number": 449345234.7748734,
+            "participation_ratio": 1.028883040146806,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.028883040146806,
+            "variance_explained_pc1": 0.985765460787673,
+            "seed": 0,
+            "runtime": 1.3382225036621094
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 11,
+            "condition_number": 799907948.5977694,
+            "participation_ratio": 1.0170677245043327,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0170677245043327,
+            "variance_explained_pc1": 0.9915392722134264,
+            "seed": 1,
+            "runtime": 1.4006540775299072
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 11,
+            "condition_number": 284124256.15329397,
+            "participation_ratio": 1.0453106875148035,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0453106875148035,
+            "variance_explained_pc1": 0.9778481428014284,
+            "seed": 2,
+            "runtime": 1.3943703174591064
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 11,
+            "condition_number": 437904310.6670792,
+            "participation_ratio": 1.0447801675722088,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0447801675722088,
+            "variance_explained_pc1": 0.9781004623793443,
+            "seed": 3,
+            "runtime": 1.32790207862854
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 11,
+            "condition_number": 1246789478.9525476,
+            "participation_ratio": 1.0110868688864874,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0110868688864874,
+            "variance_explained_pc1": 0.994488088876798,
+            "seed": 4,
+            "runtime": 1.3223867416381836
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 750.0,
+            "std": 0.0,
+            "min": 750.0,
+            "max": 750.0,
+            "ci_95": [
+              750.0,
+              750.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 643614245.8291126,
+            "std": 345698759.65531826,
+            "min": 284124256.15329397,
+            "max": 1246789478.9525476,
+            "ci_95": [
+              299502261.6046725,
+              1202101325.9170697
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0294256977249276,
+            "std": 0.013981554044162407,
+            "min": 1.0110868688864874,
+            "max": 1.0453106875148035,
+            "ci_95": [
+              1.0116849544482718,
+              1.045257635520544
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 7.0,
+            "std": 0.0,
+            "min": 7.0,
+            "max": 7.0,
+            "ci_95": [
+              7.0,
+              7.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0294256977249276,
+            "std": 0.013981554044162407,
+            "min": 1.0110868688864874,
+            "max": 1.0453106875148035,
+            "ci_95": [
+              1.0116849544482718,
+              1.045257635520544
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9855482854117341,
+            "std": 0.006791486407801675,
+            "min": 0.9778481428014284,
+            "max": 0.994488088876798,
+            "ci_95": [
+              0.97787337475922,
+              0.9941932072104608
+            ]
+          },
+          "runtime": {
+            "mean": 1.3567071437835694,
+            "std": 0.033761372423066725,
+            "min": 1.3223867416381836,
+            "max": 1.4006540775299072,
+            "ci_95": [
+              1.3229382753372192,
+              1.4000257015228272
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "1000": {
+        "seeds": [
+          {
+            "n_timesteps": 1000,
+            "n_dims": 11,
+            "condition_number": 462741204.22391045,
+            "participation_ratio": 1.0280372271607312,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0280372271607312,
+            "variance_explained_pc1": 0.9861766002411049,
+            "seed": 0,
+            "runtime": 1.8391773700714111
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 11,
+            "condition_number": 823469725.5582092,
+            "participation_ratio": 1.0165738658917804,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0165738658917804,
+            "variance_explained_pc1": 0.9917820703893222,
+            "seed": 1,
+            "runtime": 2.189354419708252
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 11,
+            "condition_number": 292757520.9388779,
+            "participation_ratio": 1.0439739622431348,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0439739622431348,
+            "variance_explained_pc1": 0.9784879001786482,
+            "seed": 2,
+            "runtime": 1.8693459033966064
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 11,
+            "condition_number": 450911993.376521,
+            "participation_ratio": 1.0434747603660006,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0434747603660006,
+            "variance_explained_pc1": 0.9787255959747809,
+            "seed": 3,
+            "runtime": 2.2190065383911133
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 11,
+            "condition_number": 1282948229.089628,
+            "participation_ratio": 1.0107768502470855,
+            "rank_deficiency": 7,
+            "effective_dimensionality": 1.0107768502470855,
+            "variance_explained_pc1": 0.99464137514655,
+            "seed": 4,
+            "runtime": 1.7982478141784668
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 1000.0,
+            "std": 0.0,
+            "min": 1000.0,
+            "max": 1000.0,
+            "ci_95": [
+              1000.0,
+              1000.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 662565734.6374292,
+            "std": 355598030.86648357,
+            "min": 292757520.9388779,
+            "max": 1282948229.089628,
+            "ci_95": [
+              308572968.1826422,
+              1237000378.736486
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0285673331817464,
+            "std": 0.013566290262017233,
+            "min": 1.0107768502470855,
+            "max": 1.0439739622431348,
+            "ci_95": [
+              1.011356551811555,
+              1.0439240420554214
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 7.0,
+            "std": 0.0,
+            "min": 7.0,
+            "max": 7.0,
+            "ci_95": [
+              7.0,
+              7.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0285673331817464,
+            "std": 0.013566290262017233,
+            "min": 1.0107768502470855,
+            "max": 1.0439739622431348,
+            "ci_95": [
+              1.011356551811555,
+              1.0439240420554214
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9859627083860814,
+            "std": 0.006595127510236356,
+            "min": 0.9784879001786482,
+            "max": 0.99464137514655,
+            "ci_95": [
+              0.9785116697582614,
+              0.9943554446708273
+            ]
+          },
+          "runtime": {
+            "mean": 1.9830264091491698,
+            "std": 0.18221789260630433,
+            "min": 1.7982478141784668,
+            "max": 2.2190065383911133,
+            "ci_95": [
+              1.8023407697677611,
+              2.216041326522827
+            ]
+          }
+        },
+        "n_seeds": 5
+      }
+    },
+    "ant_colony": {
+      "100": {
+        "seeds": [
+          {
+            "n_timesteps": 100,
+            "n_dims": 13,
+            "condition_number": 6370277630.425286,
+            "participation_ratio": 1.8144746951525754,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.8144746951525754,
+            "variance_explained_pc1": 0.6619690924288677,
+            "seed": 0,
+            "runtime": 0.4612715244293213
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 13,
+            "condition_number": 29022030568.644447,
+            "participation_ratio": 1.2360128270218025,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.2360128270218025,
+            "variance_explained_pc1": 0.893146771861474,
+            "seed": 1,
+            "runtime": 0.41255617141723633
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 13,
+            "condition_number": 2066466413.3014162,
+            "participation_ratio": 1.660862911134775,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.660862911134775,
+            "variance_explained_pc1": 0.7263124074628015,
+            "seed": 2,
+            "runtime": 0.4562833309173584
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 13,
+            "condition_number": 1705815788.5107331,
+            "participation_ratio": 1.5630517928669876,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.5630517928669876,
+            "variance_explained_pc1": 0.7666451234897375,
+            "seed": 3,
+            "runtime": 0.4468696117401123
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 13,
+            "condition_number": 850900027.2668654,
+            "participation_ratio": 1.4219694412536559,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.4219694412536559,
+            "variance_explained_pc1": 0.8190920906938637,
+            "seed": 4,
+            "runtime": 0.4567110538482666
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 100.0,
+            "std": 0.0,
+            "min": 100.0,
+            "max": 100.0,
+            "ci_95": [
+              100.0,
+              100.0
+            ]
+          },
+          "n_dims": {
+            "mean": 13.0,
+            "std": 0.0,
+            "min": 13.0,
+            "max": 13.0,
+            "ci_95": [
+              13.0,
+              13.0
+            ]
+          },
+          "condition_number": {
+            "mean": 8003098085.62975,
+            "std": 10681899853.237858,
+            "min": 850900027.2668654,
+            "max": 29022030568.644447,
+            "ci_95": [
+              936391603.3912522,
+              26756855274.82253
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.5392743334859593,
+            "std": 0.19839978220515114,
+            "min": 1.2360128270218025,
+            "max": 1.8144746951525754,
+            "ci_95": [
+              1.2546084884449877,
+              1.7991135167507954
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 2.0,
+            "std": 0.0,
+            "min": 2.0,
+            "max": 2.0,
+            "ci_95": [
+              2.0,
+              2.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.5392743334859593,
+            "std": 0.19839978220515114,
+            "min": 1.2360128270218025,
+            "max": 1.8144746951525754,
+            "ci_95": [
+              1.2546084884449877,
+              1.7991135167507954
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.7734330971873489,
+            "std": 0.07887555760290442,
+            "min": 0.6619690924288677,
+            "max": 0.893146771861474,
+            "ci_95": [
+              0.668403423932261,
+              0.8857413037447129
+            ]
+          },
+          "runtime": {
+            "mean": 0.44673833847045896,
+            "std": 0.017721248285934858,
+            "min": 0.41255617141723633,
+            "max": 0.4612715244293213,
+            "ci_95": [
+              0.41598751544952395,
+              0.4608154773712158
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "200": {
+        "seeds": [
+          {
+            "n_timesteps": 200,
+            "n_dims": 13,
+            "condition_number": 996968496.5581235,
+            "participation_ratio": 1.596756765226055,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.596756765226055,
+            "variance_explained_pc1": 0.753292449272933,
+            "seed": 0,
+            "runtime": 0.9763209819793701
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 13,
+            "condition_number": 9484049968.584135,
+            "participation_ratio": 1.6927790249958845,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.6927790249958845,
+            "variance_explained_pc1": 0.7132084422939744,
+            "seed": 1,
+            "runtime": 0.9038538932800293
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 13,
+            "condition_number": 3513998000.5212083,
+            "participation_ratio": 1.739821511502844,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.739821511502844,
+            "variance_explained_pc1": 0.6947842421939822,
+            "seed": 2,
+            "runtime": 0.9234371185302734
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 13,
+            "condition_number": 913729768.0554154,
+            "participation_ratio": 1.7153021253937446,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.7153021253937446,
+            "variance_explained_pc1": 0.7053191175760352,
+            "seed": 3,
+            "runtime": 1.0207796096801758
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 13,
+            "condition_number": 591301268.3114078,
+            "participation_ratio": 1.8316382002790343,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.8316382002790343,
+            "variance_explained_pc1": 0.6532939392316076,
+            "seed": 4,
+            "runtime": 0.999671220779419
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 200.0,
+            "std": 0.0,
+            "min": 200.0,
+            "max": 200.0,
+            "ci_95": [
+              200.0,
+              200.0
+            ]
+          },
+          "n_dims": {
+            "mean": 13.0,
+            "std": 0.0,
+            "min": 13.0,
+            "max": 13.0,
+            "ci_95": [
+              13.0,
+              13.0
+            ]
+          },
+          "condition_number": {
+            "mean": 3100009500.406058,
+            "std": 3359273037.5274754,
+            "min": 591301268.3114078,
+            "max": 9484049968.584135,
+            "ci_95": [
+              623544118.2858086,
+              8887044771.777842
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.7152595254795124,
+            "std": 0.07575693500919728,
+            "min": 1.596756765226055,
+            "max": 1.8316382002790343,
+            "ci_95": [
+              1.606358991203038,
+              1.8224565314014154
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 2.0,
+            "std": 0.0,
+            "min": 2.0,
+            "max": 2.0,
+            "ci_95": [
+              2.0,
+              2.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.7152595254795124,
+            "std": 0.07575693500919728,
+            "min": 1.596756765226055,
+            "max": 1.8316382002790343,
+            "ci_95": [
+              1.606358991203038,
+              1.8224565314014154
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.7039796381137065,
+            "std": 0.03216306500798875,
+            "min": 0.6532939392316076,
+            "max": 0.753292449272933,
+            "ci_95": [
+              0.6574429695278451,
+              0.7492840485750372
+            ]
+          },
+          "runtime": {
+            "mean": 0.9648125648498536,
+            "std": 0.04451464222653986,
+            "min": 0.9038538932800293,
+            "max": 1.0207796096801758,
+            "ci_95": [
+              0.9058122158050537,
+              1.0186687707901
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "300": {
+        "seeds": [
+          {
+            "n_timesteps": 300,
+            "n_dims": 13,
+            "condition_number": 554090126.3037177,
+            "participation_ratio": 1.48085150134494,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.48085150134494,
+            "variance_explained_pc1": 0.7973333464483597,
+            "seed": 0,
+            "runtime": 1.5388333797454834
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 13,
+            "condition_number": 4057596394.971748,
+            "participation_ratio": 1.532494105438822,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.532494105438822,
+            "variance_explained_pc1": 0.7767302622721264,
+            "seed": 1,
+            "runtime": 1.3965742588043213
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 13,
+            "condition_number": 5220983731.731296,
+            "participation_ratio": 1.688870064868857,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.688870064868857,
+            "variance_explained_pc1": 0.7153085143259058,
+            "seed": 2,
+            "runtime": 1.3644282817840576
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 13,
+            "condition_number": 531100489.8433598,
+            "participation_ratio": 1.9381593333989382,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.9381593333989382,
+            "variance_explained_pc1": 0.596247037716759,
+            "seed": 3,
+            "runtime": 1.5049247741699219
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 13,
+            "condition_number": 583091161.5440936,
+            "participation_ratio": 1.484266580671732,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.484266580671732,
+            "variance_explained_pc1": 0.7954820869249444,
+            "seed": 4,
+            "runtime": 1.5808556079864502
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 300.0,
+            "std": 0.0,
+            "min": 300.0,
+            "max": 300.0,
+            "ci_95": [
+              300.0,
+              300.0
+            ]
+          },
+          "n_dims": {
+            "mean": 13.0,
+            "std": 0.0,
+            "min": 13.0,
+            "max": 13.0,
+            "ci_95": [
+              13.0,
+              13.0
+            ]
+          },
+          "condition_number": {
+            "mean": 2189372380.878843,
+            "std": 2033965654.6640637,
+            "min": 531100489.8433598,
+            "max": 5220983731.731296,
+            "ci_95": [
+              533399453.4893956,
+              5104644998.055341
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.6249283171446578,
+            "std": 0.17394835618536808,
+            "min": 1.48085150134494,
+            "max": 1.9381593333989382,
+            "ci_95": [
+              1.481193009277619,
+              1.91323040654593
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 2.0,
+            "std": 0.0,
+            "min": 2.0,
+            "max": 2.0,
+            "ci_95": [
+              2.0,
+              2.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.6249283171446578,
+            "std": 0.17394835618536808,
+            "min": 1.48085150134494,
+            "max": 1.9381593333989382,
+            "ci_95": [
+              1.481193009277619,
+              1.91323040654593
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.7362202495376191,
+            "std": 0.07604950731373014,
+            "min": 0.596247037716759,
+            "max": 0.7973333464483597,
+            "ci_95": [
+              0.6081531853776737,
+              0.7971482204960182
+            ]
+          },
+          "runtime": {
+            "mean": 1.4771232604980469,
+            "std": 0.08310206110156046,
+            "min": 1.3644282817840576,
+            "max": 1.5808556079864502,
+            "ci_95": [
+              1.367642879486084,
+              1.5766533851623534
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "500": {
+        "seeds": [
+          {
+            "n_timesteps": 500,
+            "n_dims": 13,
+            "condition_number": 614916509.6906823,
+            "participation_ratio": 1.9211304730006742,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.9211304730006742,
+            "variance_explained_pc1": 0.6075190282255494,
+            "seed": 0,
+            "runtime": 2.57558012008667
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 13,
+            "condition_number": 2484039302.270934,
+            "participation_ratio": 1.5203863221515317,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.5203863221515317,
+            "variance_explained_pc1": 0.7817413468306634,
+            "seed": 1,
+            "runtime": 2.380749225616455
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 13,
+            "condition_number": 3648552407.557553,
+            "participation_ratio": 1.4469525095069002,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.4469525095069002,
+            "variance_explained_pc1": 0.809384348629025,
+            "seed": 2,
+            "runtime": 2.3059511184692383
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 13,
+            "condition_number": 1095109666.352945,
+            "participation_ratio": 1.6256367669328013,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.6256367669328013,
+            "variance_explained_pc1": 0.7413431700824882,
+            "seed": 3,
+            "runtime": 2.4772732257843018
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 13,
+            "condition_number": 1376725043.004959,
+            "participation_ratio": 1.5781906903836502,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.5781906903836502,
+            "variance_explained_pc1": 0.7591598406628498,
+            "seed": 4,
+            "runtime": 2.462193012237549
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 500.0,
+            "std": 0.0,
+            "min": 500.0,
+            "max": 500.0,
+            "ci_95": [
+              500.0,
+              500.0
+            ]
+          },
+          "n_dims": {
+            "mean": 13.0,
+            "std": 0.0,
+            "min": 13.0,
+            "max": 13.0,
+            "ci_95": [
+              13.0,
+              13.0
+            ]
+          },
+          "condition_number": {
+            "mean": 1843868585.7754147,
+            "std": 1091410871.9579792,
+            "min": 614916509.6906823,
+            "max": 3648552407.557553,
+            "ci_95": [
+              662935825.3569086,
+              3532101097.0288906
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.6184593523951114,
+            "std": 0.1626750159593697,
+            "min": 1.4469525095069002,
+            "max": 1.9211304730006742,
+            "ci_95": [
+              1.4542958907713635,
+              1.8915811023938869
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 2.0,
+            "std": 0.0,
+            "min": 2.0,
+            "max": 2.0,
+            "ci_95": [
+              2.0,
+              2.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.6184593523951114,
+            "std": 0.1626750159593697,
+            "min": 1.4469525095069002,
+            "max": 1.9211304730006742,
+            "ci_95": [
+              1.4542958907713635,
+              1.8915811023938869
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.7398295468861151,
+            "std": 0.06996641205748759,
+            "min": 0.6075190282255494,
+            "max": 0.809384348629025,
+            "ci_95": [
+              0.6209014424112432,
+              0.8066200484491888
+            ]
+          },
+          "runtime": {
+            "mean": 2.4403493404388428,
+            "std": 0.09137060668097399,
+            "min": 2.3059511184692383,
+            "max": 2.57558012008667,
+            "ci_95": [
+              2.31343092918396,
+              2.565749430656433
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "750": {
+        "seeds": [
+          {
+            "n_timesteps": 750,
+            "n_dims": 13,
+            "condition_number": 726655950.2328447,
+            "participation_ratio": 1.6099844371063357,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.6099844371063357,
+            "variance_explained_pc1": 0.747248409350657,
+            "seed": 0,
+            "runtime": 3.832949161529541
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 13,
+            "condition_number": 3652554834.3727627,
+            "participation_ratio": 1.397894909422097,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.397894909422097,
+            "variance_explained_pc1": 0.828590564996898,
+            "seed": 1,
+            "runtime": 3.6413378715515137
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 13,
+            "condition_number": 5421701813.993632,
+            "participation_ratio": 1.3761652383538028,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.3761652383538028,
+            "variance_explained_pc1": 0.8367837162658415,
+            "seed": 2,
+            "runtime": 3.634512186050415
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 13,
+            "condition_number": 2208185305.3809094,
+            "participation_ratio": 1.4403091339042124,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.4403091339042124,
+            "variance_explained_pc1": 0.8122106982881916,
+            "seed": 3,
+            "runtime": 3.650937557220459
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 13,
+            "condition_number": 2291339531.843793,
+            "participation_ratio": 1.5652188869985106,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.5652188869985106,
+            "variance_explained_pc1": 0.7640256480439547,
+            "seed": 4,
+            "runtime": 3.628979206085205
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 750.0,
+            "std": 0.0,
+            "min": 750.0,
+            "max": 750.0,
+            "ci_95": [
+              750.0,
+              750.0
+            ]
+          },
+          "n_dims": {
+            "mean": 13.0,
+            "std": 0.0,
+            "min": 13.0,
+            "max": 13.0,
+            "ci_95": [
+              13.0,
+              13.0
+            ]
+          },
+          "condition_number": {
+            "mean": 2860087487.1647882,
+            "std": 1580496964.2411733,
+            "min": 726655950.2328447,
+            "max": 5421701813.993632,
+            "ci_95": [
+              874808885.7476512,
+              5244787116.031546
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.4779145211569917,
+            "std": 0.09298896166476393,
+            "min": 1.3761652383538028,
+            "max": 1.6099844371063357,
+            "ci_95": [
+              1.3783382054606321,
+              1.605507882095553
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 2.0,
+            "std": 0.0,
+            "min": 2.0,
+            "max": 2.0,
+            "ci_95": [
+              2.0,
+              2.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.4779145211569917,
+            "std": 0.09298896166476393,
+            "min": 1.3761652383538028,
+            "max": 1.6099844371063357,
+            "ci_95": [
+              1.3783382054606321,
+              1.605507882095553
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.7977718073891086,
+            "std": 0.03569768464477814,
+            "min": 0.747248409350657,
+            "max": 0.8367837162658415,
+            "ci_95": [
+              0.7489261332199867,
+              0.8359644011389471
+            ]
+          },
+          "runtime": {
+            "mean": 3.6777431964874268,
+            "std": 0.07794822459582668,
+            "min": 3.628979206085205,
+            "max": 3.832949161529541,
+            "ci_95": [
+              3.629532504081726,
+              3.814748001098633
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "1000": {
+        "seeds": [
+          {
+            "n_timesteps": 1000,
+            "n_dims": 13,
+            "condition_number": 1285440678.9275014,
+            "participation_ratio": 1.8609890730757623,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.8609890730757623,
+            "variance_explained_pc1": 0.6405306128966108,
+            "seed": 0,
+            "runtime": 5.311791896820068
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 13,
+            "condition_number": 3920361215.8937798,
+            "participation_ratio": 1.2799309550398443,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.2799309550398443,
+            "variance_explained_pc1": 0.8752456323468588,
+            "seed": 1,
+            "runtime": 5.380229234695435
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 13,
+            "condition_number": 6737790700.56939,
+            "participation_ratio": 1.282414542575138,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.282414542575138,
+            "variance_explained_pc1": 0.8741162274154085,
+            "seed": 2,
+            "runtime": 5.651612043380737
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 13,
+            "condition_number": 2606660917.8670173,
+            "participation_ratio": 1.2952405282610662,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.2952405282610662,
+            "variance_explained_pc1": 0.8690787880478755,
+            "seed": 3,
+            "runtime": 5.013979434967041
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 13,
+            "condition_number": 4062371877.425573,
+            "participation_ratio": 1.3966872014241307,
+            "rank_deficiency": 2,
+            "effective_dimensionality": 1.3966872014241307,
+            "variance_explained_pc1": 0.8288361781599551,
+            "seed": 4,
+            "runtime": 4.874271631240845
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 1000.0,
+            "std": 0.0,
+            "min": 1000.0,
+            "max": 1000.0,
+            "ci_95": [
+              1000.0,
+              1000.0
+            ]
+          },
+          "n_dims": {
+            "mean": 13.0,
+            "std": 0.0,
+            "min": 13.0,
+            "max": 13.0,
+            "ci_95": [
+              13.0,
+              13.0
+            ]
+          },
+          "condition_number": {
+            "mean": 3722525078.1366525,
+            "std": 1812787629.6608577,
+            "min": 1285440678.9275014,
+            "max": 6737790700.56939,
+            "ci_95": [
+              1417562702.821453,
+              6470248818.255009
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.4230524600751884,
+            "std": 0.2231960048148454,
+            "min": 1.2799309550398443,
+            "max": 1.8609890730757623,
+            "ci_95": [
+              1.2801793137933737,
+              1.8145588859105992
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 2.0,
+            "std": 0.0,
+            "min": 2.0,
+            "max": 2.0,
+            "ci_95": [
+              2.0,
+              2.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.4230524600751884,
+            "std": 0.2231960048148454,
+            "min": 1.2799309550398443,
+            "max": 1.8609890730757623,
+            "ci_95": [
+              1.2801793137933737,
+              1.8145588859105992
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.8175614877733418,
+            "std": 0.09016316392149468,
+            "min": 0.6405306128966108,
+            "max": 0.8752456323468588,
+            "ci_95": [
+              0.6593611694229453,
+              0.8751326918537138
+            ]
+          },
+          "runtime": {
+            "mean": 5.246376848220825,
+            "std": 0.275275136376408,
+            "min": 4.874271631240845,
+            "max": 5.651612043380737,
+            "ci_95": [
+              4.888242411613464,
+              5.624473762512207
+            ]
+          }
+        },
+        "n_seeds": 5
+      }
+    },
+    "institution": {
+      "100": {
+        "seeds": [
+          {
+            "n_timesteps": 100,
+            "n_dims": 11,
+            "condition_number": 4.60081810422018e+22,
+            "participation_ratio": 1.0000000000006082,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000006082,
+            "variance_explained_pc1": 0.9999999999996959,
+            "seed": 0,
+            "runtime": 0.253997802734375
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 11,
+            "condition_number": 1.216972188932976e+23,
+            "participation_ratio": 1.0000000000004639,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000004639,
+            "variance_explained_pc1": 0.9999999999997681,
+            "seed": 1,
+            "runtime": 0.25076770782470703
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 11,
+            "condition_number": 1.0153461024813496e+23,
+            "participation_ratio": 1.0000000000005365,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000005365,
+            "variance_explained_pc1": 0.9999999999997319,
+            "seed": 2,
+            "runtime": 0.28782153129577637
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 11,
+            "condition_number": 8.501332150003985e+22,
+            "participation_ratio": 1.000000000000461,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.000000000000461,
+            "variance_explained_pc1": 0.9999999999997695,
+            "seed": 3,
+            "runtime": 0.25875353813171387
+          },
+          {
+            "n_timesteps": 100,
+            "n_dims": 11,
+            "condition_number": 2.5090347706150587e+22,
+            "participation_ratio": 1.0000000000013038,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000013038,
+            "variance_explained_pc1": 0.9999999999993481,
+            "seed": 4,
+            "runtime": 0.2887387275695801
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 100.0,
+            "std": 0.0,
+            "min": 100.0,
+            "max": 100.0,
+            "ci_95": [
+              100.0,
+              100.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 7.586873587796495e+22,
+            "std": 3.5532260973088992e+22,
+            "min": 2.5090347706150587e+22,
+            "max": 1.216972188932976e+23,
+            "ci_95": [
+              2.718213103975571e+22,
+              1.1968095802878133e+23
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0000000000006746,
+            "std": 3.192177678405985e-13,
+            "min": 1.000000000000461,
+            "max": 1.0000000000013038,
+            "ci_95": [
+              1.0000000000004612,
+              1.0000000000012343
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0000000000006746,
+            "std": 3.192177678405985e-13,
+            "min": 1.000000000000461,
+            "max": 1.0000000000013038,
+            "ci_95": [
+              1.0000000000004612,
+              1.0000000000012343
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9999999999996627,
+            "std": 1.5961849826459007e-13,
+            "min": 0.9999999999993481,
+            "max": 0.9999999999997695,
+            "ci_95": [
+              0.9999999999993828,
+              0.9999999999997694
+            ]
+          },
+          "runtime": {
+            "mean": 0.26801586151123047,
+            "std": 0.01674214529347311,
+            "min": 0.25076770782470703,
+            "max": 0.2887387275695801,
+            "ci_95": [
+              0.25109071731567384,
+              0.2886470079421997
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "200": {
+        "seeds": [
+          {
+            "n_timesteps": 200,
+            "n_dims": 11,
+            "condition_number": 3.4850362849656616e+22,
+            "participation_ratio": 1.0000000000067775,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000067775,
+            "variance_explained_pc1": 0.9999999999966114,
+            "seed": 0,
+            "runtime": 0.5262610912322998
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 11,
+            "condition_number": 7.363635579095083e+22,
+            "participation_ratio": 1.0000000000048601,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000048601,
+            "variance_explained_pc1": 0.9999999999975699,
+            "seed": 1,
+            "runtime": 0.6045045852661133
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 11,
+            "condition_number": 5.3770220456979915e+22,
+            "participation_ratio": 1.0000000000060343,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000060343,
+            "variance_explained_pc1": 0.999999999996983,
+            "seed": 2,
+            "runtime": 0.5553483963012695
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 11,
+            "condition_number": 4.874140047311012e+22,
+            "participation_ratio": 1.0000000000053184,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000053184,
+            "variance_explained_pc1": 0.9999999999973408,
+            "seed": 3,
+            "runtime": 0.5022642612457275
+          },
+          {
+            "n_timesteps": 200,
+            "n_dims": 11,
+            "condition_number": 1.4705294067280552e+22,
+            "participation_ratio": 1.0000000000164841,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000164841,
+            "variance_explained_pc1": 0.999999999991758,
+            "seed": 4,
+            "runtime": 0.5148935317993164
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 200.0,
+            "std": 0.0,
+            "min": 200.0,
+            "max": 200.0,
+            "ci_95": [
+              200.0,
+              200.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 4.51407267275956e+22,
+            "std": 1.9655233598837838e+22,
+            "min": 1.4705294067280552e+22,
+            "max": 7.363635579095083e+22,
+            "ci_95": [
+              1.6719800945518158e+22,
+              7.164974225755373e+22
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0000000000078948,
+            "std": 4.343591648414177e-12,
+            "min": 1.0000000000048601,
+            "max": 1.0000000000164841,
+            "ci_95": [
+              1.0000000000049059,
+              1.0000000000155134
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0000000000078948,
+            "std": 4.343591648414177e-12,
+            "min": 1.0000000000048601,
+            "max": 1.0000000000164841,
+            "ci_95": [
+              1.0000000000049059,
+              1.0000000000155134
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9999999999960526,
+            "std": 2.1717671396489402e-12,
+            "min": 0.999999999991758,
+            "max": 0.9999999999975699,
+            "ci_95": [
+              0.9999999999922433,
+              0.9999999999975471
+            ]
+          },
+          "runtime": {
+            "mean": 0.5406543731689453,
+            "std": 0.03643446749198553,
+            "min": 0.5022642612457275,
+            "max": 0.6045045852661133,
+            "ci_95": [
+              0.5035271883010864,
+              0.5995889663696289
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "300": {
+        "seeds": [
+          {
+            "n_timesteps": 300,
+            "n_dims": 11,
+            "condition_number": 2.7753460153846413e+22,
+            "participation_ratio": 1.0000000000251037,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000251037,
+            "variance_explained_pc1": 0.9999999999874482,
+            "seed": 0,
+            "runtime": 0.7522399425506592
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 11,
+            "condition_number": 5.337132358375993e+22,
+            "participation_ratio": 1.0000000000183258,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000183258,
+            "variance_explained_pc1": 0.9999999999908371,
+            "seed": 1,
+            "runtime": 0.7637186050415039
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 11,
+            "condition_number": 3.884415816733115e+22,
+            "participation_ratio": 1.0000000000236744,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000236744,
+            "variance_explained_pc1": 0.9999999999881628,
+            "seed": 2,
+            "runtime": 0.8014976978302002
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 11,
+            "condition_number": 3.2034659751651678e+22,
+            "participation_ratio": 1.0000000000200797,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000200797,
+            "variance_explained_pc1": 0.9999999999899601,
+            "seed": 3,
+            "runtime": 0.8948724269866943
+          },
+          {
+            "n_timesteps": 300,
+            "n_dims": 11,
+            "condition_number": 1.0007852596015978e+22,
+            "participation_ratio": 1.0000000000572755,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000572755,
+            "variance_explained_pc1": 0.9999999999713622,
+            "seed": 4,
+            "runtime": 0.8091146945953369
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 300.0,
+            "std": 0.0,
+            "min": 300.0,
+            "max": 300.0,
+            "ci_95": [
+              300.0,
+              300.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 3.2402290850521034e+22,
+            "std": 1.4173606686380643e+22,
+            "min": 1.0007852596015978e+22,
+            "max": 5.337132358375993e+22,
+            "ci_95": [
+              1.178241335179902e+22,
+              5.191860704211705e+22
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0000000000288918,
+            "std": 1.4397916213505479e-11,
+            "min": 1.0000000000183258,
+            "max": 1.0000000000572755,
+            "ci_95": [
+              1.0000000000185012,
+              1.0000000000540583
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0000000000288918,
+            "std": 1.4397916213505479e-11,
+            "min": 1.0000000000183258,
+            "max": 1.0000000000572755,
+            "ci_95": [
+              1.0000000000185012,
+              1.0000000000540583
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9999999999855541,
+            "std": 7.198958106752739e-12,
+            "min": 0.9999999999713622,
+            "max": 0.9999999999908371,
+            "ci_95": [
+              0.9999999999729708,
+              0.9999999999907494
+            ]
+          },
+          "runtime": {
+            "mean": 0.804288673400879,
+            "std": 0.050182660887410475,
+            "min": 0.7522399425506592,
+            "max": 0.8948724269866943,
+            "ci_95": [
+              0.7533878087997437,
+              0.8862966537475586
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "500": {
+        "seeds": [
+          {
+            "n_timesteps": 500,
+            "n_dims": 11,
+            "condition_number": 1.8926933839550093e+22,
+            "participation_ratio": 1.0000000001238518,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000001238518,
+            "variance_explained_pc1": 0.9999999999380741,
+            "seed": 0,
+            "runtime": 1.331338882446289
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 11,
+            "condition_number": 3.269895881065552e+22,
+            "participation_ratio": 1.0000000000917004,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000917004,
+            "variance_explained_pc1": 0.9999999999541498,
+            "seed": 1,
+            "runtime": 1.345235824584961
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 11,
+            "condition_number": 2.3339572692932545e+22,
+            "participation_ratio": 1.0000000001159033,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000001159033,
+            "variance_explained_pc1": 0.9999999999420484,
+            "seed": 2,
+            "runtime": 1.3750357627868652
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 11,
+            "condition_number": 1.8363715612994722e+22,
+            "participation_ratio": 1.0000000000977023,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000000977023,
+            "variance_explained_pc1": 0.999999999951149,
+            "seed": 3,
+            "runtime": 1.4051241874694824
+          },
+          {
+            "n_timesteps": 500,
+            "n_dims": 11,
+            "condition_number": 6.918459736878487e+21,
+            "participation_ratio": 1.0000000002786114,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000002786114,
+            "variance_explained_pc1": 0.9999999998606943,
+            "seed": 4,
+            "runtime": 1.4161090850830078
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 500.0,
+            "std": 0.0,
+            "min": 500.0,
+            "max": 500.0,
+            "ci_95": [
+              500.0,
+              500.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 2.0049528138602276e+22,
+            "std": 8.334982047959891e+21,
+            "min": 6.918459736878487e+21,
+            "max": 3.269895881065552e+22,
+            "ci_95": [
+              8.062985324490111e+21,
+              3.1763020198883222e+22
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0000000001415537,
+            "std": 6.951891336011344e-11,
+            "min": 1.0000000000917004,
+            "max": 1.0000000002786114,
+            "ci_95": [
+              1.0000000000923006,
+              1.0000000002631353
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0000000001415537,
+            "std": 6.951891336011344e-11,
+            "min": 1.0000000000917004,
+            "max": 1.0000000002786114,
+            "ci_95": [
+              1.0000000000923006,
+              1.0000000002631353
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9999999999292231,
+            "std": 3.4759470686255935e-11,
+            "min": 0.9999999998606943,
+            "max": 0.9999999999541498,
+            "ci_95": [
+              0.9999999998684324,
+              0.9999999999538497
+            ]
+          },
+          "runtime": {
+            "mean": 1.3745687484741211,
+            "std": 0.03282893315604008,
+            "min": 1.331338882446289,
+            "max": 1.4161090850830078,
+            "ci_95": [
+              1.3327285766601562,
+              1.4150105953216552
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "750": {
+        "seeds": [
+          {
+            "n_timesteps": 750,
+            "n_dims": 11,
+            "condition_number": 1.3814467067233868e+22,
+            "participation_ratio": 1.000000000422716,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.000000000422716,
+            "variance_explained_pc1": 0.9999999997886421,
+            "seed": 0,
+            "runtime": 2.323359966278076
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 11,
+            "condition_number": 2.24162272347817e+22,
+            "participation_ratio": 1.0000000003253333,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000003253333,
+            "variance_explained_pc1": 0.9999999998373335,
+            "seed": 1,
+            "runtime": 2.2138099670410156
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 11,
+            "condition_number": 1.5971474742927973e+22,
+            "participation_ratio": 1.000000000400392,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.000000000400392,
+            "variance_explained_pc1": 0.9999999997998041,
+            "seed": 2,
+            "runtime": 1.9979753494262695
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 11,
+            "condition_number": 1.3413814010197815e+22,
+            "participation_ratio": 1.0000000003442175,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000003442175,
+            "variance_explained_pc1": 0.9999999998278912,
+            "seed": 3,
+            "runtime": 2.0153934955596924
+          },
+          {
+            "n_timesteps": 750,
+            "n_dims": 11,
+            "condition_number": 5.385743320551227e+21,
+            "participation_ratio": 1.0000000009405468,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000009405468,
+            "variance_explained_pc1": 0.9999999995297266,
+            "seed": 4,
+            "runtime": 2.1080729961395264
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 750.0,
+            "std": 0.0,
+            "min": 750.0,
+            "max": 750.0,
+            "ci_95": [
+              750.0,
+              750.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 1.4200345275138516e+22,
+            "std": 5.460812338953637e+21,
+            "min": 5.385743320551227e+21,
+            "max": 2.24162272347817e+22,
+            "ci_95": [
+              6.188550389515885e+21,
+              2.1771751985596326e+22
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.0000000004866412,
+            "std": 2.2972171694274464e-10,
+            "min": 1.0000000003253333,
+            "max": 1.0000000009405468,
+            "ci_95": [
+              1.0000000003272218,
+              1.0000000008887637
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.0000000004866412,
+            "std": 2.2972171694274464e-10,
+            "min": 1.0000000003253333,
+            "max": 1.0000000009405468,
+            "ci_95": [
+              1.0000000003272218,
+              1.0000000008887637
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9999999997566794,
+            "std": 1.1486088857866994e-10,
+            "min": 0.9999999995297266,
+            "max": 0.9999999998373335,
+            "ci_95": [
+              0.9999999995556181,
+              0.9999999998363892
+            ]
+          },
+          "runtime": {
+            "mean": 2.131722354888916,
+            "std": 0.12283591276177919,
+            "min": 1.9979753494262695,
+            "max": 2.323359966278076,
+            "ci_95": [
+              1.9997171640396119,
+              2.31240496635437
+            ]
+          }
+        },
+        "n_seeds": 5
+      },
+      "1000": {
+        "seeds": [
+          {
+            "n_timesteps": 1000,
+            "n_dims": 11,
+            "condition_number": 1.187902603030271e+22,
+            "participation_ratio": 1.0000000010080017,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000010080017,
+            "variance_explained_pc1": 0.9999999994959992,
+            "seed": 0,
+            "runtime": 2.480334997177124
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 11,
+            "condition_number": 1.8157628619242215e+22,
+            "participation_ratio": 1.0000000007761567,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000007761567,
+            "variance_explained_pc1": 0.9999999996119215,
+            "seed": 1,
+            "runtime": 2.455007314682007
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 11,
+            "condition_number": 1.3862708451170624e+22,
+            "participation_ratio": 1.00000000095454,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.00000000095454,
+            "variance_explained_pc1": 0.9999999995227301,
+            "seed": 2,
+            "runtime": 2.787468433380127
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 11,
+            "condition_number": 1.0188643780467326e+22,
+            "participation_ratio": 1.0000000008201229,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000008201229,
+            "variance_explained_pc1": 0.9999999995899386,
+            "seed": 3,
+            "runtime": 2.843818426132202
+          },
+          {
+            "n_timesteps": 1000,
+            "n_dims": 11,
+            "condition_number": 4.623607881700747e+21,
+            "participation_ratio": 1.0000000022664082,
+            "rank_deficiency": 4,
+            "effective_dimensionality": 1.0000000022664082,
+            "variance_explained_pc1": 0.9999999988667959,
+            "seed": 4,
+            "runtime": 2.6274571418762207
+          }
+        ],
+        "aggregate": {
+          "n_timesteps": {
+            "mean": 1000.0,
+            "std": 0.0,
+            "min": 1000.0,
+            "max": 1000.0,
+            "ci_95": [
+              1000.0,
+              1000.0
+            ]
+          },
+          "n_dims": {
+            "mean": 11.0,
+            "std": 0.0,
+            "min": 11.0,
+            "max": 11.0,
+            "ci_95": [
+              11.0,
+              11.0
+            ]
+          },
+          "condition_number": {
+            "mean": 1.1742322952576726e+22,
+            "std": 4.4443423005214334e+21,
+            "min": 4.623607881700747e+21,
+            "max": 1.8157628619242215e+22,
+            "ci_95": [
+              5.180111471577405e+21,
+              1.7728136602435054e+22
+            ]
+          },
+          "participation_ratio": {
+            "mean": 1.000000001165046,
+            "std": 5.571680523261366e-10,
+            "min": 1.0000000007761567,
+            "max": 1.0000000022664082,
+            "ci_95": [
+              1.0000000007805534,
+              1.0000000021405675
+            ]
+          },
+          "rank_deficiency": {
+            "mean": 4.0,
+            "std": 0.0,
+            "min": 4.0,
+            "max": 4.0,
+            "ci_95": [
+              4.0,
+              4.0
+            ]
+          },
+          "effective_dimensionality": {
+            "mean": 1.000000001165046,
+            "std": 5.571680523261366e-10,
+            "min": 1.0000000007761567,
+            "max": 1.0000000022664082,
+            "ci_95": [
+              1.0000000007805534,
+              1.0000000021405675
+            ]
+          },
+          "variance_explained_pc1": {
+            "mean": 0.9999999994174772,
+            "std": 2.7858401905409933e-10,
+            "min": 0.9999999988667959,
+            "max": 0.9999999996119215,
+            "ci_95": [
+              0.9999999989297162,
+              0.9999999996097232
+            ]
+          },
+          "runtime": {
+            "mean": 2.6388172626495363,
+            "std": 0.1569422985519839,
+            "min": 2.455007314682007,
+            "max": 2.843818426132202,
+            "ci_95": [
+              2.4575400829315184,
+              2.8381834268569945
+            ]
+          }
+        },
+        "n_seeds": 5
+      }
+    }
+  },
+  "trends": {
+    "distributed": {
+      "slope": -1.6390498602209136e-05,
+      "cv": 0.005130524536212189,
+      "ed_values": [
+        1.0653709541283334,
+        1.066173500799422,
+        1.0625627406913778,
+        1.0560747450296226,
+        1.0543786837407505,
+        1.0523628237075004
+      ],
+      "lengths": [
+        100,
+        200,
+        300,
+        500,
+        750,
+        1000
+      ],
+      "is_stable": "True"
+    },
+    "immune": {
+      "slope": -7.409791525476495e-05,
+      "cv": 0.0355258347967644,
+      "ed_values": [
+        1.1329907197063602,
+        1.0439467121488089,
+        1.0358962973984127,
+        1.0313069688786958,
+        1.0294256977249276,
+        1.0285673331817464
+      ],
+      "lengths": [
+        100,
+        200,
+        300,
+        500,
+        750,
+        1000
+      ],
+      "is_stable": "True"
+    },
+    "ant_colony": {
+      "slope": -0.00023264497936850294,
+      "cv": 0.06244369294732692,
+      "ed_values": [
+        1.5392743334859593,
+        1.7152595254795124,
+        1.6249283171446578,
+        1.6184593523951114,
+        1.4779145211569917,
+        1.4230524600751884
+      ],
+      "lengths": [
+        100,
+        200,
+        300,
+        500,
+        750,
+        1000
+      ],
+      "is_stable": "True"
+    },
+    "institution": {
+      "slope": 1.2384701147953375e-12,
+      "cv": 4.196245510469583e-10,
+      "ed_values": [
+        1.0000000000006746,
+        1.0000000000078948,
+        1.0000000000288918,
+        1.0000000001415537,
+        1.0000000004866412,
+        1.000000001165046
+      ],
+      "lengths": [
+        100,
+        200,
+        300,
+        500,
+        750,
+        1000
+      ],
+      "is_stable": "True"
+    }
+  }
+}

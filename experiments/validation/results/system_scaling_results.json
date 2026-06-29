@@ -1,0 +1,906 @@
+{
+  "metadata": {
+    "num_seeds": 5,
+    "num_timesteps": 200,
+    "num_systems": 8,
+    "total_time": 15.572237253189087
+  },
+  "main_results": {
+    "distributed": {
+      "seeds": [
+        {
+          "condition_number": 29.181833726123838,
+          "participation_ratio": 1.06845540263958,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.06845540263958,
+          "seed": 0,
+          "runtime": 1.2759644985198975,
+          "n_dims": 6
+        },
+        {
+          "condition_number": 21.34959243785339,
+          "participation_ratio": 1.0934735298086549,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0934735298086549,
+          "seed": 1,
+          "runtime": 1.137164831161499,
+          "n_dims": 6
+        },
+        {
+          "condition_number": 34.11503773132472,
+          "participation_ratio": 1.0585748441945428,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0585748441945428,
+          "seed": 2,
+          "runtime": 1.0521044731140137,
+          "n_dims": 6
+        },
+        {
+          "condition_number": 37.19611459993821,
+          "participation_ratio": 1.0537302218207456,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0537302218207456,
+          "seed": 3,
+          "runtime": 0.8582444190979004,
+          "n_dims": 6
+        },
+        {
+          "condition_number": 35.28644423898652,
+          "participation_ratio": 1.0566335055335876,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0566335055335876,
+          "seed": 4,
+          "runtime": 0.7911322116851807,
+          "n_dims": 6
+        }
+      ],
+      "aggregate": {
+        "condition_number": {
+          "mean": 31.425804546845335,
+          "std": 5.69207251484925,
+          "min": 21.34959243785339,
+          "max": 37.19611459993821,
+          "ci_95": [
+            22.132816566680432,
+            37.005147563843046
+          ]
+        },
+        "participation_ratio": {
+          "mean": 1.066173500799422,
+          "std": 0.014519538171204063,
+          "min": 1.0537302218207456,
+          "max": 1.0934735298086549,
+          "ci_95": [
+            1.05402055019203,
+            1.0909717170917475
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 4.0,
+          "std": 0.0,
+          "min": 4.0,
+          "max": 4.0,
+          "ci_95": [
+            4.0,
+            4.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 1.066173500799422,
+          "std": 0.014519538171204063,
+          "min": 1.0537302218207456,
+          "max": 1.0934735298086549,
+          "ci_95": [
+            1.05402055019203,
+            1.0909717170917475
+          ]
+        },
+        "runtime": {
+          "mean": 1.0229220867156983,
+          "std": 0.17820143595650173,
+          "min": 0.7911322116851807,
+          "max": 1.2759644985198975,
+          "ci_95": [
+            0.7978434324264526,
+            1.2620845317840577
+          ]
+        },
+        "n_dims": {
+          "mean": 6.0,
+          "std": 0.0,
+          "min": 6.0,
+          "max": 6.0,
+          "ci_95": [
+            6.0,
+            6.0
+          ]
+        }
+      },
+      "n_seeds": 5
+    },
+    "immune": {
+      "seeds": [
+        {
+          "condition_number": 302245368.0392137,
+          "participation_ratio": 1.043224046736845,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.043224046736845,
+          "seed": 0,
+          "runtime": 0.3804023265838623,
+          "n_dims": 11
+        },
+        {
+          "condition_number": 541386872.6514465,
+          "participation_ratio": 1.0253877003436704,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.0253877003436704,
+          "seed": 1,
+          "runtime": 0.39948344230651855,
+          "n_dims": 11
+        },
+        {
+          "condition_number": 189217179.52564964,
+          "participation_ratio": 1.0680597804444052,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.0680597804444052,
+          "seed": 2,
+          "runtime": 0.3775031566619873,
+          "n_dims": 11
+        },
+        {
+          "condition_number": 295186208.9766801,
+          "participation_ratio": 1.0668435346423981,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.0668435346423981,
+          "seed": 3,
+          "runtime": 0.3778078556060791,
+          "n_dims": 11
+        },
+        {
+          "condition_number": 849084429.0645975,
+          "participation_ratio": 1.016218498576726,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.016218498576726,
+          "seed": 4,
+          "runtime": 0.3988220691680908,
+          "n_dims": 11
+        }
+      ],
+      "aggregate": {
+        "condition_number": {
+          "mean": 435424011.6515175,
+          "std": 236796987.07736498,
+          "min": 189217179.52564964,
+          "max": 849084429.0645975,
+          "ci_95": [
+            199814082.4707527,
+            818314673.4232824
+          ]
+        },
+        "participation_ratio": {
+          "mean": 1.0439467121488089,
+          "std": 0.021069017705203943,
+          "min": 1.016218498576726,
+          "max": 1.0680597804444052,
+          "ci_95": [
+            1.0171354187534205,
+            1.0679381558642045
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 7.0,
+          "std": 0.0,
+          "min": 7.0,
+          "max": 7.0,
+          "ci_95": [
+            7.0,
+            7.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 1.0439467121488089,
+          "std": 0.021069017705203943,
+          "min": 1.016218498576726,
+          "max": 1.0680597804444052,
+          "ci_95": [
+            1.0171354187534205,
+            1.0679381558642045
+          ]
+        },
+        "runtime": {
+          "mean": 0.38680377006530764,
+          "std": 0.010135284571736618,
+          "min": 0.3775031566619873,
+          "max": 0.39948344230651855,
+          "ci_95": [
+            0.3775336265563965,
+            0.3994173049926758
+          ]
+        },
+        "n_dims": {
+          "mean": 11.0,
+          "std": 0.0,
+          "min": 11.0,
+          "max": 11.0,
+          "ci_95": [
+            11.0,
+            11.0
+          ]
+        }
+      },
+      "n_seeds": 5
+    },
+    "ant_colony": {
+      "seeds": [
+        {
+          "condition_number": 996968496.5581235,
+          "participation_ratio": 1.596756765226055,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.596756765226055,
+          "seed": 0,
+          "runtime": 1.0613923072814941,
+          "n_dims": 13
+        },
+        {
+          "condition_number": 9484049968.584135,
+          "participation_ratio": 1.6927790249958845,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.6927790249958845,
+          "seed": 1,
+          "runtime": 0.9072716236114502,
+          "n_dims": 13
+        },
+        {
+          "condition_number": 3513998000.5212083,
+          "participation_ratio": 1.739821511502844,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.739821511502844,
+          "seed": 2,
+          "runtime": 0.8987367153167725,
+          "n_dims": 13
+        },
+        {
+          "condition_number": 913729768.0554154,
+          "participation_ratio": 1.7153021253937446,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.7153021253937446,
+          "seed": 3,
+          "runtime": 0.9509460926055908,
+          "n_dims": 13
+        },
+        {
+          "condition_number": 591301268.3114078,
+          "participation_ratio": 1.8316382002790343,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.8316382002790343,
+          "seed": 4,
+          "runtime": 0.948153018951416,
+          "n_dims": 13
+        }
+      ],
+      "aggregate": {
+        "condition_number": {
+          "mean": 3100009500.406058,
+          "std": 3359273037.5274754,
+          "min": 591301268.3114078,
+          "max": 9484049968.584135,
+          "ci_95": [
+            623544118.2858086,
+            8887044771.777842
+          ]
+        },
+        "participation_ratio": {
+          "mean": 1.7152595254795124,
+          "std": 0.07575693500919728,
+          "min": 1.596756765226055,
+          "max": 1.8316382002790343,
+          "ci_95": [
+            1.606358991203038,
+            1.8224565314014154
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 2.0,
+          "std": 0.0,
+          "min": 2.0,
+          "max": 2.0,
+          "ci_95": [
+            2.0,
+            2.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 1.7152595254795124,
+          "std": 0.07575693500919728,
+          "min": 1.596756765226055,
+          "max": 1.8316382002790343,
+          "ci_95": [
+            1.606358991203038,
+            1.8224565314014154
+          ]
+        },
+        "runtime": {
+          "mean": 0.9532999515533447,
+          "std": 0.057985761451842796,
+          "min": 0.8987367153167725,
+          "max": 1.0613923072814941,
+          "ci_95": [
+            0.8995902061462402,
+            1.0503476858139038
+          ]
+        },
+        "n_dims": {
+          "mean": 13.0,
+          "std": 0.0,
+          "min": 13.0,
+          "max": 13.0,
+          "ci_95": [
+            13.0,
+            13.0
+          ]
+        }
+      },
+      "n_seeds": 5
+    },
+    "institution": {
+      "seeds": [
+        {
+          "condition_number": 3.4850362849656616e+22,
+          "participation_ratio": 1.0000000000067775,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000067775,
+          "seed": 0,
+          "runtime": 0.489851713180542,
+          "n_dims": 11
+        },
+        {
+          "condition_number": 7.363635579095083e+22,
+          "participation_ratio": 1.0000000000048601,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000048601,
+          "seed": 1,
+          "runtime": 0.49507951736450195,
+          "n_dims": 11
+        },
+        {
+          "condition_number": 5.3770220456979915e+22,
+          "participation_ratio": 1.0000000000060343,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000060343,
+          "seed": 2,
+          "runtime": 0.541372537612915,
+          "n_dims": 11
+        },
+        {
+          "condition_number": 4.874140047311012e+22,
+          "participation_ratio": 1.0000000000053184,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000053184,
+          "seed": 3,
+          "runtime": 0.536186695098877,
+          "n_dims": 11
+        },
+        {
+          "condition_number": 1.4705294067280552e+22,
+          "participation_ratio": 1.0000000000164841,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000164841,
+          "seed": 4,
+          "runtime": 0.5084202289581299,
+          "n_dims": 11
+        }
+      ],
+      "aggregate": {
+        "condition_number": {
+          "mean": 4.51407267275956e+22,
+          "std": 1.9655233598837838e+22,
+          "min": 1.4705294067280552e+22,
+          "max": 7.363635579095083e+22,
+          "ci_95": [
+            1.6719800945518158e+22,
+            7.164974225755373e+22
+          ]
+        },
+        "participation_ratio": {
+          "mean": 1.0000000000078948,
+          "std": 4.343591648414177e-12,
+          "min": 1.0000000000048601,
+          "max": 1.0000000000164841,
+          "ci_95": [
+            1.0000000000049059,
+            1.0000000000155134
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 4.0,
+          "std": 0.0,
+          "min": 4.0,
+          "max": 4.0,
+          "ci_95": [
+            4.0,
+            4.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 1.0000000000078948,
+          "std": 4.343591648414177e-12,
+          "min": 1.0000000000048601,
+          "max": 1.0000000000164841,
+          "ci_95": [
+            1.0000000000049059,
+            1.0000000000155134
+          ]
+        },
+        "runtime": {
+          "mean": 0.5141821384429932,
+          "std": 0.021040901345111548,
+          "min": 0.489851713180542,
+          "max": 0.541372537612915,
+          "ci_95": [
+            0.490374493598938,
+            0.5408539533615112
+          ]
+        },
+        "n_dims": {
+          "mean": 11.0,
+          "std": 0.0,
+          "min": 11.0,
+          "max": 11.0,
+          "ci_95": [
+            11.0,
+            11.0
+          ]
+        }
+      },
+      "n_seeds": 5
+    },
+    "epidemic": {
+      "seeds": [
+        {
+          "condition_number": 1613016.5015057782,
+          "participation_ratio": 1.1417507035688776,
+          "rank_deficiency": 32,
+          "effective_dimensionality": 1.1417507035688776,
+          "seed": 0,
+          "runtime": 0.06209850311279297,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 4345421.26313392,
+          "participation_ratio": 1.1093127770447357,
+          "rank_deficiency": 31,
+          "effective_dimensionality": 1.1093127770447357,
+          "seed": 1,
+          "runtime": 0.05924391746520996,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 1158535.4322266877,
+          "participation_ratio": 1.0795095254712765,
+          "rank_deficiency": 38,
+          "effective_dimensionality": 1.0795095254712765,
+          "seed": 2,
+          "runtime": 0.0619511604309082,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 4491249.241252647,
+          "participation_ratio": 1.1606404481492736,
+          "rank_deficiency": 33,
+          "effective_dimensionality": 1.1606404481492736,
+          "seed": 3,
+          "runtime": 0.052954673767089844,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 1742655.7603909795,
+          "participation_ratio": 1.1009961411281508,
+          "rank_deficiency": 32,
+          "effective_dimensionality": 1.1009961411281508,
+          "seed": 4,
+          "runtime": 0.053359031677246094,
+          "n_dims": 64
+        }
+      ],
+      "aggregate": {
+        "condition_number": {
+          "mean": 2670175.6397020025,
+          "std": 1441228.0630030322,
+          "min": 1158535.4322266877,
+          "max": 4491249.241252647,
+          "ci_95": [
+            1203983.5391545966,
+            4476666.443440774
+          ]
+        },
+        "participation_ratio": {
+          "mean": 1.1184419190724628,
+          "std": 0.029077286547094103,
+          "min": 1.0795095254712765,
+          "max": 1.1606404481492736,
+          "ci_95": [
+            1.081658187036964,
+            1.1587514736912339
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 33.2,
+          "std": 2.4819347291981715,
+          "min": 31.0,
+          "max": 38.0,
+          "ci_95": [
+            31.1,
+            37.5
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 1.1184419190724628,
+          "std": 0.029077286547094103,
+          "min": 1.0795095254712765,
+          "max": 1.1606404481492736,
+          "ci_95": [
+            1.081658187036964,
+            1.1587514736912339
+          ]
+        },
+        "runtime": {
+          "mean": 0.05792145729064942,
+          "std": 0.00402292893697959,
+          "min": 0.052954673767089844,
+          "max": 0.06209850311279297,
+          "ci_95": [
+            0.05299510955810547,
+            0.062083768844604495
+          ]
+        },
+        "n_dims": {
+          "mean": 64.0,
+          "std": 0.0,
+          "min": 64.0,
+          "max": 64.0,
+          "ci_95": [
+            64.0,
+            64.0
+          ]
+        }
+      },
+      "n_seeds": 5
+    },
+    "neural": {
+      "seeds": [
+        {
+          "condition_number": 1176200.2490521867,
+          "participation_ratio": 2.873163030556715,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 2.873163030556715,
+          "seed": 0,
+          "runtime": 0.030808210372924805,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 784365.8727995369,
+          "participation_ratio": 3.4126080192744976,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 3.4126080192744976,
+          "seed": 1,
+          "runtime": 0.037610769271850586,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 739399.2085278595,
+          "participation_ratio": 3.5914571390929093,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 3.5914571390929093,
+          "seed": 2,
+          "runtime": 0.03000473976135254,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 631779.2347281983,
+          "participation_ratio": 3.145911242875409,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 3.145911242875409,
+          "seed": 3,
+          "runtime": 0.029845714569091797,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 957016.8697975741,
+          "participation_ratio": 3.183569312974622,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 3.183569312974622,
+          "seed": 4,
+          "runtime": 0.03247189521789551,
+          "n_dims": 64
+        }
+      ],
+      "aggregate": {
+        "condition_number": {
+          "mean": 857752.2869810711,
+          "std": 190640.70880021213,
+          "min": 631779.2347281983,
+          "max": 1176200.2490521867,
+          "ci_95": [
+            642541.2321081643,
+            1154281.9111267254
+          ]
+        },
+        "participation_ratio": {
+          "mean": 3.24134174895483,
+          "std": 0.24491350566748626,
+          "min": 2.873163030556715,
+          "max": 3.5914571390929093,
+          "ci_95": [
+            2.9004378517885843,
+            3.573572227111068
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 3.24134174895483,
+          "std": 0.24491350566748626,
+          "min": 2.873163030556715,
+          "max": 3.5914571390929093,
+          "ci_95": [
+            2.9004378517885843,
+            3.573572227111068
+          ]
+        },
+        "runtime": {
+          "mean": 0.03214826583862305,
+          "std": 0.0028856844864626947,
+          "min": 0.029845714569091797,
+          "max": 0.037610769271850586,
+          "ci_95": [
+            0.02986161708831787,
+            0.03709688186645508
+          ]
+        },
+        "n_dims": {
+          "mean": 64.0,
+          "std": 0.0,
+          "min": 64.0,
+          "max": 64.0,
+          "ci_95": [
+            64.0,
+            64.0
+          ]
+        }
+      },
+      "n_seeds": 5
+    },
+    "market": {
+      "seeds": [
+        {
+          "condition_number": 547150.7285954722,
+          "participation_ratio": 1.9297572876774218,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 1.9297572876774218,
+          "seed": 0,
+          "runtime": 0.11473202705383301,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 64038.98234115423,
+          "participation_ratio": 3.5435004240548027,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 3.5435004240548027,
+          "seed": 1,
+          "runtime": 0.10701298713684082,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 248772.26329393953,
+          "participation_ratio": 2.1492826093886417,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 2.1492826093886417,
+          "seed": 2,
+          "runtime": 0.11102819442749023,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 576490.7998770751,
+          "participation_ratio": 2.267930756504664,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 2.267930756504664,
+          "seed": 3,
+          "runtime": 0.11529350280761719,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 337435.84906787914,
+          "participation_ratio": 2.2809675687321587,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 2.2809675687321587,
+          "seed": 4,
+          "runtime": 0.10738658905029297,
+          "n_dims": 64
+        }
+      ],
+      "aggregate": {
+        "condition_number": {
+          "mean": 354777.72463510407,
+          "std": 190908.86576531627,
+          "min": 64038.98234115423,
+          "max": 576490.7998770751,
+          "ci_95": [
+            82512.31043643276,
+            573556.7927489148
+          ]
+        },
+        "participation_ratio": {
+          "mean": 2.4342877292715377,
+          "std": 0.5687377956737093,
+          "min": 1.9297572876774218,
+          "max": 3.5435004240548027,
+          "ci_95": [
+            1.9517098198485439,
+            3.417247138522538
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 2.4342877292715377,
+          "std": 0.5687377956737093,
+          "min": 1.9297572876774218,
+          "max": 3.5435004240548027,
+          "ci_95": [
+            1.9517098198485439,
+            3.417247138522538
+          ]
+        },
+        "runtime": {
+          "mean": 0.11109066009521484,
+          "std": 0.0035007113909443395,
+          "min": 0.10701298713684082,
+          "max": 0.11529350280761719,
+          "ci_95": [
+            0.10705034732818604,
+            0.11523735523223877
+          ]
+        },
+        "n_dims": {
+          "mean": 64.0,
+          "std": 0.0,
+          "min": 64.0,
+          "max": 64.0,
+          "ci_95": [
+            64.0,
+            64.0
+          ]
+        }
+      },
+      "n_seeds": 5
+    },
+    "ecological": {
+      "seeds": [
+        {
+          "condition_number": 260.79783526971414,
+          "participation_ratio": 25.74576977482819,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 25.74576977482819,
+          "seed": 0,
+          "runtime": 0.03356790542602539,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 208.54698925789495,
+          "participation_ratio": 26.19934159862274,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 26.19934159862274,
+          "seed": 1,
+          "runtime": 0.027858734130859375,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 177.77984507502234,
+          "participation_ratio": 26.379088670870587,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 26.379088670870587,
+          "seed": 2,
+          "runtime": 0.0275421142578125,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 193.07240608917508,
+          "participation_ratio": 25.816372952070004,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 25.816372952070004,
+          "seed": 3,
+          "runtime": 0.030170679092407227,
+          "n_dims": 64
+        },
+        {
+          "condition_number": 236.03366450529543,
+          "participation_ratio": 26.062121641394633,
+          "rank_deficiency": 0,
+          "effective_dimensionality": 26.062121641394633,
+          "seed": 4,
+          "runtime": 0.029451608657836914,
+          "n_dims": 64
+        }
+      ],
+      "aggregate": {
+        "condition_number": {
+          "mean": 215.2461480394204,
+          "std": 29.823998620646943,
+          "min": 177.77984507502234,
+          "max": 260.79783526971414,
+          "ci_95": [
+            179.30910117643762,
+            258.3214181932723
+          ]
+        },
+        "participation_ratio": {
+          "mean": 26.04053892755723,
+          "std": 0.23555859930743495,
+          "min": 25.74576977482819,
+          "max": 26.379088670870587,
+          "ci_95": [
+            25.752830092552372,
+            26.361113963645803
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 26.04053892755723,
+          "std": 0.23555859930743495,
+          "min": 25.74576977482819,
+          "max": 26.379088670870587,
+          "ci_95": [
+            25.752830092552372,
+            26.361113963645803
+          ]
+        },
+        "runtime": {
+          "mean": 0.02971820831298828,
+          "std": 0.002158193810363491,
+          "min": 0.0275421142578125,
+          "max": 0.03356790542602539,
+          "ci_95": [
+            0.027573776245117188,
+            0.033228182792663576
+          ]
+        },
+        "n_dims": {
+          "mean": 64.0,
+          "std": 0.0,
+          "min": 64.0,
+          "max": 64.0,
+          "ci_95": [
+            64.0,
+            64.0
+          ]
+        }
+      },
+      "n_seeds": 5
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "num_systems": 8,
+    "num_seeds": 5,
+    "ed_threshold": 2.0,
+    "total_time": 16.46254849433899
+  },
+  "classifier": {
+    "weights": [
+      1.3742577893927452,
+      0.23210382999511833,
+      0.12103482973697215,
+      -1.9989014746786589,
+      -1.3447615672539543,
+      1.151095820551495,
+      -0.4411361299562341,
+      -1.5869214001351941,
+      0.1735629575918394,
+      0.8823551419685692
+    ],
+    "bias": 1.7663995726987796,
+    "feature_names": [
+      "coupling_density",
+      "feedback_locality",
+      "memory_depth",
+      "synchronization",
+      "sparsity",
+      "update_determinism",
+      "entropy_production",
+      "nominal_dimensionality",
+      "trajectory_complexity",
+      "log_condition_number"
+    ],
+    "feature_importance": [
+      [
+        "synchronization",
+        0.2147940414008242,
+        -1.9989014746786589
+      ],
+      [
+        "nominal_dimensionality",
+        0.17052429308717643,
+        -1.5869214001351941
+      ],
+      [
+        "coupling_density",
+        0.14767230313724375,
+        1.3742577893927452
+      ],
+      [
+        "sparsity",
+        0.14450275584364047,
+        -1.3447615672539543
+      ],
+      [
+        "update_determinism",
+        0.12369220117544859,
+        1.151095820551495
+      ],
+      [
+        "log_condition_number",
+        0.09481439145203228,
+        0.8823551419685692
+      ],
+      [
+        "entropy_production",
+        0.04740274263715332,
+        -0.4411361299562341
+      ],
+      [
+        "feedback_locality",
+        0.024940958972115353,
+        0.23210382999511833
+      ],
+      [
+        "trajectory_complexity",
+        0.018650388511331797,
+        0.1735629575918394
+      ],
+      [
+        "memory_depth",
+        0.013005923783034,
+        0.12103482973697215
+      ]
+    ],
+    "X_mean": [
+      0.4017592277027117,
+      16.295,
+      3.65,
+      0.12162767546910021,
+      0.16720126748251746,
+      0.5342687776193389,
+      -1347.353951219893,
+      37.125,
+      4115094.7787845572,
+      7.118871280076837
+    ],
+    "X_std": [
+      0.24100342627048182,
+      15.08005222139499,
+      6.528973885688315,
+      0.18078345750240388,
+      0.22509763590031315,
+      0.4462062868431023,
+      3448.929822358491,
+      26.937137468558163,
+      10898620.228935245,
+      6.409354490899576
+    ]
+  },
+  "collapse_map": {
+    "distributed": {
+      "probability": 0.9869923885575305,
+      "predicted": true,
+      "actual": true,
+      "correct": true
+    },
+    "immune": {
+      "probability": 0.9921400061311202,
+      "predicted": true,
+      "actual": true,
+      "correct": true
+    },
+    "ant_colony": {
+      "probability": 0.9917443240129791,
+      "predicted": true,
+      "actual": true,
+      "correct": true
+    },
+    "institution": {
+      "probability": 0.995613874613313,
+      "predicted": true,
+      "actual": true,
+      "correct": true
+    },
+    "epidemic": {
+      "probability": 0.9809073886190824,
+      "predicted": true,
+      "actual": true,
+      "correct": true
+    },
+    "neural": {
+      "probability": 0.012285304248302546,
+      "predicted": false,
+      "actual": false,
+      "correct": true
+    },
+    "market": {
+      "probability": 0.16608323384640553,
+      "predicted": false,
+      "actual": false,
+      "correct": true
+    },
+    "ecological": {
+      "probability": 0.03961870237802119,
+      "predicted": false,
+      "actual": false,
+      "correct": true
+    }
+  },
+  "system_features": {
+    "distributed": {
+      "avg_ed": 1.066173500799422,
+      "is_low_rank": true
+    },
+    "immune": {
+      "avg_ed": 1.0439467121488089,
+      "is_low_rank": true
+    },
+    "ant_colony": {
+      "avg_ed": 1.7152595254795124,
+      "is_low_rank": true
+    },
+    "institution": {
+      "avg_ed": 1.0000000000078948,
+      "is_low_rank": true
+    },
+    "epidemic": {
+      "avg_ed": 1.6380185726821352,
+      "is_low_rank": true
+    },
+    "neural": {
+      "avg_ed": 3.2498863117150236,
+      "is_low_rank": false
+    },
+    "market": {
+      "avg_ed": 2.4342877292715377,
+      "is_low_rank": false
+    },
+    "ecological": {
+      "avg_ed": 26.04053892755723,
+      "is_low_rank": false
+    }
+  }
+}

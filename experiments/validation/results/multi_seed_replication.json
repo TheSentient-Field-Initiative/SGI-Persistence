@@ -1,0 +1,877 @@
+{
+  "metadata": {
+    "num_seeds": 10,
+    "num_timesteps": 200,
+    "total_time": 29.59791898727417
+  },
+  "main_results": {
+    "distributed": {
+      "seeds": [
+        {
+          "variance_mean": 0.006542863261907453,
+          "lagged_stability": 0.9999966724141055,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.27638190954773867,
+          "condition_number": 29.181833726123838,
+          "participation_ratio": 1.06845540263958,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.06845540263958,
+          "seed": 0,
+          "runtime": 0.9184765815734863
+        },
+        {
+          "variance_mean": 0.006223024327661537,
+          "lagged_stability": 0.9999971499428215,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.2897822445561139,
+          "condition_number": 21.34959243785339,
+          "participation_ratio": 1.0934735298086549,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0934735298086549,
+          "seed": 1,
+          "runtime": 1.3498575687408447
+        },
+        {
+          "variance_mean": 0.010275349758224844,
+          "lagged_stability": 0.9999944338695356,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.28726968174204354,
+          "condition_number": 34.11503773132472,
+          "participation_ratio": 1.0585748441945428,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0585748441945428,
+          "seed": 2,
+          "runtime": 0.9808211326599121
+        },
+        {
+          "variance_mean": 0.008302518955175161,
+          "lagged_stability": 0.9999965857940412,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.271356783919598,
+          "condition_number": 37.19611459993821,
+          "participation_ratio": 1.0537302218207456,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0537302218207456,
+          "seed": 3,
+          "runtime": 1.0929954051971436
+        },
+        {
+          "variance_mean": 0.008785907880417464,
+          "lagged_stability": 0.9999961668416297,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.2864321608040201,
+          "condition_number": 35.28644423898652,
+          "participation_ratio": 1.0566335055335876,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0566335055335876,
+          "seed": 4,
+          "runtime": 1.215674638748169
+        },
+        {
+          "variance_mean": 0.008032601126230622,
+          "lagged_stability": 0.999996125280554,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.28391959798994976,
+          "condition_number": 36.03669799261997,
+          "participation_ratio": 1.055456277292182,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.055456277292182,
+          "seed": 5,
+          "runtime": 1.7126481533050537
+        },
+        {
+          "variance_mean": 0.006534151191094351,
+          "lagged_stability": 0.9999969238425047,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.2797319932998325,
+          "condition_number": 38.04389322516309,
+          "participation_ratio": 1.0525345577766603,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0525345577766603,
+          "seed": 6,
+          "runtime": 0.8023760318756104
+        },
+        {
+          "variance_mean": 0.008545198269389853,
+          "lagged_stability": 0.9999954393933448,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.29061976549413737,
+          "condition_number": 64.90986300910892,
+          "participation_ratio": 1.0308046471145134,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0308046471145134,
+          "seed": 7,
+          "runtime": 0.7473080158233643
+        },
+        {
+          "variance_mean": 0.009453952584033672,
+          "lagged_stability": 0.9999948690892749,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.2797319932998325,
+          "condition_number": 46.071519892162236,
+          "participation_ratio": 1.0433903244575784,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0433903244575784,
+          "seed": 8,
+          "runtime": 0.7237184047698975
+        },
+        {
+          "variance_mean": 0.01089715096117972,
+          "lagged_stability": 0.9999950209043634,
+          "persistence": 0.3333333333333333,
+          "transition_density": 0.288107202680067,
+          "condition_number": 60.773082586578006,
+          "participation_ratio": 1.0329003985029535,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0329003985029535,
+          "seed": 9,
+          "runtime": 1.1836497783660889
+        }
+      ],
+      "aggregate": {
+        "variance_mean": {
+          "mean": 0.008359271831531467,
+          "std": 0.0015109927692311582,
+          "min": 0.006223024327661537,
+          "max": 0.01089715096117972,
+          "ci_95": [
+            0.0062930278719339205,
+            0.010757245690514873
+          ]
+        },
+        "lagged_stability": {
+          "mean": 0.9999959387372174,
+          "std": 8.934081207829218e-07,
+          "min": 0.9999944338695356,
+          "max": 0.9999971499428215,
+          "ci_95": [
+            0.9999945317939769,
+            0.9999970990702503
+          ]
+        },
+        "persistence": {
+          "mean": 0.33333333333333337,
+          "std": 5.551115123125783e-17,
+          "min": 0.3333333333333333,
+          "max": 0.3333333333333333,
+          "ci_95": [
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        "transition_density": {
+          "mean": 0.2833333333333333,
+          "std": 0.006005089370265782,
+          "min": 0.271356783919598,
+          "max": 0.29061976549413737,
+          "ci_95": [
+            0.27248743718592966,
+            0.2904313232830821
+          ]
+        },
+        "condition_number": {
+          "mean": 40.2964079439859,
+          "std": 12.795013539742632,
+          "min": 21.34959243785339,
+          "max": 64.90986300910892,
+          "ci_95": [
+            23.11184672771424,
+            63.97908741403946
+          ]
+        },
+        "participation_ratio": {
+          "mean": 1.0545953709140998,
+          "std": 0.017004593336016345,
+          "min": 1.0308046471145134,
+          "max": 1.0934735298086549,
+          "ci_95": [
+            1.0312761911769124,
+            1.0878444511956131
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 4.0,
+          "std": 0.0,
+          "min": 4.0,
+          "max": 4.0,
+          "ci_95": [
+            4.0,
+            4.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 1.0545953709140998,
+          "std": 0.017004593336016345,
+          "min": 1.0308046471145134,
+          "max": 1.0934735298086549,
+          "ci_95": [
+            1.0312761911769124,
+            1.0878444511956131
+          ]
+        },
+        "runtime": {
+          "mean": 1.0727525711059571,
+          "std": 0.2919731438474386,
+          "min": 0.7237184047698975,
+          "max": 1.7126481533050537,
+          "ci_95": [
+            0.7290260672569275,
+            1.6310202717781068
+          ]
+        }
+      },
+      "n_seeds": 10
+    },
+    "immune": {
+      "seeds": [
+        {
+          "variance_mean": 0.4630387622817522,
+          "lagged_stability": 0.9999879061778183,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.036089538602101415,
+          "condition_number": 302245368.0392137,
+          "participation_ratio": 1.043224046736845,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.043224046736845,
+          "seed": 0,
+          "runtime": 0.40856432914733887
+        },
+        {
+          "variance_mean": 1.07212512858763,
+          "lagged_stability": 0.9999681944120908,
+          "persistence": 0.18181818181818182,
+          "transition_density": 0.03654636820465966,
+          "condition_number": 541386872.6514465,
+          "participation_ratio": 1.0253877003436704,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.0253877003436704,
+          "seed": 1,
+          "runtime": 0.38483500480651855
+        },
+        {
+          "variance_mean": 0.27693518339913636,
+          "lagged_stability": 0.9999929564681931,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.03563270899954317,
+          "condition_number": 189217179.52564964,
+          "participation_ratio": 1.0680597804444052,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.0680597804444052,
+          "seed": 2,
+          "runtime": 0.37276482582092285
+        },
+        {
+          "variance_mean": 0.33301968060956705,
+          "lagged_stability": 0.9999886864039322,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.03746002740977615,
+          "condition_number": 295186208.9766801,
+          "participation_ratio": 1.0668435346423981,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.0668435346423981,
+          "seed": 3,
+          "runtime": 0.3689579963684082
+        },
+        {
+          "variance_mean": 1.2184840717222292,
+          "lagged_stability": 0.9999723127273896,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.037003197807217905,
+          "condition_number": 849084429.0645975,
+          "participation_ratio": 1.016218498576726,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.016218498576726,
+          "seed": 4,
+          "runtime": 0.3787686824798584
+        },
+        {
+          "variance_mean": 0.3849544658514082,
+          "lagged_stability": 0.9999898536913072,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.036089538602101415,
+          "condition_number": 245643379.69417894,
+          "participation_ratio": 1.0488019499265626,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.0488019499265626,
+          "seed": 5,
+          "runtime": 0.370006799697876
+        },
+        {
+          "variance_mean": 0.4600870218251576,
+          "lagged_stability": 0.9999856231260805,
+          "persistence": 0.18181818181818182,
+          "transition_density": 0.037003197807217905,
+          "condition_number": 318351129.8806169,
+          "participation_ratio": 1.052613504514357,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.052613504514357,
+          "seed": 6,
+          "runtime": 0.37337374687194824
+        },
+        {
+          "variance_mean": 0.5266702846300798,
+          "lagged_stability": 0.9999815334992495,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.03746002740977615,
+          "condition_number": 362508505.42803985,
+          "participation_ratio": 1.0369379252036146,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.0369379252036146,
+          "seed": 7,
+          "runtime": 0.3845949172973633
+        },
+        {
+          "variance_mean": 0.44791869216089497,
+          "lagged_stability": 0.9999860676078148,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.037003197807217905,
+          "condition_number": 396649428.6091816,
+          "participation_ratio": 1.0484152599213008,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.0484152599213008,
+          "seed": 8,
+          "runtime": 0.40631532669067383
+        },
+        {
+          "variance_mean": 0.1004059473461107,
+          "lagged_stability": 0.9999962428950073,
+          "persistence": 0.2727272727272727,
+          "transition_density": 0.0379168570123344,
+          "condition_number": 70595464.30174485,
+          "participation_ratio": 1.2038414484812816,
+          "rank_deficiency": 7,
+          "effective_dimensionality": 1.2038414484812816,
+          "seed": 9,
+          "runtime": 0.38150811195373535
+        }
+      ],
+      "aggregate": {
+        "variance_mean": {
+          "mean": 0.5283639238413966,
+          "std": 0.3305201308944576,
+          "min": 0.1004059473461107,
+          "max": 1.2184840717222292,
+          "ci_95": [
+            0.14012502545804148,
+            1.1855533095169444
+          ]
+        },
+        "lagged_stability": {
+          "mean": 0.9999849377008883,
+          "std": 8.319870170283652e-06,
+          "min": 0.9999681944120908,
+          "max": 0.9999962428950073,
+          "ci_95": [
+            0.999969121033033,
+            0.9999955034489741
+          ]
+        },
+        "persistence": {
+          "mean": 0.23636363636363633,
+          "std": 0.06030226891555271,
+          "min": 0.09090909090909091,
+          "max": 0.2727272727272727,
+          "ci_95": [
+            0.11136363636363636,
+            0.2727272727272727
+          ]
+        },
+        "transition_density": {
+          "mean": 0.03682046596619461,
+          "std": 0.0006837199427636259,
+          "min": 0.03563270899954317,
+          "max": 0.0379168570123344,
+          "ci_95": [
+            0.03573549566011877,
+            0.037814070351758794
+          ]
+        },
+        "condition_number": {
+          "mean": 357086796.6171349,
+          "std": 202148368.5471407,
+          "min": 70595464.30174485,
+          "max": 849084429.0645975,
+          "ci_95": [
+            97285350.22712342,
+            779852478.8716387
+          ]
+        },
+        "participation_ratio": {
+          "mean": 1.061034364879116,
+          "std": 0.05003373174294559,
+          "min": 1.016218498576726,
+          "max": 1.2038414484812816,
+          "ci_95": [
+            1.0182815689742886,
+            1.1732905731729844
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 7.0,
+          "std": 0.0,
+          "min": 7.0,
+          "max": 7.0,
+          "ci_95": [
+            7.0,
+            7.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 1.061034364879116,
+          "std": 0.05003373174294559,
+          "min": 1.016218498576726,
+          "max": 1.2038414484812816,
+          "ci_95": [
+            1.0182815689742886,
+            1.1732905731729844
+          ]
+        },
+        "runtime": {
+          "mean": 0.38296897411346437,
+          "std": 0.013366357764762696,
+          "min": 0.3689579963684082,
+          "max": 0.40856432914733887,
+          "ci_95": [
+            0.36919397711753843,
+            0.4080583035945892
+          ]
+        }
+      },
+      "n_seeds": 10
+    },
+    "ant_colony": {
+      "seeds": [
+        {
+          "variance_mean": 628.8305785849703,
+          "lagged_stability": 0.9999935120132932,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.4596057209122536,
+          "condition_number": 996968496.5581235,
+          "participation_ratio": 1.596756765226055,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.596756765226055,
+          "seed": 0,
+          "runtime": 1.0331237316131592
+        },
+        {
+          "variance_mean": 2756.0994791293683,
+          "lagged_stability": 0.9999879236040201,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.42945496714340936,
+          "condition_number": 9484049968.584135,
+          "participation_ratio": 1.6927790249958845,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.6927790249958845,
+          "seed": 1,
+          "runtime": 0.9128975868225098
+        },
+        {
+          "variance_mean": 915.7731675661315,
+          "lagged_stability": 0.9999901639199716,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.42945496714340936,
+          "condition_number": 3513998000.5212083,
+          "participation_ratio": 1.739821511502844,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.739821511502844,
+          "seed": 2,
+          "runtime": 0.9444997310638428
+        },
+        {
+          "variance_mean": 619.738079212855,
+          "lagged_stability": 0.9999921917939742,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.4205643602628527,
+          "condition_number": 913729768.0554154,
+          "participation_ratio": 1.7153021253937446,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.7153021253937446,
+          "seed": 3,
+          "runtime": 0.9813740253448486
+        },
+        {
+          "variance_mean": 908.2950725577741,
+          "lagged_stability": 0.9999953000162918,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.43448009277155003,
+          "condition_number": 591301268.3114078,
+          "participation_ratio": 1.8316382002790343,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.8316382002790343,
+          "seed": 4,
+          "runtime": 0.9780733585357666
+        },
+        {
+          "variance_mean": 1283.6298747193925,
+          "lagged_stability": 0.9999889798290174,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.438345574023966,
+          "condition_number": 10799302124.163427,
+          "participation_ratio": 1.7792457535052977,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.7792457535052977,
+          "seed": 5,
+          "runtime": 0.9412577152252197
+        },
+        {
+          "variance_mean": 4337.878000953008,
+          "lagged_stability": 0.999986222391227,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.40162350212601466,
+          "condition_number": 10824758014.382364,
+          "participation_ratio": 1.7834203518298832,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.7834203518298832,
+          "seed": 6,
+          "runtime": 0.8443014621734619
+        },
+        {
+          "variance_mean": 1161.4239711006335,
+          "lagged_stability": 0.9999889157337736,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.46463084654039427,
+          "condition_number": 1331169407.430735,
+          "participation_ratio": 1.7224842113048802,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.7224842113048802,
+          "seed": 7,
+          "runtime": 0.9207899570465088
+        },
+        {
+          "variance_mean": 2469.1853026699273,
+          "lagged_stability": 0.9999874048228431,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.4217240046385775,
+          "condition_number": 5665321795.194965,
+          "participation_ratio": 1.6182668820501311,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.6182668820501311,
+          "seed": 8,
+          "runtime": 0.9531271457672119
+        },
+        {
+          "variance_mean": 2545.025368016509,
+          "lagged_stability": 0.9999865299917783,
+          "persistence": 0.15384615384615385,
+          "transition_density": 0.4317742558948589,
+          "condition_number": 5448676849.211697,
+          "participation_ratio": 1.649842302738474,
+          "rank_deficiency": 2,
+          "effective_dimensionality": 1.649842302738474,
+          "seed": 9,
+          "runtime": 0.9484052658081055
+        }
+      ],
+      "aggregate": {
+        "variance_mean": {
+          "mean": 1762.587889451057,
+          "std": 1155.8500899752853,
+          "min": 619.738079212855,
+          "max": 4337.878000953008,
+          "ci_95": [
+            621.783891571581,
+            3981.97783354269
+          ]
+        },
+        "lagged_stability": {
+          "mean": 0.999989714411619,
+          "std": 2.89851108914832e-06,
+          "min": 0.999986222391227,
+          "max": 0.9999953000162918,
+          "ci_95": [
+            0.9999862916013511,
+            0.9999948977156171
+          ]
+        },
+        "persistence": {
+          "mean": 0.15384615384615383,
+          "std": 2.7755575615628914e-17,
+          "min": 0.15384615384615385,
+          "max": 0.15384615384615385,
+          "ci_95": [
+            0.15384615384615385,
+            0.15384615384615385
+          ]
+        },
+        "transition_density": {
+          "mean": 0.43316582914572865,
+          "std": 0.01741200870590212,
+          "min": 0.40162350212601466,
+          "max": 0.46463084654039427,
+          "ci_95": [
+            0.4058851952068032,
+            0.4635001932740626
+          ]
+        },
+        "condition_number": {
+          "mean": 4956927569.241348,
+          "std": 3951187629.431271,
+          "min": 591301268.3114078,
+          "max": 10824758014.382364,
+          "ci_95": [
+            663847680.7538095,
+            10819030439.083103
+          ]
+        },
+        "participation_ratio": {
+          "mean": 1.7129557128826227,
+          "std": 0.07149951615689508,
+          "min": 1.596756765226055,
+          "max": 1.8316382002790343,
+          "ci_95": [
+            1.6015965415114721,
+            1.8207891843779753
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 2.0,
+          "std": 0.0,
+          "min": 2.0,
+          "max": 2.0,
+          "ci_95": [
+            2.0,
+            2.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 1.7129557128826227,
+          "std": 0.07149951615689508,
+          "min": 1.596756765226055,
+          "max": 1.8316382002790343,
+          "ci_95": [
+            1.6015965415114721,
+            1.8207891843779753
+          ]
+        },
+        "runtime": {
+          "mean": 0.9457849979400634,
+          "std": 0.04693115654904793,
+          "min": 0.8443014621734619,
+          "max": 1.0331237316131592,
+          "ci_95": [
+            0.8597355902194976,
+            1.0214800477027892
+          ]
+        }
+      },
+      "n_seeds": 10
+    },
+    "institution": {
+      "seeds": [
+        {
+          "variance_mean": 2.6360238788750704e+16,
+          "lagged_stability": 0.9887895025387168,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.28688899040657834,
+          "condition_number": 3.4850362849656616e+22,
+          "participation_ratio": 1.0000000000067775,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000067775,
+          "seed": 0,
+          "runtime": 0.5167036056518555
+        },
+        {
+          "variance_mean": 3.7648125338345416e+16,
+          "lagged_stability": 0.9899148643892557,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.2722704431247145,
+          "condition_number": 7.363635579095083e+22,
+          "participation_ratio": 1.0000000000048601,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000048601,
+          "seed": 1,
+          "runtime": 0.5300226211547852
+        },
+        {
+          "variance_mean": 3.177128856570474e+16,
+          "lagged_stability": 0.9896728192192781,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.2718136135221562,
+          "condition_number": 5.3770220456979915e+22,
+          "participation_ratio": 1.0000000000060343,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000060343,
+          "seed": 2,
+          "runtime": 0.531301736831665
+        },
+        {
+          "variance_mean": 3.2682914111194096e+16,
+          "lagged_stability": 0.9892558111171763,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.2809502055733212,
+          "condition_number": 4.874140047311012e+22,
+          "participation_ratio": 1.0000000000053184,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000053184,
+          "seed": 3,
+          "runtime": 0.513798713684082
+        },
+        {
+          "variance_mean": 1.3930852120164946e+16,
+          "lagged_stability": 0.9875592723044185,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.3165829145728643,
+          "condition_number": 1.4705294067280552e+22,
+          "participation_ratio": 1.0000000000164841,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000164841,
+          "seed": 4,
+          "runtime": 0.5272834300994873
+        },
+        {
+          "variance_mean": 2.0497291526196476e+16,
+          "lagged_stability": 0.9899248042150912,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.30470534490634993,
+          "condition_number": 2.7564151953330767e+22,
+          "participation_ratio": 1.0000000000095264,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000095264,
+          "seed": 5,
+          "runtime": 0.5395996570587158
+        },
+        {
+          "variance_mean": 2.547977470597643e+16,
+          "lagged_stability": 0.9893627983912096,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.2809502055733212,
+          "condition_number": 2.6415907831641297e+22,
+          "participation_ratio": 1.0000000000075118,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000075118,
+          "seed": 6,
+          "runtime": 0.5495400428771973
+        },
+        {
+          "variance_mean": 2.2506876695212816e+16,
+          "lagged_stability": 0.9882619404616119,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.31201461854728185,
+          "condition_number": 3.0469317708595386e+22,
+          "participation_ratio": 1.0000000000094225,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000094225,
+          "seed": 7,
+          "runtime": 0.6514623165130615
+        },
+        {
+          "variance_mean": 1.1985604085888792e+16,
+          "lagged_stability": 0.9868075260577853,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.32389218821379623,
+          "condition_number": 1.477301024714909e+22,
+          "participation_ratio": 1.0000000000181926,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000181926,
+          "seed": 8,
+          "runtime": 0.6553230285644531
+        },
+        {
+          "variance_mean": 1.6922790164827698e+16,
+          "lagged_stability": 0.9888680915768713,
+          "persistence": 0.09090909090909091,
+          "transition_density": 0.28277752398355416,
+          "condition_number": 2.573047408835156e+22,
+          "participation_ratio": 1.0000000000116904,
+          "rank_deficiency": 4,
+          "effective_dimensionality": 1.0000000000116904,
+          "seed": 9,
+          "runtime": 0.5396831035614014
+        }
+      ],
+      "aggregate": {
+        "variance_mean": {
+          "mean": 2.3978575610226212e+16,
+          "std": 8000824020527037.0,
+          "min": 1.1985604085888792e+16,
+          "max": 3.7648125338345416e+16,
+          "ci_95": [
+            1.2423284893600926e+16,
+            3.653095281223637e+16
+          ]
+        },
+        "lagged_stability": {
+          "mean": 0.9888417430271413,
+          "std": 0.000978806102870784,
+          "min": 0.9868075260577853,
+          "max": 0.9899248042150912,
+          "ci_95": [
+            0.9869766689632778,
+            0.9899225677542782
+          ]
+        },
+        "persistence": {
+          "mean": 0.09090909090909091,
+          "std": 0.0,
+          "min": 0.09090909090909091,
+          "max": 0.09090909090909091,
+          "ci_95": [
+            0.09090909090909091,
+            0.09090909090909091
+          ]
+        },
+        "transition_density": {
+          "mean": 0.29328460484239377,
+          "std": 0.018218282073077404,
+          "min": 0.2718136135221562,
+          "max": 0.32389218821379623,
+          "ci_95": [
+            0.27191640018273183,
+            0.32224760164458655
+          ]
+        },
+        "condition_number": {
+          "mean": 3.5065649546704617e+22,
+          "std": 1.7579335638629208e+22,
+          "min": 1.4705294067280552e+22,
+          "max": 7.363635579095083e+22,
+          "ci_95": [
+            1.4720530207750973e+22,
+            6.916647534080738e+22
+          ]
+        },
+        "participation_ratio": {
+          "mean": 1.000000000009582,
+          "std": 4.375697819615043e-12,
+          "min": 1.0000000000048601,
+          "max": 1.0000000000181926,
+          "ci_95": [
+            1.0000000000049631,
+            1.0000000000178082
+          ]
+        },
+        "rank_deficiency": {
+          "mean": 4.0,
+          "std": 0.0,
+          "min": 4.0,
+          "max": 4.0,
+          "ci_95": [
+            4.0,
+            4.0
+          ]
+        },
+        "effective_dimensionality": {
+          "mean": 1.000000000009582,
+          "std": 4.375697819615043e-12,
+          "min": 1.0000000000048601,
+          "max": 1.0000000000181926,
+          "ci_95": [
+            1.0000000000049631,
+            1.0000000000178082
+          ]
+        },
+        "runtime": {
+          "mean": 0.5554718255996705,
+          "std": 0.04998689485937865,
+          "min": 0.513798713684082,
+          "max": 0.6553230285644531,
+          "ci_95": [
+            0.514452314376831,
+            0.6544543683528901
+          ]
+        }
+      },
+      "n_seeds": 10
+    }
+  }
+}

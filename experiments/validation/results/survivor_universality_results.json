@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "num_seeds": 10,
+    "num_timesteps": 200,
+    "ed_threshold": 2.0,
+    "total_time": 28.052555799484253,
+    "low_rank_systems": [
+      "distributed",
+      "immune",
+      "ant_colony",
+      "institution",
+      "epidemic",
+      "market"
+    ],
+    "non_low_rank_systems": [
+      "neural",
+      "ecological"
+    ]
+  },
+  "system_results": {
+    "distributed": {
+      "aggregate": {
+        "lagged_stability": {
+          "mean": 0.9999959387372174,
+          "std": 8.934081207829218e-07,
+          "cv": 8.934117491628083e-07,
+          "is_stable": "True"
+        },
+        "transition_density": {
+          "mean": 0.2833333333333333,
+          "std": 0.006005089370265782,
+          "cv": 0.02119443307152629,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": 0.8666206897459169,
+          "std": 0.009760122497068693,
+          "cv": 0.011262277271421072,
+          "is_stable": "True"
+        }
+      },
+      "is_low_rank": true,
+      "n_seeds": 10
+    },
+    "immune": {
+      "aggregate": {
+        "lagged_stability": {
+          "mean": 0.9999849377008883,
+          "std": 8.319870170283652e-06,
+          "cv": 8.319995488544309e-06,
+          "is_stable": "True"
+        },
+        "transition_density": {
+          "mean": 0.03682046596619461,
+          "std": 0.0006837199427636259,
+          "cv": 0.01856901928920071,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": 0.6342466178064922,
+          "std": 0.05958087192962713,
+          "cv": 0.09393959740090436,
+          "is_stable": "True"
+        }
+      },
+      "is_low_rank": true,
+      "n_seeds": 10
+    },
+    "ant_colony": {
+      "aggregate": {
+        "lagged_stability": {
+          "mean": 0.999989714411619,
+          "std": 2.89851108914832e-06,
+          "cv": 2.898540902346947e-06,
+          "is_stable": "True"
+        },
+        "transition_density": {
+          "mean": 0.43316582914572865,
+          "std": 0.01741200870590212,
+          "cv": 0.04019709666443761,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": 0.029447706677484246,
+          "std": 0.0005624636060388781,
+          "cv": 0.019100421374033123,
+          "is_stable": "True"
+        }
+      },
+      "is_low_rank": true,
+      "n_seeds": 10
+    },
+    "institution": {
+      "aggregate": {
+        "lagged_stability": {
+          "mean": 0.9888417430271413,
+          "std": 0.000978806102870784,
+          "cv": 0.0009898511159878473,
+          "is_stable": "True"
+        },
+        "transition_density": {
+          "mean": 0.29328460484239377,
+          "std": 0.018218282073077404,
+          "cv": 0.06211809884418448,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": 5.334374796523608e-07,
+          "std": 8.01272140281284e-08,
+          "cv": 0.15020919430023366,
+          "is_stable": "True"
+        }
+      },
+      "is_low_rank": true,
+      "n_seeds": 10
+    },
+    "epidemic": {
+      "aggregate": {
+        "lagged_stability": {
+          "mean": 0.9300625890846981,
+          "std": 0.017487626380820357,
+          "cv": 0.018802633915240525,
+          "is_stable": "True"
+        },
+        "transition_density": {
+          "mean": 0.00730998743718593,
+          "std": 0.0006516959798994973,
+          "cv": 0.08915145005370566,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": -69.5139777866871,
+          "std": 1.3492174359861535,
+          "cv": -0.01940929693487556,
+          "is_stable": "True"
+        }
+      },
+      "is_low_rank": true,
+      "n_seeds": 10
+    },
+    "neural": {
+      "aggregate": {
+        "lagged_stability": {
+          "mean": 0.09012417545658616,
+          "std": 0.11117658088143641,
+          "cv": 1.2335933207510057,
+          "is_stable": "False"
+        },
+        "transition_density": {
+          "mean": 0.7700769472361808,
+          "std": 0.013984335097508108,
+          "cv": 0.01815965943104533,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": -83.42415448103532,
+          "std": 5.383942929062003,
+          "cv": -0.06453697927841662,
+          "is_stable": "True"
+        }
+      },
+      "is_low_rank": false,
+      "n_seeds": 10
+    },
+    "market": {
+      "aggregate": {
+        "lagged_stability": {
+          "mean": 0.9652721534829712,
+          "std": 0.005873075146592416,
+          "cv": 0.006084372293762669,
+          "is_stable": "True"
+        },
+        "transition_density": {
+          "mean": 0.39502198492462315,
+          "std": 0.013216401708195616,
+          "cv": 0.03345738265863235,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": 0.4706729999679388,
+          "std": 0.27201364653665305,
+          "cv": 0.577924900207112,
+          "is_stable": "False"
+        }
+      },
+      "is_low_rank": true,
+      "n_seeds": 10
+    },
+    "ecological": {
+      "aggregate": {
+        "lagged_stability": {
+          "mean": 0.08407329458608706,
+          "std": 0.006847594885666246,
+          "cv": 0.08144791897806068,
+          "is_stable": "True"
+        },
+        "transition_density": {
+          "mean": 0.6573021356783919,
+          "std": 0.009075098003576943,
+          "cv": 0.013806585299180059,
+          "is_stable": "True"
+        },
+        "approx_entropy": {
+          "mean": 2.1502920899245,
+          "std": 0.004329482081965812,
+          "cv": 0.0020134390589316756,
+          "is_stable": "True"
+        }
+      },
+      "is_low_rank": false,
+      "n_seeds": 10
+    }
+  },
+  "universality": {
+    "lagged_stability": {
+      "low_rank": {
+        "mean_cv": 0.004314828212188516,
+        "is_universal": true,
+        "n_stable": 6,
+        "n_total": 6
+      },
+      "non_low_rank": {
+        "mean_cv": 0.6575206198645331,
+        "is_universal": false,
+        "n_stable": 1,
+        "n_total": 2
+      },
+      "all": {
+        "mean_cv": 0.16761627612527466,
+        "is_universal": false,
+        "n_stable": 7,
+        "n_total": 8
+      }
+    },
+    "transition_density": {
+      "low_rank": {
+        "mean_cv": 0.04411458009694785,
+        "is_universal": true,
+        "n_stable": 6,
+        "n_total": 6
+      },
+      "non_low_rank": {
+        "mean_cv": 0.015983122365112692,
+        "is_universal": true,
+        "n_stable": 2,
+        "n_total": 2
+      },
+      "all": {
+        "mean_cv": 0.03708171566398906,
+        "is_universal": true,
+        "n_stable": 8,
+        "n_total": 8
+      }
+    },
+    "approx_entropy": {
+      "low_rank": {
+        "mean_cv": 0.13883784893647144,
+        "is_universal": false,
+        "n_stable": 5,
+        "n_total": 6
+      },
+      "non_low_rank": {
+        "mean_cv": -0.03126177010974247,
+        "is_universal": true,
+        "n_stable": 2,
+        "n_total": 2
+      },
+      "all": {
+        "mean_cv": 0.09631294417491795,
+        "is_universal": false,
+        "n_stable": 7,
+        "n_total": 8
+      }
+    }
+  }
+}

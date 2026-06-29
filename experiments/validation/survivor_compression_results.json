@@ -1,0 +1,581 @@
+{
+  "results": {
+    "distributed": {
+      "baseline": {
+        "variance_mean": 0.017017219640596604,
+        "lagged_stability": 0.9999960192628621,
+        "persistence": 0.16666666666666666,
+        "transition_density": 0.2925170068027211
+      },
+      "compression_results": {
+        "pca": {
+          "1": {
+            "variance_mean": 0.00017457161343425548,
+            "lagged_stability": 0.9999999934361259,
+            "persistence": 0.0,
+            "transition_density": 0.9591836734693877
+          },
+          "2": {
+            "variance_mean": 0.05023444725833514,
+            "lagged_stability": 0.9999961314677255,
+            "persistence": 0.0,
+            "transition_density": 0.9591836734693877
+          },
+          "3": {
+            "variance_mean": 0.03403443928119323,
+            "lagged_stability": 0.9999960192628621,
+            "persistence": 0.0,
+            "transition_density": 0.9591836734693877
+          },
+          "5": {
+            "variance_mean": 0.020420663568715938,
+            "lagged_stability": 0.9999960192628621,
+            "persistence": 0.0,
+            "transition_density": 0.5755102040816327
+          },
+          "8": {
+            "variance_mean": 0.017017219640596604,
+            "lagged_stability": 0.9999960192628621,
+            "persistence": 0.16666666666666666,
+            "transition_density": 0.2925170068027211
+          },
+          "13": {
+            "variance_mean": 0.017017219640596604,
+            "lagged_stability": 0.9999960192628621,
+            "persistence": 0.16666666666666666,
+            "transition_density": 0.2925170068027211
+          }
+        },
+        "random_projection": {
+          "1": {
+            "variance_mean": 0.0266478825719974,
+            "lagged_stability": 0.999999579336979,
+            "persistence": 0.0,
+            "transition_density": 0.9591836734693877
+          },
+          "2": {
+            "variance_mean": 0.024383597494010197,
+            "lagged_stability": 0.9999993528976291,
+            "persistence": 0.0,
+            "transition_density": 0.9591836734693877
+          },
+          "3": {
+            "variance_mean": 0.01742326500417894,
+            "lagged_stability": 0.9999973125155572,
+            "persistence": 0.0,
+            "transition_density": 0.9591836734693877
+          },
+          "5": {
+            "variance_mean": 0.07184827727077271,
+            "lagged_stability": 0.9999968796779738,
+            "persistence": 0.0,
+            "transition_density": 0.9591836734693877
+          },
+          "8": {
+            "variance_mean": 0.11168896909416914,
+            "lagged_stability": 0.9999944825556311,
+            "persistence": 0.0,
+            "transition_density": 0.9591836734693877
+          },
+          "13": {
+            "variance_mean": 0.07513366117186769,
+            "lagged_stability": 0.9999952683025556,
+            "persistence": 0.0,
+            "transition_density": 0.9591836734693877
+          }
+        },
+        "quantization": {
+          "2": {
+            "variance_mean": 9.244463733058732e-32,
+            "lagged_stability": 1.0,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "4": {
+            "variance_mean": 9.244463733058732e-32,
+            "lagged_stability": 1.0,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "8": {
+            "variance_mean": 9.244463733058732e-32,
+            "lagged_stability": 1.0,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "16": {
+            "variance_mean": 0.1444416003116856,
+            "lagged_stability": 0.9999543758584182,
+            "persistence": 0.0,
+            "transition_density": 0.003401360544217687
+          },
+          "32": {
+            "variance_mean": 6.4711246131411125e-31,
+            "lagged_stability": 1.0,
+            "persistence": 0.3333333333333333,
+            "transition_density": 0.0
+          },
+          "64": {
+            "variance_mean": 0.023562249113734682,
+            "lagged_stability": 0.9999948041113772,
+            "persistence": 0.0,
+            "transition_density": 0.003401360544217687
+          }
+        },
+        "binarization": {
+          "-0.5": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0000000000000002,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "0.0": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0000000000000002,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "0.5": {
+            "variance_mean": 0.006400000000000007,
+            "lagged_stability": 0.9958591954639383,
+            "persistence": 0.0,
+            "transition_density": 0.003401360544217687
+          }
+        }
+      }
+    },
+    "immune": {
+      "baseline": {
+        "variance_mean": 0.04285684581301346,
+        "lagged_stability": 0.9999988895354871,
+        "persistence": 0.5454545454545454,
+        "transition_density": 0.5139146567717996
+      },
+      "compression_results": {
+        "pca": {
+          "1": {
+            "variance_mean": 0.00011007113131373695,
+            "lagged_stability": 0.9999999999797725,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "2": {
+            "variance_mean": 0.22299043622087736,
+            "lagged_stability": 0.9999990208826058,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "3": {
+            "variance_mean": 0.15714175094977798,
+            "lagged_stability": 0.9999988895367158,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "5": {
+            "variance_mean": 0.09428506078534485,
+            "lagged_stability": 0.9999988895354879,
+            "persistence": 0.6,
+            "transition_density": 0.9795918367346939
+          },
+          "8": {
+            "variance_mean": 0.05892816299289355,
+            "lagged_stability": 0.9999988895354872,
+            "persistence": 0.375,
+            "transition_density": 0.6428571428571429
+          },
+          "13": {
+            "variance_mean": 0.04285684581301346,
+            "lagged_stability": 0.9999988895354871,
+            "persistence": 0.5454545454545454,
+            "transition_density": 0.5139146567717996
+          }
+        },
+        "random_projection": {
+          "1": {
+            "variance_mean": 0.06132570792579689,
+            "lagged_stability": 0.9999950734657463,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "2": {
+            "variance_mean": 0.580302695339076,
+            "lagged_stability": 0.9999935889805404,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "3": {
+            "variance_mean": 0.08876359631441842,
+            "lagged_stability": 0.9999999441560303,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "5": {
+            "variance_mean": 0.35450140708417166,
+            "lagged_stability": 0.9999988677626667,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "8": {
+            "variance_mean": 0.7754682468219904,
+            "lagged_stability": 0.9999983300572359,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "13": {
+            "variance_mean": 0.5530955851842293,
+            "lagged_stability": 0.9999979529085675,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          }
+        },
+        "quantization": {
+          "2": {
+            "variance_mean": 5.732584626783342e-45,
+            "lagged_stability": 1.0,
+            "persistence": 0.9090909090909091,
+            "transition_density": 0.0
+          },
+          "4": {
+            "variance_mean": 5.732584626783342e-45,
+            "lagged_stability": 1.0,
+            "persistence": 0.9090909090909091,
+            "transition_density": 0.0
+          },
+          "8": {
+            "variance_mean": 5.732584626783342e-45,
+            "lagged_stability": 1.0,
+            "persistence": 0.9090909090909091,
+            "transition_density": 0.0
+          },
+          "16": {
+            "variance_mean": 1.1474340439578401e-30,
+            "lagged_stability": 0.9999999999999999,
+            "persistence": 0.8181818181818182,
+            "transition_density": 0.0
+          },
+          "32": {
+            "variance_mean": 0.06962444400345197,
+            "lagged_stability": 0.9999783678547058,
+            "persistence": 0.8181818181818182,
+            "transition_density": 0.0018552875695732839
+          },
+          "64": {
+            "variance_mean": 0.09620009588123647,
+            "lagged_stability": 0.9999895298921982,
+            "persistence": 0.7272727272727273,
+            "transition_density": 0.0037105751391465678
+          }
+        },
+        "binarization": {
+          "-0.5": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "0.0": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "0.5": {
+            "variance_mean": 0.03319999999999996,
+            "lagged_stability": 0.9941859972366586,
+            "persistence": 0.0,
+            "transition_density": 0.0037105751391465678
+          }
+        }
+      }
+    },
+    "ant_colony": {
+      "baseline": {
+        "variance_mean": 1816.4888745853737,
+        "lagged_stability": 0.9999954170283525,
+        "persistence": 0.23076923076923078,
+        "transition_density": 0.6938775510204082
+      },
+      "compression_results": {
+        "pca": {
+          "1": {
+            "variance_mean": 7542.453251307472,
+            "lagged_stability": 0.9999998431758672,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "2": {
+            "variance_mean": 11795.052478889542,
+            "lagged_stability": 0.9999956302005737,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "3": {
+            "variance_mean": 7871.093723947699,
+            "lagged_stability": 0.9999954248951695,
+            "persistence": 0.6666666666666666,
+            "transition_density": 1.0
+          },
+          "5": {
+            "variance_mean": 4722.863996153656,
+            "lagged_stability": 0.9999954173383854,
+            "persistence": 0.4,
+            "transition_density": 1.0
+          },
+          "8": {
+            "variance_mean": 2951.7940980569006,
+            "lagged_stability": 0.9999954170571481,
+            "persistence": 0.25,
+            "transition_density": 1.0
+          },
+          "13": {
+            "variance_mean": 1816.4888745853737,
+            "lagged_stability": 0.9999954170283525,
+            "persistence": 0.23076923076923078,
+            "transition_density": 0.6938775510204082
+          }
+        },
+        "random_projection": {
+          "1": {
+            "variance_mean": 486.80387197229896,
+            "lagged_stability": 0.9999981741551786,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "2": {
+            "variance_mean": 19847.61303123391,
+            "lagged_stability": 0.9999962223505283,
+            "persistence": 1.0,
+            "transition_density": 1.0
+          },
+          "3": {
+            "variance_mean": 11569.64924858546,
+            "lagged_stability": 0.9999973136728338,
+            "persistence": 0.6666666666666666,
+            "transition_density": 1.0
+          },
+          "5": {
+            "variance_mean": 3195.0295993118566,
+            "lagged_stability": 0.9999967359219326,
+            "persistence": 0.4,
+            "transition_density": 1.0
+          },
+          "8": {
+            "variance_mean": 13508.348348530475,
+            "lagged_stability": 0.9999955002671248,
+            "persistence": 0.875,
+            "transition_density": 1.0
+          },
+          "13": {
+            "variance_mean": 11245.830910405135,
+            "lagged_stability": 0.9999983189728985,
+            "persistence": 0.7692307692307693,
+            "transition_density": 1.0
+          }
+        },
+        "quantization": {
+          "2": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0000000000000002,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "4": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0000000000000002,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "8": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0000000000000002,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "16": {
+            "variance_mean": 7397.714392615385,
+            "lagged_stability": 0.9999076937275924,
+            "persistence": 0.0,
+            "transition_density": 0.0015698587127158557
+          },
+          "32": {
+            "variance_mean": 2550.29434031858,
+            "lagged_stability": 0.9999557518508725,
+            "persistence": 0.0,
+            "transition_density": 0.0031397174254317113
+          },
+          "64": {
+            "variance_mean": 2466.8915541601286,
+            "lagged_stability": 0.9999735791696962,
+            "persistence": 0.07692307692307693,
+            "transition_density": 0.007849293563579277
+          }
+        },
+        "binarization": {
+          "-0.5": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "0.0": {
+            "variance_mean": 0.02476923076923074,
+            "lagged_stability": 0.9899396849928075,
+            "persistence": 0.0,
+            "transition_density": 0.012558869701726845
+          },
+          "0.5": {
+            "variance_mean": 0.02716923076923076,
+            "lagged_stability": 0.9659016778228336,
+            "persistence": 0.0,
+            "transition_density": 0.023547880690737835
+          }
+        }
+      }
+    },
+    "institution": {
+      "baseline": {
+        "variance_mean": 5.588075331964831e+16,
+        "lagged_stability": 0.9909480064813597,
+        "persistence": 0.09090909090909091,
+        "transition_density": 0.6326530612244898
+      },
+      "compression_results": {
+        "pca": {
+          "1": {
+            "variance_mean": 6.146882865160925e+17,
+            "lagged_stability": 0.990948006481362,
+            "persistence": 0.0,
+            "transition_density": 1.0
+          },
+          "2": {
+            "variance_mean": 3.07344143258066e+17,
+            "lagged_stability": 0.9909480064813599,
+            "persistence": 0.5,
+            "transition_density": 1.0
+          },
+          "3": {
+            "variance_mean": 2.048960955053773e+17,
+            "lagged_stability": 0.9909480064813597,
+            "persistence": 0.6666666666666666,
+            "transition_density": 1.0
+          },
+          "5": {
+            "variance_mean": 1.229376573032264e+17,
+            "lagged_stability": 0.9909480064813596,
+            "persistence": 0.4,
+            "transition_density": 1.0
+          },
+          "8": {
+            "variance_mean": 7.68360358145165e+16,
+            "lagged_stability": 0.9909480064813597,
+            "persistence": 0.25,
+            "transition_density": 1.0
+          },
+          "13": {
+            "variance_mean": 5.588075331964831e+16,
+            "lagged_stability": 0.9909480064813597,
+            "persistence": 0.09090909090909091,
+            "transition_density": 0.6326530612244898
+          }
+        },
+        "random_projection": {
+          "1": {
+            "variance_mean": 1.1751022560824732e+16,
+            "lagged_stability": 0.9909480225413251,
+            "persistence": 0.0,
+            "transition_density": 1.0
+          },
+          "2": {
+            "variance_mean": 8.418527385503946e+17,
+            "lagged_stability": 0.9909480083114374,
+            "persistence": 0.0,
+            "transition_density": 1.0
+          },
+          "3": {
+            "variance_mean": 4.977477026951577e+17,
+            "lagged_stability": 0.9909480113213263,
+            "persistence": 0.0,
+            "transition_density": 1.0
+          },
+          "5": {
+            "variance_mean": 4.4902569602322925e+17,
+            "lagged_stability": 0.9909480057504593,
+            "persistence": 0.0,
+            "transition_density": 1.0
+          },
+          "8": {
+            "variance_mean": 6.113949509572517e+17,
+            "lagged_stability": 0.9909480132754191,
+            "persistence": 0.0,
+            "transition_density": 1.0
+          },
+          "13": {
+            "variance_mean": 7.299690370092052e+17,
+            "lagged_stability": 0.9909480078023324,
+            "persistence": 0.0,
+            "transition_density": 1.0
+          }
+        },
+        "quantization": {
+          "2": {
+            "variance_mean": 6.790850834161473e+16,
+            "lagged_stability": 0.9574271077563633,
+            "persistence": 0.0,
+            "transition_density": 0.0018552875695732839
+          },
+          "4": {
+            "variance_mean": 6.177787911632996e+16,
+            "lagged_stability": 0.9855972523377666,
+            "persistence": 0.0,
+            "transition_density": 0.0055658627087198514
+          },
+          "8": {
+            "variance_mean": 5.824504942630968e+16,
+            "lagged_stability": 0.9903591049971918,
+            "persistence": 0.0,
+            "transition_density": 0.012987012987012988
+          },
+          "16": {
+            "variance_mean": 5.673552726831483e+16,
+            "lagged_stability": 0.9898124221295869,
+            "persistence": 0.0,
+            "transition_density": 0.025974025974025976
+          },
+          "32": {
+            "variance_mean": 5.6228494950191944e+16,
+            "lagged_stability": 0.9909426384173098,
+            "persistence": 0.0,
+            "transition_density": 0.04267161410018553
+          },
+          "64": {
+            "variance_mean": 5.579975678881236e+16,
+            "lagged_stability": 0.9909818354775994,
+            "persistence": 0.0,
+            "transition_density": 0.04638218923933209
+          }
+        },
+        "binarization": {
+          "-0.5": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "0.0": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          },
+          "0.5": {
+            "variance_mean": 0.0,
+            "lagged_stability": 1.0000000000000002,
+            "persistence": 0.0,
+            "transition_density": 0.0
+          }
+        }
+      }
+    }
+  },
+  "runtime_seconds": 1.1
+}
