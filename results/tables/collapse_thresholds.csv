@@ -1,0 +1,5 @@
+system,G_collapse_threshold,H_collapse_threshold,perturbation_threshold,corruption_threshold,dropout_threshold
+distributed,0.01,0.01,0.01,0.5,0.5
+immune,0.01,0.01,0.01,1.0,None
+ant_colony,None,None,None,1.0,None
+institution,None,None,None,1.0,0.25

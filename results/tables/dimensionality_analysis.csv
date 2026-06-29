@@ -1,0 +1,5 @@
+system,N,effective_dimensionality,participation_ratio,spectral_entropy,covariance_rank,stable_rank,G_survival_rate,H_survival_rate
+distributed,4,1.0036,1.0071,0.0248,2,1.0000,29.63%,70.37%
+immune,4,1.0083,1.0166,0.0516,4,1.0000,29.63%,66.67%
+ant_colony,4,1.0136,1.0272,0.0745,11,1.0002,70.37%,70.37%
+institution,4,1.0000,1.0000,0.0000,7,1.0000,59.26%,59.26%

@@ -1,0 +1,234 @@
+{
+  "results": {
+    "distributed": {
+      "matrix_shape": [
+        50,
+        6
+      ],
+      "n_keys": 6,
+      "keys": [
+        "allocation_entropy",
+        "assignment_rate",
+        "connectivity",
+        "n_active",
+        "n_components",
+        "routing_entropy"
+      ],
+      "participation_ratio": 1.0071302773351922,
+      "spectral_entropy": 0.024829742649938768,
+      "covariance_rank": 2,
+      "stable_rank": 1.0000101511997834,
+      "sv_decay_rate": 6.89186073958348,
+      "effective_info_dimension": 1.0035638997671474,
+      "singular_values": [
+        708.5567822570896,
+        2.239356209294018,
+        0.28586914200282093,
+        1.7943369926098213e-15,
+        3.123627050732581e-16,
+        6.1471594187377314e-18
+      ],
+      "singular_values_normalized": [
+        1.0,
+        0.003160447074065971,
+        0.000403452693081551,
+        2.532382777981472e-18,
+        4.408435751306122e-19,
+        8.675605925549271e-21
+      ]
+    },
+    "immune": {
+      "matrix_shape": [
+        50,
+        11
+      ],
+      "n_keys": 11,
+      "keys": [
+        "cov_condition",
+        "cov_trace",
+        "largest_component",
+        "mean_activation",
+        "n_active",
+        "n_components",
+        "non_principal",
+        "signaling_connectivity",
+        "signaling_noise",
+        "total_cytokines",
+        "type_entropy"
+      ],
+      "participation_ratio": 1.0165530214370588,
+      "spectral_entropy": 0.05159727789235478,
+      "covariance_rank": 4,
+      "stable_rank": 1.0000470239581505,
+      "sv_decay_rate": 3.313567925394406,
+      "effective_info_dimension": 1.0082662464764935,
+      "singular_values": [
+        707.9150588600581,
+        4.721603565935113,
+        1.127926870299873,
+        0.0012659413603387634,
+        0.0009753266066347837,
+        2.8656756564149475e-05,
+        2.8200198559934816e-15,
+        1.2806481488598906e-16,
+        1.0615768467764791e-16,
+        5.124533839583179e-18,
+        3.7485836635410878e-22
+      ],
+      "singular_values_normalized": [
+        1.0,
+        0.006669731780445834,
+        0.001593308202987166,
+        1.7882673132808958e-06,
+        1.3777452456023936e-06,
+        4.048050144645163e-08,
+        3.983556813347783e-18,
+        1.8090421058736814e-19,
+        1.4995822358771625e-19,
+        7.238910622744933e-21,
+        5.295244982607601e-25
+      ]
+    },
+    "ant_colony": {
+      "matrix_shape": [
+        50,
+        13
+      ],
+      "n_keys": 13,
+      "keys": [
+        "anisotropy",
+        "cov_condition",
+        "cov_trace",
+        "largest_component",
+        "n_components",
+        "non_principal",
+        "path_redundancy",
+        "recruitment_rate",
+        "residual_deviation",
+        "residual_energy",
+        "total_food_remaining",
+        "total_pheromone",
+        "trail_connectivity"
+      ],
+      "participation_ratio": 1.0272494172963305,
+      "spectral_entropy": 0.07452828426688715,
+      "covariance_rank": 11,
+      "stable_rank": 1.0001677937387239,
+      "sv_decay_rate": 2.23705129897573,
+      "effective_info_dimension": 1.0136181644567448,
+      "singular_values": [
+        69206.3450965626,
+        895.78939767017,
+        34.04131096018258,
+        5.940563918441513,
+        4.080461152236081,
+        0.9656469583578811,
+        0.7324920582224047,
+        0.4137238612190272,
+        0.3033980625067747,
+        0.1928596896997916,
+        0.0035346441810760847,
+        3.553165080114826e-13,
+        1.444459204634859e-17
+      ],
+      "singular_values_normalized": [
+        1.0,
+        0.012943746652424547,
+        0.0004918813573045252,
+        8.583842868963433e-05,
+        5.896079537999982e-05,
+        1.3953156419552688e-05,
+        1.0584174864318716e-05,
+        5.978120368035104e-06,
+        4.38396309013932e-06,
+        2.786734213903325e-06,
+        5.107399005314105e-08,
+        5.134160856431801e-18,
+        2.087177415046881e-22
+      ]
+    },
+    "institution": {
+      "matrix_shape": [
+        50,
+        11
+      ],
+      "n_keys": 11,
+      "keys": [
+        "cooperation_rate",
+        "cov_condition",
+        "cov_trace",
+        "largest_component",
+        "mean_payoff",
+        "mean_trust",
+        "n_components",
+        "network_connectivity",
+        "non_principal",
+        "norm_deviation",
+        "strategy_entropy"
+      ],
+      "participation_ratio": 1.000000432981108,
+      "spectral_entropy": 3.545832715491864e-06,
+      "covariance_rank": 7,
+      "stable_rank": 1.0000000000000464,
+      "sv_decay_rate": 3.948789927900102,
+      "effective_info_dimension": 1.000000216490554,
+      "singular_values": [
+        7953203761.797335,
+        1712.7029860611399,
+        8.317755077326195,
+        0.39234161522598077,
+        0.20921875451763225,
+        0.11492555526963041,
+        0.039074046965225574,
+        0.017185932087733002,
+        5.376668618705713e-16,
+        3.24429174100566e-17,
+        7.237387224225698e-19
+      ],
+      "singular_values_normalized": [
+        1.0,
+        2.1534755519379378e-07,
+        1.0458370395688789e-09,
+        4.9331266616173804e-11,
+        2.630622335147505e-11,
+        1.4450221409096469e-11,
+        4.912994578727514e-12,
+        2.1608816525340946e-12,
+        6.760380822294746e-26,
+        4.079226231558899e-27,
+        9.099964543835766e-29
+      ]
+    }
+  },
+  "runtime_seconds": 2.0,
+  "summary": {
+    "distributed": {
+      "participation_ratio": 1.0071302773351922,
+      "spectral_entropy": 0.024829742649938768,
+      "covariance_rank": 2,
+      "stable_rank": 1.0000101511997834,
+      "effective_info_dimension": 1.0035638997671474
+    },
+    "immune": {
+      "participation_ratio": 1.0165530214370588,
+      "spectral_entropy": 0.05159727789235478,
+      "covariance_rank": 4,
+      "stable_rank": 1.0000470239581505,
+      "effective_info_dimension": 1.0082662464764935
+    },
+    "ant_colony": {
+      "participation_ratio": 1.0272494172963305,
+      "spectral_entropy": 0.07452828426688715,
+      "covariance_rank": 11,
+      "stable_rank": 1.0001677937387239,
+      "effective_info_dimension": 1.0136181644567448
+    },
+    "institution": {
+      "participation_ratio": 1.000000432981108,
+      "spectral_entropy": 3.545832715491864e-06,
+      "covariance_rank": 7,
+      "stable_rank": 1.0000000000000464,
+      "effective_info_dimension": 1.000000216490554
+    }
+  }
+}

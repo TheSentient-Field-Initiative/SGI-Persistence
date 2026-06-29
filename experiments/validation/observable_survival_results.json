@@ -1,0 +1,871 @@
+{
+  "results": {
+    "distributed": {
+      "baseline": {
+        "G": 0.5,
+        "H": 0.9999947026463604
+      },
+      "survival": {
+        "corruption": [
+          {
+            "corruption_fraction": 0.0,
+            "G": 0.5,
+            "H": 0.9999947026463604,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.25,
+            "G": 0.5,
+            "H": 0.9999890247364839,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.5,
+            "G": 0.0,
+            "H": 0.9999883801094697,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.75,
+            "G": 0.5,
+            "H": 0.9999883789476101,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 1.0,
+            "G": 1.0,
+            "H": 0.11459094313383393,
+            "G_stable": false,
+            "H_stable": "False"
+          }
+        ],
+        "dimensional_collapse": [
+          {
+            "keep_fraction": 1.0,
+            "n_dims": 6,
+            "G": 0.0,
+            "H": 0.9999947026463604,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.75,
+            "n_dims": 4,
+            "G": 0.5,
+            "H": 0.9986930333583846,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.5,
+            "n_dims": 3,
+            "G": 0.0,
+            "H": 0.9986601143532653,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.25,
+            "n_dims": 1,
+            "G": 0.0,
+            "H": 0.9977208878843857,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.1,
+            "n_dims": 1,
+            "G": 0.0,
+            "H": 0.9977208878843857,
+            "G_stable": false,
+            "H_stable": "True"
+          }
+        ],
+        "basis_rotation": [
+          {
+            "angle": 0,
+            "G": 0.0,
+            "H": 0.9999947026463605,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "angle": 30,
+            "G": 0.0,
+            "H": 0.9999947026463605,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "angle": 60,
+            "G": 0.0,
+            "H": 0.9999947026463605,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "angle": 90,
+            "G": 0.0,
+            "H": 0.9999947026463605,
+            "G_stable": false,
+            "H_stable": "True"
+          }
+        ],
+        "sparsification": [
+          {
+            "sparsity": 0.0,
+            "G": 0.5,
+            "H": 0.9999947026463604,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "sparsity": 0.25,
+            "G": 0.0,
+            "H": 0.6618836733888009,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.5,
+            "G": 0.0,
+            "H": 0.47061743275714657,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.75,
+            "G": 0.0,
+            "H": 0.2059393567141246,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.9,
+            "G": 0.5,
+            "H": 0.04989657107969574,
+            "G_stable": true,
+            "H_stable": "False"
+          }
+        ],
+        "normalization": {
+          "zscore": {
+            "G": 1.0,
+            "H": 0.32288296642611286,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          "minmax": {
+            "G": 0.5,
+            "H": 0.969484620102345,
+            "G_stable": true,
+            "H_stable": "False"
+          },
+          "unit": {
+            "G": 0.0,
+            "H": 0.9999947083390024,
+            "G_stable": false,
+            "H_stable": "True"
+          }
+        },
+        "stochastic": [
+          {
+            "noise_level": 0.0,
+            "G": 0.5,
+            "H": 0.9999947026463604,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.01,
+            "G": 0.0,
+            "H": 0.9999210684957894,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.05,
+            "G": 0.0,
+            "H": 0.9981270460122799,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.1,
+            "G": 0.0,
+            "H": 0.9925499968775892,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.2,
+            "G": 0.0,
+            "H": 0.9708412446607506,
+            "G_stable": false,
+            "H_stable": "False"
+          }
+        ]
+      }
+    },
+    "immune": {
+      "baseline": {
+        "G": 1.0,
+        "H": 0.9999973260729786
+      },
+      "survival": {
+        "corruption": [
+          {
+            "corruption_fraction": 0.0,
+            "G": 1.0,
+            "H": 0.9999973260729786,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.25,
+            "G": 0.5,
+            "H": 0.9999860735811585,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.5,
+            "G": 0.0,
+            "H": 0.9999599317495704,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.75,
+            "G": 0.5,
+            "H": 0.7632416110277136,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "corruption_fraction": 1.0,
+            "G": 0.5,
+            "H": 0.06417088010605403,
+            "G_stable": false,
+            "H_stable": "False"
+          }
+        ],
+        "dimensional_collapse": [
+          {
+            "keep_fraction": 1.0,
+            "n_dims": 11,
+            "G": 1.0,
+            "H": 0.9999973260729786,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.75,
+            "n_dims": 8,
+            "G": 1.0,
+            "H": 0.9999973287332763,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.5,
+            "n_dims": 5,
+            "G": 1.0,
+            "H": 0.9988017978586633,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.25,
+            "n_dims": 2,
+            "G": 0.5,
+            "H": 0.9999892224369352,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.1,
+            "n_dims": 1,
+            "G": 0.0,
+            "H": 1.0,
+            "G_stable": false,
+            "H_stable": "True"
+          }
+        ],
+        "basis_rotation": [
+          {
+            "angle": 0,
+            "G": 0.0,
+            "H": 0.9999973260729785,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "angle": 30,
+            "G": 0.0,
+            "H": 0.9999973260729785,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "angle": 60,
+            "G": 0.0,
+            "H": 0.9999973260729785,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "angle": 90,
+            "G": 0.0,
+            "H": 0.9999973260729785,
+            "G_stable": false,
+            "H_stable": "True"
+          }
+        ],
+        "sparsification": [
+          {
+            "sparsity": 0.0,
+            "G": 1.0,
+            "H": 0.9999973260729786,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "sparsity": 0.25,
+            "G": 0.0,
+            "H": 0.7382282496191233,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.5,
+            "G": 0.0,
+            "H": 0.5097569790169005,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.75,
+            "G": 0.5,
+            "H": 0.2432132647770094,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.9,
+            "G": 0.5,
+            "H": 0.17401080714304618,
+            "G_stable": false,
+            "H_stable": "False"
+          }
+        ],
+        "normalization": {
+          "zscore": {
+            "G": 1.0,
+            "H": 0.9349100044403457,
+            "G_stable": true,
+            "H_stable": "False"
+          },
+          "minmax": {
+            "G": 1.0,
+            "H": 0.9793237048807448,
+            "G_stable": true,
+            "H_stable": "False"
+          },
+          "unit": {
+            "G": 0.0,
+            "H": 0.9999973262316317,
+            "G_stable": false,
+            "H_stable": "True"
+          }
+        },
+        "stochastic": [
+          {
+            "noise_level": 0.0,
+            "G": 1.0,
+            "H": 0.9999973260729786,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.01,
+            "G": 0.0,
+            "H": 0.9999137687409089,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.05,
+            "G": 0.0,
+            "H": 0.9979285308963828,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.1,
+            "G": 0.5,
+            "H": 0.9917849078343343,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.2,
+            "G": 0.5,
+            "H": 0.9679946689627587,
+            "G_stable": false,
+            "H_stable": "False"
+          }
+        ]
+      }
+    },
+    "ant_colony": {
+      "baseline": {
+        "G": 0.0,
+        "H": 0.9999894596087875
+      },
+      "survival": {
+        "corruption": [
+          {
+            "corruption_fraction": 0.0,
+            "G": 0.0,
+            "H": 0.9999894596087875,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.25,
+            "G": 0.0,
+            "H": 0.9998669091577511,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.5,
+            "G": 0.0,
+            "H": 0.999866906507549,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.75,
+            "G": 0.0,
+            "H": 0.9998668365978443,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 1.0,
+            "G": 0.5,
+            "H": 0.11345678965845343,
+            "G_stable": false,
+            "H_stable": "False"
+          }
+        ],
+        "dimensional_collapse": [
+          {
+            "keep_fraction": 1.0,
+            "n_dims": 13,
+            "G": 0.0,
+            "H": 0.9999894596087875,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.75,
+            "n_dims": 9,
+            "G": 0.0,
+            "H": 0.9943627189704316,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.5,
+            "n_dims": 6,
+            "G": 0.0,
+            "H": 0.9944371891041943,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.25,
+            "n_dims": 3,
+            "G": 0.0,
+            "H": 0.9944406309393367,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.1,
+            "n_dims": 1,
+            "G": 0.0,
+            "H": 0.994513543478518,
+            "G_stable": true,
+            "H_stable": "True"
+          }
+        ],
+        "basis_rotation": [
+          {
+            "angle": 0,
+            "G": 0.0,
+            "H": 0.9999894596087875,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "angle": 30,
+            "G": 0.0,
+            "H": 0.9999894596087875,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "angle": 60,
+            "G": 0.0,
+            "H": 0.9999894596087875,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "angle": 90,
+            "G": 0.0,
+            "H": 0.9999894596087875,
+            "G_stable": true,
+            "H_stable": "True"
+          }
+        ],
+        "sparsification": [
+          {
+            "sparsity": 0.0,
+            "G": 0.0,
+            "H": 0.9999894596087875,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "sparsity": 0.25,
+            "G": 0.0,
+            "H": 0.7336113341335948,
+            "G_stable": true,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.5,
+            "G": 0.0,
+            "H": 0.5004276010259991,
+            "G_stable": true,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.75,
+            "G": 0.5,
+            "H": 0.22304963386646884,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.9,
+            "G": 0.5,
+            "H": 0.06748314756890245,
+            "G_stable": false,
+            "H_stable": "False"
+          }
+        ],
+        "normalization": {
+          "zscore": {
+            "G": 1.0,
+            "H": 0.4072480930501376,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          "minmax": {
+            "G": 0.0,
+            "H": 0.9344526728852361,
+            "G_stable": true,
+            "H_stable": "False"
+          },
+          "unit": {
+            "G": 0.0,
+            "H": 0.9999899860748833,
+            "G_stable": true,
+            "H_stable": "True"
+          }
+        },
+        "stochastic": [
+          {
+            "noise_level": 0.0,
+            "G": 0.0,
+            "H": 0.9999894596087875,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.01,
+            "G": 0.5,
+            "H": 0.9998988759485687,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.05,
+            "G": 0.5,
+            "H": 0.9977663266841276,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.1,
+            "G": 0.5,
+            "H": 0.9911821908422693,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.2,
+            "G": 0.5,
+            "H": 0.9657674994854123,
+            "G_stable": false,
+            "H_stable": "False"
+          }
+        ]
+      }
+    },
+    "institution": {
+      "baseline": {
+        "G": 0.5,
+        "H": 0.9769483941070419
+      },
+      "survival": {
+        "corruption": [
+          {
+            "corruption_fraction": 0.0,
+            "G": 0.5,
+            "H": 0.9769483941070419,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.25,
+            "G": 0.5,
+            "H": 0.9769483941070419,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.5,
+            "G": 0.5,
+            "H": 0.9769483941070419,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "corruption_fraction": 0.75,
+            "G": 0.5,
+            "H": 0.10529898654740968,
+            "G_stable": true,
+            "H_stable": "False"
+          },
+          {
+            "corruption_fraction": 1.0,
+            "G": 1.0,
+            "H": 0.10529898654740968,
+            "G_stable": false,
+            "H_stable": "False"
+          }
+        ],
+        "dimensional_collapse": [
+          {
+            "keep_fraction": 1.0,
+            "n_dims": 11,
+            "G": 0.5,
+            "H": 0.9769483941070417,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.75,
+            "n_dims": 8,
+            "G": 0.5,
+            "H": 0.9769483941070417,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "keep_fraction": 0.5,
+            "n_dims": 5,
+            "G": 0.0,
+            "H": 0.9997264440526312,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "keep_fraction": 0.25,
+            "n_dims": 2,
+            "G": 0.0,
+            "H": 0.9984514588725185,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "keep_fraction": 0.1,
+            "n_dims": 1,
+            "G": 0.0,
+            "H": 0.9997843063276306,
+            "G_stable": false,
+            "H_stable": "False"
+          }
+        ],
+        "basis_rotation": [
+          {
+            "angle": 0,
+            "G": 0.0,
+            "H": 0.9769483941070419,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "angle": 30,
+            "G": 0.0,
+            "H": 0.9769483941070419,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "angle": 60,
+            "G": 0.0,
+            "H": 0.9769483941070419,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          {
+            "angle": 90,
+            "G": 0.0,
+            "H": 0.9769483941070419,
+            "G_stable": false,
+            "H_stable": "True"
+          }
+        ],
+        "sparsification": [
+          {
+            "sparsity": 0.0,
+            "G": 0.5,
+            "H": 0.9769483941070419,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "sparsity": 0.25,
+            "G": 0.0,
+            "H": 0.8319123457712425,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.5,
+            "G": 0.5,
+            "H": 0.6795548796057134,
+            "G_stable": true,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.75,
+            "G": 0.5,
+            "H": 0.40663087405220366,
+            "G_stable": true,
+            "H_stable": "False"
+          },
+          {
+            "sparsity": 0.9,
+            "G": 0.5,
+            "H": 0.24414620891506195,
+            "G_stable": true,
+            "H_stable": "False"
+          }
+        ],
+        "normalization": {
+          "zscore": {
+            "G": 1.0,
+            "H": 0.6362493941260678,
+            "G_stable": false,
+            "H_stable": "False"
+          },
+          "minmax": {
+            "G": 0.0,
+            "H": 0.9677016715426113,
+            "G_stable": false,
+            "H_stable": "True"
+          },
+          "unit": {
+            "G": 0.5,
+            "H": 0.975405913652659,
+            "G_stable": true,
+            "H_stable": "True"
+          }
+        },
+        "stochastic": [
+          {
+            "noise_level": 0.0,
+            "G": 0.5,
+            "H": 0.9769483941070419,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.01,
+            "G": 0.5,
+            "H": 0.9767475715708314,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.05,
+            "G": 0.5,
+            "H": 0.9741874503997326,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.1,
+            "G": 0.5,
+            "H": 0.9670833317054253,
+            "G_stable": true,
+            "H_stable": "True"
+          },
+          {
+            "noise_level": 0.2,
+            "G": 0.5,
+            "H": 0.9406089310268395,
+            "G_stable": true,
+            "H_stable": "False"
+          }
+        ]
+      }
+    }
+  },
+  "robustness_ordering": {
+    "distributed": {
+      "G_survival_rate": 0.2962962962962963,
+      "H_survival_rate": 0.7037037037037037,
+      "total_tests": 27
+    },
+    "immune": {
+      "G_survival_rate": 0.2962962962962963,
+      "H_survival_rate": 0.6666666666666666,
+      "total_tests": 27
+    },
+    "ant_colony": {
+      "G_survival_rate": 0.7037037037037037,
+      "H_survival_rate": 0.7037037037037037,
+      "total_tests": 27
+    },
+    "institution": {
+      "G_survival_rate": 0.5925925925925926,
+      "H_survival_rate": 0.5925925925925926,
+      "total_tests": 27
+    }
+  },
+  "runtime_seconds": 2.1
+}

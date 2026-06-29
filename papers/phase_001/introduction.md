@@ -2,27 +2,30 @@
 
 ## Background
 
-Persistent adaptive organization — the ability of distributed systems to maintain coherent structure while adapting to perturbation — is a phenomenon observed across biological, social, and engineered systems. Despite the diversity of mechanisms (routing protocols, cytokine signaling, pheromone stigmergy, trust networks), these systems share a common challenge: balancing stability with adaptability.
+Adaptive systems — biological, social, and engineered — must balance stability with adaptability. Measuring this balance requires metrics that capture organizational persistence. However, the identifiability of such metrics depends critically on the representational choices made during measurement.
 
 ## Problem Statement
 
-What measurable quantities predict organizational persistence across different system classes? Specifically:
+When do replay-stability metrics remain identifiable across representational transformations? Specifically:
 
-1. What measurable quantities predict organizational persistence?
-2. Do these quantities obey consistent scaling relations?
-3. What is the geometric structure of organizational state space?
+1. How does embedding dimensionality affect metric values?
+2. Which metrics survive representational changes?
+3. What are the necessary and sufficient conditions for metric identifiability?
 
 ## Contributions
 
-1. **Observed correlation**: G ∝ 1/H with r = −0.951 across four curated system classes (provisional, system-specific, requires external replication)
-2. **Representation ceiling**: Scalar observables saturate at a fundamental limit
-3. **Geometric formalism**: Fiber bundle structure over organizational state space
-4. **Transport observable**: Transport error as the primary discriminator
+1. **Effective dimensionality analysis**: All four system embeddings are effectively 1D (participation ratio ≈ 1.0), despite nominal dimensionalities of 6-13
+2. **Observable survival analysis**: G survives 47% of perturbation types; H is degenerate (saturated at ≈1.0)
+3. **Metric Survival Taxonomy**: Classification of observables as Stable, Conditional, Fragile, or Degenerate
+4. **Representation dependence**: The previously reported G∝1/H correlation is an artifact of embedding degeneracy
 
 ## Limitations
 
-The observed correlation is based on 4 curated systems. A synthetic ensemble test (100 randomized systems) did not reproduce the correlation (r = -0.012), suggesting the correlation may reflect shared architectural features of the curated systems rather than a universal law. The result is provisional and requires external replication.
+1. **Embedding degeneracy**: All embeddings are effectively 1D
+2. **H saturation**: H≈1.0 for 3/4 systems, making it non-identifiable
+3. **G fragility**: G collapses under mild perturbation (noise > 0.01)
+4. **System specificity**: Results based on 4 curated systems
 
 ## Paper Organization
 
-Section 2 describes the four system classes. Section 3 defines the persistence metrics. Section 4 presents the empirical results. Section 5 discusses implications and limitations.
+Section 2 describes the four system classes. Section 3 defines the persistence metrics. Section 4 presents the effective dimensionality analysis. Section 5 presents the observable survival analysis. Section 6 introduces the Metric Survival Taxonomy. Section 7 discusses implications and limitations.

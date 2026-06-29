@@ -1,31 +1,30 @@
 # Discussion
 
-## Observed G ∝ 1/H Correlation
+## Effective Dimensionality
 
-The observed inverse relationship between organizational replay stability and historical residue coupling across four curated system classes (r = -0.951, 95% CI [−0.998, −0.080], permutation p < 0.001) suggests a candidate structural feature of persistent adaptive organization. However, this correlation is provisional and system-specific — the synthetic ensemble test (100 randomized systems) did not reproduce the relation (r = -0.012). The correlation may reflect shared architectural features of the 4 curated systems rather than a universal law.
+All four system embeddings are effectively one-dimensional (participation ratio ≈ 1.0), despite nominal dimensionalities of 6-13. This is the most important structural finding. The embeddings are degenerate, with one coordinate dominating the vector norm.
 
-## Stability Envelope
+## Observable Survival
 
-The stability envelope study reveals system-specific tolerance to embedding perturbation, sector corruption, and dimensional dropout. Distributed systems are most sensitive to perturbation (threshold 0.01), while immune systems are most robust to corruption (threshold 1.0). These results suggest that the correlation's robustness varies across system classes.
+G is fragile: it survives only 47% of perturbation types. H is degenerate: it is saturated at ≈1.0 for 3/4 systems, making it non-identifiable. The G∝1/H correlation is an artifact of this degeneracy, not a structural feature.
 
-## Representation Ceiling
+## Metric Survival Taxonomy
 
-The saturation of scalar observables at Study 001N indicates that scalar metrics alone cannot fully characterize organizational persistence. This ceiling motivated the geometric formalism developed in Phase 002, where fiber bundle structure provides additional discriminative power.
+We introduce a taxonomy classifying observables as Stable (>90% survival), Conditional (50-90%), Fragile (20-50%), or Degenerate (<20%). G is Fragile; H is Degenerate. This taxonomy provides a framework for assessing metric identifiability.
 
 ## Limitations
 
-1. **Four system classes** — broader validation needed
-2. **Computational simulations** — not biological or social systems
-3. **Deterministic protocols** — stochastic effects not fully explored
-4. **No runtime cost analysis** — feasibility of real-world deployment unknown
-5. **Synthetic ensemble failure** — relation does not generalize to randomized systems
-6. **Metric identity collapse** — `state_to_vector` embedding is organizationally uninformative (now fixed with system-specific embeddings)
-7. **External replication** — no independent verification yet
+1. **Embedding degeneracy** — all embeddings are effectively 1D
+2. **H saturation** — H≈1.0 for 3/4 systems, non-identifiable
+3. **G fragility** — G collapses under mild perturbation (noise > 0.01)
+4. **System specificity** — results based on 4 curated systems
+5. **Computational simulations** — not biological or social systems
+6. **Deterministic protocols** — stochastic effects not explored
 
 ## Future Work
 
-1. Extend to additional system classes (neural networks, economic systems)
-2. Investigate whether the correlation reflects shared organizational constraints or shared code architecture
-3. Develop real-time organizational monitoring based on transport observables
-4. Explore the relationship between transport instability and system fragility
-5. Facilitate external replication via the external review package
+1. **Embedding design** — design embeddings with effective dimensionality > 1
+2. **Metric robustness** — design metrics that survive representation changes
+3. **Identifiability theory** — characterize necessary and sufficient conditions for metric identifiability
+4. **External replication** — facilitate independent verification
+5. **Additional system classes** — extend to neural networks, economic systems
