@@ -1,0 +1,358 @@
+{
+  "distributed": {
+    "severity_results": [
+      {
+        "severity": 0.0,
+        "ed_recovery_mean": 0.9998535027866906,
+        "ed_recovery_std": 0.0007679318873920551,
+        "function_recovery_mean": 0.0,
+        "function_recovery_std": 0.0
+      },
+      {
+        "severity": 10.0,
+        "ed_recovery_mean": 30.222579364033823,
+        "ed_recovery_std": 127.72490989670683,
+        "function_recovery_mean": 600000.0000000006,
+        "function_recovery_std": 4363484.845854286
+      },
+      {
+        "severity": 20.0,
+        "ed_recovery_mean": 30.490659222245323,
+        "ed_recovery_std": 124.12320416857071,
+        "function_recovery_mean": 1400000.0000000014,
+        "function_recovery_std": 6151422.599691879
+      },
+      {
+        "severity": 30.0,
+        "ed_recovery_mean": -63.643672541948476,
+        "ed_recovery_std": 292.4949723565269,
+        "function_recovery_mean": 2100000.0000000014,
+        "function_recovery_std": 7489325.737341113
+      },
+      {
+        "severity": 40.0,
+        "ed_recovery_mean": -836.2259431726083,
+        "ed_recovery_std": 2727.463212297973,
+        "function_recovery_mean": 2700000.000000001,
+        "function_recovery_std": 9497894.503520241
+      },
+      {
+        "severity": 50.0,
+        "ed_recovery_mean": 185.39791378165467,
+        "ed_recovery_std": 436.4082485558983,
+        "function_recovery_mean": 2000000.0000000007,
+        "function_recovery_std": 7563068.1604756145
+      },
+      {
+        "severity": 60.0,
+        "ed_recovery_mean": 192.9726415807232,
+        "ed_recovery_std": 597.726521349758,
+        "function_recovery_mean": 2900000.0000000005,
+        "function_recovery_std": 7313685.801290619
+      },
+      {
+        "severity": 70.0,
+        "ed_recovery_mean": -35.72186529861442,
+        "ed_recovery_std": 134.64882882459813,
+        "function_recovery_mean": 3000000.000000001,
+        "function_recovery_std": 6449806.19863884
+      },
+      {
+        "severity": 80.0,
+        "ed_recovery_mean": -17.431198783178594,
+        "ed_recovery_std": 153.99396807955043,
+        "function_recovery_mean": 2600000.000000001,
+        "function_recovery_std": 6621178.14289874
+      },
+      {
+        "severity": 90.0,
+        "ed_recovery_mean": 17.288864150689438,
+        "ed_recovery_std": 247.50370344083512,
+        "function_recovery_mean": 2499999.9999999995,
+        "function_recovery_std": 6844705.98345904
+      },
+      {
+        "severity": 100.0,
+        "ed_recovery_mean": -3.150258884352991,
+        "ed_recovery_std": 199.69343088216684,
+        "function_recovery_mean": 2400000.0,
+        "function_recovery_std": 6711184.694225007
+      }
+    ],
+    "thresholds": {
+      "ed_irreversible_threshold": 30.0,
+      "function_irreversible_threshold": 0.0,
+      "dissociation_threshold": 0.0,
+      "has_dissociation": true,
+      "max_ed_recovery": 192.9726415807232,
+      "max_function_recovery": 3000000.000000001
+    }
+  },
+  "immune": {
+    "severity_results": [
+      {
+        "severity": 0.0,
+        "ed_recovery_mean": 0.9997845223519939,
+        "ed_recovery_std": 0.0009277409476952313,
+        "function_recovery_mean": 1.0000003646872926,
+        "function_recovery_std": 5.119457456061989e-07
+      },
+      {
+        "severity": 10.0,
+        "ed_recovery_mean": 1.2282035237466176,
+        "ed_recovery_std": 1.4011945673107304,
+        "function_recovery_mean": 0.5847123806624965,
+        "function_recovery_std": 1.2253619498317059
+      },
+      {
+        "severity": 20.0,
+        "ed_recovery_mean": 2.479517825922774,
+        "ed_recovery_std": 4.328116378058783,
+        "function_recovery_mean": 1.4255217459447334,
+        "function_recovery_std": 0.7995314889873706
+      },
+      {
+        "severity": 30.0,
+        "ed_recovery_mean": 6.3807605392419635,
+        "ed_recovery_std": 12.205898838564254,
+        "function_recovery_mean": 3.0363864653523183,
+        "function_recovery_std": 3.492011988770995
+      },
+      {
+        "severity": 40.0,
+        "ed_recovery_mean": 12.80065974768523,
+        "ed_recovery_std": 25.050329332592614,
+        "function_recovery_mean": 4.583816338902745,
+        "function_recovery_std": 6.1937101166290205
+      },
+      {
+        "severity": 50.0,
+        "ed_recovery_mean": 19.06618994403231,
+        "ed_recovery_std": 37.46663773947252,
+        "function_recovery_mean": 5.911811482234942,
+        "function_recovery_std": 8.432844915242965
+      },
+      {
+        "severity": 60.0,
+        "ed_recovery_mean": 23.81504684500887,
+        "ed_recovery_std": 46.97645831120497,
+        "function_recovery_mean": 7.025634289539122,
+        "function_recovery_std": 10.282371658940837
+      },
+      {
+        "severity": 70.0,
+        "ed_recovery_mean": 27.157570078103525,
+        "ed_recovery_std": 53.220289614932454,
+        "function_recovery_mean": 7.954939275975043,
+        "function_recovery_std": 11.799873060448967
+      },
+      {
+        "severity": 80.0,
+        "ed_recovery_mean": 29.496673422657096,
+        "ed_recovery_std": 56.99932328959869,
+        "function_recovery_mean": 8.739634997536673,
+        "function_recovery_std": 13.066662343224172
+      },
+      {
+        "severity": 90.0,
+        "ed_recovery_mean": 31.079755428469593,
+        "ed_recovery_std": 59.07957057698609,
+        "function_recovery_mean": 9.407449891966895,
+        "function_recovery_std": 14.1358636116534
+      },
+      {
+        "severity": 100.0,
+        "ed_recovery_mean": 32.1424299384971,
+        "ed_recovery_std": 59.98854584441926,
+        "function_recovery_mean": 9.981355818700262,
+        "function_recovery_std": 15.049653999209157
+      }
+    ],
+    "thresholds": {
+      "ed_irreversible_threshold": 100.0,
+      "function_irreversible_threshold": 100.0,
+      "dissociation_threshold": null,
+      "has_dissociation": false,
+      "max_ed_recovery": 32.1424299384971,
+      "max_function_recovery": 9.981355818700262
+    }
+  },
+  "institution": {
+    "severity_results": [
+      {
+        "severity": 0.0,
+        "ed_recovery_mean": 0.9999993610166161,
+        "ed_recovery_std": 1.7629626862310172e-08,
+        "function_recovery_mean": 0.9997478967969998,
+        "function_recovery_std": 2.6466034380713144e-05
+      },
+      {
+        "severity": 10.0,
+        "ed_recovery_mean": 13.631705609582303,
+        "ed_recovery_std": 1.1663129372910592,
+        "function_recovery_mean": -413.2752006887895,
+        "function_recovery_std": 41.1668942702663
+      },
+      {
+        "severity": 20.0,
+        "ed_recovery_mean": 6.643142380144736,
+        "ed_recovery_std": 0.8454066734360559,
+        "function_recovery_mean": -827.572764742973,
+        "function_recovery_std": 82.44076196251243
+      },
+      {
+        "severity": 30.0,
+        "ed_recovery_mean": 4.5285508089494275,
+        "ed_recovery_std": 0.49849597040149046,
+        "function_recovery_mean": -1234.0292757838376,
+        "function_recovery_std": 122.09092351817533
+      },
+      {
+        "severity": 40.0,
+        "ed_recovery_mean": 3.7008093095894665,
+        "ed_recovery_std": 0.3784267034853349,
+        "function_recovery_mean": -1616.0301904697824,
+        "function_recovery_std": 155.89766399723436
+      },
+      {
+        "severity": 50.0,
+        "ed_recovery_mean": 3.2937004385368738,
+        "ed_recovery_std": 0.3185044829913793,
+        "function_recovery_mean": -1944.7780164759638,
+        "function_recovery_std": 185.87828214264934
+      },
+      {
+        "severity": 60.0,
+        "ed_recovery_mean": 3.052075507969069,
+        "ed_recovery_std": 0.2855037044679823,
+        "function_recovery_mean": -2213.160725018852,
+        "function_recovery_std": 211.21677798929557
+      },
+      {
+        "severity": 70.0,
+        "ed_recovery_mean": 2.890875604684072,
+        "ed_recovery_std": 0.26965167824726116,
+        "function_recovery_mean": -2429.2784962068217,
+        "function_recovery_std": 232.36857692912554
+      },
+      {
+        "severity": 80.0,
+        "ed_recovery_mean": 2.7845858211140357,
+        "ed_recovery_std": 0.2626094032575642,
+        "function_recovery_mean": -2603.198887788989,
+        "function_recovery_std": 249.68341438427257
+      },
+      {
+        "severity": 90.0,
+        "ed_recovery_mean": 2.7067549875761094,
+        "ed_recovery_std": 0.2571789310296971,
+        "function_recovery_mean": -2745.3474909191727,
+        "function_recovery_std": 264.39082618089736
+      },
+      {
+        "severity": 100.0,
+        "ed_recovery_mean": 2.6501417630746262,
+        "ed_recovery_std": 0.25126813577040524,
+        "function_recovery_mean": -2863.2830617804366,
+        "function_recovery_std": 275.84242304705134
+      }
+    ],
+    "thresholds": {
+      "ed_irreversible_threshold": 100.0,
+      "function_irreversible_threshold": 10.0,
+      "dissociation_threshold": 10.0,
+      "has_dissociation": true,
+      "max_ed_recovery": 13.631705609582303,
+      "max_function_recovery": 0.9997478967969998
+    }
+  },
+  "ant_colony": {
+    "severity_results": [
+      {
+        "severity": 0.0,
+        "ed_recovery_mean": 0.9940742111063482,
+        "ed_recovery_std": 0.06749759362396561,
+        "function_recovery_mean": 0.9999983330665201,
+        "function_recovery_std": 4.843633600255195e-07
+      },
+      {
+        "severity": 10.0,
+        "ed_recovery_mean": -30.623824632494568,
+        "ed_recovery_std": 14.585679556873185,
+        "function_recovery_mean": -0.05807663158933842,
+        "function_recovery_std": 0.18708568958317326
+      },
+      {
+        "severity": 20.0,
+        "ed_recovery_mean": -29.70480250655661,
+        "ed_recovery_std": 11.273563418310653,
+        "function_recovery_mean": -1.4954626989223059,
+        "function_recovery_std": 0.4631268814224302
+      },
+      {
+        "severity": 30.0,
+        "ed_recovery_mean": -4.3293269287944245,
+        "ed_recovery_std": 2.001055531149984,
+        "function_recovery_mean": -2.1590221019308165,
+        "function_recovery_std": 0.5201203914358072
+      },
+      {
+        "severity": 40.0,
+        "ed_recovery_mean": -1.7471881716934856,
+        "ed_recovery_std": 0.832664755239558,
+        "function_recovery_mean": -2.4227769814845055,
+        "function_recovery_std": 0.529652664739851
+      },
+      {
+        "severity": 50.0,
+        "ed_recovery_mean": -1.2249727411693618,
+        "ed_recovery_std": 0.5472264778506865,
+        "function_recovery_mean": -2.538040203172097,
+        "function_recovery_std": 0.5356654591978491
+      },
+      {
+        "severity": 60.0,
+        "ed_recovery_mean": -1.1125190754465906,
+        "ed_recovery_std": 0.4539170466330728,
+        "function_recovery_mean": -2.5743018430253493,
+        "function_recovery_std": 0.5248081732986661
+      },
+      {
+        "severity": 70.0,
+        "ed_recovery_mean": -1.1584233360554566,
+        "ed_recovery_std": 0.4260786132955759,
+        "function_recovery_mean": -2.5874328804324374,
+        "function_recovery_std": 0.5234165959069674
+      },
+      {
+        "severity": 80.0,
+        "ed_recovery_mean": -1.2741128918291165,
+        "ed_recovery_std": 0.4214463272968044,
+        "function_recovery_mean": -2.595464085795488,
+        "function_recovery_std": 0.516514876286622
+      },
+      {
+        "severity": 90.0,
+        "ed_recovery_mean": -1.4206972808362641,
+        "ed_recovery_std": 0.4303417351341135,
+        "function_recovery_mean": -2.596009406722718,
+        "function_recovery_std": 0.5110212364188386
+      },
+      {
+        "severity": 100.0,
+        "ed_recovery_mean": -1.5820391389908204,
+        "ed_recovery_std": 0.4466104252739102,
+        "function_recovery_mean": -2.5938512720939935,
+        "function_recovery_std": 0.5109601785845984
+      }
+    ],
+    "thresholds": {
+      "ed_irreversible_threshold": 10.0,
+      "function_irreversible_threshold": 10.0,
+      "dissociation_threshold": null,
+      "has_dissociation": false,
+      "max_ed_recovery": 0.9940742111063482,
+      "max_function_recovery": 0.9999983330665201
+    }
+  }
+}

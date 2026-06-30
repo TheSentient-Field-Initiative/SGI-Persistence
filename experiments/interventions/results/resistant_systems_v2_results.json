@@ -1,0 +1,26 @@
+{
+  "distributed": {
+    "ED_mean": 1.0,
+    "ED_std": 0.0,
+    "function_mean": 1.0,
+    "function_std": 0.0
+  },
+  "modular_heterogeneous": {
+    "ED_mean": 1.019360076918025,
+    "ED_std": 0.017883538625515605,
+    "function_mean": 0.9995762924819086,
+    "function_std": 0.00024533850197460414
+  },
+  "delayed_heterogeneous": {
+    "ED_mean": 1.0204379830938008,
+    "ED_std": 0.018000809100120547,
+    "function_mean": 0.9991684530791352,
+    "function_std": 0.0007073535360506123
+  },
+  "adaptive_modular": {
+    "ED_mean": 1.4572729200581631,
+    "ED_std": 0.10306438472462566,
+    "function_mean": 0.9811735012584721,
+    "function_std": 0.0011589578459866446
+  }
+}
